@@ -1,0 +1,51 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&e&lIsland &f| Control Panel'
+
+pattern:
+  - '$ $ $ $ $ $ $ $ $'
+  - '$ # # # $ # # # $'
+  - '$ # * # $ # ^ # $'
+  - '$ # # # $ # # # $'
+  - '$ $ $ $ $ $ $ $ $'
+
+settings: '*'
+
+commands:
+  '^':
+  - 'PLAYER:is permissions'
+
+items:
+  '$':
+    type: WHITE_STAINED_GLASS_PANE
+    name: '&f'
+  '#':
+    type: ORANGE_STAINED_GLASS_PANE
+    name: '&f'
+  '*':
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODUxNGQyMjViMjYyZDg0N2M3ZTU1N2I0NzQzMjdkY2VmNzU4YzJjNTg4MmU0MWVlNmQ4YzVlOWNkM2JjOTE0In19fQ=='
+    name: '&e&lSettings &f| Menu'
+    lore:
+      - '&7Click to manage island settings.'
+  '^':
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg4M2Q2NTZlNDljMzhjNmI1Mzc4NTcyZjMxYzYzYzRjN2E1ZGQ0Mzc1YjZlY2JjYTQzZjU5NzFjMmNjNGZmIn19fQ=='
+    name: '&e&lPermissions &f| Menu'
+    lore:
+      - '&7Click to manage all island permissions.'
+
+sounds:
+  '*':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1
+  '^':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1

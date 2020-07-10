@@ -1,0 +1,62 @@
+menu_title: '&e&lIsland &f| Statistics'
+open_command:
+- is stats
+- is statistics
+inventory_type: "HOPPER"
+size: 54
+items:
+  'level':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZlMGQ1ZmU4N2QyZDIxZTJiZGU2Mzc0NDI1YTM0MWE3NTczYjM3NWQ1YmI3ZDQ3ZjRiOGRhZTM1Mjk3ZWE0In19fQ==
+    slot: 0
+    display_name: '&e&lLevel'
+    lore:
+    - '&7See your current island'
+    - '&7level, block values..'
+    - ''
+    - '&7Island level: &e%superior_island_level%'
+    - ''
+    - "&e&l* &aRight click to see"
+    left_click_commands:
+    - '[console] tm msg %player_name% &e&l\n&fLoading your level..'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[player] is level'
+    - '[close]'    
+    right_click_commands:
+    - '[player] is level'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'    
+  'count':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkwZDRmY2IyY2UwM2I5NGQ5MjBmMGE5ZTdhNTRiMzJjZmM3YTFkMzNhNmRmZTk3NTdkODY3OGNiYjU5MSJ9fX0=
+    slot: 2
+    display_name: '&e&lIsland Block Count'
+    lore:
+    - '&7View the different numbers'
+    - '&7and the worths of blocks '
+    - '&7in your island'
+    - ''
+    - '&7Also accessible via &e/is counts'
+    - ''
+    - "&e&l* &aRight click to see"
+    left_click_commands:
+    - '[player] is counts'
+    - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[player] is counts'
+    - '[sound] BLOCK_ANVIL_LAND'
+  'value':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk2Y2UxM2ZmNjE1NWZkZjMyMzVkOGQyMjE3NGM1ZGU0YmY1NTEyZjFhZGVkYTFhZmEzZmMyODE4MGYzZjcifX19
+    slot: 4
+    display_name: '&e&lIsland Value'
+    lore:
+    - '&7View the items and blocks that'
+    - '&7make up your total island value'
+    - ''
+    - '&7Also accessible via &e/is values'
+    - ''
+    - "&e&l* &aRight click to see"
+    left_click_commands:
+    - '[player] is value'
+    - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[player] is value'
+    - '[sound] BLOCK_ANVIL_LAND'

@@ -1,0 +1,8 @@
+Language: EN
+Default:
+  Border:
+    Toggled: true
+    Color: BLUE
+Toggle-Cooldown:
+  Enabled: true
+  Seconds: 5

@@ -1,0 +1,171 @@
+# This plugin was coded by Justix - YouTube: https://www.youtube.com/c/JustixDevelopment 
+# 
+# ColorCodes can be found here: http://minecraft.tools/en/color-code.php 
+# Prefixes & Suffixes for the NameTag can NOT be LONGER than 16 CHARACTERS
+
+Settings:
+  Rank11:
+    Permission: prefix.rank10
+    Prefix:
+      PlayerList: '&9Sup &7| &9'
+      Chat: '&9'
+      NameTag: '&9Sup &7| &9'
+    Suffix:
+      PlayerList: '&r'
+      Chat: '&r'
+      NameTag: '&r'
+  Rank12:
+    Permission: prefix.rank11
+    Prefix:
+      PlayerList: '&5YouTube &7| &5'
+      Chat: '&5'
+      NameTag: '&5YouTube &7| &5'
+    Suffix:
+      PlayerList: '&r'
+      Chat: '&r'
+      NameTag: '&r'
+  Rank13:
+    Permission: prefix.rank12
+    Prefix:
+      PlayerList: '&dVIP &7| &d'
+      Chat: '&d'
+      NameTag: '&dVIP &7| &d'
+    Suffix:
+      PlayerList: '&r'
+      Chat: '&r'
+      NameTag: '&r'
+  Rank14:
+    Permission: prefix.rank13
+    Prefix:
+      PlayerList: '&ePrem&l+ &7| &e'
+      Chat: '&e'
+      NameTag: '&ePrem&l+ &7| &e'
+    Suffix:
+      PlayerList: '&r'
+      Chat: '&r'
+      NameTag: '&r'
+  Rank15:
+    Permission: prefix.rank14
+    Prefix:
+      PlayerList: '&6Prem &7| &6'
+      Chat: '&6'
+      NameTag: '&6Prem &7| &6'
+    Suffix:
+      PlayerList: '&r'
+      Chat: '&r'
+      NameTag: '&r'
+  ChatFormat: '%displayName%&8: &r%message%'
+  HeaderAndFooter: false
+  Header: ''
+  Footer: ''
+  ReplaceChatFormat: false
+  Delay: 20
+  DefaultRank:
+    Prefix:
+      PlayerList: '&7'
+      Chat: '&8'
+      NameTag: '&7'
+    Suffix:
+      PlayerList: '&7'
+      Chat: '&r'
+      NameTag: '&7'
+  Rank1:
+    Permission: prefix.owner
+    Prefix:
+      PlayerList: '&6&lOWNER &e'
+      Chat: '&4&l'
+      NameTag: '&6&lOWNER &e'
+    Suffix:
+      PlayerList: '&r'
+      Chat: '&r'
+      NameTag: '&r'
+  Rank2:
+    Permission: prefix.admin
+    Prefix:
+      PlayerList: '&4&lADMIN &c'
+      Chat: '&4'
+      NameTag: '&4&lADMIN &c'
+    Suffix:
+      PlayerList: ''
+      Chat: '&r'
+      NameTag: ''
+  Rank3:
+    Permission: prefix.moderator
+    Prefix:
+      PlayerList: '&b&lMOD &3'
+      Chat: '&3'
+      NameTag: '&b&lMOD &3'
+    Suffix:
+      PlayerList: ''
+      Chat: '&r'
+      NameTag: ''
+  Rank4:
+    Permission: prefix.helper
+    Prefix:
+      PlayerList: '&a&lHelper &2'
+      Chat: '&b'
+      NameTag: '&a&lHelper &2'
+    Suffix:
+      PlayerList: ''
+      Chat: '&r'
+      NameTag: ''
+  Rank5:
+    Permission: prefix.bugtester
+    Prefix:
+      PlayerList: '&f&lExterminator &f'
+      Chat: '&b'
+      NameTag: '&f&lExterminator &f'
+    Suffix:
+      PlayerList: ''
+      Chat: '&r'
+      NameTag: ''
+  Rank6:
+    Permission: prefix.pharoah
+    Prefix:
+      PlayerList: '&6P&eh&6a&er&6o&ea&6h &e'
+      Chat: '&2'
+      NameTag: '&6P&eh&6a&er&6o&ea&6h &e'
+    Suffix:
+      PlayerList: '&r'
+      Chat: '&r'
+      NameTag: '&r'
+  Rank7:
+    Permission: prefix.chancellor
+    Prefix:
+      PlayerList: '&3Chancellor &b'
+      Chat: '&a'
+      NameTag: '&3Chancellor &b'
+    Suffix:
+      PlayerList: ''
+      Chat: '&r'
+      NameTag: ''
+  Rank8:
+    Permission: prefix.noble
+    Prefix:
+      PlayerList: '&5Noble &d'
+      Chat: '&c&l'
+      NameTag: '&5Noble &d'
+    Suffix:
+      PlayerList: '&r'
+      Chat: '&r'
+      NameTag: '&r'
+  Rank9:
+    Permission: prefix.aristocrat
+    Prefix:
+      PlayerList: '&cAristocrat &c'
+      Chat: '&c'
+      NameTag: '&cAristocrat &c'
+    Suffix:
+      PlayerList: ''
+      Chat: '&r'
+      NameTag: ''
+  Rank10:
+    Permission: prefix.scribe
+    Prefix:
+      PlayerList: '&aScribe &a'
+      Chat: '&9&l'
+      NameTag: '&aScribe &a'
+    Suffix:
+      PlayerList: ''
+      Chat: '&r'
+      NameTag: ''

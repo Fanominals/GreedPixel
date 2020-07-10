@@ -1,0 +1,85 @@
+#This is where you create the scoreboard, the first section will always be the title.
+#Every section after that will be a line displayed on the scoreboard. You can have a max
+#of 15 lines display due to the limitations of minecraft.
+board:
+  #This is the first section, it will always be the title of the scoreboard.
+  #You can also use placeholders here if you want.
+  title:
+    lines:
+      - "&e&lSkyBlock"
+    # The time between updates in ticks (20 ticks is 1 second.)
+    # NEVER CHANGE THIS TO 1 IT WILL CAUSE LAG
+    interval: 5
+  # This section is the first line, here you set the data of that line. It doesn't matter what the name of the section is, as long
+  # as there is no other section with the exact same name
+  1:
+    lines:
+      - "&7[%localtime_time%]"
+    interval: 10
+    score: 12
+  2:
+    lines:
+      - "&e+- &6Island"
+    interval: 10
+    score: 11
+  3:
+    lines:
+      - "&e¦ &7Level: &f%javascript_levelscoreboard%"
+    interval: 2
+    # This is the red number at the end of the scoreboard (It cannot be empty)
+    score: 10
+  4:
+    lines:
+      - "&e¦ &7Members: &f%javascript_memberscoreboard%"
+    interval: 2
+    score: 9
+  #5:
+    #lines:
+     # - "&e¦ &7Island Size: &f%bskyblock_island_protection_range_diameter%x%bskyblock_island_protection_range_diameter%"
+    #interval: 2
+    #score: 6
+  5:
+    lines:
+      - '&e+- &6Personal'
+    interval: 100
+    score: 8
+  6:
+    lines:
+      - '&e¦ &7Player: &f%player_name%'
+    interval: 100
+    score: 7
+  7:
+    lines:
+      - "&e¦ &7Money: &f$%vault_eco_balance_formatted%"
+    interval: 100
+    score: 6
+  8:
+    lines:
+      - "&e¦ &7Mobcoins: &f☀%supermobcoins_mobcoins%"
+    interval: 100
+    score: 5
+  9:
+    lines:
+      - "&e¦ &7Kills: &f%statistic_player_kills%"
+    interval: 100
+    score: 4
+  10:
+    lines:
+      - "&e¦ &7Deaths: &f%statistic_deaths%"
+    interval: 100
+    score: 3
+  11:
+    lines:
+      - "&e¦ &7Votes: &f(23/50)"
+    interval: 100
+    score: 2
+  12:
+    lines:
+      - "&e+- "
+    interval: 1
+    score: 1
+  13:
+    lines:
+      - "&ewww.greedpixel.com"
+    interval: 10
+    score: 0

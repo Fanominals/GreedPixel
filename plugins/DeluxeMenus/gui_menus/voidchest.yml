@@ -1,0 +1,215 @@
+menu_title: '&c&lVoidChest &f| Buy Chests'
+open_command:
+- vc
+- voidchest
+update_interval: 1
+size: 27
+items:
+  '10':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThlNTU0NGFmN2Y1NDg5Y2MyNzQ5MWNhNjhmYTkyMzg0YjhlYTVjZjIwYjVjODE5OGFkYjdiZmQxMmJjMmJjMiJ9fX0=
+    data: 3
+    slot: 11
+    priority: 1
+    display_name: '&a&lCommon &c&lVoidChest'
+    lore:
+    - '&eAutomatically Sell Items To The Shop!'
+    - ''
+    - '&7&o((Any items stored or in the vicinity of the'
+    - '&7&ovoidchest will be sold every 10 seconds))'
+    - ''
+    - '&eFuel Costs: &f$500/hr'
+    - '&ePrice Boost: &f1x'
+    - ''
+    - '&7Price: &a&l$50,000'
+    - '&7&o((Right-click any voidchest to open the gui))'
+    left_click_commands:
+    - '[console] voidchest give common %player_name%'
+    - '[console] eco take %player_name% 50000'
+    - '[close]'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] voidchest give common %player_name%'
+    - '[console] eco take %player_name% 50000'
+    - '[close]'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        names:
+          type: has permission
+          permission: 'voidchest.place.common'
+          deny_commands:
+          - '[message] &e&lSKYBLOCK &8┃ &cYou do not have &a&lCommon &c&lVoidChests &cunlocked!'
+          - '[close]'
+        name:
+          type: has money
+          amount: 50000
+          deny_commands:
+          - '[message] &e&lSKYBLOCK &8┃ &cYou do not have money enough to buy
+            this voidchest!'
+          - '[close]'
+    right_click_requirement:
+      requirements:
+        names:
+          type: has permission
+          permission: 'voidchest.place.common'
+          deny_commands:
+          - '[message] &e&lSKYBLOCK &8┃ &cYou do not have &a&lCommon &c&lVoidChests &cunlocked!'
+          - '[close]'
+        name:
+          type: has money
+          amount: 50000
+          deny_commands:
+          - '[message] &e&lSKYBLOCK &8┃ &cYou do not have money enough to buy
+            this voidchest!'
+          - '[close]'
+  '11':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyY2VlZDA2NDgzNWVhMjMyZTY1NmE3M2Y4MmVkNzYxODI3ODU5YzkxMzQ0OTMxNGI4ZmQyMWIzZDExZDYifX19
+    data: 3
+    slot: 13
+    priority: 1
+    display_name: '&b&lRare VoidChest'
+    lore:
+    lore:
+    - '&eAutomatically Sell Items To The Shop!'
+    - ''
+    - '&7&o((Any items stored or in the vicinity of the'
+    - '&7&ovoidchest will be sold every 10 seconds))'
+    - ''
+    - '&eFuel Costs: &a&lFREE'
+    - '&ePrice Boost: &f1x'
+    - ''
+    - '&7Price: &a&l$150,000'
+    - '&7&o((Right-click any voidchest to open the gui))'
+    left_click_commands:
+    - '[console] voidchest give rare %player_name%'
+    - '[console] eco take %player_name% 150000'
+    - '[close]'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] voidchest give rare %player_name%'
+    - '[console] eco take %player_name% 150000'
+    - '[close]'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        names:
+          type: has permission
+          permission: 'voidchest.place.rare'
+          deny_commands:
+          - '[message] &e&lSKYBLOCK &8┃ &cYou do not have &b&lRare &c&lVoidChests &cunlocked!'
+          - '[close]'
+        name:
+          type: has money
+          amount: 150000
+          deny_commands:
+          - '[message] &e&lSKYBLOCK &8┃ &cYou do not have money enough to buy
+            this voidchest!'
+          - '[close]'
+    right_click_requirement:
+      requirements:
+        names:
+          type: has permission
+          permission: 'voidchest.place.rare'
+          deny_commands:
+          - '[message] &e&lSKYBLOCK &8┃ &cYou do not have &b&lRare &c&lVoidChests &cunlocked!'
+          - '[close]'
+        name:
+          type: has money
+          amount: 150000
+          deny_commands:
+          - '[message] &e&lSKYBLOCK &8┃ &cYou do not have money enough to buy
+            this voidchest!'
+          - '[close]'
+  '12':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FkYmNmYjI4ODIxNWE4ZDE1M2RkZmRkYjM2YmQyZWQ3YTM3YWRkMzU2NjJmODYzM2Y3MTFkMmRmY2ViNDE3YyJ9fX0=
+    data: 3
+    slot: 15
+    priority: 1
+    display_name: '&6&lLegendary VoidChest'
+    lore:
+    - '&eAutomatically Sell Items To The Shop!'
+    - ''
+    - '&7&o((Any items stored or in the vicinity of the'
+    - '&7&ovoidchest will be sold every 10 seconds))'
+    - ''
+    - '&eFuel Costs: &a&lFREE'
+    - '&ePrice Boost: &a&l1.5x'
+    - ''
+    - '&7Price: &a&l$400,000'
+    - '&7&o((Right-click any voidchest to open the gui))'
+    left_click_commands:
+    - '[console] voidchest give legendary %player_name%'
+    - '[console] eco take %player_name% 400000'
+    - '[close]'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] voidchest give legendary %player_name%'
+    - '[console] eco take %player_name% 400000'
+    - '[close]'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        names:
+          type: has permission
+          permission: 'voidchest.place.legendary'
+          deny_commands:
+          - '[message] &e&lSKYBLOCK &8┃ &cYou do not have &6&lLegendary &c&lVoidChests &cunlocked!'
+          - '[close]'
+        name:
+          type: has money
+          amount: 400000
+          deny_commands:
+          - '[message] &e&lSKYBLOCK &8┃ &cYou do not have money enough to buy
+            this voidchest!'
+          - '[close]'
+    right_click_requirement:
+      requirements:
+        names:
+          type: has permission
+          permission: 'voidchest.place.legendary'
+          deny_commands:
+          - '[message] &e&lSKYBLOCK &8┃ &cYou do not have &6&lLegendary &c&lVoidChests &cunlocked!'
+          - '[close]'
+        name:
+          type: has money
+          amount: 400000
+          deny_commands:
+          - '[message] &e&lSKYBLOCK &8┃ &cYou do not have money enough to buy
+            this voidchest!'
+          - '[close]'
+  '20':
+    material: WHITE_STAINED_GLASS_PANE
+    display_name: '&f'
+    data: 15
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    priority: 1
+  '21':
+    material: ORANGE_STAINED_GLASS_PANE
+    display_name: '&f'
+    data: 15
+    slots:
+    - 9
+    - 10
+    - 12
+    - 14
+    - 16
+    - 17
+    priority: 1

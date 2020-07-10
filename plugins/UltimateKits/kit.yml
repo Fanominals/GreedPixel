@@ -1,0 +1,148 @@
+Kits:
+  farmer:
+    delay: 86400
+    price: 0.0
+    hidden: false
+    animation: NONE
+    items:
+    - '{id:"minecraft:iron_helmet",tag:{Damage:0,display:{Name:''{"text":"§6» §7§lFARMER HELMET §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§f§lFARMER KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:iron_chestplate",tag:{Damage:0,display:{Name:''{"text":"§6» §7§lFARMER CHESTPLATE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§f§lFARMER KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:iron_leggings",tag:{Damage:0,display:{Name:''{"text":"§6» §7§lFARMER LEGGINGS §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§f§lFARMER KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:iron_boots",tag:{Damage:0,display:{Name:''{"text":"§6» §7§lFARMER BOOTS §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§f§lFARMER KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:iron_sword",tag:{Damage:0,display:{Name:''{"text":"§6» §7§lFARMER SWORD §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§f§lFARMER KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:iron_pickaxe",tag:{Damage:0,display:{Name:''{"text":"§6» §7§lFARMER PICKAXE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§f§lFARMER KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:iron_hoe",tag:{Damage:0,display:{Name:''{"text":"§6» §7§lFARMER HOE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§f§lFARMER KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:iron_axe",tag:{Damage:0,display:{Name:''{"text":"§6» §7§lFARMER AXE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§f§lFARMER KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:iron_shovel",tag:{Damage:0,display:{Name:''{"text":"§6» §7§lFARMER SHOVEL §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§f§lFARMER KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:golden_apple",Count:2b}'
+    - '{id:"minecraft:stone",Count:64b}'
+    - '{id:"minecraft:oak_wood",Count:64b}'
+    - '{id:"minecraft:cooked_beef",Count:32b}'
+    - '{id:"minecraft:experience_bottle",tag:{display:{Name:''{"text":"§a§lExperience-Bottle §7(Throw)"}'',Lore:[''{"text":"§dValue:§r 1,000 XP"}'',''{"text":"§dEnchanter:§r Farmer"}'']},bWithdrawXp:1000},Count:1b}'
+    - '{id:"minecraft:firework_star",tag:{Explosion:{Type:0b,Colors:[I;13158600]},display:{Name:''{"text":"§7§lSimple§l Enchantment Book §7(Right Click)"}'',Lore:[''{"text":"§7Examine to receive a random"}'',''{"text":"§7Simple §7enchantment book."}'']},rcbook:"ae_book;SIMPLE;",HideFlags:55},Count:1b}'
+    - '{id:"minecraft:stick",tag:{display:{Name:''{"text":"§e§lSell Stick§4§b§8§0§8"}'',Lore:[''{"text":"§a§lRight click §7on a chest to sell items inside!"}'',''{"text":"§e10 §fremaining uses"}'']},HideFlags:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    category: BASIC
+  scribe:
+    delay: 86400
+    price: 0.0
+    hidden: false
+    animation: NONE
+    items:
+    - '{id:"minecraft:diamond_helmet",tag:{Damage:0,display:{Name:''{"text":"§6» §a§lSCRIBE HELMET §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§a§lSCRIBE KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:1s},{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:diamond_chestplate",tag:{Damage:0,display:{Name:''{"text":"§6» §a§lSCRIBE CHESTPLATE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§a§lSCRIBE KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:1s},{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:diamond_leggings",tag:{Damage:0,display:{Name:''{"text":"§6» §a§lSCRIBE LEGGINGS §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§a§lSCRIBE KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:1s},{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:diamond_boots",tag:{Damage:0,display:{Name:''{"text":"§6» §a§lSCRIBE BOOTS §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§a§lSCRIBE KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:1s},{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:diamond_sword",tag:{Damage:0,display:{Name:''{"text":"§6» §a§lSCRIBE SWORD §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§a§lSCRIBE KIT"}'']},Enchantments:[{id:"minecraft:sharpness",lvl:1s},{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:diamond_pickaxe",tag:{Damage:0,display:{Name:''{"text":"§6» §a§lSCRIBE PICKAXE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§a§lSCRIBE KIT"}'']},Enchantments:[{id:"minecraft:efficiency",lvl:1s},{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:diamond_axe",tag:{Damage:0,display:{Name:''{"text":"§6» §a§lSCRIBE AXE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§a§lSCRIBE KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:diamond_shovel",tag:{Damage:0,display:{Name:''{"text":"§6» §a§lSCRIBE SHOVEL §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§a§lSCRIBE KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:diamond_hoe",tag:{Damage:0,display:{Name:''{"text":"§6» §a§lSCRIBE HOE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§a§lSCRIBE KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    - '{id:"minecraft:firework_star",tag:{Explosion:{Type:0b,Colors:[I;13158600]},display:{Name:''{"text":"§7§lSimple§l Enchantment Book §7(Right Click)"}'',Lore:[''{"text":"§7Examine to receive a random"}'',''{"text":"§7Simple §7enchantment book."}'']},rcbook:"ae_book;SIMPLE;",HideFlags:55},Count:2b}'
+    - '{id:"minecraft:grass_block",Count:64b}'
+    - '{id:"minecraft:stone",Count:64b}'
+    - '{id:"minecraft:oak_log",Count:64b}'
+    - '{id:"minecraft:lime_concrete",Count:64b}'
+    - '{id:"minecraft:experience_bottle",tag:{display:{Name:''{"text":"§a§lExperience-Bottle §7(Throw)"}'',Lore:[''{"text":"§dValue:§r 2,000 XP"}'',''{"text":"§dEnchanter:§r Scribe"}'']},bWithdrawXp:2000},Count:1b}'
+    - '{id:"minecraft:golden_apple",Count:4b}'
+    - '{id:"minecraft:sunflower",tag:{display:{Name:''{"text":"§b§lMob Coin §7(Right click to redeem)"}'',Lore:[''{"text":"§3You can use these coins in §b/mobcoins"}'',''{"text":"§3to purchase stuff"}'']}},Count:5b}'
+    category: RANK_KITS
+  aristocrat:
+    delay: 86400
+    price: 0.0
+    hidden: false
+    animation: NONE
+    items:
+    - '{id:"minecraft:diamond_helmet",tag:{Damage:0,display:{Name:''{"text":"§6» §c§lARISTOCRAT HELMET §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§c§lARISTOCRAT KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:2s},{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_chestplate",tag:{Damage:0,display:{Name:''{"text":"§6» §c§lARISTOCRAT CHESTPLATE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§c§lARISTOCRAT KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:2s},{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_leggings",tag:{Damage:0,display:{Name:''{"text":"§6» §c§lARISTOCRAT LEGGINGS §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§c§lARISTOCRAT KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:2s},{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_boots",tag:{Damage:0,display:{Name:''{"text":"§6» §c§lARISTOCRAT BOOTS §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§c§lARISTOCRAT KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:2s},{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_sword",tag:{Damage:0,display:{Name:''{"text":"§6» §c§lARISTOCRAT SWORD §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§c§lARISTOCRAT KIT"}'']},Enchantments:[{id:"minecraft:sharpness",lvl:2s},{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_pickaxe",tag:{Damage:0,display:{Name:''{"text":"§6» §c§lARISTOCRAT PICKAXE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§c§lARISTOCRAT KIT"}'']},Enchantments:[{id:"minecraft:efficiency",lvl:2s},{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_axe",tag:{Damage:0,display:{Name:''{"text":"§6» §c§lARISTOCRAT AXE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§c§lARISTOCRAT KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_shovel",tag:{Damage:0,display:{Name:''{"text":"§6» §c§lARISTOCRAT SHOVEL §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§c§lARISTOCRAT KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_hoe",tag:{Damage:0,display:{Name:''{"text":"§6» §c§lARISTOCRAT HOE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§c§lARISTOCRAT KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:grass_block",Count:64b}'
+    - '{id:"minecraft:stone",Count:64b}'
+    - '{id:"minecraft:oak_log",Count:64b}'
+    - '{id:"minecraft:red_concrete",Count:64b}'
+    - '{id:"minecraft:cooked_beef",Count:32b}'
+    - '{id:"minecraft:experience_bottle",tag:{display:{Name:''{"text":"§a§lExperience-Bottle §7(Throw)"}'',Lore:[''{"text":"§dValue:§r 4,000 XP"}'',''{"text":"§dEnchanter:§r Aristocrat"}'']},bWithdrawXp:4000},Count:1b}'
+    - '{id:"minecraft:golden_apple",Count:6b}'
+    - '{id:"minecraft:sunflower",tag:{display:{Name:''{"text":"§b§lMob Coin §7(Right click to redeem)"}'',Lore:[''{"text":"§3You can use these coins in §b/mobcoins"}'',''{"text":"§3to purchase stuff"}'']}},Count:7b}'
+    category: RANK_KITS
+  noble:
+    delay: 86400
+    price: 0.0
+    hidden: false
+    animation: NONE
+    items:
+    - '{id:"minecraft:diamond_helmet",tag:{Damage:0,display:{Name:''{"text":"§6» §d§lNOBLE HELMET §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§d§lNOBLE KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:2s},{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_chestplate",tag:{Damage:0,display:{Name:''{"text":"§6» §d§lNOBLE CHESTPLATE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§d§lNOBLE KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:2s},{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_leggings",tag:{Damage:0,display:{Name:''{"text":"§6» §d§lNOBLE LEGGINGS §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§d§lNOBLE KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:2s},{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_boots",tag:{Damage:0,display:{Name:''{"text":"§6» §d§lNOBLE BOOTS §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§d§lNOBLE KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:2s},{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_sword",tag:{RepairCost:1,Enchantments:[{id:"minecraft:looting",lvl:1s},{id:"minecraft:sharpness",lvl:3s},{id:"minecraft:unbreaking",lvl:2s}],Damage:0,display:{Name:''{"text":"§6» §d§lNOBLE SWORD §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§d§lNOBLE KIT"}'']}},Count:1b}'
+    - '{id:"minecraft:diamond_pickaxe",tag:{RepairCost:3,Enchantments:[{id:"minecraft:efficiency",lvl:4s},{id:"minecraft:fortune",lvl:2s},{id:"minecraft:unbreaking",lvl:3s}],Damage:0,display:{Name:''{"text":"§6» §d§lNOBLE PICKAXE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§d§lNOBLE KIT"}'']}},Count:1b}'
+    - '{id:"minecraft:diamond_axe",tag:{Damage:0,display:{Name:''{"text":"§6» §d§lNOBLE AXE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§d§lNOBLE KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_shovel",tag:{Damage:0,display:{Name:''{"text":"§6» §d§lNOBLE SHOVEL §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§d§lNOBLE KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:diamond_hoe",tag:{Damage:0,display:{Name:''{"text":"§6» §d§lNOBLE HOE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§d§lNOBLE KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:2s}]},Count:1b}'
+    - '{id:"minecraft:grass_block",Count:64b}'
+    - '{id:"minecraft:stone",Count:64b}'
+    - '{id:"minecraft:oak_log",Count:64b}'
+    - '{id:"minecraft:magenta_concrete",Count:64b}'
+    - '{id:"minecraft:cooked_beef",Count:32b}'
+    - '{id:"minecraft:golden_apple",Count:8b}'
+    - '{id:"minecraft:experience_bottle",tag:{display:{Name:''{"text":"§a§lExperience-Bottle §7(Throw)"}'',Lore:[''{"text":"§dValue:§r 8,000 XP"}'',''{"text":"§dEnchanter:§r Noble"}'']},bWithdrawXp:8000},Count:1b}'
+    - '{id:"minecraft:firework_star",tag:{Explosion:{Type:0b,Colors:[I;1374975]},display:{Name:''{"text":"§b§lElite§l Enchantment Book §7(Right Click)"}'',Lore:[''{"text":"§7Examine to receive a random"}'',''{"text":"§bElite §7enchantment book."}'']},rcbook:"ae_book;ELITE;",HideFlags:55},Count:2b}'
+    - '{id:"minecraft:sunflower",tag:{display:{Name:''{"text":"§b§lMob Coin §7(Right click to redeem)"}'',Lore:[''{"text":"§3You can use these coins in §b/mobcoins"}'',''{"text":"§3to purchase stuff"}'']}},Count:12b}'
+    category: RANK_KITS
+  chancellor:
+    delay: 86400
+    price: 0.0
+    hidden: false
+    animation: NONE
+    items:
+    - '{id:"minecraft:diamond_helmet",tag:{Damage:0,display:{Name:''{"text":"§6» §b§lCHANCELLOR HELMET §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§b§lCHANCELLOR KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:diamond_chestplate",tag:{Damage:0,display:{Name:''{"text":"§6» §b§lCHANCELLOR CHESTPLATE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§b§lCHANCELLOR KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:diamond_leggings",tag:{Damage:0,display:{Name:''{"text":"§6» §b§lCHANCELLOR LEGGINGS §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§b§lCHANCELLOR KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:diamond_boots",tag:{Damage:0,display:{Name:''{"text":"§6» §b§lCHANCELLOR BOOTS §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§b§lCHANCELLOR KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:diamond_sword",tag:{RepairCost:15,Enchantments:[{id:"minecraft:looting",lvl:2s},{id:"minecraft:sharpness",lvl:4s},{id:"minecraft:unbreaking",lvl:3s}],Damage:0,display:{Name:''{"text":"§6» §b§lCHANCELLOR SWORD §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§b§lCHANCELLOR KIT"}'']}},Count:1b}'
+    - '{id:"minecraft:diamond_pickaxe",tag:{RepairCost:3,Enchantments:[{id:"minecraft:efficiency",lvl:4s},{id:"minecraft:fortune",lvl:2s},{id:"minecraft:unbreaking",lvl:3s}],Damage:0,display:{Name:''{"text":"§6» §b§lCHANCELLOR PICKAXE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§b§lCHANCELLOR KIT"}'']}},Count:1b}'
+    - '{id:"minecraft:diamond_axe",tag:{Damage:0,display:{Name:''{"text":"§6» §b§lCHANCELLOR AXE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§b§lCHANCELLOR KIT"}'']},Enchantments:[{id:"minecraft:efficiency",lvl:4s},{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:diamond_shovel",tag:{Damage:0,display:{Name:''{"text":"§6» §b§lCHANCELLOR SHOVEL §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§b§lCHANCELLOR KIT"}'']},Enchantments:[{id:"minecraft:efficiency",lvl:4s},{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:diamond_hoe",tag:{Damage:0,display:{Name:''{"text":"§6» §b§lCHANCELLOR HOE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§b§lCHANCELLOR KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:grass_block",Count:64b}'
+    - '{id:"minecraft:stone",Count:64b}'
+    - '{id:"minecraft:oak_log",Count:64b}'
+    - '{id:"minecraft:cooked_beef",Count:32b}'
+    - '{id:"minecraft:light_blue_concrete",Count:64b}'
+    - '{id:"minecraft:golden_apple",Count:10b}'
+    - '{id:"minecraft:experience_bottle",tag:{display:{Name:''{"text":"§a§lExperience-Bottle §7(Throw)"}'',Lore:[''{"text":"§dValue:§r 12,000 XP"}'',''{"text":"§dEnchanter:§r Chancellor"}'']},bWithdrawXp:12000},Count:1b}'
+    - '{id:"minecraft:firework_star",tag:{Explosion:{Type:0b,Colors:[I;16449280]},display:{Name:''{"text":"§e§lUltimate§l Enchantment Book §7(Right Click)"}'',Lore:[''{"text":"§7Examine to receive a random"}'',''{"text":"§eUltimate §7enchantment book."}'']},rcbook:"ae_book;ULTIMATE;",HideFlags:55},Count:2b}'
+    - '{id:"minecraft:sunflower",tag:{display:{Name:''{"text":"§b§lMob Coin §7(Right click to redeem)"}'',Lore:[''{"text":"§3You can use these coins in §b/mobcoins"}'',''{"text":"§3to purchase stuff"}'']}},Count:15b}'
+    category: RANK_KITS
+  pharoah:
+    delay: 86400
+    price: 0.0
+    hidden: false
+    animation: NONE
+    items:
+    - '{id:"minecraft:diamond_helmet",tag:{Damage:0,display:{Name:''{"text":"§6» §e§lPHAROAH HELMET §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§e§lPHAROAH KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:diamond_chestplate",tag:{Damage:0,display:{Name:''{"text":"§6» §e§lPHAROAH CHESTPLATE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§e§lPHAROAH KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:diamond_leggings",tag:{Damage:0,display:{Name:''{"text":"§6» §e§lPHAROAH LEGGINGS §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§e§lPHAROAH KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:diamond_boots",tag:{Damage:0,display:{Name:''{"text":"§6» §e§lPHAROAH BOOTS §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§e§lPHAROAH KIT"}'']},Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:diamond_sword",tag:{RepairCost:127,Enchantments:[{id:"minecraft:fire_aspect",lvl:2s},{id:"minecraft:looting",lvl:3s},{id:"minecraft:sharpness",lvl:5s},{id:"minecraft:unbreaking",lvl:3s}],Damage:0,display:{Name:''{"text":"§6» §e§lPHAROAH SWORD §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§e§lPHAROAH KIT"}'']}},Count:1b}'
+    - '{id:"minecraft:diamond_pickaxe",tag:{RepairCost:15,Enchantments:[{id:"minecraft:efficiency",lvl:5s},{id:"minecraft:fortune",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}],Damage:0,display:{Name:''{"text":"§6» §e§lPHAROAH PICKAXE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§e§lPHAROAH KIT"}'']}},Count:1b}'
+    - '{id:"minecraft:diamond_axe",tag:{Damage:0,display:{Name:''{"text":"§6» §e§lPHAROAH AXE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§e§lPHAROAH KIT"}'']},Enchantments:[{id:"minecraft:efficiency",lvl:5s},{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:diamond_shovel",tag:{Damage:0,display:{Name:''{"text":"§6» §e§lPHAROAH SHOVEL §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§e§lPHAROAH KIT"}'']},Enchantments:[{id:"minecraft:efficiency",lvl:5s},{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:diamond_hoe",tag:{Damage:0,display:{Name:''{"text":"§6» §e§lPHAROAH HOE §6«"}'',Lore:[''{"text":""}'',''{"text":"§fWelcome to §b§l§nSkyblock!"}'',''{"text":"§fPurchase more kits on our webstore!"}'',''{"text":""}'',''{"text":"§e§lPHAROAH KIT"}'']},Enchantments:[{id:"minecraft:unbreaking",lvl:3s}]},Count:1b}'
+    - '{id:"minecraft:grass_block",Count:64b}'
+    - '{id:"minecraft:stone",Count:64b}'
+    - '{id:"minecraft:oak_log",Count:64b}'
+    - '{id:"minecraft:yellow_concrete",Count:64b}'
+    - '{id:"minecraft:cooked_beef",Count:32b}'
+    - '{id:"minecraft:golden_apple",Count:12b}'
+    - '{id:"minecraft:experience_bottle",tag:{display:{Name:''{"text":"§a§lExperience-Bottle §7(Throw)"}'',Lore:[''{"text":"§dValue:§r 15,000 XP"}'',''{"text":"§dEnchanter:§r Pharoah"}'']},bWithdrawXp:15000},Count:1b}'
+    - '{id:"minecraft:firework_star",tag:{Explosion:{Type:0b,Colors:[I;16758272]},display:{Name:''{"text":"§6§lLegendary§l Enchantment Book §7(Right Click)"}'',Lore:[''{"text":"§7Examine to receive a random"}'',''{"text":"§6Legendary §7enchantment book."}'']},rcbook:"ae_book;LEGENDARY;",HideFlags:55},Count:1b}'
+    - '{id:"minecraft:sunflower",tag:{display:{Name:''{"text":"§b§lMob Coin §7(Right click to redeem)"}'',Lore:[''{"text":"§3You can use these coins in §b/mobcoins"}'',''{"text":"§3to purchase stuff"}'']}},Count:20b}'
+    - '{id:"minecraft:stick",tag:{display:{Name:''{"text":"§e§lSell Stick§c§4§0§b§5"}'',Lore:[''{"text":"§a§lRight click §7on a chest to sell items inside!"}'',''{"text":"§e50 §fremaining uses"}'']},HideFlags:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]},Count:1b}'
+    category: RANK_KITS

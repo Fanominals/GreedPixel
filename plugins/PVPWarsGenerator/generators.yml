@@ -1,0 +1,94 @@
+# Create different generators here
+'EmeraldBlockGenerator': # This is used in /generator give <player> EmeraldBlockGenerator <tier> <amount>
+  type: "Emerald Block" # This will appear in messages & holograms. Colors are supported
+  settings: # Settings for the generator
+    tier-3-speed: 20 # A tier 3 will drop an emerald block every 20 seconds
+    tier-2-speed: 30 # A tier 2 will drop an emerald block every 30 seconds
+    tier-1-speed: 60 # A tier 1 will drop an emerald block every 60 seconds
+
+  name: "&e&lEmerald Block &6&lGenerator &f&lTier {tier} &7(Place down)" # Name of the generator item
+  lore: # Lore of the generator item
+    - "&7(( &oThis generator holds the ability to automatically"
+    - "&7&o generate items and drop them for you to claim! ))"
+    - ""
+    - " &6&l* &e&lGENERATOR TYPE &fBlock"
+    - " &6&l* &e&lSPEED &f{speed}"
+    - " &6&l* &e&lStorage &f{slots} slots"
+  material: ENDER_PORTAL_FRAME # Material for the generator item
+  data: 0  # Short/Data for the generator item
+  enchanted: false # Should the generator item be enchanted?
+
+  # This is the item the generator drops
+  drop-item:
+    name: "" # Name of the dropped item. Setting it to "" will not set a name for the item
+    lore: [] # Lore of the dropped item. Setting it to [] will not set a lore for the item
+    amount: 1 # The amount of the dropped item
+    material: EMERALD_BLOCK # Material of the dropped item
+    data: 0 # Short/Data for the dropped item
+    enchanted: false # Should the dropped item be enchanted
+
+  # These commands are executed when an item drops
+  # Shouldn't be used. Can cause spam in console.
+  commands:
+    - "[messsage] &aYour generator dropped an item"
+
+
+
+'DiamondGenerator':
+  type: "Diamond"
+  settings:
+    tier-3-speed: 20
+    tier-2-speed: 30
+    tier-1-speed: 60
+
+  name: "&e&lDiamond &6&lGenerator &f&lTier {tier} &7(Place down)"
+  lore:
+    - "&7(( &oThis generator holds the ability to automatically"
+    - "&7&o generate items and drop them for you to claim! ))"
+    - ""
+    - " &6&l* &e&lGENERATOR TYPE &fDiamond"
+    - " &6&l* &e&lSPEED &f{speed}"
+    - " &6&l* &e&lStorage &f{slots} slots"
+  material: ENDER_PORTAL_FRAME
+  data: 0
+  enchanted: true
+
+  # The drop-item section isn't here because we want the console
+  # to execute commands instead of setting a dropped item. This is done
+  # by completely removing the dropped-item section.
+
+  commands:
+    - "give {player} diamond 1"
+    - "[messsage] &6You got a diamond from your generator!"
+
+
+'Mobcoin': # This is used in /generator give <player> EmeraldBlockGenerator <tier> <amount>
+  type: "Mob Coin" # This will appear in messages & holograms. Colors are supported
+  settings: # Settings for the generator
+    tier-3-speed: 20 # A tier 3 will drop an emerald block every 20 seconds
+    tier-2-speed: 30 # A tier 2 will drop an emerald block every 30 seconds
+    tier-1-speed: 60 # A tier 1 will drop an emerald block every 60 seconds
+
+  name: "&b&l[!] Mob Coin &3&lGenerator &f&lTier {tier} &7(Place down)" # Name of the generator item
+  lore: # Lore of the generator item
+    - "&7(( &oThis generator holds the ability to automatically"
+    - "&7&o generate items and drop them for you to claim! ))"
+    - ""
+    - " &3&l* &b&lGENERATOR TYPE &fMob Coins"
+    - " &3&l* &b&lSPEED &f{speed}"
+    - " &3&l* &b&lStorage &f{slots} slots"
+  material: ENDER_PORTAL_FRAME # Material for the generator item
+  data: 0  # Short/Data for the generator item
+  enchanted: false # Should the generator item be enchanted?
+
+  # This is the item the generator drops
+  drop-item:
+    name: "&b&l[!] &bMob Coin" # Name of the dropped item. Setting it to "" will not set a name for the item
+    lore:
+      - '&3&l* &b&lREDEEM &fRight-click' # Lore of the dropped item. Setting it to [] will not set a lore for the item
+    amount: 1 # The amount of the dropped item
+    material: DOUBLE_PLANT # Material of the dropped item
+    data: 0 # Short/Data for the dropped item
+    enchanted: false # Should the dropped item be enchanted
+
+  commands: [] # Empty command

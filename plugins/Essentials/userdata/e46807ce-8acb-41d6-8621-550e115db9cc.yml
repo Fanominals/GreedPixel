@@ -1,0 +1,21 @@
+lastAccountName: sWoRDzzZ
+timestamps:
+  login: 1593745404786
+  lastteleport: 1593399695675
+  logout: 1593745670089
+ipAddress: 172.115.162.212
+lastlocation:
+  world: Spawn
+  x: 75.45296512725645
+  y: 201.0
+  z: 81.46829706161292
+  yaw: -0.14997657
+  pitch: 1.4999954
+logoutlocation:
+  world: Spawn
+  x: 56.69999998807907
+  y: 78.0
+  z: 78.96834809770978
+  yaw: -100.95005
+  pitch: 43.799942
+money: '680.0'

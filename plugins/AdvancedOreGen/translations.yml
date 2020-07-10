@@ -1,0 +1,14 @@
+generator_gui:
+   title: "§cChoose a generator!"
+   generator_item:
+      displayname: "&e%s"
+      lore_blocks_to_generate: "&cBlocks to generate:&r %d"
+      lore_unlock_island_level: "&cUnlock island level:&r %s"
+      lore_permission: "&cPermission:&r %s"
+      lore_active: "&aActive"
+      lore_unlocked: "&aUnlocked"
+      lore_locked: "&cNot unlocked yet"
+      lore_chance_format: "&9%s&7: &9%.1f"
+   action:
+      choosed_generator: "&aYou choosed generator %s!"
+      cant_choose_generator: "&cYou haven't unlocked this generator!"

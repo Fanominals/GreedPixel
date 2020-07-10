@@ -1,0 +1,23 @@
+# Default Placeholderss
+#
+# %displayname% -> Players Display Name
+# %name% -> Players Name
+# %prefix% -> Players Prefix
+# %suffix% -> Players Suffix
+# %joinamount% -> The amount of players who have joined
+#
+# First Join
+PrivateFirstJoinMessage: 
+  - '  \n&7Welcome, %luckperms_prefix% %player_displayname% &7to &a&lGreed&b&lPixel \n  &7A community based server dedicated to Skyblock \n \n &7» &a&lSHOP &fshop.greedpixel.com \n &7» &b&lDISCORD &fwww.discordlink.com \n \n &7» &3&lWEBSITE &fgreedpixel.com \n&f'
+FirstJoinMessage: 
+  - '&a&lGreed&b&lPixel &a&l» &7Weclome, &e&l%player_displayname% &7to the server &8{&e#%server_unique_joins%&8}'
+#
+# Join
+PrivateJoinMessage: 
+  - ' \n&7Welcome back, %luckperms_prefix% %player_displayname% &7to &a&lGreed&b&lPixel \n  &7A community based server dedicated to Skyblock \n \n &7» &a&lSHOP &fshop.greedpixel.com \n &7» &b&lDISCORD &fwww.discordlink.com \n \n &7» &3&lWEBSITE &fgreedpixel.com \n&f'
+JoinMessage: 
+  - '&a%name% &7has joined!'
+#
+# Quit
+QuitMessage: 
+  - '&a%name% &7has left!'

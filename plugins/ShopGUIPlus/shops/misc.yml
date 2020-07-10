@@ -1,0 +1,197 @@
+misc:
+    name: "&8&l» &8&nMiscellaneous&8&l «"
+    buttons:
+      goBack:
+        slot: 4      
+      previousPage:
+        slot: 3
+      nextPage:
+        slot: 5 
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: ""
+    items:
+       1:
+        type: item
+        item:
+          material: water_bucket
+          quantity: 1
+        buyPrice: 500
+        sellPrice: -1
+        slot: 10
+       2:
+        type: item
+        item:
+          material: lava_bucket
+          quantity: 1
+        buyPrice: 500
+        sellPrice: -1
+        slot: 11  
+       3:
+        type: item
+        item:
+          material: diamond_horse_armor
+          quantity: 1
+        buyPrice: 3000
+        sellPrice: -1
+        slot: 12
+       4:
+        type: item
+        item:
+          material: golden_horse_armor
+          quantity: 1
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 13 
+       5:
+        type: item
+        item:
+          material: iron_horse_armor
+          quantity: 1
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 14  
+       6:
+        type: item
+        item:
+          material: SADDLE
+          quantity: 1
+        buyPrice: 500
+        sellPrice: -1
+        slot: 15
+       7:
+        type: item
+        item:
+          material: LEAD
+          quantity: 1
+        buyPrice: 100
+        sellPrice: -1
+        slot: 16 
+       9:
+        type: item
+        item:
+          material: name_tag
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 19  
+       10:
+        type: item
+        item:
+          material: CLOCK
+          quantity: 1
+        buyPrice: 500
+        sellPrice: -1
+        slot: 20
+       11:
+        type: item
+        item:
+          material: COMPASS
+          quantity: 1
+        buyPrice: 500
+        sellPrice: -1
+        slot: 21
+       12:
+        type: item
+        item:
+          material: beacon
+          quantity: 1
+        buyPrice: 25000
+        sellPrice: -1
+        slot: 22
+       13:
+        type: item
+        item:
+          material: BOOK
+          quantity: 16
+        buyPrice: 200
+        sellPrice: -1
+        slot: 23
+       16:
+        type: item
+        item:
+          material: flint_and_steel
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 24
+       17:
+        type: item
+        item:
+          material: oak_boat
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 25
+       18:
+        type: item
+        item:
+          material: spruce_boat
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 28
+       19:
+        type: item
+        item:
+          material: birch_boat
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 29
+       20:
+        type: item
+        item:
+          material: jungle_boat
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 30
+       21:
+        type: item
+        item:
+          material: acacia_boat
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 31
+       22:
+        type: item
+        item:
+          material: dark_oak_boat
+          quantity: 1
+        buyPrice: 250
+        sellPrice: -1
+        slot: 32
+       23:
+        type: item
+        item:
+          material: pufferfish_bucket
+          quantity: 1
+        buyPrice: 600
+        sellPrice: -1
+        slot: 33
+       24:
+        type: item
+        item:
+          material: salmon_bucket
+          quantity: 1
+        buyPrice: 600
+        sellPrice: -1
+        slot: 34
+       25:
+        type: item
+        item:
+          material: cod_bucket
+          quantity: 1
+        buyPrice: 600
+        sellPrice: -1
+        slot: 37
+       26:
+        type: item
+        item:
+          material: tropical_fish_bucket
+          quantity: 1
+        buyPrice: 600
+        sellPrice: -1
+        slot: 38

@@ -1,0 +1,83 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&9UltimateKits&8]'
+  type:
+    command: '&7Dastoor'
+    chance: Shans
+    money: '&6Meghdar Pool'
+    link: '&9Link'
+    free: Raygan
+# Interface Messages
+interface:
+  selector:
+    kit: '&c%kit%'
+    title: '&8Kit Haye Server'
+    details: '&7Salam &e%player%&7!|&7Fehrest kit haye server.||&7Rooye &eicon &7yek &ekit &7click konid |&7baraye &epishnamayesh, daryaft ya kharid &7kit.'
+    aboutkit: '&7Nemitavanid yek kit ra baz konid?|&7Rank khod ra ertegha dahid!'
+    leftpreview: '&6&lCHAP CLICK &7baraye pishnamayesh kit.'
+    rightclaim: '&6&lRAST CLICK &7baraye daryaft kit.'
+    rightbuy: '&6&lRIGHT CLICK &7to buy kit.'
+  hologram:
+    previewonly: Baraye pishnamayesh click konid!
+    preview: Rast-Click baraye pishnamayesh!
+    buylink: Chap-Click baraye link kharid!
+    buyeco: Chap-Click baraye kharid begheimat &a$%price%&f!
+    crate: Chap-Click ba kelid baraye baz kardan!
+    daily: Chap-Click baraye daryaft!
+  button:
+    buynow: '&aKharid'
+    back: '&9Bazgasht'
+    exit: '&cKhoruj'
+    next: '&7Safhe bad'
+    last: '&7Safhe ghabl'
+    clickeco: '&7Baraye kharid begheimat &a%price% &7click konid.'
+  preview:
+    title: '&9Darhale pishnamayesh kit: &8%kit%'
+  yesno:
+    title: '&9Kharid begheimat &a$%price%&9?'
+    'yes': '&a&lTaeid'
+    'no': '&c&lLaghv'
+  key:
+    title: '&fKelid Kit &5%kit%'
+    description1: '&rRast-Click rooye [a ]&c&l%kit%&r kit'
+    description2: '&rmohtaviatash ra daryaft konid!'
+    description3: '&rbarkhi az mohtaviatesh ra daryaft konid!'
+    description4: '&rKit ra baraye &c&l%amt% &rbar midahad.'
+# Command Messages
+command:
+  general:
+    noperms: '&cShoma dastresi lazem baraye in kar ra nadarid!'
+  kit:
+    nokitsupplied: '&7Lotfan yek kit baraye pishnamayesh vared konid.'
+    kitdoesntexist: '&cIn kit vojud nadarad.'
+    kitalreadyexists: '&cIn kit ghablan sakhte shode.'
+    playernotfound: '&cIn player online nist va ya vojud nadarad.'
+event:
+  preview:
+
+    # Event Messages
+    kit: '&9Shoma darhale pishnamayesh kit &7%kit% &9hastid.'
+  crate:
+    notyet: '&cShoma bayad bemoddat &4%time% &cbaraye estefade dobare sabr konid'
+    wrongkey: '&cIn kelid baraye in kit nist..'
+  claim:
+    cannotafford: '&9Shoma poole kafi baraye kharid &7%kit% &9nadarid.'
+    nottwice: '&9Shoma faghat yekbar mitavanid in kit ra daryaft konid.'
+    purchasesuccess: '&9Shoma kit &7%kit% &9ra kharidid.'
+    givesuccess: '&9Shoma kit &7%kit% &9ra daryaft kardid.'
+    delay: '&cShoma bayad bemoddat &4%time% &cbaraye estefade dobare sabr konid.'
+    eco: '&7Shoma &a%amt% &7daryaft kardid.'
+    once: '&7Cooldown: &6Shoma ghablan in kit ra daryaft kardeid!'
+    ready: '&7Cooldown: &6Amade estefade!'
+    wait: '&7Cooldown: &6%time%'
+    noaccess: '&7Cooldown: &cDastresi nadarid..'
+    full: '&cInventory shoma por ast va ja baraye yek kit digar nadarid!'
+  create:
+    won: '&7Shoma yek &6%item% &7greftid.'
+  purchase:
+    cancelled: '&cKharid laghv shod.'
+  key:
+    given: '&9Shoma yek kelid baraye kit &a%kit% &9gereftid.'
+    success: '&9Shoma ba movafaghiat yek kelid baraye kit &7%kit% &9dadid.'

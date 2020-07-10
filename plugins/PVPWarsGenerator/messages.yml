@@ -1,0 +1,34 @@
+plugin-reload: "&a&l[!] &aYou've successfully reloaded the plugins config files"
+
+no-permission: "&4&l[!] &cYou are not allowed to do this"
+
+error: "&c&l[!] &cAn error has occurred, please try again"
+
+player-have-no-generators: "&b&l[!] &fYou have no generators"
+
+generator-add-player: "&b&l[!] &fYou've given &b{player} &faccess to your generators"
+generator-remove-player: "&b&l[!] &b{player} &fno longer has access to your generators"
+
+generator-send: "&b&l[!] &fYou've sent &3{player} {amount}x tier {tier} &3generator(s) &7({type}) "
+generator-receive: "&b&l[!] &fYou've received &3{amount}x tier {tier} &3generator(s) &7({type})"
+
+generator-cannot-open: "&b&l[!] &fYou cannot modify this generator"
+
+generator-cooldown: "&b&l[!] &fYou must wait before placing another generator"
+generator-cooldown-finished: "&b&l[!] &fYou may place another generator"
+
+generator-missing-space: "&b&l[!] &fPlease clear some space and try again"
+
+generator-change-material: "&b&l[!] &fYou cannot place a generator on this material. Try placing it somewhere."
+
+generator-place: "&b&l[!] &fYour generator has been &3placed..."
+generator-cannot-place-here: "&b&l[!] &fYou may not place a generator here"
+generator-finished: "&b&l[!] &fYour generator was &3successfully &fbuilt!"
+generator-remove: "&b&l[!] &cYou've removed your generator"
+
+generator-limit-reached: "&b&l[!] &fYour &bisland/faction &fhave reached the limit of allowed generators"
+
+generator-upgrade-success: "&b&l[!] &fYou've &bupgraded &fyour generator to tier &b{tier}&f!"
+generator-upgrade-fail: "&b&l[!] &fYou are &cmissing money &fto upgrade your generator"
+
+generator-max-tier-reached: "&b&l[!] &fYou've already reached the &amax tier&f!"

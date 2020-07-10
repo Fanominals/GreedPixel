@@ -1,0 +1,3 @@
+on-kick-command: 'titlemanager message %player% &cExpired'
+worlds:
+  Mines: essentials.warps.basicmine

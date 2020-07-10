@@ -1,0 +1,121 @@
+######################################################
+# New messages added for EpicSpawners v6.3.9.        #
+#                                                    #
+# These translations were found untranslated, join   #
+# our translation Discord https://discord.gg/f7fpZEf #
+# to request an official update!                     #
+#                                                    #
+# interface.spawner.boostednever                     #
+# interface.spawner.tutorialtitle                    #
+# interface.spawner.tutorial                         #
+# interface.spawner.paused                           #
+# interface.boost.cost                               #
+######################################################
+
+general:
+  nametag:
+    prefix: '&8[&6EpicSpawners&8]'
+    exit: '&cEsci'
+    next: '&9Avanti'
+    back: '&9Indietro'
+    confirm: '&a&lConferma'
+# Interface Messages
+interface:
+  spawner:
+    upgradewithxp: '&aMigliora con l''xp'
+    upgradewithxplore: '&7Costo: &a%cost% Livelli'
+    upgradewitheconomy: '&aMigliora con i soldi'
+    upgradewitheconomylore: '&7Costo: &a$%cost%'
+    statstitle: '&6Spawner Stats'
+    stats: '&7Generato &a%amount% &7volte finora.'
+    onlyspawnson: '&7Può spawnare solo su &6%block%&7.'
+    boost: '&7Tasto destro per &aBoostare&7.'
+    cantboost: '&cNon puoi boostare.'
+    convert: '&7Tasto sinistro per &aConvertire&7.'
+    boostedstats: '&a&lAttualmente potenziato!|&7Aggiungi &6%amount% &7aggiungi &6%type%''s &7ad ogni generazione.|&7Scade tra &6%time%&7.'
+    howtotitle: '&a&lInformazioni utili'
+    howtoinfo: '{[LEVELUP]Puoi unire o "migliorare" questo generatore: [Usa un altro spawner di questo tipo][Migliora con l''XP][Migliora con i SOLDI].}|{[DROP]A <TYPE> spawner sarà gettato quando uccidi <AMT> [natural ]<TYPE>}|{[OMNI][Stacka spawner di diversi tipi creando OmniSpawner].}|{[WATER][Gli spawner respingono l''acqua].}|{[REDSTONE][Puoi disabilitare gli spawner con un''impulso di redstone attiva].}|{[INVSTACK][Puoi unire gli spawner unendoli uno sopra l''altro all''interno del tuo inventario.]}'
+    howtonext: '&aClicca per andare alla pagina successiva.'
+    howtoback: '&aClicca per tornare alla pagina iniziale.'
+    conditionBiome1: Non piazzabile in &7bioma &6%biome%.
+    conditionBiome2: Non piazzato nel bioma giusto.
+    conditionHeight: Le coordinate Y non sono tra &6%min%&7 e &6%max%&7.
+    conditionLight: Mancante &6light&7.
+    conditionDark: Mancante &6darkness&7.
+    conditionNearbyEntities: Ci sono piu di &6%max%&7 entità intorno a questo spawner.
+    conditionNearbyPlayers: Ci sono meno di &6%amount%&7 giocatori in &6%distance%&7 blocchi dal spawner.
+    conditionStorm: Non c'è nessun temporale.
+    boostednever: mai
+    tutorialtitle: '&a&lInformazioni utili'
+    tutorial: '{[LEVELUP]puoi impilare o ''migliorare di livello'' questo spawner da: [Usare questo spawner su unaltro spawner][Migliorare con XP][Migliorare con ECONOMY].}|{[GETTA]Uno spawner di <TIPO> verrà rilasciato quando uccidi uno <AMT> [naturale]<TIPO>}|{[OMNI][Impilare spawners di tipi diversi creerà un OmniSpawner.]}|{[ACQUA][gli spawners saranno repellenti all''acqua.]}|{[REDSTONE][Puoi disabilitare questo spawner con della redstone.]}'
+    paused: '&6Generazione fermata perchè:'
+  convert:
+    title: Convertitore di spawner
+    lore: '&7Clicca qui per convertire.'
+  shop:
+    title: Spawner Shop
+    spawnershoptitle: '&8Compra un %type%'
+    buyprice: '&7Costo: &a%cost%'
+    lore: '&7Clicca qui per comprare.'
+    add1: '&a&lAggiungi 1'
+    add10: '&a&lAggiungi 10'
+    set1: '&c&lImposta to 1'
+    set64: '&a&lImposta to 64'
+    remove1: '&c&lRimuovi 1'
+    remove10: '&c&lRimuovi 10'
+  spawnerstats:
+    title: '&5&lSpawnerStats'
+    prefix: '&7Le tue statistiche:'
+    nokills: '&7Non hai ancora ucciso mob. Corri ad ucciderne qualcuno!'
+  boost:
+    title: '&cBoostando %spawner% &cper %amount%'
+    boostfor: '&7&lBoost per &6&l%amount% &7&lMinuti'
+    cost: '&7Costa &6&l%cost%.'
+# Command Messages
+command:
+  give:
+    success: '&7Ti sono stati dati %amount% &6%type%&7.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cNon hai abbastanza permessi per farlo.'
+  upgrade:
+    cannotafford: '&cNon puoi permetterti questo miglioramento.'
+    success: '&7Hai migliorato questo spawner al livello &6%level%x&7.'
+    maxed: '&7questo spawner è già migliorato.'
+    successmaxed: '&7Hai migliorato al massimo questo spawner al livello &6%level%x&7.'
+  downgrade:
+    success: '&7Hai declassato questo spawner al livello &6%level%x&7.'
+  block:
+    place: '&7Hai piazzato &6%type%&7.'
+    broken: Questo tipo di spawner è stato rimosso, per questo motivo non puoi piazzarlo.
+    chargeplace: '&7Ti verranno addebitati &6$%cost% &7se non rompi lo spawner entro 1 minuto.'
+    break: '&7Hai rotto un &6%type%&7.'
+    chargebreak: '&7Ti verranno addebitati &6$%cost% &7per rompere questo spawner. Rompi nuovamente per confermare.'
+    blacklisted: '&cQuesta azione è disabilitata.'
+    omnitake: '&7Hai tolto un &6%type%&7 spawner dall''OmniSpawner.'
+    forcedeny: '&cQuesto spawner è troppo vicino ad un altro spawner.'
+    mergedistance: '&7Questo spawner è stato combinato con uno spawner vicino.'
+    cannotbreak: '&7Non puoi permetterti di rompere questo spawner.'
+  goal:
+    alert: '&7Hai bisogno di altr &6%goal% &7kill per ricevere uno spawner di &6%type%&7.'
+    reached: '&7Un &6%type% Spawner &7è stato droppato!'
+  egg:
+    needmore: '&7Hai bisogno di &6%amount% &7Uova di Mostri per convertire questo spawner.'
+    sametype: '&7Questo spawner genera già &6%type%s&7.'
+  shop:
+    cannotafford: '&cNon puoi permetterti questo spawner.'
+    purchasesuccess: '&9Il tuo acquisto è andato a buon fine.'
+  omni:
+    cannotmerge: '&cNon puoi unire due OmniSpawner.'
+    combinefail: '&cL''omni spawner rifiuta di assorbire altri spawner di quel tipo.'
+    combinesuccess: '&7Il tuo spawner è stato assorbito dall''OmniSpawner.'
+    takespawner: '&7Hai tolto un &6%type%&7 dall''OmniSpawner.'
+  convert:
+    success: '&9La tua conversione è andata a buon fine.'
+  boost:
+    applied: '&6Il tuo boost è stato applicato.'
+  combine:
+    onlyone: '&cPuoi combinare solo uno spawner alla volta.'
+  spawner:
+    toomany: '&cPuoi piazzare solo %amount% spawner...'

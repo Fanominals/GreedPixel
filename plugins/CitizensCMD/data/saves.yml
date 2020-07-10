@@ -1,0 +1,80 @@
+npc-data:
+  npc-3:
+    cooldown: 0
+    right-click-commands:
+    - '[console] dm open class %player%'
+    left-click-commands: []
+    price: 0
+  npc-4:
+    cooldown: 0
+    right-click-commands:
+    - '[player] ma leave'
+    left-click-commands: []
+    price: 0
+  npc-8:
+    price: 0
+    cooldown: 0
+    right-click-commands:
+    - '[console] dm open class %player%'
+    left-click-commands: []
+  npc-9:
+    cooldown: 0
+    price: 0.0
+    right-click-commands:
+    - '[player] ma leave'
+    left-click-commands: []
+  npc-10:
+    cooldown: 0
+    right-click-commands:
+    - '[player] kit'
+    left-click-commands: []
+    price: 0
+  npc-12:
+    cooldown: 0
+    right-click-commands:
+    - '[player] arena'
+    left-click-commands: []
+    price: 0
+  npc-11:
+    cooldown: 0
+    right-click-commands:
+    - '[player] mobcoins'
+    left-click-commands: []
+    price: 0
+  npc-13:
+    cooldown: 0
+    right-click-commands:
+    - '[player] spawn'
+    left-click-commands: []
+    price: 0
+  npc-14:
+    right-click-commands:
+    - '[player] spawn'
+    price: 0
+    left-click-commands: []
+    cooldown: 0
+  npc-15:
+    cooldown: 0
+    left-click-commands: []
+    right-click-commands:
+    - '[player] spawn'
+    price: 0
+  npc-20:
+    cooldown: 0
+    right-click-commands:
+    - '[player] tutorial'
+    left-click-commands: []
+    price: 0
+  npc-21:
+    cooldown: 0
+    right-click-commands:
+    - '[player] shop'
+    left-click-commands:
+    - '[player] shop'
+    price: 0
+  npc-22:
+    right-click-commands:
+    - '[player] wiki'
+    cooldown: 0
+    price: 0.0
+    left-click-commands: []

@@ -1,0 +1,301 @@
+# DeluxeChat version 1.15.0 config file
+# Created by extended_clip
+# List as many format configurations you in the formats: config section.
+# Each format configuration requires a specific layout which can be seen below.
+# Format priority must be specified per format and each priority must be unique.
+# higher value = lower priority
+# ex: guest-100, owner-1
+#   YOU MUST KEEP A 'default' TEMPLATE! 
+#   
+# Social Spy only allows %player% and %recipient% as placeholders
+# 
+# You must download the placeholder expansion through PlaceholderAPI for which
+# placeholders you want to use. The example below uses Player placeholders, so
+# we need to download the player expansion: /papi ecloud download Player, /papi reload
+# 
+# 
+# example format template:
+# formats: 
+#   default:
+#     priority: 2147483647
+#     channel: ''
+#     prefix: '&8[&7Guest&8] '
+#     name_color: '&7'
+#     name: '%player_name%'
+#     suffix: '&7> '
+#     chat_color: '&f'
+#     channel_tooltip:
+#     - '&7%player_name% &bis a Guest'
+#     prefix_tooltip:
+#     - '&7%player_name% &bis a Guest'
+#     name_tooltip:
+#     - ''
+#     suffix_tooltip:
+#     - ''
+#     channel_click_command: '
+#     prefix_click_command: '/ranks
+#     name_click_command: '/msg %player_name% 
+#     suffix_click_command: '
+#   Member:
+#     priority: 100
+#     channel: ''
+#     prefix: '&8[&aMember&8] '
+#     name_color: '&7'
+#     name: '%player_name%'
+#     suffix: '&7> '
+#     chat_color: '&f'
+#     channel_tooltip:
+#     - '&7%player_name% &bis a Member'
+#     prefix_tooltip:
+#     - '&7%player_name% &bis a Member'
+#     name_tooltip:
+#     - ''
+#     suffix_tooltip:
+#     - ''
+#     channel_click_command: '
+#     prefix_click_command: '/ranks
+#     name_click_command: '/msg %player_name% 
+#     suffix_click_command: '
+check_updates: true
+relation_placeholders_enabled: true
+timestamp_format: MM/dd/yy HH:mm:ss
+boolean:
+  'true': '&atrue'
+  'false': '&cfalse'
+ops_use_group_format: false
+chat_filter:
+  enabled: false
+  ignore_case: true
+  list:
+  - '.; '
+  - fuck;fuck
+private_message:
+  enabled: true
+  bungeecord: false
+private_message_formats:
+  to_sender:
+    format: '&a&lGreed&b&lPixel &8›› &f&l(&aYou&f&l) &e-> &f&l(&b%recipient_player_name%&f&l)
+      &8›› '
+    tooltip:
+    - '%player_server%'
+    click_command: '/r '
+    chat_color: '&f'
+  to_recipient:
+    format: '&a&lGreed&b&lPixel &8›› &f&l(&a%player_name%&f&l) &e-> &f&l(&bYou&f&l)
+      &8›› '
+    tooltip:
+    - '%player_server%'
+    click_command: '/r '
+    chat_color: '&f'
+  social_spy: '&8[&cspy&8] &f%player% &e-> &f%recipient%&7:'
+formats:
+  default:
+    suffix_tooltip:
+    - ''
+    prefix_click_command: /ranks
+    priority: 11
+    prefix: '&8&l<&7Farmer&8&l> '
+    name_color: '&7'
+    name: '%player_name%'
+    suffix: ' &7›› '
+    chat_color: '&7'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&7%player_name%'
+    - On &a&lGreed&b&lPixel &7since %player_first_join_date%
+    name_tooltip:
+    - '&bClick to message player'
+    channel_click_command: /ranks
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
+    channel: ''
+  scribe:
+    priority: 10
+    prefix: '&8&l<&aScribe&8&l> '
+    name_color: '&a'
+    name: '%player_name%'
+    suffix: ' &a›› '
+    chat_color: '&7'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&7%player_name%'
+    - On &a&lGreed&b&lPixel &7since %player_first_join_date%
+    name_tooltip:
+    - '&bClick to message player'
+    channel_click_command: /ranks
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
+    channel: ''
+  aristocrat:
+    priority: 9
+    prefix: '&8&l<&cAristocrat&8&l> '
+    name_color: '&c'
+    name: '%player_name%'
+    suffix: ' &c›› '
+    chat_color: '&7'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&7%player_name%'
+    - On &a&lGreed&b&lPixel &7since %player_first_join_date%
+    name_tooltip:
+    - '&bClick to message player'
+    channel_click_command: /ranks
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
+    channel: ''
+  noble:
+    priority: 8
+    prefix: '&8&l<&5Noble&8&l> '
+    name_color: '&d'
+    name: '%player_name%'
+    suffix: ' &d›› '
+    chat_color: '&7'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&7%player_name%'
+    - On &a&lGreed&b&lPixel &7since %player_first_join_date%
+    name_tooltip:
+    - '&bClick to message player'
+    channel_click_command: /ranks
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
+    channel: ''
+  chancellor:
+    priority: 7
+    prefix: '&8&l<&3&lChancellor&8&l> '
+    name_color: '&b'
+    name: '%player_name%'
+    suffix: ' &b›› '
+    chat_color: '&b'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&7%player_name%'
+    - On &a&lGreed&b&lPixel &7since %player_first_join_date%
+    name_tooltip:
+    - '&bClick to message player'
+    channel_click_command: /ranks
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
+    channel: ''
+  pharoah:
+    priority: 6
+    prefix: '&8&l<&6&lP&e&lh&6&la&e&lr&6&lo&e&la&6&lh&8&l> '
+    name_color: '&e&l'
+    name: '%player_name%'
+    suffix: ' &e›› '
+    chat_color: '&e'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&7%player_name%'
+    - On &a&lGreed&b&lPixel &7since %player_first_join_date%
+    name_tooltip:
+    - '&bClick to message player'
+    channel_click_command: /ranks
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
+    channel: ''
+  bugtester:
+    priority: 5
+    prefix: '&7&l<&f&lExterminator&7&l> '
+    name_color: '&f'
+    name: '%player_name%'
+    suffix: ' &7›› '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&7%player_name%'
+    - On &a&lGreed&b&lPixel &7since %player_first_join_date%
+    name_tooltip:
+    - '&bClick to message player'
+    channel_click_command: /ranks
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
+    channel: ''
+  helper:
+    priority: 4
+    prefix: '&7&l<&a&lHelper&7&l> '
+    name_color: '&2&l'
+    name: '%player_name%'
+    suffix: ' &2›› '
+    chat_color: '&2'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&7%player_name%'
+    - On &a&lGreed&b&lPixel &7since %player_first_join_date%
+    name_tooltip:
+    - '&bClick to message player'
+    channel_click_command: /ranks
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
+    channel: ''
+  moderator:
+    priority: 3
+    prefix: '&7&l<&b&lMOD&7&l> '
+    name_color: '&3&l'
+    name: '%player_name%'
+    suffix: ' &3›› '
+    chat_color: '&3'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&7%player_name%'
+    - On &a&lGreed&b&lPixel &7since %player_first_join_date%
+    name_tooltip:
+    - '&bClick to message player'
+    channel_click_command: /ranks
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
+    channel: ''
+  admin:
+    priority: 2
+    prefix: '&7&l<&4&lADMIN&7&l> '
+    name_color: '&c&l'
+    name: '%player_name%'
+    suffix: ' &c›› '
+    chat_color: '&c&l'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&7%player_name%'
+    - On &a&lGreed&b&lPixel &7since %player_first_join_date%
+    name_tooltip:
+    - '&bClick to message player'
+    channel_click_command: /ranks
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
+    channel: ''
+  owner:
+    priority: 1
+    prefix: '&7&l<&6&lOWNER&7&l> '
+    name_color: '&e&l'
+    name: '%player_name%'
+    suffix: ' &e›› '
+    chat_color: '&e&l'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '&7%player_name%'
+    - On &a&lGreed&b&lPixel &7since %player_first_join_date%
+    name_tooltip:
+    - '&bClick to message player'
+    channel_click_command: /ranks
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
+    channel: ''
+bungeecord:
+  enabled: false
+  server_name: Server
+  server_prefix: '&8[&cServer&8]'
+  join_global: true
+  use_server_whitelist: true
+  server_whitelist:
+  - Server2
+  - Server3

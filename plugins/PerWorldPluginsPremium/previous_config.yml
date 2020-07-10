@@ -1,0 +1,228 @@
+bskyblock_world_nether: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+island: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+superiorworld: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only disable those events.
+      # If you blacklist the events Per World Plugins Premium will exempt those events and disable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+bskyblock_world_the_end: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+arena: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+dungeon: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+mines: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: true
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    AutoSmelt: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: false
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+spawn: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+world_the_end: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+spawn_the_end: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+world_nether: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+spawn_nether: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+tutorial: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+bskyblock_world: 
+  # Should Per World Plugins Premium be enabled for this world?
+  enabled: false
+  # Should Per World Plugins Premium use a blacklist or a whitelist?
+  blacklist: true
+  # Which plugins to whitelist or blacklist.
+  # If you want to add more plugins for a world just copy and paste the format below.
+  plugins: 
+    # The name of the plugin you want to manage (the name that appears in console). Capitalization doesn't matter.
+    plugin_name: 
+      # Should Per World Plugins Premium use a blacklist or a whitelist for the events?
+      blacklist: true
+      # Events to either blacklist or whitelist.
+      # If you whitelist the events Per World Plugins Premium will only enable those events and disable all others.
+      # If you blacklist the events Per World Plugins Premium will disable those events and enable all others.
+      events: [PlayerJoinEvent, PlayerQuitEvent, PlayerKickEvent]
+plugin: 
+  version: '1.7.5'
+messages: 
+  no_command_message: '&c&l(!) &cThat command &c&lcannot &cbe used in this world'

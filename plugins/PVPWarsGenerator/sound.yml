@@ -1,0 +1,14 @@
+# Put in your sounds here. You can find
+# more sounds at
+# http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html for spigot 1.8
+
+# Should we enable sounds?
+enabled: true
+
+# Change any of these to "NONE" if you want a specific
+# sound not to go off...
+
+generator-place: "LEVEL_UP"
+generator-remove: "ANVIL_LAND"
+generator-build-stage: "CHICKEN_EGG_POP"
+generator-item-spawn: "NOTE_PIANO"

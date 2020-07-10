@@ -1,0 +1,410 @@
+menu_title: '&e&lWarps &f| Upgrades'
+open_command:
+size: 27
+items:
+  'back-to-upgrades':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU4YmE3ODYzYjE1YTVlNDBmYTdkYTk2MjliYjg2NmFhMjI2OTk1NTNlOTMxZGYxZjY5M2NiYjFjOWYzYjYifX19'
+    slot: 22
+    display_name: '&e&lBack to upgrades'
+    lore:
+    - '&7Go back to main'
+    - '&7upgrades menu.'
+    - ''
+    - '&6&l* &eRight click to go'
+    left_click_commands:
+    - '[openguimenu] isupgrades'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] isupgrades'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'homes-1':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmZiM2EwZTVkZWE5MTVhMjI0Zjg2YzUyOGQ0MTRlYzBmMWRiNmY0N2NkYjk3MTg3NzVhZDNhOTM0MThmZTI0In19fQ=='
+    slot: 11
+    display_name: '&e&lWarps | Upgrade &7(#1)'
+    lore:
+    - '&7Upgrade to increase the'
+    - '&7limit of island warps '
+    - '&7available that you can set.'
+    - ''
+    - "&8&l* &7New amount limit: &a2"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a Free'
+    left_click_commands:
+    - '[console] tm msg %player_name% &c&lERROR\n&fYou already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[console] tm msg %player_name% &c&lERROR\n&fYou already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+  'homes-2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVhMzViNWNhMTUyNjg2ODVjNDY2MDUzNWU1ODgzZDIxYTVlYzU3YzU1ZDM5NzIzNDI2OWFjYjVkYzI5NTRmIn19fQ=='
+    priority: 1
+    slot: 12
+    display_name: '&e&lWarps | Upgrade &7(#2)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'homes.4'
+    lore:
+    - '&7Upgrade to increase the'
+    - '&7limit of island warps '
+    - '&7available that you can set.'
+    - ''
+    - "&8&l* &7New amount limit: &a4"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $250,000'
+    left_click_commands:
+    - '[console] tm msg %player_name% &c&lERROR\n&fYou already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[console] tm msg %player_name% &c&lERROR\n&fYou already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+  'homes-22':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    priority: 2
+    slot: 12
+    display_name: '&e&lWarps | Upgrade &7(#2)'
+    lore:
+    - '&7Upgrade to increase the'
+    - '&7limit of island warps '
+    - '&7available that you can set.'
+    - ''
+    - "&8&l* &7New amount limit: &a4"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $250,000'
+    left_click_commands:
+    - '[console] tm msg %player_name% &a&lCONGRATULATIONS\n&fYou unlocked a new homes amount'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    - '[console] eco take %player_name% 250000'
+    - '[console] pex user %player_name% add askyblock.island.maxhomes.4'
+    - '[console] pex user %player_name% add homes.4'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 250000  
+        Permission1:
+          type: has permission
+          permission: 'homes.2'
+      deny_commands:
+      - '[console] tm msg %player_name% &c&lERROR\n&fNot enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+      - '[close]'
+    right_click_commands:
+    - '[console] tm msg %player_name% &a&lCONGRATULATIONS\n&fYou unlocked a new homes amount'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    - '[console] eco take %player_name% 250000'
+    - '[console] pex user %player_name% add askyblock.island.maxhomes.4'
+    - '[console] pex user %player_name% add homes.4'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 250000  
+        Permission1:
+          type: has permission
+          permission: 'homes.2'
+      deny_commands:
+      - '[console] tm msg %player_name% &c&lERROR\n&fNot enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+      - '[close]'
+  'homes-3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU5MDMxNmE5MzliMzIzZmE1ZmRiMjNmNWJhNDM4YjZjOWNmYWQ0OTg0NTJkMjQ5ODhlYTNmNGNlYzZiZTYwIn19fQ=='
+    priority: 1
+    slot: 13
+    display_name: '&e&lWarps | Upgrade &7(#3)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'homes.8'    
+    lore:
+    - '&7Upgrade to increase the'
+    - '&7limit of island warps '
+    - '&7available that you can set.'
+    - ''
+    - "&8&l* &7New amount limit: &a8"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $500,000'
+    left_click_commands:
+    - '[console] tm msg %player_name% &c&lERROR\n&fYou already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[console] tm msg %player_name% &c&lERROR\n&fYou already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'    
+  'homes-33':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    priority: 2
+    slot: 13
+    display_name: '&e&lWarps | Upgrade &7(#3)'
+    lore:
+    - '&7Upgrade to increase the'
+    - '&7limit of island warps '
+    - '&7available that you can set.'
+    - ''
+    - "&8&l* &7New amount limit: &a8"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $500,000'  
+    left_click_commands:
+    - '[console] tm msg %player_name% &a&lCONGRATULATIONS\n&fYou unlocked a new homes amount'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    - '[console] eco take %player_name% 500000'
+    - '[console] pex user %player_name% add askyblock.island.maxhomes.8'
+    - '[console] pex user %player_name% add homes.8'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 500000
+        Permission1:
+          type: has permission
+          permission: 'homes.4'
+      deny_commands:
+      - '[console] tm msg %player_name% &c&lERROR\n&fNot enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+      - '[close]'
+    right_click_commands:
+    - '[console] tm msg %player_name% &a&lCONGRATULATIONS\n&fYou unlocked a new homes amount'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    - '[console] eco take %player_name% 500000'
+    - '[console] pex user %player_name% add askyblock.island.maxhomes.8'
+    - '[console] pex user %player_name% add homes.8'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 500000
+        Permission1:
+          type: has permission
+          permission: 'homes.4'
+      deny_commands:
+      - '[console] tm msg %player_name% &c&lERROR\n&fNot enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+      - '[close]'
+  'homes-4':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk5MTBjZjYwMGQyMWEwNDA0ZDlkZjRiMGQ2NTllZDQ4NDE4NmFlMDYxNDI3MGY3YTY0MjlmNzA0ZDBiZGJjOSJ9fX0='
+    priority: 1
+    slot: 14
+    display_name: '&e&lWarps | Upgrade &7(#4)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'homes.16'    
+    lore:
+    - '&7Upgrade to increase the'
+    - '&7limit of island warps '
+    - '&7available that you can set.'
+    - ''
+    - "&8&l* &7New amount limit: &a16"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $750,000'
+    left_click_commands:
+    - '[console] tm msg %player_name% &c&lERROR\n&fYou already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[console] tm msg %player_name% &c&lERROR\n&fYou already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'    
+  'homes-44':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    priority: 2
+    slot: 14
+    display_name: '&e&lWarps | Upgrade &7(#4)'
+    lore:
+    - '&7Upgrade to increase the'
+    - '&7limit of island warps '
+    - '&7available that you can set.'
+    - ''
+    - "&8&l* &7New amount limit: &a16"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $750,000'  
+    left_click_commands:
+    - '[console] tm msg %player_name% &a&lCONGRATULATIONS\n&fYou unlocked a new homes amount'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    - '[console] eco take %player_name% 750000'
+    - '[console] pex user %player_name% add askyblock.island.maxhomes.16'
+    - '[console] pex user %player_name% add homes.16'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 750000
+        Permission1:
+          type: has permission
+          permission: 'homes.8'
+      deny_commands:
+      - '[console] tm msg %player_name% &c&lERROR\n&fNot enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+      - '[close]'
+    right_click_commands:
+    - '[console] tm msg %player_name% &a&lCONGRATULATIONS\n&fYou unlocked a new homes amount'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    - '[console] eco take %player_name% 750000'
+    - '[console] pex user %player_name% add askyblock.island.maxhomes.16'
+    - '[console] pex user %player_name% add homes.16'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 750000
+        Permission1:
+          type: has permission
+          permission: 'homes.8'
+      deny_commands:
+      - '[console] tm msg %player_name% &c&lERROR\n&fNot enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+      - '[close]'          
+  'homes-5':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRjYmJhNmM3NTFkYWI1ZjJiMzA5YmM1OTQxZThlYTc5ODc3Y2NlNDI1NjkzNmExODk4MTFlZDdlYzM2ZDI1YyJ9fX0='
+    priority: 1
+    slot: 15
+    display_name: '&e&lWarps | Upgrade &7(#5)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'homes.32'    
+    lore:
+    - '&7Upgrade to increase the'
+    - '&7limit of island warps '
+    - '&7available that you can set.'
+    - ''
+    - "&8&l* &7New amount limit: &a32"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $1,000,000'
+    left_click_commands:
+    - '[console] tm msg %player_name% &c&lERROR\n&fYou already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[console] tm msg %player_name% &c&lERROR\n&fYou already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'    
+  'homes-55':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    priority: 2
+    slot: 15
+    display_name: '&e&lWarps | Upgrade &7(#5)'
+    lore:
+    - '&7Upgrade to increase the'
+    - '&7limit of island warps '
+    - '&7available that you can set.'
+    - ''
+    - "&8&l* &7New amount limit: &a32"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $1,000,000'  
+    left_click_commands:
+    - '[console] tm msg %player_name% &a&lCONGRATULATIONS\n&fYou unlocked a new homes amount'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    - '[console] eco take %player_name% 1000000'
+    - '[console] pex user %player_name% add askyblock.island.maxhomes.32'
+    - '[console] pex user %player_name% add homes.32'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 1000000
+        Permission1:
+          type: has permission
+          permission: 'homes.16'
+      deny_commands:
+      - '[console] tm msg %player_name% &c&lERROR\n&fNot enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+      - '[close]'
+    right_click_commands:
+    - '[console] tm msg %player_name% &a&lCONGRATULATIONS\n&fYou unlocked a new homes amount'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    - '[console] eco take %player_name% 1000000'
+    - '[console] pex user %player_name% add askyblock.island.maxhomes.32'
+    - '[console] pex user %player_name% add homes.32'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 1000000
+        Permission1:
+          type: has permission
+          permission: 'homes.16'
+      deny_commands:
+      - '[console] tm msg %player_name% &c&lERROR\n&fNot enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+      - '[close]'
+  'generators':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjMyOTVhOWYxMTQ3OGU2Yjc4OWJmNmViMDYyOTZlMDE2YzEyN2QwYTYyN2YzNTRmZWMyNmMyN2Y0NmQ0MTcifX19'
+    slot: 9
+    display_name: '&e&lGenerators &f| Upgrade'
+    lore:
+    - '&7Go to generators'
+    - '&7upgrade menu.'
+    - ''
+    - '&6&l* &eRight click to go'
+    left_click_commands:
+    - '[openguimenu] generator'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] generator' 
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'hopper':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJiMGM2M2Q1YWZjMzI1ODU2NjI1Yjg1NWZmMjQ2MWYxNTYwYjNkMWE3NGExZTQ2MTllNjI0MDY5YzViOTYyIn19fQ=='
+    slot: 17
+    display_name: '&e&lHoppers &f| Upgrade'
+    lore:
+    - '&7Go to hoppers'
+    - '&7upgrade menu.'
+    - ''
+    - '&6&l* &eRight click to go'
+    left_click_commands:
+    - '[openguimenu]  hopper'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] hopper' 
+    - '[sound] ENTITY_CHICKEN_EGG'   
+  'glass':
+    material: WHITE_STAINED_GLASS_PANE
+    data: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 10
+    - 16
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: ' '      

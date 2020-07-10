@@ -1,0 +1,42 @@
+Commands:
+  tutorial:
+    command: /tutorial
+    worlds:
+    - Spawn
+    - bskyblock_world
+    - Island
+    - Mines
+    - Tutorial
+    commands-to-execute:
+    - 'player: st play tutorial'
+  wiki:
+    command: /wiki
+    worlds:
+    - Spawn
+    - bskyblock_world
+    - Island
+    - Mines
+    - Tutorial
+    - Arena
+    - Mansion
+    commands-to-execute:
+    - 'console: ibooks open wiki %player%'
+  gkit:
+    command: /gkit
+    worlds:
+    - Spawn
+    - bskyblock_world
+    - Island
+    - Mines
+    - Tutorial
+    - Arena
+    - Mansion
+    commands-to-execute:
+    - 'console: msg %player% &fUnknown command. Type "/help" for help.'
+  block-money:
+    command: /money
+    worlds:
+    - minigames
+    - minigames2
+    commands-to-execute:
+    - 'console: msg %player% &4[Error] &cYou can''t use that command on this world'

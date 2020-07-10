@@ -1,0 +1,345 @@
+menu_title: '&e&lIsland&f | Panel'
+open_command:
+- panel
+- is
+- is panel
+- island
+- islands
+size: 45
+items:
+  globe:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFkZDRmZTRhNDI5YWJkNjY1ZGZkYjNlMjEzMjFkNmVmYTZhNmI1ZTdiOTU2ZGI5YzVkNTljOWVmYWIyNSJ9fX0
+    slot: 22
+    priority: 1
+    view_requirement:
+        requirements:
+            string_equals_ignorecase:
+                type: string equals
+                input: '%superior_island_exists%'
+                output: 'No'
+    display_name: '&e&lCreate an island'
+    lore:
+        - ''
+        - '&fDo not wait more and'
+        - '&fstart the adventure'
+        - '&fthat await you!'
+        - ''
+        - '&e&nClick to start!'
+    left_click_commands:
+        - '[player] island create <&fType in your desired island name or "cancel" to cancel.>'
+        - '[close]'
+    right_click_commands:
+        - '[player] island create <&fType in your desired island name or "cancel" to cancel.>'
+        - '[close]'
+  glass1:
+    material: BLACK_STAINED_GLASS_PANE
+    priority: 1
+    display_name: '&f'
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    view_requirement:
+        requirements:
+            string_equals_ignorecase:
+                type: string equals
+                input: '%superior_island_exists%'
+                output: 'No'
+  glass2:
+    material: PURPLE_STAINED_GLASS_PANE
+    priority: 1
+    display_name: '&f'
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    view_requirement:
+        requirements:
+            string_equals_ignorecase:
+                type: string equals
+                input: '%superior_island_exists%'
+                output: 'No'
+  'barrier1':
+    material: ORANGE_STAINED_GLASS_PANE
+    priority: 2
+    data: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    display_name: ' '
+  'barrier2':
+    material: WHITE_STAINED_GLASS_PANE
+    priority: 2
+    data: 0
+    slots:
+    - 9
+    - 11
+    - 13
+    - 15
+    - 17
+    - 18
+    - 20
+    - 22
+    - 24
+    - 26
+    - 36
+    - 37
+    - 38
+    - 42
+    - 43
+    - 44
+    display_name: ' ' 
+  'goisland':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19'
+    slot: 10
+    priority: 2
+    display_name: '&e&lGo to your island'
+    lore:
+    - '&7Teleport to your current'
+    - '&7island home.'
+    - '' 
+    - '&8This teleport position can'
+    - '&8be edited using &a/is sethome&8.'
+    - ''
+    - "&e&l* &aRight click to go"
+    left_click_commands:
+    - '[player] is go'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    right_click_commands:
+    - '[player] is go'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'challenges':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2MmExNWIwNDY5MmEyZTRiM2ZiMzY2M2JkNGI3ODQzNGRjZTE3MzJiOGViMWM3YTlmN2MwZmJmNmYifX19'
+    slot: 12
+    priority: 2
+    display_name: '&e&lChallenges'
+    lore:
+    - '&7Complete all the challenges'
+    - '&7to obtain different rewards.'
+    - ''
+    - "&e&l* &aCOMING SOON"
+    left_click_commands:
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'top':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE2OTZlMTUyMzYzYWQ0NzdlZDZjYjVhNTE4YmZlYTg0YjAzNjE0OGZlY2FjMDU4MWYzMmM1YjUzOTY5NTgifX19'
+    slot: 14
+    priority: 2
+    display_name: '&e&lGlobal Island &f| Warps'
+    lore:
+    - '&7List of all islands on GreedPixel'
+    - ''
+    - '&7See and visit the top islands'
+    - '&7and their view their high value items '
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[player] globalwarps'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[player] globalwarps'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'stats':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZlMGQ1ZmU4N2QyZDIxZTJiZGU2Mzc0NDI1YTM0MWE3NTczYjM3NWQ1YmI3ZDQ3ZjRiOGRhZTM1Mjk3ZWE0In19fQ=='
+    slot: 16
+    priority: 2
+    display_name: '&e&lIsland Stats'
+    lore:
+    - '&7View your island stats'
+    - '&7including level, block counts,'
+    - '&7and your island value'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[player] is stats'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[player] is stats'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'upgrades':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY1ZmMwNDI2MjMwYTJlODhkZjI5ZDJkOGVjNDUxMmU2ZGJkYmMwNzc3YjRiODNjZGRhMmVkZTgxODY0ZDYifX19'
+    slot: 19
+    priority: 2
+    display_name: '&e&lUpgrades'
+    lore:
+    - '&7Upgrade your island generators,'
+    - '&7members limit, size, homes..'
+    - ''
+    - '&8&l*&8 &nProgress'
+    - '   &8- %javascript_homes% &8| &eWarps'
+    - '   &8- %javascript_border% &8| &eSize'
+    - '   &8- %javascript_hopper% &8| &eHopper'
+    - '   &8- %javascript_generator% &8| &eGenerators'
+    - '   &8- %javascript_team% &8| &eTeam'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[openguimenu] isupgrades'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] isupgrades'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'biomes':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGMzYTZmNmQ0YmY4OTBkNWY4YWE5YTQ5ZTZhNzUyM2RlOWVmOGZmYzQ0MzNlNTgwNmIzNWFkY2JhYmRjIn19fQ=='
+    slot: 39
+    priority: 2
+    display_name: '&e&lIsland Control Panel'
+    lore:
+    - '&7Control the island and'
+    - '&7access to your available'
+    - '&7commands depending of your'
+    - '&7role...'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[player] is cp'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[player] is cp'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'playerwarps':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNiN2MyMWNjNDNkYzE3Njc4ZWU2ZjE2NTkxZmZhYWIxZjYzN2MzN2Y0ZjZiYmQ4Y2VhNDk3NDUxZDc2ZGI2ZCJ9fX0='
+    slot: 23
+    priority: 2
+    display_name: '&e&lIsland Visitor Settings'
+    lore:
+    - '&7View and expel the current '
+    - '&7island visitors'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[player] is visitors'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[player] is visitors'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'personal':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjAxYTU2OGViYTdlNDUzYjU1ZjE1NTQ1ZjVlMzVmZmFiODc5MWFhY2Y5MDM0YWZiYmJlNGJkZGIyMWZhNTAifX19'
+    slot: 25
+    priority: 2
+    display_name: '&e&lPersonal Island Settings'
+    lore:
+    - '&7View and change your  '
+    - '&7personal island settings'
+    - ''
+    - '&7* Color of island border'
+    - '&7* Language settings'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[player] is personal'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[player] is personal'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'team-members':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTljMzJhYThiZDc1YTQ5YmZkMWE1YjRhYzIyZGJhNGU3NDUwNDc1NTkxOTNlNGJhOTJjMTc3MzhmMzQ5MjQ5ZCJ9fX0='
+    slot: 21
+    priority: 2
+    display_name: '&e&lTeam Settings'
+    lore:
+    - "&7Edit roles and access for"
+    - '&7all members of your island.'
+    - ''
+    - '&7Current members: &a%superior_island_team_size%'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[player] is members'
+    right_click_commands:
+    - '[player] is members'
+  'close':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 40
+    priority: 2
+    display_name: '&e&lClose menu'
+    lore:
+    - '&7Right click to close'
+    - '&7the island menu.'
+    - ''
+    - "&e&l* &aRight click to close"
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  'resetisland':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU0YjhiOGQyMzYyYzg2NGUwNjIzMDE0ODdkOTRkMzI3MmE2YjU3MGFmYmY4MGMyYzViMTQ4Yzk1NDU3OWQ0NiJ9fX0='
+    slot: 41
+    priority: 2
+    display_name: '&e&lReset island'
+    lore:
+    - '&7Reset your island and start'
+    - '&7the adventure again.'
+    - ''
+    - '&8There''s no reset limits.'
+    - ''
+    - "&e&l* &aRight click to reset"
+    left_click_commands:
+    - '[player] is reset'
+    right_click_commands:
+    - '[player] is reset'

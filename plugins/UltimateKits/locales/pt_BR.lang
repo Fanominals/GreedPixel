@@ -1,0 +1,204 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&9UltimateKits&8]'
+  type:
+    command: '&7Comando'
+    chance: Probabilidade
+    category: Categoria
+    money: '&6Dinheiro'
+    link: '&9Link'
+    free: Gratuito
+# Interface Messages
+interface:
+  selector:
+    kit: '&c%kit%'
+    title: '&kits do servidor'
+    details: '&7Olá &e%player%&7!|&7esses são os kits do nosso servidor.||&7Clique no &eicone &7do &ekit |&7para poder &evisualizar, reinvidicar ou comprar&7.'
+    aboutkitprice: '&7Este kit custa &a$%price%&7.'
+    aboutkit: '&7Não consegue pegar um kit?|&7Suba de rank para ganhar acesso!'
+    leftpreview: '&6&lClique com botão esquerdo &7para pré-visualizar este kit.'
+    rightclaim: '&6&lClique com botão direito &7para reinvidicar este kit.'
+    rightbuy: '&6&lClique com botão direito &7para comprar este kit.'
+    adminlore: '&6Clique com o botão central do mouse &7para editar a posição.'
+    editlore: '&6&lModo Edição||&6Botão esquerdo &7move o kit para a esquerda|&6Botão direito &7move o kit para a direita||&6Botão central &7volta.'
+  categoryselector:
+    title: '&8Categorias de kits do servidor'
+    details: '&7Olá &e%player%&7!|&7Estes são os kits que temos disponíveis no servidor.||&7Selecione uma &ecategoria &7para ver |&7cada kit disponível.'
+    view: '&6&lClique &7para visualizar a categoria.'
+  hologram:
+    previewonly: Clique para pré-visualizar!
+    preview: Clique com o botão direito para pré-visualizar!
+    buylink: Clique com o botão esquerdo para gerar link de compra!
+    buyeco: Clique com o botão esquero para comprar por &a$%price%&f!
+    crate: Clique com o botão esquerdo e uma chave para abrir!
+    daily: Clique com o botão esquerdo para reinvidicar!
+  button:
+    buynow: '&aCompre agora'
+    back: '&9Voltar'
+    exit: '&cSaida'
+    next: '&7Próxima Página'
+    last: '&7Ultima Página'
+    clickeco: '&7Clique para comprar por &a%price%&7.'
+  preview:
+    title: '&9Pré-visualizando kit: &8%kit%'
+  yesno:
+    title: '&9Compre por &a$%price%&9?'
+    'yes': '&a&lSim'
+    'no': '&c&lNão'
+  key:
+    title: Chave para o kit &5%kit% &f
+    description1: '&rClique com botão direito'
+    description2: '&re receba o conteúdo do kit &c&l%kit%'
+    description3: '&re receba algumas partes do kit &c&l%kit%'
+    description4: '&rReceba o kit &c&l%amt% &rvezes.'
+  crate:
+    title: '&5%kit% &f%crate% caixas'
+    description1: '&rBotão direito para abrir'
+    description2: '&re receber os itens!'
+    description3: '&re receber parte dos itens!'
+    description4: '&rBotão esquerdo para pré-visualizar!'
+
+  # Administrative interfaces
+  kitblock:
+    title: '&8Contém &a%kit%'
+    switchtype: '&5&lTrocar o tipo do kit'
+    switchtypelore: '&7Clique para trocar a função deste bloco de kit. Os tipos são: Preview|Crate|Claim'
+    decor: '&9&lOpções de decoração.'
+    decorlore: '&7Clique para editar as opções |&7de decoração para este kit.'
+    edit: '&a&lEditar kit'
+    editlore: '&7Clique para editar o kit|&7armazenado neste bloco.'
+  kitdecor:
+    title: '&8Editando a decoração do kit &a%kit%&8.'
+    hologram: '&9&lMostrar Hologramas'
+    particle: '&9&lMostrar Particulas'
+    display: '&9&lMostrar Item de Exibição'
+    displayone: '&9&lMostrar item de exibição substituto'
+    displayonelore: '%enabled%||&7A Ativação desta opção substituirá|&7os items de exibição acima|&7pelo item de exibição único|&7definido nas opções de|&7GUI do kit.'
+    settingon: '&7Atualmente: &aAtivado&7.'
+    settingoff: '&7Atualmente: &cDesativado&7.'
+  kitsell:
+    title: '&8Opções de venda para &a%kit%&8.'
+    nosell: '&c&lSet não está a venda'
+    nosellon: '&7Atualmente &adisponívele&7.'
+    noselloff: '&7Atualmente &cnão disponível&7.'
+    noselllore: '%onoff%||&7Selecionando está opção irá|&7remover este kit da venda.'
+    link: '&a&lSetar link do set'
+    linkon: '&7Atualmente: &a%kit%&7.'
+    linkoff: '&7Atualmente: &cNão setado&7.'
+    linklore: '%onoff%||&7Ao clicar nesta opção|&7você poderá setar um link|&7que os players irão receber|&7quando tentarem comprar|&7este kit.'
+    linkprompt: 'Link para o kit:'
+    linknoeco: '&8Economia removida para este kit. Note que você não pode ter economia e link setados ao mesmo tempo.'
+    price: '&a&lPreço do kit'
+    priceon: '&7Atualmente: &a$%price%&7.'
+    priceoff: '&7Atualmente: &cNão foi setado&7.'
+    pricelore: '%onoff%||&7Ao clicar nesta opção|&7você poderá setar um preço|&7para que os players possam|&7comprar este kit.|&7Requer um plugin que economia compativel.&7.'
+    pricenoeco: '&8Você precisa ter um plugin de economia instalado para utilizar a economia.'
+    priceprompt: 'Setar Preço:'
+    pricenonumber: '&a%input% &8Não é um numero positivo.'
+    pricenolink: '&8LINK foi removido deste kit. Observação: Você não pode ter ECONOMIA e LINK ao mesmo tempo.'
+  kitguioptions:
+    title: '&8Menu de opções para o kit &a%kit%&8.'
+    holo: '&9&lSetar Titulo do Holograma'
+    holoon: '&7Atualmente: &a%title%&7.'
+    holooff: '&7Atualmente: &cSem título&7.'
+    hololore: '%onoff%||&7Botão esquerdo: &9Clique para setar|&9o título do kit para hologramas|&9e para os menus seletores de kit.||&7Botão direito: &9para resetar.'
+    holoprompt: 'Setar titulo:'
+    holoset: '&8Titulo &5%title%&8 foi adicionado ao kit &a%kit%&8.'
+    item: '&9&lSetar Item de exibição'
+    itemon: '&7Atualmente: &a%item%&7.'
+    itemoff: '&7Atualmente &cdesativado&7.'
+    itemlore: '%onoff%||&7Botão esquerdo: &9Para setar |&9o item que está em sua mão|&9como item de exibição deste kit.||&7Botão direito: &9Para remover o item.'
+    itemnoitem: '&8Você precisa estar segurando um item para usar essa função.'
+    itemset: '&8Item de exibição setado &a%item%&8.'
+    itemremoved: '&8Item de exibição customizado foi removido do kit &a%kit%&8.'
+    hide: '&9&lOcultar Kit'
+    hideon: '&7Atualmente: &cOculto&7.'
+    hideoff: '&7Atualmente: &aVisível&7.'
+    hidelore: '%onoff%||&7Um kit oculto não irá|&7aparecer no menu de /kit.|&7Esta opção é ótima para previnir|&7que players vejam kits que|&7não podem ser obtidos ou kits iniciais.'
+  kitoptions:
+    title: '&8Opções gerais para o kit &a%kit%&8.'
+    delay: '&9&lMudar tempo de espera'
+    delaylore: '&7Atualmente é: &a%delay%&7.||&7Utilize para alterar o tempo de espera deste kit.||&7Use &6-1 &7para fazer com que o kit possa |&7ser utilizado apenas uma vez.'
+    delayprompt: 'Tempo de espera em segundos:'
+    delaynonumber: '&a%input% &8não é um número.'
+    category: '&5&lSetar Categoria'
+    categorylore: '&7Categoria Atual: &a%category%&7.||&7Ao adicionar um kit em determinada categoria|&7os jogadores só poderão ver o  kit|&7quando acessarem aquela categoria.||&cBotão direito para remover.'
+    categoryprompt: 'Nome da categoria:'
+    notacategory: '&cNão é uma categoria...'
+    destroy: '&c&lDestruir kit'
+    destroylore: '|&7Clique para destruir/apagar este kit.'
+    destroyprompt: Digite "%kit%"
+    destroyok: '&cKit destruido/apagado com sucesso.'
+    destroycancel: '&cKit não foi destruido/apagado.'
+  kiteditor:
+    title: '&8Você está editando o kit: &9%name%&8.'
+    info: '&5&l%kit%|&fPermissões:|&7%perm%'
+    generaloptions: '&6Opções Gerais:'
+    generaloptionslore: '&7Clique para editar as|&7opções gerais.'
+    sellingoptions: '&9Opções de venda'
+    sellingoptionslore: '&7Clique para editar as|&7opções de venda.'
+    guioptions: '&5Opções do MENU GUI'
+    guioptionslore: '&7Clique para editar as opções de MENU GUI|&7para este kit.'
+    addcommand: '&fAdicionar comando.'
+    addcommandlore: '&7Clique para adicionar um comando|&7para este kit.'
+    addcommandprompt: Digite o comando (Sem /)
+    addcommandok: '&8Comando &5%command%&8 foi adicionao ao kit.'
+    addeconomy: '&6Adicionar Economia'
+    addeconomylore: '&7Clique para adicionar preço|&7ao kit.'
+    addeconomyprompt: Digite preço (Sem $)
+    addeconomyok: '&8Preço &5$%amount%&8 setado para este kit.'
+    animation: '&6Animações do Kit'
+    animationlore: '&7Atual: &6%animation%'
+    itemediting: '&6Mudar para edição de item'
+    itemeditinglore: '&7Clique para permitir|&7edição de item.'
+    itemmoving: '&6Mudar para movimentação de item.'
+    itemmovinglore: '&7Clique para voltar |&7para movimentação de item.'
+    switchtoinventory: '&6Mudar para seu inventário.'
+    switchtoinventorylore: '&7Clique para mudar para|&7o seu inventário.'
+    switchtokitfunctions: '&6Mudar para funções do kit.'
+    switchtokitfunctionslore: '&7Clique para voltar |&7para funções do kit.'
+    itemfunctionlore: '&7Item de exibição: &6%item%|&7Nome de exibição: &6%name%|&7Descrição: &6%lore%||&7Botão Esquerdo: &6Para setar um item de exibição|&7Botão do meio: &6Para setar o nome de exibição.|&7Botão direito: &6Para setar a descrição do item de exibição.|&7Clique com shift: &6Para setar a porcentagem.||&7Estas opções só podem ser visualizadas no modo de exibição.|&7Isso permite que você explique sobre o item ou kit|&7sem ter que colocar uma |&7descrição permanente.||&6Saia deste modo para mover os itens.'
+    saved: '&As alterações no &a%kit% &8foram salvas.'
+# Command Messages
+command:
+  general:
+    noperms: '&cVocê não tem permissão para isso.'
+  kit:
+    nokitsupplied: '&7Por favor, inclua um kit para pré-visualizar.'
+    kitdoesntexist: '&cEsse kit não existe.'
+    nokitatblock: '&8Esse bloco não contem um kit.'
+    kitalreadyexists: '&cEsse kit já existe.'
+    playernotfound: '&cJogador não está online ou não existe.'
+  crate:
+    given: '&9Deu  ao jogador &7%player% &9ca crate &7%crate% &9para o kit &7%kit%.'
+    doesntexist: '&cEsta crate não foi carregada no sistema.'
+# Event Messages
+event:
+  preview:
+    kit: '&9Você está pré-visualizando o kit &7%kit%&9.'
+  crate:
+    notyet: '&cVocê precisa esperar &4%time% &cpara usar novamente.'
+    wrongkey: '&cEssa chave não é para este kit.'
+    success: '&9Abriu a crate com sucesso.'
+    given: '&9Você recebeu uma %crate% para o kit %kit%'
+  claim:
+    cannotafford: '&9Sem dinheiro suficiente para comprar este kit - &7%kit%&9.'
+    nottwice: '&9Só pode pegar este kit uma vez.'
+    purchasesuccess: '&9Você comprou o kit &7%kit%&9.'
+    givesuccess: '&9Você recebeu o kit &7%kit%&9.'
+    delay: '&cVocê precisa esperar &4%time% &cantes de usar novamente.'
+    eco: '&7Você recebeu &a%amt%&7.'
+    once: '&7Cooldown: &6Você ja reinvidicou este kit.!'
+    ready: '&7Cooldown: &6Pronto para usar!'
+    wait: '&7Cooldown: &6Aguarde %time%'
+    noaccess: '&7Cooldown: &cSem acesso.'
+    full: '&cEsvazie seu inventário antes de reinvicar este kit,'
+  create:
+    won: '&7Você recebeu &6%item%&7.'
+  purchase:
+    cancelled: '&cCompra cancelada.'
+  key:
+    given: '&9Você recebeu uma chave para o kit &a%kit%.'
+    success: '&9Você reinvidicou uma chave para o kit &7%kit%&9.'

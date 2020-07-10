@@ -1,0 +1,48 @@
+menu_title: '&e&lGlobal Island &f| Warps'
+open_command:
+- globalwarps
+inventory_type: "HOPPER"
+size: 54
+items:
+  'playerwarps':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNiN2MyMWNjNDNkYzE3Njc4ZWU2ZjE2NTkxZmZhYWIxZjYzN2MzN2Y0ZjZiYmQ4Y2VhNDk3NDUxZDc2ZGI2ZCJ9fX0='
+    slot: 1
+    display_name: '&e&lPlayer''s warps'
+    lore:
+    - '&7Teleport to other player''s'
+    - '&7islands.'
+    - ''
+    - '&7Also accessible via &e/is warps'
+    - ''
+    - '&7Create a &awarp &7placing a'
+    - '&7sign with the text: &a[WELCOME]'
+    - '&7in the first line.'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[player] is warps'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[player] is warps'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'top':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE2OTZlMTUyMzYzYWQ0NzdlZDZjYjVhNTE4YmZlYTg0YjAzNjE0OGZlY2FjMDU4MWYzMmM1YjUzOTY5NTgifX19'
+    slot: 3
+    display_name: '&e&lTop | Islands'
+    lore:
+    - '&7List of the members with the'
+    - '&7most valuable island.'
+    - ''
+    - '&7Also accessible via &e/is top'
+    - ''
+    - '&8&l* Ordered by block values'
+    - '&8Increase your island level placing &ablocks&8.'
+    - '&8with high values.'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[player] is top'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[player] is top'
+    - '[sound] ENTITY_CHICKEN_EGG'

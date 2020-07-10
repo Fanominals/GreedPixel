@@ -1,0 +1,163 @@
+menu_title: '&e&lUpgrades &f| Island'
+open_command:
+size: 45
+items:
+  'glass2':
+    material: ORANGE_STAINED_GLASS_PANE
+    data: 0
+    slots:
+    - 9
+    - 10
+    - 12
+    - 14
+    - 16
+    - 17
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    display_name: '&f'
+  'glass':
+    material: WHITE_STAINED_GLASS_PANE
+    data: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    display_name: '&f'  
+  'size-up':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU3OGNhNDdjYTk2NjdjN2U1ZDc5NjUwZGQzY2MzYTdlMjVlMGQyZGE2ZjIxOThjMmQ4OWUyNGIzYjM4OWQ5In19fQ=='
+    slot: 11
+    display_name: '&e&lSize'
+    lore:
+    - '&7Upgrade your island size'
+    - '&7to expand your border.'
+    - ''
+    - '&8&l* &8&nProgress'
+    - '&8 | %javascript_border%'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[openguimenu] size'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] size'    
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'gen-up':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0='
+    slot: 30
+    display_name: '&e&lGenerators'
+    lore:
+    - '&7Upgrade your generators'
+    - '&7to obtain better ores.'
+    - ''
+    - '&8&l* &8&nProgress'
+    - '&8 | %javascript_generator%'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[openguimenu] generator'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] generator'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'team-up':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTljMzJhYThiZDc1YTQ5YmZkMWE1YjRhYzIyZGJhNGU3NDUwNDc1NTkxOTNlNGJhOTJjMTc3MzhmMzQ5MjQ5ZCJ9fX0='
+    slot: 13
+    display_name: '&e&lMembers'
+    lore:
+    - '&7Upgrade your members size'
+    - '&7to make your team bigger.'
+    - ''
+    - '&8&l* &8&nProgress'
+    - '&8 | %javascript_team%'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[openguimenu] team'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] team'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'home-up':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRjYmJhNmM3NTFkYWI1ZjJiMzA5YmM1OTQxZThlYTc5ODc3Y2NlNDI1NjkzNmExODk4MTFlZDdlYzM2ZDI1YyJ9fX0='
+    slot: 15
+    display_name: '&e&lWarps'
+    lore:
+    - '&7Upgrade to increase the'
+    - '&7limit of island warps '
+    - '&7available that you can set.'
+    - ''
+    - '&8&l* &8&nProgress'
+    - '&8 | %javascript_homes%'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[openguimenu] warp'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] warp'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'hopper':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRjYmJhNmM3NTFkYWI1ZjJiMzA5YmM1OTQxZThlYTc5ODc3Y2NlNDI1NjkzNmExODk4MTFlZDdlYzM2ZDI1YyJ9fX0='
+    slot: 32
+    display_name: '&e&lHoppers'
+    lore:
+    - '&7Upgrade to increase the'
+    - '&7limit of hoppers available'
+    - '&7that you can haves.'
+    - ''
+    - '&8&l* &8&nProgress'
+    - '&8 | %javascript_hopper%'
+    - ''
+    - "&e&l* &aRight click to open"
+    left_click_commands:
+    - '[openguimenu] hopper'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] hopper'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'close':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU4YmE3ODYzYjE1YTVlNDBmYTdkYTk2MjliYjg2NmFhMjI2OTk1NTNlOTMxZGYxZjY5M2NiYjFjOWYzYjYifX19'
+    slot: 44
+    display_name: '&e&lGo to island menu'
+    lore:
+    - '&7Go back to the'
+    - '&7main island menu.'
+    - ''
+    - "&e&l* &aRight click to go back"
+    left_click_commands:
+    - '[openguimenu] ispanel'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] ispanel'
+    - '[sound] ENTITY_CHICKEN_EGG'

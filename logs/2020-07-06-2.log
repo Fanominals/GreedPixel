@@ -1,0 +1,1304 @@
+[16:13:14] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[16:13:14] [Server thread/INFO]: Loading properties
+[16:13:15] [Server thread/INFO]: This server is running Paper version git-Paper-373 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[16:13:15] [Server thread/INFO]: Debug logging is disabled
+[16:13:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:13:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:13:15] [Server thread/INFO]: Default game type: SURVIVAL
+[16:13:15] [Server thread/INFO]: Generating keypair
+[16:13:15] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[16:13:15] [Server thread/INFO]: Using default channel type
+[16:13:15] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:13:17] [Server thread/WARN]: Legacy plugin BeautyIndicator v1.9 does not specify an api-version.
+[16:13:18] [Server thread/WARN]: Legacy plugin PrefixSystem v2.6 does not specify an api-version.
+[16:13:18] [Server thread/WARN]: Legacy plugin DivineDrop v2.5.7 does not specify an api-version.
+[16:13:18] [Server thread/WARN]: Legacy plugin PerWorldPluginsPremium v1.7.5 does not specify an api-version.
+[16:13:18] [Server thread/WARN]: Legacy plugin CustomJoinMessages v14.0.0-SNAPSHOT-1.0 does not specify an api-version.
+[16:13:18] [Server thread/WARN]: Legacy plugin CoinFlipper v2.62 does not specify an api-version.
+[16:13:18] [Server thread/WARN]: Legacy plugin Multiverse-Core v2.5-b719 does not specify an api-version.
+[16:13:19] [Server thread/WARN]: Legacy plugin SkyblockRebornCore v1.0-SNAPSHOT does not specify an api-version.
+[16:13:19] [Server thread/WARN]: Legacy plugin ServerTutorialPlus v1.21.3 does not specify an api-version.
+[16:13:19] [Server thread/INFO]: [AntiCooldown] Loading AntiCooldown v3.4
+[16:13:19] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.6
+[16:13:19] [Server thread/INFO]: [BeautyIndicator] Loading BeautyIndicator v1.9
+[16:13:19] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[16:13:19] [Server thread/INFO]: [WorldCommands] Loading WorldCommands v1.4.2
+[16:13:19] [Server thread/INFO]: [RawMsg] Loading RawMsg v1.7.0
+[16:13:19] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.1.26
+[16:13:19] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[16:13:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@19e29464]
+[16:13:19] [Server thread/INFO]: [AutoSmelt] Loading AutoSmelt v1.0
+[16:13:19] [Server thread/INFO]: [BuycraftX] Loading BuycraftX v12.0.6
+[16:13:19] [Server thread/INFO]: [Votifier] Loading Votifier v2.7.1
+[16:13:19] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.1-SNAPSHOT-b451
+[16:13:19] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.15.2) has not yet been tested! Proceed with caution.
+[16:13:19] [Server thread/INFO]: [PrefixSystem] Loading PrefixSystem v2.6
+[16:13:19] [Server thread/INFO]: [Vouchers] Loading Vouchers v1.8.11-RELEASE
+[16:13:19] [Server thread/INFO]: [VoidGenerator] Loading VoidGenerator v1.6.0
+[16:13:19] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.1-Release
+[16:13:19] [Server thread/INFO]: [DivineDrop] Loading DivineDrop v2.5.7
+[16:13:19] [Server thread/INFO]: [InteractiveBooks] Loading InteractiveBooks v1.4.9
+[16:13:19] [Server thread/INFO]: [PerWorldPluginsPremium] Loading PerWorldPluginsPremium v1.7.5
+[16:13:19] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[16:13:19] [Server thread/INFO]: [EpicRename] Loading EpicRename v3.7.1
+[16:13:19] [Server thread/INFO]: [CommandDoesNotExist] Loading CommandDoesNotExist v3.4.6
+[16:13:19] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.1
+[16:13:19] [Server thread/INFO]: [PlayerVaults] Loading PlayerVaults v4.1.11
+[16:13:19] [Server thread/INFO]: [ShopGUIPlus] Loading ShopGUIPlus v1.29.2
+[16:13:19] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
+[16:13:19] [Server thread/INFO]: [CustomJoinMessages] Loading CustomJoinMessages v14.0.0-SNAPSHOT-1.0
+[16:13:19] [Server thread/INFO]: [CoinFlipper] Loading CoinFlipper v2.62
+[16:13:19] [Server thread/INFO]: [DeluxeChat] Loading DeluxeChat v1.15.0
+[16:13:19] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.26-SNAPSHOT (build 1935)
+[16:13:19] [Server thread/INFO]: [UltimateKits] Loading UltimateKits v2.6.5
+[16:13:19] [Server thread/INFO]: [SellStick] Loading SellStick v1.15.2v4
+[16:13:19] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
+[16:13:19] [Server thread/INFO]: [SuperMobCoins] Loading SuperMobCoins v2.2.5
+[16:13:19] [Server thread/INFO]: [CitizensCMD] Loading CitizensCMD v2.4
+[16:13:19] [Server thread/INFO]: [BeastWithdraw] Loading BeastWithdraw v2.8.1
+[16:13:19] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.0
+[16:13:19] [Server thread/INFO]: [TitleManager] Loading TitleManager v2.2.7
+[16:13:19] [Server thread/INFO]: [SuperiorSkyblock2] Loading SuperiorSkyblock2 v1.0.0
+[16:13:19] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
+[16:13:19] [Server thread/INFO]: [AdvancedOreGen] Loading AdvancedOreGen v1.6.35-SNAPSHOT
+[16:13:19] [Server thread/INFO]: [MobArena] Loading MobArena v0.104.2
+[16:13:19] [Server thread/INFO]: [TabList] Loading TabList v5.4.1
+[16:13:19] [Server thread/INFO]: [CubCustomDrops] Loading CubCustomDrops v4.5.1
+[16:13:19] [Server thread/INFO]: [SkyblockRebornCore] Loading SkyblockRebornCore v1.0-SNAPSHOT
+[16:13:19] [Server thread/INFO]: [InfiniteScoreboard] Loading InfiniteScoreboard v2.1.1
+[16:13:19] [Server thread/INFO]: [Server Tutorial Plus] Loading ServerTutorialPlus v1.21.3
+[16:13:19] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[16:13:19] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v4.9.0-3254
+[16:13:19] [Server thread/INFO]: [WorldGuardExtraFlags] Loading WorldGuardExtraFlags v4.1.3
+[16:13:19] [Server thread/INFO]: [WorldEditSUI] Loading WorldEditSUI v1.7.1
+[16:13:19] [Server thread/INFO]: [AdvancedEnchantments] Loading AdvancedEnchantments v7.5.3
+[16:13:19] [Server thread/INFO]: [FogusCore] Loading FogusCore v1.9.9
+[16:13:19] [Server thread/INFO]: [GoldenCrates] Loading GoldenCrates v3.9.2
+[16:13:19] [Server thread/INFO]: [VoidChest-1.4.6] Loading VoidChest v1.4.6
+[16:13:19] [Server thread/INFO]: [UltimateStacker] Loading UltimateStacker v1.11.12
+[16:13:19] [Server thread/INFO]: [EpicSpawners] Loading EpicSpawners v6.3.9
+[16:13:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:13:19] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.1.26
+[16:13:19] [Server thread/INFO]:         __    
+[16:13:19] [Server thread/INFO]:   |    |__)   LuckPerms v5.1.26
+[16:13:19] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:13:19] [Server thread/INFO]: 
+[16:13:19] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:13:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:13:20] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:13:20] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:13:20] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 961ms)
+[16:13:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[16:13:20] [Server thread/WARN]: [WorldEdit] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[16:13:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:13:20] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[16:13:21] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.1-SNAPSHOT-b451
+[16:13:21] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[16:13:21] [Server thread/INFO]: [VoidGenerator] Enabling VoidGenerator v1.6.0
+[16:13:21] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[16:13:21] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[16:13:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:13:21] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:13:21] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[16:13:21] [Server thread/WARN]: [LuckPerms] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[16:13:21] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:13:21] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:13:21] [Server thread/INFO]: [FogusCore] Enabling FogusCore v1.9.9
+[16:13:21] [Server thread/WARN]: [FogusCore] *** DISCLAIMER ***
+[16:13:21] [Server thread/WARN]: [FogusCore] > You're running an unofficial Spigot fork.
+[16:13:21] [Server thread/WARN]: [FogusCore] > ONLY OFFICIAL SPIGOT (spigotmc.org) IS SUPPORTED!
+[16:13:21] [Server thread/WARN]: [FogusCore] > You won't get any support for any issues unless they are persists on regular Spigot.
+[16:13:21] [Server thread/INFO]: [FogusCore] Loaded NMS version: V1_15_R1
+[16:13:21] [Server thread/INFO]: [FogusCore] Successfully hooked with LuckPerms permissions
+[16:13:21] [Server thread/INFO]: [FogusCore] Successfully hooked with Essentials Economy economy
+[16:13:21] [Server thread/INFO]: [FogusCore] Successfully hooked with LuckPerms chat
+[16:13:21] [Server thread/INFO]: [FogusCore] [Hook] Vault: Success!
+[16:13:21] [Server thread/INFO]: [FogusCore] Loaded module: Statistics v1.01 in 2 ms.
+[16:13:21] [Server thread/INFO]: [FogusCore] Plugin loaded in 76 ms!
+[16:13:21] [Server thread/INFO]: Preparing level "Spawn"
+[16:13:21] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[16:13:21] [Server thread/INFO]: Loaded 6 recipes
+[16:13:21] [Server thread/INFO]: -------- World Settings For [Spawn] --------
+[16:13:21] [Server thread/INFO]: View Distance: 10
+[16:13:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[16:13:21] [Server thread/INFO]: Mob Spawn Range: 8
+[16:13:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:13:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:13:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:13:21] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:13:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:13:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:13:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:13:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:13:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:13:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:13:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:13:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:13:21] [Server thread/INFO]: Max TNT Explosions: 100
+[16:13:21] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:13:22] [Server thread/INFO]: -------- World Settings For [Spawn_nether] --------
+[16:13:22] [Server thread/INFO]: View Distance: 10
+[16:13:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[16:13:22] [Server thread/INFO]: Mob Spawn Range: 8
+[16:13:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:13:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:13:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:13:22] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:13:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:13:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:13:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:13:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:13:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:13:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:13:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:13:22] [Server thread/INFO]: Max TNT Explosions: 100
+[16:13:22] [Server thread/INFO]: -------- World Settings For [Spawn_the_end] --------
+[16:13:22] [Server thread/INFO]: View Distance: 10
+[16:13:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[16:13:22] [Server thread/INFO]: Mob Spawn Range: 8
+[16:13:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:13:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:13:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:13:22] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:13:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:13:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:13:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:13:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:13:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:13:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:13:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:13:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:13:22] [Server thread/INFO]: Max TNT Explosions: 100
+[16:13:22] [Server thread/INFO]: Preparing start region for dimension 'Spawn'/minecraft:overworld
+[16:13:22] [Server thread/INFO]: Loaded 0 spawn chunks for world Spawn
+[16:13:22] [Server thread/INFO]: Preparing spawn area: 0%
+[16:13:22] [Server thread/INFO]: Time elapsed: 447 ms
+[16:13:22] [Server thread/INFO]: Preparing start region for dimension 'Spawn_nether'/minecraft:the_nether
+[16:13:22] [Server thread/INFO]: Loaded 0 spawn chunks for world Spawn_nether
+[16:13:22] [Server thread/INFO]: Preparing spawn area: 0%
+[16:13:22] [Server thread/INFO]: Time elapsed: 89 ms
+[16:13:22] [Server thread/INFO]: Preparing start region for dimension 'Spawn_the_end'/minecraft:the_end
+[16:13:22] [Server thread/INFO]: Loaded 0 spawn chunks for world Spawn_the_end
+[16:13:22] [Server thread/INFO]: Time elapsed: 68 ms
+[16:13:22] [Server thread/INFO]: [AntiCooldown] Enabling AntiCooldown v3.4
+[16:13:22] [Server thread/INFO]: [AntiCooldownLogger] The Plugin will be activated ...
+[16:13:22] [Server thread/INFO]: [AntiCooldownLogger] ==================================================
+[16:13:22] [Server thread/INFO]: [AntiCooldownLogger] JOIN MY DISCORD NOW: https://discord.gg/73ZDfbx
+[16:13:22] [Server thread/INFO]: [AntiCooldownLogger] ==================================================
+[16:13:22] [Server thread/INFO]: [AntiCooldownLogger] Config values are loaded into the cache ...
+[16:13:22] [Server thread/INFO]: [AntiCooldownLogger] World YourWorldName disabled!
+[16:13:22] [Server thread/INFO]: [AntiCooldownLogger] Config values were successfully cached!
+[16:13:22] [Server thread/INFO]: [AntiCooldownLogger] Listeners will be registered ...
+[16:13:22] [Server thread/INFO]: [AntiCooldownLogger] Listeners have been successfully registered!
+[16:13:22] [Server thread/INFO]: [AntiCooldownLogger] Commands will be registered ...
+[16:13:22] [Server thread/INFO]: [AntiCooldownLogger] Commands have been successfully registered!
+[16:13:22] [Server thread/INFO]: [AntiCooldownLogger] Checking for updates ...
+[16:13:23] [Server thread/INFO]: [AntiCooldownLogger] No update available!
+[16:13:23] [Server thread/INFO]: [AntiCooldownLogger] Load and activate bStats ...
+[16:13:23] [Server thread/INFO]: [AntiCooldownLogger] bStats was successfully loaded and activated!
+[16:13:23] [Server thread/INFO]: [AntiCooldownLogger] The plugin was successfully activated!
+[16:13:23] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.6
+[16:13:23] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:13:23] [Server thread/INFO]: [BeautyIndicator] Enabling BeautyIndicator v1.9*
+[16:13:23] [Server thread/INFO]: [BeautyIndicator] Plugin successfully enabled!
+[16:13:23] [Server thread/INFO]: [BeautyIndicator] Spigot page: https://www.spigotmc.org/resources/.57546/
+[16:13:23] [Server thread/INFO]: [BeautyIndicator] Author: Rixafy [https://rixafy.pro]
+[16:13:23] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[16:13:23] [Server thread/INFO]: [WorldCommands] Enabling WorldCommands v1.4.2
+[16:13:23] [Server thread/INFO]: [WorldCommands] Has been enabled! Version: 1.4.2
+[16:13:23] [Server thread/INFO]: [WorldCommands] Thanks for using my plugin!  ~Ajneb97
+[16:13:23] [Server thread/INFO]: [RawMsg] Enabling RawMsg v1.7.0
+[16:13:23] [Server thread/INFO]: [RawMsg] RawMsg has been Loaded
+[16:13:23] [Server thread/INFO]: [AutoSmelt] Enabling AutoSmelt v1.0
+[16:13:23] [Server thread/WARN]: [AutoSmelt] Loaded class com.sk89q.worldguard.bukkit.WorldGuardPlugin from WorldGuard v7.0.2-SNAPSHOT;bf2593e which is not a depend, softdepend or loadbefore of this plugin.
+[16:13:23] [Server thread/WARN]: [AutoSmelt] Loaded class com.sk89q.worldedit.bukkit.WorldEditPlugin from WorldEdit v7.1.0;8e55131 which is not a depend, softdepend or loadbefore of this plugin.
+[16:13:23] [Server thread/INFO]: [AutoSmelt Log] WorldGuard functionality added
+[16:13:23] [Server thread/INFO]: [AutoSmelt Log] Starting AutoSmelt
+[16:13:23] [Server thread/INFO]: [BuycraftX] Enabling BuycraftX v12.0.6
+[16:13:23] [Server thread/INFO]: [BuycraftX] Validating your server key...
+[16:13:23] [Server thread/WARN]: [BuycraftX] Loaded class kotlin.Unit from BeautyIndicator v1.9 which is not a depend, softdepend or loadbefore of this plugin.
+[16:13:24] [Server thread/INFO]: [BuycraftX] Fetching all server packages...
+[16:13:24] [Server thread/INFO]: [Votifier] Enabling Votifier v2.7.1
+[16:13:24] [Server thread/INFO]: [Votifier] Loaded token for website: default
+[16:13:25] [Server thread/INFO]: [Votifier] Using NIO transport to accept votes.
+[16:13:25] [Server thread/INFO]: [Votifier] Method none selected for vote forwarding: Votes will not be received from a forwarder.
+[16:13:25] [Server thread/INFO]: [PrefixSystem] Enabling PrefixSystem v2.6*
+[16:13:25] [Votifier NIO boss/INFO]: [Votifier] Votifier enabled on socket /0:0:0:0:0:0:0:0:8192.
+[16:13:25] [Server thread/INFO]: [PrefixSystem] The plugin has been: ENABLED
+[16:13:25] [Server thread/INFO]: [Vouchers] Enabling Vouchers v1.8.11-RELEASE
+[16:13:25] [Server thread/INFO]: [Vouchers] Loading the Config.yml
+[16:13:25] [Server thread/INFO]: [Vouchers] Successfully loaded Config.yml
+[16:13:25] [Server thread/INFO]: [Vouchers] Loading the Data.yml
+[16:13:25] [Server thread/INFO]: [Vouchers] Successfully loaded Data.yml
+[16:13:25] [Server thread/INFO]: [Vouchers] Loading the Messages.yml
+[16:13:25] [Server thread/INFO]: [Vouchers] Successfully loaded Messages.yml
+[16:13:25] [Server thread/INFO]: [Vouchers] Loading the VoucherCodes.yml
+[16:13:25] [Server thread/INFO]: [Vouchers] Successfully loaded VoucherCodes.yml
+[16:13:25] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.1-Release
+[16:13:25] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
+[16:13:25] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:13:25] [Server thread/INFO]: [DeluxeMenus] 14 GUI menus loaded!
+[16:13:25] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[16:13:25] [Server thread/WARN]: [DeluxeMenus] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[16:13:25] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault for economy requirement!
+[16:13:25] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup
+[16:13:25] [Server thread/INFO]: [DivineDrop] Enabling DivineDrop v2.5.7*
+[16:13:25] [Server thread/INFO]: [InteractiveBooks] Enabling InteractiveBooks v1.4.9
+[16:13:25] [Thread-19/INFO]: New version '2.5.9' detected.
+[16:13:25] [Thread-19/INFO]: Please update it on: https://www.spigotmc.org/resources/51715/
+[16:13:25] [Server thread/INFO]: [InteractiveBooks] [ACF] Enabled Asynchronous Tab Completion Support!
+[16:13:25] [Server thread/INFO]: [PerWorldPluginsPremium] Enabling PerWorldPluginsPremium v1.7.5*
+[16:13:25] [Server thread/INFO]: [EpicRename] Enabling EpicRename v3.7.1
+[16:13:25] [Server thread/INFO]: [EpicRename] Version: 3.7.1 MC Version: NEWER_THAN_ONE_DOT_EIGHT
+[16:13:25] [Server thread/INFO]: [EpicRename] This plugin is Copyright (c) 2020 Justin "JustBru00" Brubaker. This plugin is licensed under the MPL v2.0. You can view a copy of it at: http://bit.ly/2eMknxx
+[16:13:25] [Server thread/INFO]: [EpicRename] Starting to enable plugin...
+[16:13:25] [Server thread/INFO]: [EpicRename] Prefix set to: '[EpicRename] '
+[16:13:25] [Server thread/INFO]: [EpicRename] Plugin Enabled!
+[16:13:25] [Server thread/INFO]: [CommandDoesNotExist] Enabling CommandDoesNotExist v3.4.6
+[16:13:25] [Server thread/INFO]: [CDNE] [32m[CDNE] ProcotolLib found[0m
+[16:13:25] [Server thread/INFO]: [CDNE] [32m[CDNE] CommandDoesNotExist version 3.4.6 is Enabled[0m
+[16:13:25] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.1
+[16:13:25] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[16:13:25] [Server thread/INFO]: [PlayerVaults] Enabling PlayerVaults v4.1.11
+[16:13:27] [Server thread/INFO]: [PlayerVaults] Loaded lang for english
+[16:13:27] [Server thread/INFO]: [PlayerVaults] Loaded! Took 59ms
+[16:13:27] [Server thread/INFO]: [ShopGUIPlus] Enabling ShopGUIPlus v1.29.2
+[16:13:27] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading sounds (config.yml), no sounds loaded
+[16:13:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
+[16:13:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:13:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:13:27] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[16:13:27] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[16:13:27] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[16:13:27] [Server thread/INFO]: [Essentials] Loaded 21018 items from items.json.
+[16:13:27] [Server thread/INFO]: [Essentials] Using locale en_US
+[16:13:27] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:13:27] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:13:27] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[16:13:27] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[16:13:27] [Server thread/INFO]: [CustomJoinMessages] Enabling CustomJoinMessages v14.0.0-SNAPSHOT-1.0*
+[16:13:27] [Server thread/INFO]:  _____    _______   _________ 
+[16:13:27] [Server thread/INFO]: |  ___|  |_______| |  _   _  |
+[16:13:27] [Server thread/INFO]: | |         | |    | | | | | |
+[16:13:27] [Server thread/INFO]: | |         | |    | | | | | |
+[16:13:27] [Server thread/INFO]: | |___    __| |    | | |_| | |
+[16:13:27] [Server thread/INFO]: |_____|  |____|    |_|     |_|
+[16:13:27] [Server thread/INFO]: by Insprill
+[16:13:27] [Server thread/INFO]: PlaceHolderAPI Hooked.
+[16:13:27] [Server thread/INFO]: Vault Hooked.
+[16:13:27] [Server thread/INFO]: Custom Join Messages has successfuly started! Total time taken: 8 ms
+[16:13:27] [Server thread/INFO]: [CustomJoinMessages] ==================================================
+[16:13:27] [Server thread/INFO]: [CustomJoinMessages] CJM 14.1.5 is available! Your version: 14.0.0-SNAPSHOT-1.0
+[16:13:27] [Server thread/INFO]: [CustomJoinMessages] Download the latest version here:
+[16:13:27] [Server thread/INFO]: [CustomJoinMessages] https://www.spigotmc.org/resources/71608/
+[16:13:27] [Server thread/INFO]: [CustomJoinMessages] ==================================================
+[16:13:27] [Server thread/INFO]: [CoinFlipper] Enabling CoinFlipper v2.62*
+[16:13:27] [Server thread/INFO]: [CoinFlipper] Could not check version of CoinFlipper. Version checking is not supported at 1.14+.[CoinFlipper] Connecting to SQLite...
+[16:13:27] [Server thread/INFO]: [DeluxeChat] Enabling DeluxeChat v1.15.0
+[16:13:27] [Server thread/INFO]: [DeluxeChat] 11 formats loaded!
+[16:13:27] [Server thread/INFO]: [DeluxeChat] Loading DeluxeChat messages.yml
+[16:13:27] [Server thread/INFO]: [DeluxeChat] Detected Vault
+[16:13:27] [Server thread/INFO]: [DeluxeChat] Hooked into Vault
+[16:13:27] [Server thread/INFO]: ----------------------------
+[16:13:27] [Server thread/INFO]:      DeluxeChat Updater
+[16:13:27] [Server thread/INFO]:  
+[16:13:27] [Server thread/INFO]: An update for DeluxeChat has been found!
+[16:13:27] [Server thread/INFO]: DeluxeChat 1.16.0
+[16:13:27] [Server thread/INFO]: You are running 1.15.0
+[16:13:27] [Server thread/INFO]:  
+[16:13:27] [Server thread/INFO]: Download at http://www.spigotmc.org/resources/deluxechat.1277/
+[16:13:27] [Server thread/INFO]: ----------------------------
+[16:13:27] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.26-SNAPSHOT (build 1935)
+[16:13:28] [Server thread/INFO]: [FogusCore] [Hook] Citizens: Success!
+[16:13:28] [Server thread/INFO]: [UltimateKits] Enabling UltimateKits v2.6.5
+[16:13:28] [Server thread/INFO]:  
+[16:13:28] [Server thread/INFO]: =============================
+[16:13:28] [Server thread/INFO]: UltimateKits 2.6.5 by Songoda <3!
+[16:13:28] [Server thread/INFO]: Action: Enabling...
+[16:13:28] [Server thread/INFO]: [UltimateKits] Loaded locale "en_US"
+[16:13:28] [Server thread/INFO]: [SongodaCore] Hooked UltimateKits.
+[16:13:28] [Server thread/INFO]: [UltimateKits] Data handler connected using SQLite.
+[16:13:28] [Server thread/INFO]: =============================
+[16:13:28] [Server thread/INFO]:  
+[16:13:28] [Server thread/INFO]: [SellStick] Enabling SellStick v1.15.2v4
+[16:13:28] [Server thread/INFO]: [SellStick] Essentials was found
+[16:13:28] [Server thread/WARN]: [SellStick] ShopGUI+ was found but not enabled in the config!
+[16:13:28] [Server thread/INFO]: Using ShopGUI worth for prices
+[16:13:28] [Server thread/INFO]: [HolographicExtension] Enabling HolographicExtension v1.10.9
+[16:13:28] [Server thread/INFO]: [HolographicExtension] Starting HolographicExtension v1.10.9
+[16:13:28] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'example' from config.
+[16:13:28] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'scroller' from config.
+[16:13:28] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'typing' from config.
+[16:13:28] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'rainbow' from config.
+[16:13:28] [Server thread/INFO]: [SuperMobCoins] Enabling SuperMobCoins v2.2.5
+[16:13:28] [Server thread/WARN]: [SuperMobCoins] Loaded class directleaks.Loader from PlayerVaults v4.1.11 which is not a depend, softdepend or loadbefore of this plugin.
+[16:13:28] [Server thread/INFO]: [CitizensCMD] Enabling CitizensCMD v2.4
+[16:13:28] [Server thread/INFO]: [CitizensCMD] CitizensCMD 2.4 By Mateus Moreira @LichtHund
+[16:13:28] [Server thread/INFO]: [CitizensCMD] Using English messages!
+[16:13:28] [Server thread/INFO]: [CitizensCMD] Using PlaceholderAPI!
+[16:13:28] [Server thread/INFO]: [CitizensCMD] Using Vault!
+[16:13:28] [Server thread/INFO]: [CitizensCMD] A new version of CitizensCMD is now available:
+[16:13:28] [Server thread/INFO]: [CitizensCMD] https://www.spigotmc.org/resources/30224
+[16:13:28] [Server thread/INFO]: [BeastWithdraw] Enabling BeastWithdraw v2.8.1
+[16:13:28] [Server thread/INFO]: [BeastWithdraw] /XpBottle command aliases [xpb, beastxpb, bottle] are regitered
+[16:13:28] [Server thread/INFO]: [BeastWithdraw] /bWithdraw command aliases [cashnote, withdraw, moneywithdraw, moneynote] are regitered
+[16:13:28] [Server thread/INFO]: [BeastWithdraw] Version 2.8.1 : has been enabled!
+[16:13:28] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.2.0
+[16:13:28] [Server thread/INFO]: [TitleManager] Enabling TitleManager v2.2.7
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Enabling SuperiorSkyblock2 v1.0.0
+[16:13:29] [Server thread/INFO]: -------- World Settings For [Islands] --------
+[16:13:29] [Server thread/INFO]: View Distance: 10
+[16:13:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[16:13:29] [Server thread/INFO]: Mob Spawn Range: 8
+[16:13:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:13:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:13:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:13:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:13:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:13:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:13:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:13:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:13:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:13:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:13:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:13:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:13:29] [Server thread/INFO]: Max TNT Explosions: 100
+[16:13:29] [Server thread/INFO]: Preparing start region for dimension 'Islands'/minecraft:overworld
+[16:13:29] [Server thread/INFO]: Loaded 0 spawn chunks for world Islands
+[16:13:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:13:29] [Server thread/INFO]: Time elapsed: 206 ms
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission woodcutter
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission cobble-miner
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission birthday
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission first-island
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission first-invite
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission mobs-killer
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission enchanter
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission add-member
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission 10k-worth
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission dragon-killer
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Loading messages started...
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2]  - Found 518 messages in the language files.
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Loading messages done (Took 45ms)
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic normal.schematic (SuperiorSkyblock)
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Trying to connect to SQLite database...
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Successfully established connection with SQLite database!
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load players...
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Finished players!
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load islands...
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Finished islands!
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load grid...
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Finished grid!
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load stacked blocks...
+[16:13:29] [Server thread/INFO]: [SuperiorSkyblock2] Finished stacked blocks!
+[16:13:30] [Server thread/INFO]: [SuperiorSkyblock2] 
+[16:13:30] [Server thread/INFO]: [SuperiorSkyblock2] A new version is available (v1.1.1)!
+[16:13:30] [Server thread/INFO]: [SuperiorSkyblock2] Version's description: "1.16 support, blocks placement missions, bug fixing & more!"
+[16:13:30] [Server thread/INFO]: [SuperiorSkyblock2] 
+[16:13:30] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719*
+[16:13:30] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v2.5-b719" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--].
+[16:13:30] [Server thread/INFO]: -------- World Settings For [Tutorial] --------
+[16:13:30] [Server thread/INFO]: View Distance: 10
+[16:13:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[16:13:30] [Server thread/INFO]: Mob Spawn Range: 8
+[16:13:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:13:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:13:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:13:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:13:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:13:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:13:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:13:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:13:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:13:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:13:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:13:30] [Server thread/INFO]: Max TNT Explosions: 100
+[16:13:30] [Server thread/INFO]: Preparing start region for dimension 'Tutorial'/minecraft:overworld
+[16:13:30] [Server thread/INFO]: Loaded 0 spawn chunks for world Tutorial
+[16:13:30] [Server thread/INFO]: Preparing spawn area: 0%
+[16:13:30] [Server thread/INFO]: Time elapsed: 65 ms
+[16:13:30] [Server thread/INFO]: -------- World Settings For [SuperiorWorld] --------
+[16:13:30] [Server thread/INFO]: View Distance: 10
+[16:13:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[16:13:30] [Server thread/INFO]: Mob Spawn Range: 8
+[16:13:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:13:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:13:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:13:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:13:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:13:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:13:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:13:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:13:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:13:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:13:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:13:30] [Server thread/INFO]: Max TNT Explosions: 100
+[16:13:30] [Server thread/INFO]: Preparing start region for dimension 'SuperiorWorld'/minecraft:overworld
+[16:13:30] [Server thread/INFO]: Loaded 0 spawn chunks for world SuperiorWorld
+[16:13:30] [Server thread/INFO]: Preparing spawn area: 0%
+[16:13:30] [Server thread/INFO]: Time elapsed: 126 ms
+[16:13:30] [Server thread/INFO]: -------- World Settings For [Dungeon] --------
+[16:13:30] [Server thread/INFO]: View Distance: 10
+[16:13:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[16:13:30] [Server thread/INFO]: Mob Spawn Range: 8
+[16:13:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:13:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:13:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:13:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:13:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:13:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:13:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:13:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:13:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:13:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:13:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:13:30] [Server thread/INFO]: Max TNT Explosions: 100
+[16:13:30] [Server thread/INFO]: -------- World Settings For [Island] --------
+[16:13:30] [Server thread/INFO]: View Distance: 10
+[16:13:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[16:13:30] [Server thread/INFO]: Mob Spawn Range: 8
+[16:13:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:13:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:13:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:13:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:13:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:13:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:13:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:13:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:13:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:13:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:13:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:13:30] [Server thread/INFO]: Max TNT Explosions: 100
+[16:13:30] [Server thread/INFO]: Preparing start region for dimension 'Island'/minecraft:overworld
+[16:13:30] [Server thread/INFO]: Loaded 0 spawn chunks for world Island
+[16:13:30] [Server thread/INFO]: Preparing spawn area: 0%
+[16:13:30] [Server thread/INFO]: Time elapsed: 28 ms
+[16:13:30] [Server thread/INFO]: -------- World Settings For [Mines] --------
+[16:13:30] [Server thread/INFO]: View Distance: 10
+[16:13:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[16:13:30] [Server thread/INFO]: Mob Spawn Range: 8
+[16:13:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:13:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:13:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:13:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:13:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:13:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:13:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:13:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:13:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:13:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:13:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:13:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:13:30] [Server thread/INFO]: Max TNT Explosions: 100
+[16:13:31] [Server thread/INFO]: -------- World Settings For [Arena] --------
+[16:13:31] [Server thread/INFO]: View Distance: 10
+[16:13:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[16:13:31] [Server thread/INFO]: Mob Spawn Range: 8
+[16:13:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:13:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:13:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:13:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:13:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:13:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:13:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:13:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:13:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:13:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:13:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:13:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:13:31] [Server thread/INFO]: Max TNT Explosions: 100
+[16:13:31] [Server thread/INFO]: [Multiverse-Core] 10 - World(s) loaded.
+[16:13:31] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+[16:13:31] [Server thread/INFO]: [AdvancedOreGen] Enabling AdvancedOreGen v1.6.35-SNAPSHOT
+[16:13:31] [Server thread/INFO]: [AdvancedOreGen] Using SuperiorSkyblock2 as SkyBlock-Plugin, hook class: xyz.spaceio.hooks.HookSuperiorSkyblock
+[16:13:31] [Server thread/INFO]: [MobArena] Enabling MobArena v0.104.2
+[16:13:31] [Server thread/INFO]: [MobArena] Vault found; economy rewards enabled.
+[16:13:31] [Server thread/INFO]: [MobArena] Loaded arena 'Dungeon'
+[16:13:31] [Server thread/INFO]: [MobArena] Loaded arena 'Mansion'
+[16:13:31] [Server thread/INFO]: [MobArena] Loaded 3 sign templates.
+[16:13:31] [Server thread/INFO]: [TabList] Enabling TabList v5.4.1
+[16:13:31] [Server thread/INFO]: [TabList] Hooked PlaceholderAPI version: 2.10.6
+[16:13:31] [Server thread/INFO]: [TabList] > The plugin successfully enabled v5.4.1! (20ms)
+[16:13:31] [Server thread/INFO]: [CubCustomDrops] Enabling CubCustomDrops v4.5.1
+[16:13:31] [Server thread/INFO]: [SkyblockRebornCore] Enabling SkyblockRebornCore v1.0-SNAPSHOT*
+[16:13:31] [Server thread/INFO]: [InfiniteScoreboard] Enabling InfiniteScoreboard v2.1.1
+[16:13:31] [Server thread/INFO]: =========================================
+[16:13:31] [Server thread/INFO]: Infinite Core v1.0.13
+[16:13:31] [Server thread/INFO]: Infinite Core has been Enabled
+[16:13:31] [Server thread/INFO]: =========================================
+[16:13:31] [Server thread/INFO]: [InfiniteScoreboard] Loaded locale "en_US"
+[16:13:31] [Server thread/INFO]: [Server Tutorial Plus] Enabling ServerTutorialPlus v1.21.3*
+[16:13:31] [Server thread/INFO]: [Server Tutorial Plus] Enabling server tutorial...
+[16:13:31] [Server thread/INFO]: [Server Tutorial Plus] Using FlatFile as datasource...
+[16:13:31] [Server thread/INFO]: [Server Tutorial Plus] Using protocol: nl.martenm.servertutorialplus.reflection.v1_14.Protocol_1_14_V1
+[16:13:31] [Server thread/INFO]: [Server Tutorial Plus] Loading server tutorial: Tutorial
+[16:13:31] [Server thread/INFO]: [Server Tutorial Plus] PlaceholderAPI has been found!
+[16:13:31] [Server thread/INFO]: [Server Tutorial Plus] Servertutorial enabled successfully!
+[16:13:31] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Spawn_nether) TNT ignition is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Spawn_nether) Lighters are PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Spawn_nether) Lava fire is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Spawn_nether) Fire spread is UNRESTRICTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn_nether'
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) TNT ignition is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) Lighters are PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) Lava fire is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) Fire spread is UNRESTRICTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn_the_end'
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Islands) TNT ignition is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Islands) Lighters are PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Islands) Lava fire is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Islands) Fire spread is UNRESTRICTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Islands'
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Tutorial) TNT ignition is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Tutorial) Lighters are PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Tutorial) Lava fire is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Tutorial) Fire spread is UNRESTRICTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Tutorial'
+[16:13:31] [Server thread/INFO]: [WorldGuard] (SuperiorWorld) TNT ignition is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (SuperiorWorld) Lighters are PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (SuperiorWorld) Lava fire is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (SuperiorWorld) Fire spread is UNRESTRICTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'SuperiorWorld'
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Dungeon) TNT ignition is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Dungeon) Lighters are PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Dungeon) Lava fire is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Dungeon) Fire spread is UNRESTRICTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Dungeon'
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Island) TNT ignition is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Island) Lighters are PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Island) Lava fire is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Island) Fire spread is UNRESTRICTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Island'
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Mines) TNT ignition is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Mines) Lighters are PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Mines) Lava fire is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Mines) Fire spread is UNRESTRICTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Mines'
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Arena) TNT ignition is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Arena) Lighters are PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Arena) Lava fire is PERMITTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] (Arena) Fire spread is UNRESTRICTED.
+[16:13:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Arena'
+[16:13:31] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:13:31] [Server thread/INFO]: [FogusCore] [Hook] WorldGuard: Success!
+[16:13:31] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v4.9.0-3254
+[16:13:31] [Server thread/INFO]: [MythicMobs] Cracked and leaked by Unreality @BSMC
+[16:13:31] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.15.2)...[0m
+[16:13:31] [Server thread/INFO]: [MythicMobs] The server is running PaperSpigot; enabled PaperSpigot exclusive functionality[0m
+[16:13:31] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 33 ms to scan 1 urls, producing 3 keys and 21 values 
+[16:13:31] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 3 keys and 18 values 
+[16:13:31] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 166 ms to scan 15 urls, producing 0 keys and 0 values 
+[16:13:31] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 3 keys and 9 values 
+[16:13:31] [Server thread/INFO]: [MythicMobs] MythicMobs HolographicDisplays Support has been enabled![0m
+[16:13:31] [Server thread/INFO]: [MythicMobs] MythicMobs PlaceholderAPI Support has been enabled![0m
+[16:13:31] [Server thread/INFO]: [MythicMobs] Loaded ProtocolLib packet handlers[0m
+[16:13:31] [Server thread/INFO]: [LumineUtils] (io.lumine.xikage.mythicmobs.utils.) is bound to plugin MythicMobs - io.lumine.xikage.mythicmobs.MythicMobs
+[16:13:31] [Server thread/INFO]: [MythicMobs] MythicMobs ProtocolLib Support has been enabled![0m
+[16:13:31] [Server thread/INFO]: [MythicMobs] MythicMobs Vault Support has been enabled![0m
+[16:13:31] [Server thread/INFO]: [MythicMobs] MythicMobs WorldGuard Support has been enabled![0m
+[16:13:31] [Server thread/INFO]: [MythicMobs] Loading Mob Registry...[0m
+[16:13:31] [Server thread/INFO]: [MythicMobs] Loading Mob Registry...[0m
+[16:13:31] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 11 ms to scan 1 urls, producing 10 keys and 280 values 
+[16:13:31] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 81 ms to scan 1 urls, producing 24 keys and 552 values 
+[16:13:31] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 6 keys and 71 values 
+[16:13:31] [Server thread/INFO]: [MythicMobs] [36mLOADED[0m
+[16:13:31] [Server thread/INFO]: [MythicMobs] [36mLOADED[0m
+[16:13:32] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 5 mobs.[0m
+[16:13:32] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 3 vanilla mob overrides.[0m
+[16:13:32] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 mob stacks.[0m
+[16:13:32] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 3 skills.[0m
+[16:13:32] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 2 random spawns.[0m
+[16:13:32] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 3 mythic items.[0m
+[16:13:32] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 2 drop tables.[0m
+[16:13:32] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 mob spawners.[0m
+[16:13:32] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[16:13:32] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
+[16:13:32] [Server thread/INFO]: [MythicMobs] [32m? MythicMobs Premium v4.9.0 (build 3254) has been successfully loaded![0m[0m
+[16:13:32] [Server thread/INFO]: [FogusCore] [Hook] MythicMobs: Success!
+[16:13:32] [Server thread/INFO]: [WorldGuardExtraFlags] Enabling WorldGuardExtraFlags v4.1.3
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnEntryFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnExitFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnEntryFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnExitFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnEntryFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnExitFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.WalkSpeedFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.BlockedEffectsFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GodmodeFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GiveEffectsFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlyFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.PlaySoundsFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GlideFlagHandler
+[16:13:32] [Server thread/INFO]: [WorldEditSUI] Enabling WorldEditSUI v1.7.1
+[16:13:32] [Server thread/INFO]: [WorldEditSUI] Plugin by KennyTV
+[16:13:32] [Server thread/INFO]: [AdvancedEnchantments] Enabling AdvancedEnchantments v7.5.3
+[16:13:32] [Server thread/WARN]: [AdvancedEnchantments] Loaded class directleaks.Loader from PlayerVaults v4.1.11 which is not a depend, softdepend or loadbefore of this plugin.
+[16:13:33] [Server thread/INFO]: [AdvancedEnchantments] Loaded 7 armor sets.
+[16:13:34] [Server thread/INFO]: [AdvancedEnchantments] Loaded 5 weapons.
+[16:13:34] [Server thread/WARN]: [AdvancedEnchantments] PASSIVE_DEATH, RIGHT_CLICK, SWING, FIRE, BOW_MOB, SHIFT, FISHING, CATCH_FISH enchantment types have been disabled for this session (No enchants utilizing it, increasing performance)
+[16:13:34] [Server thread/INFO]: [AdvancedEnchantments] Successfully hooked into WorldGuard.
+[16:13:34] [Server thread/INFO]: [AdvancedEnchantments] Successfully hooked into PlaceholderAPI.
+[16:13:34] [Server thread/INFO]: [AdvancedEnchantments] Successfully hooked into economy plugin (Vault)
+[16:13:34] [Server thread/INFO]: [GoldenCrates] Enabling GoldenCrates v3.9.2
+[16:13:34] [Server thread/WARN]: [GoldenCrates] *** DISCLAIMER ***
+[16:13:34] [Server thread/WARN]: [GoldenCrates] > You're running an unofficial Spigot fork.
+[16:13:34] [Server thread/WARN]: [GoldenCrates] > ONLY OFFICIAL SPIGOT (spigotmc.org) IS SUPPORTED!
+[16:13:34] [Server thread/WARN]: [GoldenCrates] > You won't get any support for any issues unless they are persists on regular Spigot.
+[16:13:34] [Server thread/INFO]: [GoldenCrates] Powered by: FogusCore
+[16:13:34] [Server thread/INFO]: [GoldenCrates] [Hook] HolographicDisplays: Success!
+[16:13:34] [Server thread/INFO]: [GoldenCrates] [Hook] Citizens: Success!
+[16:13:34] [Server thread/INFO]: [GoldenCrates] [Hook] PlaceholderAPI: Success!
+[16:13:34] [Server thread/INFO]: [GoldenCrates] Templates Loaded: 6
+[16:13:34] [Server thread/INFO]: [GoldenCrates] Loaded 5 crate keys!
+[16:13:34] [Server thread/INFO]: [GoldenCrates] Crates Loaded: 5
+[16:13:34] [Server thread/INFO]: [GoldenCrates] Menus Loaded: 1
+[16:13:34] [Server thread/INFO]: [GoldenCrates] Plugin loaded in 85 ms!
+[16:13:34] [Server thread/INFO]: [VoidChest-1.4.6] Enabling VoidChest v1.4.6
+[16:13:34] [Server thread/INFO]: [VoidChest-1.4.6] Loading plugin and related data...
+[16:13:34] [Server thread/INFO]: [UltimateStacker] Enabling UltimateStacker v1.11.12
+[16:13:34] [Server thread/INFO]:  
+[16:13:34] [Server thread/INFO]: =============================
+[16:13:34] [Server thread/INFO]: UltimateStacker 1.11.12 by Songoda <3!
+[16:13:34] [Server thread/INFO]: Action: Enabling...
+[16:13:34] [Server thread/INFO]: [UltimateStacker] Loaded locale "en_US"
+[16:13:34] [Server thread/INFO]: [SongodaCore] Hooked UltimateStacker.
+[16:13:34] [Server thread/INFO]: [UltimateStacker] Data handler connected using SQLite.
+[16:13:34] [Server thread/INFO]: =============================
+[16:13:34] [Server thread/INFO]:  
+[16:13:34] [Server thread/INFO]: [EpicSpawners] Enabling EpicSpawners v6.3.9
+[16:13:34] [Server thread/INFO]:  
+[16:13:34] [Server thread/INFO]: =============================
+[16:13:34] [Server thread/INFO]: EpicSpawners 6.3.9 by Songoda <3!
+[16:13:34] [Server thread/INFO]: Action: Enabling...
+[16:13:34] [Server thread/INFO]: [EpicSpawners] Loaded locale "en_US"
+[16:13:34] [Server thread/INFO]: [SongodaCore] Hooked EpicSpawners.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Registered spawners support for EpicSpawners.
+[16:13:35] [Server thread/INFO]: [EpicSpawners] Data handler connected using SQLite.
+[16:13:35] [Server thread/INFO]: =============================
+[16:13:35] [Server thread/INFO]:  
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:13:35] [Server thread/WARN]: [PlaceholderAPI] File: example.js for javascript placeholder: example is empty
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] %javascript_border% has been loaded!
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] %javascript_team% has been loaded!
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] %javascript_homes% has been loaded!
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] Loaded data for javascript placeholder: cooldown
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] %javascript_cooldown% has been loaded!
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] %javascript_memberscoreboard% has been loaded!
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] %javascript_levelscoreboard% has been loaded!
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] %javascript_generator% has been loaded!
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: localtime
+[16:13:35] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.1.26 which is not a depend, softdepend or loadbefore of this plugin.
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[16:13:35] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[16:13:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[16:13:35] [Server thread/INFO]: Starting GS4 status listener
+[16:13:35] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[16:13:35] [Server thread/INFO]: Running delayed init tasks
+[16:13:35] [Craft Scheduler Thread - 29/INFO]: [GoldenCrates] Auto-save: Saved 0 online users | 0 offline users.
+[16:13:35] [Craft Scheduler Thread - 13/INFO]: (!) The normal mobcoin items in /mobcoins has been updated
+[16:13:35] [Craft Scheduler Thread - 13/INFO]: (!) The special mobcoin items in /mobcoins has been updated
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus]  
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded 26 main menu items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'armor' with 24 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'armorweapons' with 26 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'blocks' with 37 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'blocks14' with 56 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'blocnou' with 56 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'brewing' with 14 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'commands' with 13 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'decoration' with 109 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'drops' with 18 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'enchantbook' with 36 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'farming' with 18 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'food' with 19 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'misc' with 23 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'miscellaneous' with 9 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'ores' with 9 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'potions' with 21 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'redstone' with 16 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'slabs' with 27 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'spawners' with 15 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'stairs' with 23 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'tools' with 15 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'wood' with 56 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] Loaded 22 shops with total of 640 items.
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus]  
+[16:13:35] [Server thread/INFO]: [ShopGUIPlus] ====================================================================================
+[16:13:35] [Craft Scheduler Thread - 0/INFO]: [PlaceholderAPI] 175 placeholder expansions are available on the cloud.
+[16:13:35] [Craft Scheduler Thread - 12/INFO]: [BeastWithdraw] There is a new update available.
+[16:13:35] [Craft Scheduler Thread - 24/INFO]: New version (5.4.3) is available at https://www.spigotmc.org/resources/46229/
+[16:13:35] [Server thread/INFO]: [Citizens] Loaded 17 NPCs.
+[16:13:35] [Server thread/INFO]: [MythicMobs] [32m?Using HolographicDisplays plugin for holograms[0m
+[16:13:35] [Server thread/INFO]: [MythicMobs] [32m?Using HolographicDisplays plugin for holograms[0m
+[16:13:35] [Server thread/INFO]: Done (20.808s)! For help, type "help"
+[16:13:35] [Server thread/INFO]: Timings Reset
+[16:13:35] [Craft Scheduler Thread - 24/INFO]: [Vault] Checking for Updates ... 
+[16:13:36] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v2.4.3
+[16:13:36] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[16:13:36] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/projects/holographic-displays
+[16:13:36] [Craft Scheduler Thread - 8/INFO]: [BuycraftX] Fetching all due players...
+[16:13:36] [Craft Scheduler Thread - 24/INFO]: [Vault] No new version available
+[16:13:36] [Server thread/INFO]: [EpicSpawners] Loading Crafting Recipes
+[16:13:36] [Craft Scheduler Thread - 8/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:13:37] [Server thread/INFO]: [InfiniteScoreboard] Detected server version: v1_15
+[16:13:37] [Server thread/INFO]: =========================================
+[16:13:37] [Server thread/INFO]: Infinite Scoreboard 2.1.1
+[16:13:37] [Server thread/INFO]: Infinite Scoreboard has been Enabled
+[16:13:37] [Server thread/INFO]: =========================================
+[16:13:42] [Server thread/INFO]: [VoidChest-1.4.6] Plugin loaded in 0.032 seconds
+[16:13:45] [ForkJoinPool.commonPool-worker-9/INFO]:  
+[16:13:45] [ForkJoinPool.commonPool-worker-9/INFO]:  
+[16:13:45] [ForkJoinPool.commonPool-worker-9/INFO]:      Debugging... [VoidChest-1.4.6]
+[16:13:45] [ForkJoinPool.commonPool-worker-9/INFO]: Your version of VoidChest (1.4.6) is up to date!
+[16:13:45] [ForkJoinPool.commonPool-worker-9/INFO]:  
+[16:13:45] [ForkJoinPool.commonPool-worker-9/INFO]:  
+[16:14:24] [User Authenticator #1/INFO]: UUID of player KHALSALION is a6544df9-17b4-4137-b562-8e02cef29bc7
+[16:14:25] [Server thread/WARN]: [FogusCore] Loaded class net.citizensnpcs.api.CitizensAPI from Citizens v2.0.26-SNAPSHOT (build 1935) which is not a depend, softdepend or loadbefore of this plugin.
+[16:14:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_15_R1! Trying to find NMS support
+[16:14:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_15_R1' loaded!
+[16:14:25] [Thread-26/WARN]: [NBTAPI] [NBTAPI] The NBT-API at 'package net.leonardo_dgs.interactivebooks.nbtapi' seems to be outdated!
+[16:14:25] [Thread-26/WARN]: [NBTAPI] [NBTAPI] Current Version: '2.3.1' Newest Version: 2.4.1'
+[16:14:25] [Thread-26/WARN]: [NBTAPI] [NBTAPI] Please update the nbt-api or the plugin that contains the api!
+[16:14:25] [Server thread/INFO]: KHALSALION[/127.0.0.1:49834] logged in with entity id 321 at ([Islands]304.30000001192093, 100.0, 298.90607735537293)
+[16:14:25] [Server thread/WARN]: [PrefixSystem] Loaded class me.clip.placeholderapi.PlaceholderAPI from PlaceholderAPI v2.10.6 which is not a depend, softdepend or loadbefore of this plugin.
+[16:14:25] [Craft Scheduler Thread - 54/INFO]: [LocalTime] Couldn't get KHALSALION's timezone. Will use default timezone.
+[16:14:35] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Sending 1 analytic events
+[16:14:45] [Server thread/INFO]: KHALSALION issued server command: /is go
+[16:14:48] [Server thread/INFO]: KHALSALION issued server command: /is go
+[16:16:06] [Server thread/INFO]: KHALSALION issued server command: /heal
+[16:18:36] [Craft Scheduler Thread - 202/INFO]: [BuycraftX] Fetching all due players...
+[16:18:36] [Craft Scheduler Thread - 202/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:21:42] [Server thread/INFO]: KHALSALION issued server command: /heal
+[16:23:36] [Craft Scheduler Thread - 427/INFO]: [BuycraftX] Fetching all due players...
+[16:23:37] [Craft Scheduler Thread - 427/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:23:59] [Server thread/INFO]: KHALSALION issued server command: /heal
+[16:24:19] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:24:19] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:24:19] [Server thread/WARN]: [DeluxeMenus] isteam.yml does not exist!
+[16:24:19] [Server thread/INFO]: [DeluxeMenus] isteam.yml created! Add your menu options to this file and use /dm reload to load it!
+[16:24:19] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:24:19] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:24:19] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: home is not a valid material name / id!
+[16:24:19] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:24:19] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: home is not a valid material name / id!
+[16:24:19] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:24:21] [Server thread/INFO]: KHALSALION issued server command: /home
+[16:24:59] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:24:59] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:24:59] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:24:59] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:24:59] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: home is not a valid material name / id!
+[16:24:59] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:24:59] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: home is not a valid material name / id!
+[16:24:59] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:25:00] [Server thread/INFO]: KHALSALION issued server command: /home
+[16:26:29] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:26:29] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:26:29] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:26:29] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:26:29] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:26:29] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:26:29] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:26:29] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:26:30] [Server thread/INFO]: KHALSALION issued server command: /home
+[16:26:33] [Server thread/INFO]: KHALSALION issued server command: /warps
+[16:26:40] [Server thread/INFO]: KHALSALION issued server command: /warps upgrade
+[16:27:01] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:27:01] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:27:01] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:27:01] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:27:01] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:27:01] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:27:01] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:27:01] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:27:08] [Server thread/INFO]: KHALSALION issued server command: /upgrade
+[16:28:02] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:28:02] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:28:02] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:28:02] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:28:02] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:28:02] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:28:02] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:28:02] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:28:02] [Server thread/INFO]: KHALSALION issued server command: /upgrade
+[16:28:16] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:28:19] [Server thread/INFO]: KHALSALION issued server command: /is disband
+[16:28:24] [Server thread/INFO]: KHALSALION issued server command: /is disband
+[16:28:27] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:28:28] [Server thread/INFO]: KHALSALION issued server command: /island create
+[16:28:31] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:28:32] [Server thread/INFO]: KHALSALION issued server command: /is stats
+[16:28:33] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:28:35] [Craft Scheduler Thread - 532/INFO]: [GoldenCrates] Auto-save: Saved 1 online users | 0 offline users.
+[16:28:37] [Craft Scheduler Thread - 537/INFO]: [BuycraftX] Fetching all due players...
+[16:28:37] [Craft Scheduler Thread - 537/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:28:59] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:28:59] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:28:59] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:28:59] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:28:59] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:28:59] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:28:59] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:28:59] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:28:59] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:29:39] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:29:39] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:29:39] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:29:39] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:29:39] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:29:39] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:29:39] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:29:39] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:29:40] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:29:53] [Server thread/INFO]: KHALSALION issued server command: /cio
+[16:29:54] [Server thread/INFO]: KHALSALION issued server command: /ci
+[16:29:56] [Server thread/INFO]: KHALSALION issued server command: /ci
+[16:30:04] [Server thread/INFO]: KHALSALION issued server command: /is go
+[16:30:20] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:30:20] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:30:20] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:30:20] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:30:20] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:30:20] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:30:20] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:30:20] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:30:21] [Server thread/INFO]: KHALSALION issued server command: /is go
+[16:30:26] [Server thread/INFO]: KHALSALION issued server command: /is go
+[16:30:27] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:30:39] [Server thread/INFO]: KHALSALION issued server command: /papi reload
+[16:30:39] [Server thread/WARN]: [PlaceholderAPI] File: example.js for javascript placeholder: example is empty
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] %javascript_border% has been loaded!
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] %javascript_team% has been loaded!
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] %javascript_homes% has been loaded!
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] Loaded data for javascript placeholder: cooldown
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] %javascript_cooldown% has been loaded!
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] %javascript_memberscoreboard% has been loaded!
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] %javascript_levelscoreboard% has been loaded!
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] %javascript_generator% has been loaded!
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: localtime
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[16:30:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[16:30:40] [Craft Scheduler Thread - 543/INFO]: [LocalTime] Couldn't get KHALSALION's timezone. Will use default timezone.
+[16:30:40] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:31:12] [Server thread/INFO]: KHALSALION issued server command: /papi reload
+[16:31:12] [Server thread/WARN]: [PlaceholderAPI] File: example.js for javascript placeholder: example is empty
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] %javascript_border% has been loaded!
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] %javascript_team% has been loaded!
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] %javascript_homes% has been loaded!
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] Loaded data for javascript placeholder: cooldown
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] %javascript_cooldown% has been loaded!
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] %javascript_memberscoreboard% has been loaded!
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] %javascript_levelscoreboard% has been loaded!
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] %javascript_generator% has been loaded!
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: localtime
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[16:31:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[16:31:12] [Craft Scheduler Thread - 490/INFO]: [LocalTime] Couldn't get KHALSALION's timezone. Will use default timezone.
+[16:31:14] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:31:14] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:31:14] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:31:14] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:31:14] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:31:14] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:31:14] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:31:14] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:31:16] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:31:50] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:31:50] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:31:50] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:31:50] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:31:50] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:31:50] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:31:50] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:31:50] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:31:50] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:32:50] [Server thread/INFO]: KHALSALION issued server command: /is admin setwarpslimit 1
+[16:32:54] [Server thread/INFO]: KHALSALION issued server command: /is admin setwarpslimit KHALSALION 1
+[16:32:57] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:33:05] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:33:05] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:33:05] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:33:05] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:33:05] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:33:05] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:33:05] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:33:05] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:33:12] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:33:20] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:33:20] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:33:20] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:33:20] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:33:20] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:33:20] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:33:20] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:33:20] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:33:20] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:33:29] [Server thread/INFO]: KHALSALION lost connection: Disconnected
+[16:33:31] [User Authenticator #2/INFO]: UUID of player KHALSALION is a6544df9-17b4-4137-b562-8e02cef29bc7
+[16:33:31] [Server thread/INFO]: KHALSALION[/127.0.0.1:50112] logged in with entity id 5512 at ([Islands]-0.9939899185066224, 100.0, 300.30000001192093)
+[16:33:32] [Craft Scheduler Thread - 654/INFO]: [LocalTime] Couldn't get KHALSALION's timezone. Will use default timezone.
+[16:33:35] [Craft Scheduler Thread - 610/INFO]: [BuycraftX] Sending 2 analytic events
+[16:33:35] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:33:37] [Craft Scheduler Thread - 642/INFO]: [BuycraftX] Fetching all due players...
+[16:33:38] [Craft Scheduler Thread - 642/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:33:44] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:33:44] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:33:44] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:33:44] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:33:44] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:33:44] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:33:44] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:33:44] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:33:45] [Server thread/INFO]: KHALSALION lost connection: Disconnected
+[16:33:46] [User Authenticator #2/INFO]: UUID of player KHALSALION is a6544df9-17b4-4137-b562-8e02cef29bc7
+[16:33:47] [Server thread/INFO]: KHALSALION[/127.0.0.1:50130] logged in with entity id 5583 at ([Islands]-0.9939899185066224, 100.0, 300.30000001192093)
+[16:33:47] [Craft Scheduler Thread - 627/INFO]: [LocalTime] Couldn't get KHALSALION's timezone. Will use default timezone.
+[16:33:53] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:34:02] [Server thread/INFO]: KHALSALION issued server command: /island
+[16:34:25] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:34:25] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:34:25] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:34:25] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:34:25] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:34:25] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:34:25] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:34:25] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:34:35] [Craft Scheduler Thread - 653/INFO]: [BuycraftX] Sending 2 analytic events
+[16:34:37] [Server thread/INFO]: KHALSALION issued server command: /d,
+[16:34:39] [Server thread/INFO]: KHALSALION issued server command: /dm
+[16:34:42] [Server thread/INFO]: KHALSALION issued server command: /dm is
+[16:34:43] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:34:56] [Server thread/INFO]: KHALSALION issued server command: /papi ecloud
+[16:35:02] [Server thread/INFO]: KHALSALION issued server command: /papi ecloud download superiorskyblock
+[16:35:02] [Async Chat Thread - #0/INFO]: []<KHALSALION> 2
+[16:35:04] [Server thread/INFO]: KHALSALION issued server command: /papi ecloud download superiorskyblock2
+[16:35:11] [Server thread/INFO]: KHALSALION issued server command: /dm is
+[16:35:40] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:35:40] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:35:40] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:35:40] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:35:40] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:35:40] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:35:40] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:35:40] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:35:41] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:36:17] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:36:17] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:36:17] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:36:17] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:36:17] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:36:17] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:36:17] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:36:17] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:36:17] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:36:32] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:36:32] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:36:32] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:36:32] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:36:32] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:36:32] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:36:32] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:36:32] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:36:33] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:37:28] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:37:28] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:37:28] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:37:28] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:37:28] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:37:28] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:37:28] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:37:28] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:37:28] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:37:38] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:37:38] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:37:38] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:37:38] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:37:38] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:37:38] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:37:38] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:37:38] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:37:38] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:37:48] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:37:48] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:37:48] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:37:48] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:37:48] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:37:48] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:37:48] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:37:48] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:37:48] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:38:07] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:38:07] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:38:07] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:38:07] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:38:07] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:38:07] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:38:07] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:38:07] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:38:08] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:38:16] [Server thread/INFO]: KHALSALION issued server command: /dm reload
+[16:38:16] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:38:16] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:38:16] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:38:16] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:38:16] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:38:16] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:38:16] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:38:17] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:38:37] [Craft Scheduler Thread - 749/INFO]: [BuycraftX] Fetching all due players...
+[16:38:38] [Craft Scheduler Thread - 749/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:43:35] [Craft Scheduler Thread - 789/INFO]: [GoldenCrates] Auto-save: Saved 1 online users | 0 offline users.
+[16:43:38] [Craft Scheduler Thread - 789/INFO]: [BuycraftX] Fetching all due players...
+[16:43:38] [Craft Scheduler Thread - 789/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:44:05] [Server thread/INFO]: KHALSALION issued server command: /is balance
+[16:48:18] [Server thread/INFO]: KHALSALION issued server command: /is admin setwarpslimit KHALSALION 10
+[16:48:20] [Server thread/INFO]: KHALSALION issued server command: /warp
+[16:48:24] [Server thread/INFO]: KHALSALION issued server command: /is warps
+[16:48:27] [Server thread/INFO]: KHALSALION issued server command: /is admin setwarpslimit KHALSALION 1
+[16:48:30] [Server thread/INFO]: KHALSALION issued server command: /gm c
+[16:48:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_15_R1! Trying to find NMS support
+[16:48:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_15_R1' loaded!
+[16:48:38] [Craft Scheduler Thread - 851/INFO]: [BuycraftX] Fetching all due players...
+[16:48:38] [Craft Scheduler Thread - 851/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:50:12] [Server thread/INFO]: KHALSALION issued server command: /deop KHALSALION
+[16:50:12] [Server thread/INFO]: [KHALSALION: Made KHALSALION no longer a server operator]
+[16:50:19] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:50:19] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:50:19] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:50:19] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:50:19] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:50:19] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:50:19] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:50:19] [Server thread/INFO]: DeluxeMenus successfully reloaded!
+[16:50:19] [Server thread/INFO]: 13 menus loaded...
+[16:50:23] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:50:35] [Server thread/INFO]: KHALSALION lost connection: Disconnected
+[16:50:37] [User Authenticator #3/INFO]: UUID of player KHALSALION is a6544df9-17b4-4137-b562-8e02cef29bc7
+[16:50:37] [Server thread/INFO]: KHALSALION[/127.0.0.1:50392] logged in with entity id 10148 at ([Islands]1.2923596536510642, 101.0, 295.69999998807907)
+[16:50:37] [Craft Scheduler Thread - 891/INFO]: [LocalTime] Couldn't get KHALSALION's timezone. Will use default timezone.
+[16:50:41] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:51:09] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:51:09] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:51:09] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:51:09] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:51:09] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:51:09] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:51:09] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:51:09] [Server thread/INFO]: DeluxeMenus successfully reloaded!
+[16:51:09] [Server thread/INFO]: 13 menus loaded...
+[16:51:13] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:51:23] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:51:23] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:51:23] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:51:23] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: warp is not a valid material name / id!
+[16:51:23] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass
+[16:51:23] [Server thread/WARN]: [DeluxeMenus] Material for item: glass2 in menu: warp is not a valid material name / id!
+[16:51:23] [Server thread/WARN]: [DeluxeMenus] Skipping item: glass2
+[16:51:23] [Server thread/INFO]: DeluxeMenus successfully reloaded!
+[16:51:23] [Server thread/INFO]: 13 menus loaded...
+[16:51:26] [Server thread/INFO]: KHALSALION issued server command: /is
+[16:51:35] [Craft Scheduler Thread - 906/INFO]: [BuycraftX] Sending 2 analytic events
+[16:52:22] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:52:22] [Server thread/WARN]: [DeluxeMenus] open_command specified for GUI menu: isteam already exists for another menu!
+[16:52:22] [Server thread/WARN]: [DeluxeMenus] Skipping GUI menu: isteam
+[16:52:22] [Server thread/INFO]: DeluxeMenus successfully reloaded!
+[16:52:22] [Server thread/INFO]: 13 menus loaded...
+[16:53:13] [Server thread/WARN]: [DeluxeMenus] requirement at path: items.size-2.view_requirement.requirements.Permission does not contain both input: and output: entries
+[16:53:13] [Server thread/INFO]: DeluxeMenus successfully reloaded!
+[16:53:13] [Server thread/INFO]: 13 menus loaded...
+[16:53:38] [Craft Scheduler Thread - 942/INFO]: [BuycraftX] Fetching all due players...
+[16:53:38] [Craft Scheduler Thread - 942/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:54:13] [Server thread/INFO]: Made KHALSALION a server operator
+[16:54:18] [Server thread/INFO]: KHALSALION issued server command: /infinitescoreboard reload
+[16:54:18] [Server thread/WARN]: [InfiniteScoreboard] Could not find file for locale "null"
+[16:54:29] [Server thread/INFO]: KHALSALION issued server command: /deop KHALSALION
+[16:54:29] [Server thread/INFO]: [KHALSALION: Made KHALSALION no longer a server operator]
+[16:54:32] [Server thread/INFO]: KHALSALION lost connection: Disconnected
+[16:54:35] [Craft Scheduler Thread - 983/INFO]: [BuycraftX] Sending 1 analytic events
+[16:54:37] [Server thread/WARN]: [InfiniteScoreboard] Could not find file for locale "null"
+[16:54:37] [Server thread/INFO]: [InfiniteScoreboard] Configuration and Language files reloaded.
+[16:54:51] [Server thread/WARN]: [InfiniteScoreboard] Could not find file for locale "null"
+[16:54:51] [Server thread/INFO]: [InfiniteScoreboard] Configuration and Language files reloaded.
+[16:54:57] [Server thread/WARN]: [InfiniteScoreboard] Could not find file for locale "null"
+[16:54:57] [Server thread/INFO]: [InfiniteScoreboard] Configuration and Language files reloaded.
+[16:55:00] [User Authenticator #4/INFO]: UUID of player KHALSALION is a6544df9-17b4-4137-b562-8e02cef29bc7
+[16:55:00] [Server thread/INFO]: KHALSALION[/127.0.0.1:50451] logged in with entity id 11339 at ([Islands]2.300000011920931, 100.0, 295.4246794808818)
+[16:55:00] [Craft Scheduler Thread - 975/INFO]: [LocalTime] Couldn't get KHALSALION's timezone. Will use default timezone.

@@ -1,0 +1,12 @@
+{
+  "Type": "MAGMA_CUBE",
+  "Loot": [
+    {
+      "Type": "DIAMOND_BLOCK",
+      "Chance": 100,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true
+    }
+  ]
+}

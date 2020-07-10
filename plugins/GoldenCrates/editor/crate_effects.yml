@@ -1,0 +1,150 @@
+title: 'Crate Editor'
+size: 54
+content:
+  back:
+    material: BARRIER
+    name: '&cReturn'
+    slots: 49
+    type: RETURN
+editor:
+  info-static:
+    material: BEACON
+    name: '&eBlock Effects'
+    lore:
+    - '&7These effects are effective'
+    - '&7for &fBlock &7crates only.'
+    slots: 10
+    type: NONE
+  effect-static:
+    material: NAME_TAG
+    name: '&eParticle Name'
+    lore:
+    - '&bCurrent: &a%static-particle%'
+    - '&7'
+    - '&7Defines the particle, that'
+    - '&7will be displayed by effect model.'
+    - '&7'
+    - '&6Left-Click: &eChange'
+    - '&6Right-Click: &eDisable'
+    slots: 19
+    type: CRATE_CHANGE_STATIC_EFFECT_PARTICLE
+  model-static:
+    material: BLAZE_POWDER
+    name: '&eEffect Model'
+    lore:
+    - '&bCurrent: &a%static-type%'
+    - '&7'
+    - '&7Defines the effect model.'
+    - '&7'
+    - '&6Left-Click: &eToggle'
+    slots: 28
+    type: CRATE_CHANGE_STATIC_EFFECT_TYPE
+  sound-static:
+    material: MUSIC_DISC_MELLOHI
+    name: '&eEffect Sound'
+    lore:
+    - '&bCurrent: &a%static-sound%'
+    - '&7'
+    - '&7This sound will be played'
+    - '&7together with effect.'
+    - '&7'
+    - '&6Left-Click: &eChange'
+    - '&6Right-Click: &eDisable'
+    slots: 37
+    type: CRATE_CHANGE_STATIC_EFFECT_SOUND
+
+
+
+  info-use:
+    material: REDSTONE
+    name: '&eUse Effects'
+    lore:
+    - '&7These effects are played'
+    - '&7when player opens crate.'
+    slots: 13
+    type: NONE
+  effect-use:
+    material: NAME_TAG
+    name: '&eParticle Name'
+    lore:
+    - '&bCurrent: &a%use-particle%'
+    - '&7'
+    - '&7Defines the particle, that'
+    - '&7will be displayed by effect model.'
+    - '&7'
+    - '&6Left-Click: &eChange'
+    - '&6Right-Click: &eDisable'
+    slots: 22
+    type: CRATE_CHANGE_USE_EFFECT_PARTICLE
+  model-use:
+    material: BLAZE_POWDER
+    name: '&eEffect Model'
+    lore:
+    - '&bCurrent: &a%use-type%'
+    - '&7'
+    - '&7Defines the effect model.'
+    - '&7'
+    - '&6Left-Click: &eToggle'
+    slots: 31
+    type: CRATE_CHANGE_USE_EFFECT_TYPE
+  sound-use:
+    material: MUSIC_DISC_MELLOHI
+    name: '&eEffect Sound'
+    lore:
+    - '&bCurrent: &a%use-sound%'
+    - '&7'
+    - '&7This sound will be played'
+    - '&7together with effect.'
+    - '&7'
+    - '&6Left-Click: &eChange'
+    - '&6Right-Click: &eDisable'
+    slots: 40
+    type: CRATE_CHANGE_USE_EFFECT_SOUND
+
+
+
+  info-open:
+    material: CHEST
+    name: '&eOpen Effects'
+    lore:
+    - '&7These effects are played'
+    - '&7when player gets reward from crate.'
+    slots: 16
+    type: NONE
+  effect-open:
+    material: NAME_TAG
+    name: '&eParticle Name'
+    lore:
+    - '&bCurrent: &a%open-particle%'
+    - '&7'
+    - '&7Defines the particle, that'
+    - '&7will be displayed by effect model.'
+    - '&7'
+    - '&6Left-Click: &eChange'
+    - '&6Right-Click: &eDisable'
+    slots: 25
+    type: CRATE_CHANGE_OPEN_EFFECT_PARTICLE
+  model-open:
+    material: BLAZE_POWDER
+    name: '&eEffect Model'
+    lore:
+    - '&bCurrent: &a%open-type%'
+    - '&7'
+    - '&7Defines the effect model.'
+    - '&7'
+    - '&6Left-Click: &eToggle'
+    slots: 34
+    type: CRATE_CHANGE_OPEN_EFFECT_TYPE
+  sound-open:
+    material: MUSIC_DISC_MELLOHI
+    name: '&eEffect Sound'
+    lore:
+    - '&bCurrent: &a%open-sound%'
+    - '&7'
+    - '&7This sound will be played'
+    - '&7together with effect.'
+    - '&7'
+    - '&6Left-Click: &eChange'
+    - '&6Right-Click: &eDisable'
+    slots: 43
+    type: CRATE_CHANGE_OPEN_EFFECT_SOUND

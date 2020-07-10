@@ -1,0 +1,21 @@
+lastAccountName: corkeymon
+timestamps:
+  login: 1590721328704
+  logout: 1590722585830
+  lastteleport: 1589945092889
+ipAddress: 172.88.208.80
+logoutlocation:
+  world: Spawn
+  x: 81.56112104873893
+  y: 225.49697016892364
+  z: 71.71637036404033
+  yaw: -181.92432
+  pitch: 33.945484
+lastlocation:
+  world: Spawn
+  x: 74.9507625243854
+  y: 236.5443196250374
+  z: 63.68243285682736
+  yaw: 1.9384766
+  pitch: 58.70677
+money: '21000.0'

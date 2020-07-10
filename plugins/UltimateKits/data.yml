@@ -1,0 +1,24 @@
+Kits:
+  farmer:
+    delays:
+      487b7a6f-a456-45cf-a1d2-8409b040edc6: 1590274760619
+  scribe:
+    delays:
+      487b7a6f-a456-45cf-a1d2-8409b040edc6: 1593736410446
+  noble:
+    delays:
+      487b7a6f-a456-45cf-a1d2-8409b040edc6: 1590272758968
+  chancellor:
+    delays:
+      487b7a6f-a456-45cf-a1d2-8409b040edc6: 1593033739739
+      a062a439-1a7e-48df-ba01-663802e6c05f: 1593034834253
+  aristocrat:
+    delays:
+      487b7a6f-a456-45cf-a1d2-8409b040edc6: 1591074083523
+  pharoah:
+    delays:
+      487b7a6f-a456-45cf-a1d2-8409b040edc6: 1593995284141
+      a062a439-1a7e-48df-ba01-663802e6c05f: 1593033882194
+      a6544df9-17b4-4137-b562-8e02cef29bc7: 1591737144041
+      6756ee86-09e1-403f-b7ad-1eab2e78c82e: 1593734568080
+      b5ca81ae-ae05-41a7-99dd-21e164060111: 1593464130610

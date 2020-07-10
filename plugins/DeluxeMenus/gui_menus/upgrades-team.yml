@@ -1,0 +1,458 @@
+menu_title: '&e&lMembers &f| Upgrades'
+open_command:
+size: 27
+items:
+  'back-to-upgrades':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU4YmE3ODYzYjE1YTVlNDBmYTdkYTk2MjliYjg2NmFhMjI2OTk1NTNlOTMxZGYxZjY5M2NiYjFjOWYzYjYifX19'
+    slot: 22
+    display_name: '&e&lBack to upgrades'
+    lore:
+    - '&7Go back to main'
+    - '&7upgrades menu.'
+    - ''
+    - '&6&l* &eRight click to go'
+    left_click_commands:
+    - '[openguimenu] isupgrades'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] isupgrades'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'members-1':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI1MjdiMjRiNWQyYmNkYzc1NmY5OTVkMzRlYWU1NzlkNzQxNGIwYTVmMjZjNGZmYTRhNTU4ZWNhZjZiNyJ9fX0='
+    slot: 11
+    display_name: '&e&lMembers | Upgrade &7(#1)'
+    lore:
+    - '&7Upgrade your island maximum'
+    - '&7size for members.'
+    - ''
+    - "&8&l* &7Current members: &a%superior_island_team_limit%"
+    - "&8&l* &7New amount of members: &a4"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a Free'
+    left_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+  'members-2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTIxMTNjNjA0YTIyYjIyNGZiZDM1OTdmOTA0YTdmOTIyN2E3YzFhZTUzNDM5Yzk2OTk0YmZhMjNiNTJlYiJ9fX0='
+    priority: 1
+    slot: 12
+    display_name: '&e&lMembers | Upgrade &7(#2)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: '>='
+          input: '%superior_island_team_limit%'
+          output: '6'
+    lore:
+    - '&7Upgrade your island maximum'
+    - '&7size for members.'
+    - ''
+    - "&8&l* &7Current members: &a%superior_island_team_limit%"
+    - "&8&l* &7New amount of members: &a6"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $500,000'
+    left_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+  'members-22':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVkYTFjYjZjNGMyMzcxMDIyNGI0ZjRlOGQ2ZmZjZjhiNGI1NWY3ZmU4OTFjMTIwNGFmNzQ4NWNmMjUyYTFkOCJ9fX0='
+    priority: 2
+    slot: 12
+    display_name: '&e&lMembers | Upgrade &7(#2)'
+    lore:
+    - '&7Upgrade your island maximum'
+    - '&7size for members.'
+    - ''
+    - "&8&l* &7Current members: &a%superior_island_team_limit%"
+    - "&8&l* &7New amount of members: &a6"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $500,000'
+    left_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» You unlocked a new team size'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setteamlimit %player_name% 6'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 500000  
+        Permission:
+          type: '=='
+          input: '%superior_island_team_limit%'
+          output: '4'
+      deny_commands:
+      - '[message] &c&lERROR &7» Not enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» You unlocked a new team size'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setteamlimit %player_name% 6'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 500000  
+        Permission:
+          type: '=='
+          input: '%superior_island_team_limit%'
+          output: '4'
+      deny_commands:
+      - '[message] &c&lERROR &7» Not enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+  'members-3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJlZTEzNzFkOGYwZjVhOGI3NTljMjkxODYzZDcwNGFkYzQyMWFkNTE5ZjE3NDYyYjg3NzA0ZGJmMWM3OGE0In19fQ=='
+    priority: 1
+    slot: 13
+    display_name: '&e&lMembers | Upgrade &7(#3)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: '>='
+          input: '%superior_island_team_limit%'
+          output: '8'   
+    lore:
+    - '&7Upgrade your island maximum'
+    - '&7size for members.'
+    - ''
+    - "&8&l* &7Current members: &a%superior_island_team_limit%"
+    - "&8&l* &7New amount of members: &a8"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $800,000'
+    left_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND' 
+  'members-33':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4MzQ0MGM2NDQ3YzE5NWFhZjc2NGUyN2ExMjU5MjE5ZTkxYzZkOGFiNmJkODlhMTFjYThkMmNjNzk5ZmE4In19fQ=='
+    priority: 2
+    slot: 13
+    display_name: '&e&lMembers | Upgrade &7(#3)'
+    lore:
+    - '&7Upgrade your island maximum'
+    - '&7size for members.'
+    - ''
+    - "&8&l* &7Current members: &a%superior_island_team_limit%"
+    - "&8&l* &7New amount of members: &a8"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $800,000'  
+    left_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» You unlocked a new team size'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setteamlimit %player_name% 8'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 800000
+        Permission:
+          type: '=='
+          input: '%superior_island_team_limit%'
+          output: '6'
+      deny_commands:
+      - '[message] &c&lERROR &7» Not enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» You unlocked a new team size'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setteamlimit %player_name% 8'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 800000
+        Permission:
+          type: '=='
+          input: '%superior_island_team_limit%'
+          output: '6'
+      deny_commands:
+      - '[message] &c&lERROR &7» Not enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+  'members-4':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFjMWQ0ODZhMmQyNDJkNTdiZDRhY2E0Y2NhOTgxNDViNjEyYWIyYTcwOGQ1OGVlNDVkMDMzNmE5OGZjMzEifX19'
+    priority: 1
+    slot: 14
+    display_name: '&e&lMembers | Upgrade &7(#4)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: '>='
+          input: '%superior_island_team_limit%'
+          output: '10'  
+    lore:
+    - '&7Upgrade your island maximum'
+    - '&7size for members.'
+    - ''
+    - "&8&l* &7Current members: &a%superior_island_team_limit%"
+    - "&8&l* &7New amount of members: &a10"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $1,100,000'
+    left_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND' 
+    right_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'  
+  'members-44':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU5ODdmNDNmZjU3ZDRkYWJhYTJkMmNlYjlmMDFmYzZlZTQ2ZGIxNjJhNWUxMmRmZGJiNTdmZDQ2ODEzMmI4In19fQ=='
+    priority: 2
+    slot: 14
+    display_name: '&e&lMembers | Upgrade &7(#4)'
+    lore:
+    - '&7Upgrade your island maximum'
+    - '&7size for members.'
+    - ''
+    - "&8&l* &7Current members: &a%superior_island_team_limit%"
+    - "&8&l* &7New amount of members: &a10"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $1,100,000'  
+    left_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» You unlocked a new team size'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setteamlimit %player_name% 10'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 1100000
+        Permission:
+          type: '=='
+          input: '%superior_island_team_limit%'
+          output: '8'
+      deny_commands:
+      - '[message] &c&lERROR &7» Not enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» You unlocked a new team size'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setteamlimit %player_name% 10s'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 1100000
+        Permission:
+          type: '=='
+          input: '%superior_island_team_limit%'
+          output: '8'
+      deny_commands:
+      - '[message] &c&lERROR &7» Not enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'      
+  'members-5':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTljMTRiYTUzMjUxNTA3YzY3ZGRiYmYyMTFhZjg0MjQ1OTQ3MmRlM2YyYzEwYWYyZDQ5OTdkOWMwMWQyYmIifX19'
+    priority: 1
+    slot: 15
+    display_name: '&e&lMembers | Upgrade &7(#5)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: '>='
+          input: '%superior_island_team_limit%'
+          output: '12'      
+    lore:
+    - '&7Upgrade your island maximum'
+    - '&7size for members.'
+    - ''
+    - "&8&l* &7Current members: &a%superior_island_team_limit%"
+    - "&8&l* &7New amount of members: &a12"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $1,400,000'
+    left_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND' 
+    right_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND' 
+  'members-55':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJlZGZlMzQ5YmMzMmNmZDk2MWFiZTQwYTg1NjE5N2I1OWU1ZDQ1ZTY5Y2U5NzE1NTg5ZGM4ZTgyMGJlMjlmIn19fQ=='
+    priority: 2
+    slot: 15
+    display_name: '&e&lMembers | Upgrade &7(#5)'
+    lore:
+    - '&7Upgrade your island maximum'
+    - '&7size for members.'
+    - ''
+    - "&8&l* &7Current members: &a%superior_island_team_limit%"
+    - "&8&l* &7New amount of members: &a12"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $1,400,000'  
+    left_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» You unlocked a new team size'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setteamlimit %player_name% 12'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 1400000
+        Permission:
+          type: '=='
+          input: '%superior_island_team_limit%'
+          output: '10'
+      deny_commands:
+      - '[message] &c&lERROR &7» Not enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'    
+    right_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» You unlocked a new team size'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setteamlimit %player_name% 12'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 1400000
+        Permission:
+          type: '=='
+          input: '%superior_island_team_limit%'
+          output: '10'
+      deny_commands:
+      - '[message] &c&lERROR &7» Not enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'   
+  'members-6':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWVlODhlMTVjOTM1YTcyMzRiNmNhOTU1Njk4ZDdjOGNlZmYyM2RlYTc2ZjdiNDI4NjJlNmRiYzlkODRiIn19fQ=='
+    priority: 1
+    slot: 16
+    display_name: '&e&lMembers | Upgrade &7(#6)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: '>='
+          input: '%superior_island_team_limit%'
+          output: '14'      
+    lore:
+    - '&7Upgrade your island maximum'
+    - '&7size for members.'
+    - ''
+    - "&8&l* &7Current members: &a%superior_island_team_limit%"
+    - "&8&l* &7New amount of members: &a14"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $1,400,000'
+    left_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND' 
+    right_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND' 
+  'members-66s':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U4MTE3ZTY2YTc5YWU0NzA1NDlmMmFiMzRjOTY4OWZlOGM3ZTdhOTg2NjkxNzY1ODI1YWM5MTI3MjQwZCJ9fX0='
+    priority: 2
+    slot: 16
+    display_name: '&e&lMembers | Upgrade &7(#6)'
+    lore:
+    - '&7Upgrade your island maximum'
+    - '&7size for members.'
+    - ''
+    - "&8&l* &7Current members: &a%superior_island_team_limit%"
+    - "&8&l* &7New amount of members: &a14"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $1,400,000'  
+    left_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» You unlocked a new team size'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setteamlimit %player_name% 14'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 1400000
+        Permission:
+          type: '=='
+          input: '%superior_island_team_limit%'
+          output: '12'
+      deny_commands:
+      - '[message] &c&lERROR &7» Not enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'    
+    right_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» You unlocked a new team size'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setteamlimit %player_name% 14'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Money:
+          type: has money
+          amount: 1400000
+        Permission:
+          type: '=='
+          input: '%superior_island_team_limit%'
+          output: '12'
+      deny_commands:
+      - '[message] &c&lERROR &7» Not enough money/lack of upgrades'
+      - '[sound] BLOCK_ANVIL_LAND'   
+  'hoppers':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjMyOTVhOWYxMTQ3OGU2Yjc4OWJmNmViMDYyOTZlMDE2YzEyN2QwYTYyN2YzNTRmZWMyNmMyN2Y0NmQ0MTcifX19'
+    slot: 9
+    display_name: '&e&lHoppers &f| Upgrade'
+    lore:
+    - '&7Go to hopper'
+    - '&7upgrade menu.'
+    - ''
+    - '&6&l* &eRight click to go'
+    left_click_commands:
+    - '[openguimenu] hopper'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] hopper' 
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'glass':
+    material: WHITE_STAINED_GLASS_PANE
+    data: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 10
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 26
+    - 1
+    display_name: ' '      

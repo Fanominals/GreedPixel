@@ -1,0 +1,414 @@
+CubCustomDrops:
+  lastPage:
+    key:
+      '0': 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    get:
+      '0': 1
+  mobNames:
+    key:
+      '0': §aIron Golem
+      '1': §aChicken
+    get:
+      '0':
+        Name: §aIron Golem
+      '1':
+        Name: §aChicken
+  editedBlocks:
+    key:
+      '0': LAPIS_ORE
+      '1': EMERALD_ORE
+      '2': REDSTONE_ORE
+      '3': IRON_ORE
+      '4': DIAMOND_ORE
+      '5': GOLD_ORE
+      '6': COAL_ORE
+    get:
+      '0':
+        Block: LAPIS_ORE
+        VanillaDrops:
+          '0': Mines
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: SUNFLOWER
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §b§lMob Coin §7(Right click to redeem)
+                lore:
+                - §3You can use these coins in §b/mobcoins
+                - §3to purchase stuff
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: true
+            EffectColor: &id001
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 700
+            WorldOverride: true
+            Commands:
+              '0': rawmsg %p% false &e&lMOB&6&lCOINS &7» &fYou found a &eMobcoin &ffrom
+                an Ore!
+            Worlds:
+              '0': Mines
+              '1': Spawn
+              '2': Spawn_nether
+              '3': Spawn_the_end
+              '4': world_the_end
+              '5': world_nether
+              '6': bskyblock_world_nether
+              '7': bskyblock_world_the_end
+              '8': bskyblock_world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: BARRIER
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: false
+            EffectColor: &id002
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 10000
+            WorldOverride: true
+            Commands:
+              '0': eco give %p% 75
+            Worlds:
+              '0': Mines
+      '1':
+        Block: EMERALD_ORE
+        VanillaDrops:
+          '0': Mines
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: SUNFLOWER
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §b§lMob Coin §7(Right click to redeem)
+                lore:
+                - §3You can use these coins in §b/mobcoins
+                - §3to purchase stuff
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: true
+            EffectColor: *id001
+            DropChance: 1000
+            WorldOverride: true
+            Commands:
+              '0': rawmsg %p% false &e&lMOB&6&lCOINS &7» &fYou found a &eMobcoin &ffrom
+                an Ore!
+            Worlds:
+              '0': Mines
+              '1': Spawn
+              '2': Spawn_nether
+              '3': Spawn_the_end
+              '4': world_the_end
+              '5': world_nether
+              '6': bskyblock_world_nether
+              '7': bskyblock_world_the_end
+              '8': bskyblock_world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: BARRIER
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: false
+            EffectColor: *id002
+            DropChance: 10000
+            WorldOverride: true
+            Commands:
+              '0': eco give %p% 125
+            Worlds:
+              '0': Mines
+      '2':
+        Block: REDSTONE_ORE
+        VanillaDrops:
+          '0': Mines
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: SUNFLOWER
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §b§lMob Coin §7(Right click to redeem)
+                lore:
+                - §3You can use these coins in §b/mobcoins
+                - §3to purchase stuff
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: true
+            EffectColor: *id001
+            DropChance: 700
+            WorldOverride: true
+            Commands:
+              '0': rawmsg %p% false &e&lMOB&6&lCOINS &7» &fYou found a &eMobcoin &ffrom
+                an Ore!
+            Worlds:
+              '0': Mines
+              '1': Spawn
+              '2': Spawn_nether
+              '3': Spawn_the_end
+              '4': world_nether
+              '5': bskyblock_world_nether
+              '6': bskyblock_world
+              '7': bskyblock_world_the_end
+              '8': world_the_end
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: BARRIER
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: false
+            EffectColor: *id002
+            DropChance: 10000
+            WorldOverride: true
+            Commands:
+              '0': eco give %p% 75
+            Worlds:
+              '0': Mines
+      '3':
+        Block: IRON_ORE
+        VanillaDrops:
+          '0': Mines
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: SUNFLOWER
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §b§lMob Coin §7(Right click to redeem)
+                lore:
+                - §3You can use these coins in §b/mobcoins
+                - §3to purchase stuff
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: true
+            EffectColor: *id001
+            DropChance: 500
+            WorldOverride: true
+            Commands:
+              '0': rawmsg %p% false &e&lMOB&6&lCOINS &7» &fYou found a &eMobcoin &ffrom
+                an Ore!
+            Worlds:
+              '0': Mines
+              '1': bskyblock_world
+              '2': world_nether
+              '3': world_the_end
+              '4': Spawn
+              '5': Spawn_nether
+              '6': Spawn_the_end
+              '7': bskyblock_world_nether
+              '8': bskyblock_world_the_end
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: BARRIER
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: false
+            EffectColor: *id002
+            DropChance: 10000
+            WorldOverride: true
+            Commands:
+              '0': eco give %p% 50
+            Worlds:
+              '0': Mines
+      '4':
+        Block: DIAMOND_ORE
+        VanillaDrops:
+          '0': Mines
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: SUNFLOWER
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §b§lMob Coin §7(Right click to redeem)
+                lore:
+                - §3You can use these coins in §b/mobcoins
+                - §3to purchase stuff
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: true
+            EffectColor: *id001
+            DropChance: 1000
+            WorldOverride: true
+            Commands:
+              '0': rawmsg %p% false &e&lMOB&6&lCOINS &7» &fYou found a &eMobcoin &ffrom
+                an Ore!
+            Worlds:
+              '0': Mines
+              '1': Spawn
+              '2': Spawn_nether
+              '3': Spawn_the_end
+              '4': world_the_end
+              '5': world_nether
+              '6': bskyblock_world_nether
+              '7': bskyblock_world_the_end
+              '8': bskyblock_world
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: BARRIER
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: false
+            EffectColor: *id002
+            DropChance: 10000
+            WorldOverride: true
+            Commands:
+              '0': eco give %p% 100
+            Worlds:
+              '0': Mines
+      '5':
+        Block: GOLD_ORE
+        VanillaDrops:
+          '0': Mines
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: SUNFLOWER
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §b§lMob Coin §7(Right click to redeem)
+                lore:
+                - §3You can use these coins in §b/mobcoins
+                - §3to purchase stuff
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: true
+            EffectColor: *id001
+            DropChance: 700
+            WorldOverride: true
+            Commands:
+              '0': rawmsg %p% false &e&lMOB&6&lCOINS &7» &fYou found a &eMobcoin &ffrom
+                an Ore!
+            Worlds:
+              '0': Mines
+              '1': Spawn
+              '2': Spawn_nether
+              '3': world_the_end
+              '4': Spawn_the_end
+              '5': bskyblock_world_nether
+              '6': bskyblock_world
+              '7': bskyblock_world_the_end
+              '8': world_nether
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: BARRIER
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: false
+            EffectColor: *id002
+            DropChance: 10000
+            WorldOverride: true
+            Commands:
+              '0': eco give %p% 75
+            Worlds:
+              '0': Mines
+      '6':
+        Block: COAL_ORE
+        VanillaDrops:
+          '0': Mines
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: SUNFLOWER
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §b§lMob Coin §7(Right click to redeem)
+                lore:
+                - §3You can use these coins in §b/mobcoins
+                - §3to purchase stuff
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: true
+            EffectColor: *id001
+            DropChance: 200
+            WorldOverride: true
+            Commands:
+              '0': rawmsg %p% false &e&lMOB&6&lCOINS &7» &fYou found a &eMobcoin &ffrom
+                an Ore!
+            Worlds:
+              '0': Mines
+              '1': Spawn
+              '2': Spawn_nether
+              '3': Spawn_the_end
+              '4': world_the_end
+              '5': bskyblock_world_nether
+              '6': bskyblock_world
+              '7': bskyblock_world_the_end
+              '8': world_nether
+          '1':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: BARRIER
+            SpawnerDrop: false
+            NaturalDrop: true
+            Effect: false
+            EffectColor: *id002
+            DropChance: 10000
+            WorldOverride: true
+            Commands:
+              '0': eco give %p% 25
+            Worlds:
+              '0': Mines
+  globalSettings:
+    LootingMultiplier: false
+    LootingAll: false
+    LootingM: 15
+    LootingA: 10
+    FortuneMultiplier: false
+    FortuneAll: false
+    FortuneM: 15
+    FortuneA: 10
+    GlobalWorlds:
+      '0': Mines
+      '1': bskyblock_world
+      '2': Spawn
+      '3': Spawn_nether
+      '4': Spawn_the_end
+      '5': world_the_end
+      '6': bskyblock_world_nether
+      '7': world_nether
+      '8': bskyblock_world_the_end
+      '9': Arena
+      '10': Island
+      '11': Dungeon
+    LoadedOnce: true
+  afkFarm: false

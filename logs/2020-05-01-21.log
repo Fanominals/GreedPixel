@@ -1,0 +1,936 @@
+[22:04:44] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[22:04:44] [Server thread/INFO]: Loading properties
+[22:04:44] [Server thread/INFO]: This server is running Paper version git-Paper-231 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[22:04:45] [Server thread/INFO]: Debug logging is disabled
+[22:04:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:04:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:04:45] [Server thread/INFO]: Default game type: SURVIVAL
+[22:04:45] [Server thread/INFO]: Generating keypair
+[22:04:45] [Server thread/INFO]: Starting Minecraft server on 192.168.86.37:25565
+[22:04:45] [Server thread/INFO]: Using default channel type
+[22:04:47] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[22:04:51] [Server thread/WARN]: Legacy plugin WorldBorderAPI v1.0 does not specify an api-version.
+[22:04:51] [Server thread/WARN]: Legacy plugin CustomJoinMessages v12.2 does not specify an api-version.
+[22:04:52] [Server thread/WARN]: Legacy plugin Multiverse-Core v2.5-b719 does not specify an api-version.
+[22:04:52] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.0.72
+[22:04:52] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[22:04:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3b336e12]
+[22:04:54] [Server thread/INFO]: [VoidGenerator] Loading VoidGenerator v1.5.6
+[22:04:54] [Server thread/INFO]: [AntiCooldown] Loading AntiCooldown v3.4
+[22:04:54] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.5
+[22:04:54] [Server thread/INFO]: [WorldBorderAPI] Loading WorldBorderAPI v1.0
+[22:04:54] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[22:04:54] [Server thread/INFO]: [WorldCommands] Loading WorldCommands v1.4.2
+[22:04:54] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.1
+[22:04:54] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[22:04:54] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[22:04:54] [Server thread/INFO]: [ShopGUIPlus] Loading ShopGUIPlus v1.29.2
+[22:04:54] [Server thread/INFO]: [WorldEditSUI] Loading WorldEditSUI v1.7.1
+[22:04:54] [Server thread/INFO]: [BentoBox] Loading BentoBox v1.12.0
+[22:04:54] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
+[22:04:54] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.1-Release
+[22:04:54] [Server thread/INFO]: [CustomJoinMessages] Loading CustomJoinMessages v12.2
+[22:04:54] [Server thread/INFO]: [EpicSpawners] Loading EpicSpawners v6.3.9
+[22:04:54] [Server thread/INFO]: [BeastWithdraw] Loading BeastWithdraw v2.8.1
+[22:04:54] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
+[22:04:54] [Server thread/INFO]: [DeluxeChat] Loading DeluxeChat v1.15.0
+[22:04:54] [Server thread/INFO]: [WorldGuardExtraFlags] Loading WorldGuardExtraFlags v4.1.3
+[22:04:54] [Server thread/INFO]: [TabList] Loading TabList v5.3.1
+[22:04:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:04:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.0.72
+[22:04:54] [Server thread/INFO]:         __    
+[22:04:54] [Server thread/INFO]:   |    |__)   LuckPerms v5.0.72
+[22:04:54] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[22:04:54] [Server thread/INFO]: 
+[22:04:54] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:04:55] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[22:04:55] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:04:56] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:04:56] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1835ms)
+[22:04:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[22:04:56] [Server thread/WARN]: [WorldEdit] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[22:04:56] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:04:56] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[22:04:57] [Server thread/INFO]: [VoidGenerator] Enabling VoidGenerator v1.5.6
+[22:04:57] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[22:04:57] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[22:04:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:04:57] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:04:57] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[22:04:57] [Server thread/WARN]: [LuckPerms] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[22:04:57] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[22:04:57] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[22:04:57] [Server thread/INFO]: [BentoBox] Enabling BentoBox v1.12.0
+[22:04:57] [Server thread/INFO]: [BentoBox] Loading Settings from config.yml...
+[22:04:58] [Server thread/INFO]: [BentoBox] Hooking with Vault...
+[22:04:58] [Server thread/INFO]: [BentoBox] Loading addons...
+[22:04:58] [Server thread/INFO]: [BentoBox] Loaded 8 addons.
+[22:04:58] [Server thread/INFO]: Preparing level "Spawn"
+[22:04:59] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[22:04:59] [Server thread/INFO]: Loaded 6 recipes
+[22:04:59] [Server thread/INFO]: -------- World Settings For [Spawn] --------
+[22:04:59] [Server thread/INFO]: View Distance: 10
+[22:04:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:04:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:04:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:04:59] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:04:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[22:04:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:04:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:04:59] [Server thread/INFO]: Mob Spawn Range: 8
+[22:04:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:04:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:04:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:04:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:04:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:04:59] [Server thread/INFO]: Max TNT Explosions: 100
+[22:04:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:05:00] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:05:00] [Server thread/INFO]: -------- World Settings For [Spawn_nether] --------
+[22:05:00] [Server thread/INFO]: View Distance: 10
+[22:05:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:05:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:05:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:05:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:05:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[22:05:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:05:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:05:00] [Server thread/INFO]: Mob Spawn Range: 8
+[22:05:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:05:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:05:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:05:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:05:00] [Server thread/INFO]: Max TNT Explosions: 100
+[22:05:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:05:00] [Server thread/INFO]: -------- World Settings For [Spawn_the_end] --------
+[22:05:00] [Server thread/INFO]: View Distance: 10
+[22:05:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:05:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:05:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:05:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:05:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[22:05:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:05:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:05:00] [Server thread/INFO]: Mob Spawn Range: 8
+[22:05:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:05:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:05:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:05:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:05:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:05:00] [Server thread/INFO]: Max TNT Explosions: 100
+[22:05:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:05:00] [Server thread/INFO]: Preparing start region for dimension 'Spawn'/minecraft:overworld
+[22:05:00] [Server thread/INFO]: Loaded 0 spawn chunks for world Spawn
+[22:05:00] [Server thread/INFO]: Preparing spawn area: 0%
+[22:05:00] [Server thread/INFO]: Time elapsed: 293 ms
+[22:05:00] [Server thread/INFO]: Preparing start region for dimension 'Spawn_nether'/minecraft:the_nether
+[22:05:00] [Server thread/INFO]: Loaded 0 spawn chunks for world Spawn_nether
+[22:05:00] [Server thread/INFO]: Time elapsed: 54 ms
+[22:05:00] [Server thread/INFO]: Preparing start region for dimension 'Spawn_the_end'/minecraft:the_end
+[22:05:00] [Server thread/INFO]: Loaded 0 spawn chunks for world Spawn_the_end
+[22:05:00] [Server thread/INFO]: Time elapsed: 75 ms
+[22:05:00] [Server thread/INFO]: [AntiCooldown] Enabling AntiCooldown v3.4
+[22:05:00] [Server thread/INFO]: [AntiCooldownLogger] The Plugin will be activated ...
+[22:05:00] [Server thread/INFO]: [AntiCooldownLogger] ==================================================
+[22:05:00] [Server thread/INFO]: [AntiCooldownLogger] JOIN MY DISCORD NOW: https://discord.gg/73ZDfbx
+[22:05:00] [Server thread/INFO]: [AntiCooldownLogger] ==================================================
+[22:05:00] [Server thread/INFO]: [AntiCooldownLogger] Config values are loaded into the cache ...
+[22:05:00] [Server thread/INFO]: [AntiCooldownLogger] World YourWorldName disabled!
+[22:05:00] [Server thread/INFO]: [AntiCooldownLogger] Config values were successfully cached!
+[22:05:00] [Server thread/INFO]: [AntiCooldownLogger] Listeners will be registered ...
+[22:05:00] [Server thread/INFO]: [AntiCooldownLogger] Listeners have been successfully registered!
+[22:05:00] [Server thread/INFO]: [AntiCooldownLogger] Commands will be registered ...
+[22:05:00] [Server thread/INFO]: [AntiCooldownLogger] Commands have been successfully registered!
+[22:05:00] [Server thread/INFO]: [AntiCooldownLogger] Checking for updates ...
+[22:05:01] [Server thread/INFO]: [AntiCooldownLogger] No update available!
+[22:05:01] [Server thread/INFO]: [AntiCooldownLogger] Load and activate bStats ...
+[22:05:01] [Server thread/INFO]: [AntiCooldownLogger] bStats was successfully loaded and activated!
+[22:05:01] [Server thread/INFO]: [AntiCooldownLogger] The plugin was successfully activated!
+[22:05:01] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.5
+[22:05:01] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[22:05:01] [Server thread/INFO]: [WorldBorderAPI] Enabling WorldBorderAPI v1.0*
+[22:05:01] [Server thread/INFO]: Version: v1_15_R1
+[22:05:01] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[22:05:01] [Server thread/INFO]: [WorldCommands] Enabling WorldCommands v1.4.2
+[22:05:01] [Server thread/INFO]: [WorldCommands] Has been enabled! Version: 1.4.2
+[22:05:01] [Server thread/INFO]: [WorldCommands] Thanks for using my plugin!  ~Ajneb97
+[22:05:01] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.1
+[22:05:01] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[22:05:01] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
+[22:05:01] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
+[22:05:01] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is PERMITTED.
+[22:05:01] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
+[22:05:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
+[22:05:01] [Server thread/INFO]: [WorldGuard] (Spawn_nether) TNT ignition is PERMITTED.
+[22:05:01] [Server thread/INFO]: [WorldGuard] (Spawn_nether) Lighters are PERMITTED.
+[22:05:01] [Server thread/INFO]: [WorldGuard] (Spawn_nether) Lava fire is PERMITTED.
+[22:05:01] [Server thread/INFO]: [WorldGuard] (Spawn_nether) Fire spread is UNRESTRICTED.
+[22:05:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn_nether'
+[22:05:01] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) TNT ignition is PERMITTED.
+[22:05:01] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) Lighters are PERMITTED.
+[22:05:01] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) Lava fire is PERMITTED.
+[22:05:01] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) Fire spread is UNRESTRICTED.
+[22:05:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn_the_end'
+[22:05:01] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:05:01] [Server thread/INFO]: [ShopGUIPlus] Enabling ShopGUIPlus v1.29.2
+[22:05:02] [Server thread/INFO]: [WorldEditSUI] Enabling WorldEditSUI v1.7.1
+[22:05:02] [Server thread/INFO]: [WorldEditSUI] Plugin by KennyTV
+[22:05:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
+[22:05:02] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:05:02] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:05:02] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[22:05:02] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[22:05:02] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[22:05:02] [Server thread/INFO]: [Essentials] Loaded 21018 items from items.json.
+[22:05:02] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:05:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:05:03] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:05:03] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[22:05:03] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[22:05:03] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.1-Release
+[22:05:03] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
+[22:05:03] [Server thread/INFO]: [DeluxeMenus] 6 GUI menus loaded!
+[22:05:03] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[22:05:03] [Server thread/WARN]: [DeluxeMenus] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[22:05:03] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault for economy requirement!
+[22:05:03] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup
+[22:05:03] [Server thread/INFO]: [CustomJoinMessages] Enabling CustomJoinMessages v12.2*
+[22:05:03] [Server thread/INFO]:  _____    _______   _________
+[22:05:03] [Server thread/INFO]: |  ___|  |_______| |  _   _  |
+[22:05:03] [Server thread/INFO]: | |         | |    | | | | | |
+[22:05:03] [Server thread/INFO]: | |         | |    | | | | | |
+[22:05:03] [Server thread/INFO]: | |___    __| |    | | |_| | |
+[22:05:03] [Server thread/INFO]: |_____|  |____|    |_|     |_|
+[22:05:03] [Server thread/INFO]: 
+[22:05:03] [Server thread/INFO]: PlaceHolderAPI Hooked.
+[22:05:03] [Server thread/INFO]: Vault Hooked.
+[22:05:03] [Server thread/INFO]: Custom Join Messages has successfuly started! Total time taken: 18 ms
+[22:05:03] [Server thread/INFO]: ==================================================
+[22:05:03] [Server thread/INFO]: You are using an outdated version of CJM!
+[22:05:03] [Server thread/INFO]: Download the latest version here:
+[22:05:03] [Server thread/INFO]: https://www.spigotmc.org/resources/custom-join-messages-vault-placeholderapi-support-1-8-1-15-2.71608/
+[22:05:03] [Server thread/INFO]: ==================================================
+[22:05:03] [Server thread/INFO]: [EpicSpawners] Enabling EpicSpawners v6.3.9
+[22:05:03] [Server thread/INFO]:  
+[22:05:03] [Server thread/INFO]: =============================
+[22:05:03] [Server thread/INFO]: EpicSpawners 6.3.9 by Songoda <3!
+[22:05:03] [Server thread/INFO]: Action: Enabling...
+[22:05:03] [Server thread/INFO]: [EpicSpawners] Loaded locale "en_US"
+[22:05:03] [Server thread/INFO]: [SongodaCore] Hooked EpicSpawners.
+[22:05:04] [Server thread/INFO]: [ShopGUIPlus] Registered spawners support for EpicSpawners.
+[22:05:04] [Server thread/INFO]: [EpicSpawners] Data handler connected using SQLite.
+[22:05:04] [Server thread/INFO]: =============================
+[22:05:04] [Server thread/INFO]:  
+[22:05:04] [Server thread/INFO]: [BeastWithdraw] Enabling BeastWithdraw v2.8.1
+[22:05:04] [Server thread/INFO]: [BeastWithdraw] /XpBottle command aliases [xpb, beastxpb, bottle] are regitered
+[22:05:04] [Server thread/INFO]: [BeastWithdraw] /bWithdraw command aliases [cashnote, withdraw, moneywithdraw, moneynote] are regitered
+[22:05:04] [Server thread/INFO]: [BeastWithdraw] Version 2.8.1 : has been enabled!
+[22:05:04] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719*
+[22:05:04] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v2.5-b719" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--].
+[22:05:04] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:05:04] [Server thread/INFO]: View Distance: 10
+[22:05:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:05:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:05:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:05:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:05:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[22:05:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:05:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:05:04] [Server thread/INFO]: Mob Spawn Range: 8
+[22:05:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:05:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:05:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:05:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:05:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:05:04] [Server thread/INFO]: Max TNT Explosions: 100
+[22:05:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:05:04] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[22:05:05] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[22:05:05] [Server thread/INFO]: Preparing spawn area: 0%
+[22:05:05] [Server thread/INFO]: Preparing spawn area: 0%
+[22:05:05] [Server thread/INFO]: Time elapsed: 660 ms
+[22:05:05] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[22:05:05] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[22:05:05] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[22:05:05] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[22:05:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[22:05:05] [Server thread/INFO]: -------- World Settings For [bskyblock_world_nether] --------
+[22:05:05] [Server thread/INFO]: View Distance: 10
+[22:05:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:05:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:05:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:05:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:05:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[22:05:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:05:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:05:05] [Server thread/INFO]: Mob Spawn Range: 8
+[22:05:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:05:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:05:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:05:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:05:05] [Server thread/INFO]: Max TNT Explosions: 100
+[22:05:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:05:05] [Server thread/INFO]: Preparing start region for dimension 'bskyblock_world_nether'/minecraft:the_nether
+[22:05:05] [Server thread/INFO]: Loaded 0 spawn chunks for world bskyblock_world_nether
+[22:05:05] [Server thread/INFO]: Preparing spawn area: 0%
+[22:05:05] [Server thread/INFO]: Time elapsed: 192 ms
+[22:05:05] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) TNT ignition is PERMITTED.
+[22:05:05] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) Lighters are PERMITTED.
+[22:05:05] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) Lava fire is PERMITTED.
+[22:05:05] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) Fire spread is UNRESTRICTED.
+[22:05:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblock_world_nether'
+[22:05:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:05:05] [Server thread/INFO]: View Distance: 10
+[22:05:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:05:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:05:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:05:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:05:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[22:05:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:05:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:05:05] [Server thread/INFO]: Mob Spawn Range: 8
+[22:05:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:05:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:05:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:05:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:05:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:05:05] [Server thread/INFO]: Max TNT Explosions: 100
+[22:05:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:05:05] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[22:05:05] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[22:05:05] [Server thread/INFO]: Preparing spawn area: 0%
+[22:05:06] [Server thread/INFO]: Time elapsed: 187 ms
+[22:05:06] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[22:05:06] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[22:05:06] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[22:05:06] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[22:05:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[22:05:06] [Server thread/INFO]: -------- World Settings For [bskyblock_world_the_end] --------
+[22:05:06] [Server thread/INFO]: View Distance: 10
+[22:05:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:05:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:05:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:05:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:05:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[22:05:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:05:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:05:06] [Server thread/INFO]: Mob Spawn Range: 8
+[22:05:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:05:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:05:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:05:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:05:06] [Server thread/INFO]: Max TNT Explosions: 100
+[22:05:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:05:06] [Server thread/INFO]: Preparing start region for dimension 'bskyblock_world_the_end'/minecraft:the_end
+[22:05:06] [Server thread/INFO]: Loaded 0 spawn chunks for world bskyblock_world_the_end
+[22:05:06] [Server thread/INFO]: Time elapsed: 43 ms
+[22:05:06] [Server thread/INFO]: [WorldGuard] (bskyblock_world_the_end) TNT ignition is PERMITTED.
+[22:05:06] [Server thread/INFO]: [WorldGuard] (bskyblock_world_the_end) Lighters are PERMITTED.
+[22:05:06] [Server thread/INFO]: [WorldGuard] (bskyblock_world_the_end) Lava fire is PERMITTED.
+[22:05:06] [Server thread/INFO]: [WorldGuard] (bskyblock_world_the_end) Fire spread is UNRESTRICTED.
+[22:05:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblock_world_the_end'
+[22:05:06] [Server thread/INFO]: -------- World Settings For [bskyblock_world] --------
+[22:05:06] [Server thread/INFO]: View Distance: 10
+[22:05:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:05:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:05:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:05:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:05:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[22:05:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:05:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:05:06] [Server thread/INFO]: Mob Spawn Range: 8
+[22:05:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:05:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:05:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:05:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:05:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:05:06] [Server thread/INFO]: Max TNT Explosions: 100
+[22:05:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:05:06] [Server thread/INFO]: Preparing start region for dimension 'bskyblock_world'/minecraft:overworld
+[22:05:06] [Server thread/INFO]: Loaded 0 spawn chunks for world bskyblock_world
+[22:05:06] [Server thread/INFO]: Preparing spawn area: 0%
+[22:05:06] [Server thread/INFO]: Time elapsed: 184 ms
+[22:05:06] [Server thread/INFO]: [WorldGuard] (bskyblock_world) TNT ignition is PERMITTED.
+[22:05:06] [Server thread/INFO]: [WorldGuard] (bskyblock_world) Lighters are PERMITTED.
+[22:05:06] [Server thread/INFO]: [WorldGuard] (bskyblock_world) Lava fire is PERMITTED.
+[22:05:06] [Server thread/INFO]: [WorldGuard] (bskyblock_world) Fire spread is UNRESTRICTED.
+[22:05:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblock_world'
+[22:05:06] [Server thread/INFO]: [Multiverse-Core] 8 - World(s) loaded.
+[22:05:06] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+[22:05:06] [Server thread/INFO]: [DeluxeChat] Enabling DeluxeChat v1.15.0
+[22:05:06] [Server thread/INFO]: [DeluxeChat] 10 formats loaded!
+[22:05:06] [Server thread/INFO]: [DeluxeChat] Loading DeluxeChat messages.yml
+[22:05:06] [Server thread/INFO]: [DeluxeChat] Detected Vault
+[22:05:06] [Server thread/INFO]: [DeluxeChat] Hooked into Vault
+[22:05:06] [Server thread/INFO]: ----------------------------
+[22:05:06] [Server thread/INFO]:      DeluxeChat Updater
+[22:05:06] [Server thread/INFO]:  
+[22:05:06] [Server thread/INFO]: You are running 1.15.0
+[22:05:06] [Server thread/INFO]: The latest version
+[22:05:06] [Server thread/INFO]: of DeluxeChat!
+[22:05:06] [Server thread/INFO]:  
+[22:05:06] [Server thread/INFO]: ----------------------------
+[22:05:06] [Server thread/INFO]: [WorldGuardExtraFlags] Enabling WorldGuardExtraFlags v4.1.3
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnEntryFlagHandler
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnExitFlagHandler
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnEntryFlagHandler
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnExitFlagHandler
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnEntryFlagHandler
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnExitFlagHandler
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.WalkSpeedFlagHandler
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.BlockedEffectsFlagHandler
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GodmodeFlagHandler
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GiveEffectsFlagHandler
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlyFlagHandler
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.PlaySoundsFlagHandler
+[22:05:06] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GlideFlagHandler
+[22:05:06] [Server thread/INFO]: [TabList] Enabling TabList v5.3.1
+[22:05:06] [Server thread/WARN]: [TabList] Found outdated configuration (config.yml)! (Your version: 16 | Newest version: 17)
+[22:05:06] [Server thread/INFO]: [TabList] Hooked PlaceholderAPI version: 2.10.5
+[22:05:07] [Server thread/INFO]: [TabList] You're running the latest version.
+[22:05:07] [Server thread/INFO]: [TabList] Metrics enabled.
+[22:05:07] [Server thread/INFO]: [TabList] > The plugin successfully enabled v5.3.1!
+[22:05:07] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[22:05:07] [Server thread/WARN]: [PlaceholderAPI] File: example.js for javascript placeholder: example is empty
+[22:05:07] [Server thread/INFO]: [PlaceholderAPI] %javascript_border% has been loaded!
+[22:05:07] [Server thread/INFO]: [PlaceholderAPI] %javascript_team% has been loaded!
+[22:05:07] [Server thread/INFO]: [PlaceholderAPI] %javascript_homes% has been loaded!
+[22:05:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
+[22:05:07] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.0.72 which is not a depend, softdepend or loadbefore of this plugin.
+[22:05:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms
+[22:05:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[22:05:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[22:05:07] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[22:05:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[22:05:07] [Server thread/INFO]: Done (8.685s)! For help, type "help"
+[22:05:07] [Server thread/INFO]: Timings Reset
+[22:05:07] [Server thread/INFO]: [BentoBox] Hooking with PlaceholderAPI...
+[22:05:07] [Server thread/INFO]: [BentoBox] Enabling addons...
+[22:05:07] [Craft Scheduler Thread - 14/INFO]: [Vault] Checking for Updates ... 
+[22:05:07] [Server thread/INFO]: [BentoBox] Enabling BSkyBlock...
+[22:05:07] [Server thread/INFO]: [BentoBox] Loading biomes...
+[22:05:07] [Server thread/INFO]: [BentoBox] Enabling Biomes...
+[22:05:07] [Server thread/INFO]: [BentoBox] [Border] Border hooking into BSkyBlock
+[22:05:07] [Server thread/INFO]: [BentoBox] Enabling Border...
+[22:05:07] [Server thread/INFO]: [BentoBox] [Challenges] Loading challenges...
+[22:05:07] [Server thread/INFO]: [BentoBox] Enabling Challenges...
+[22:05:07] [Server thread/INFO]: [BentoBox] [Chat] Hooking team chat into BSkyBlock
+[22:05:07] [Server thread/INFO]: [BentoBox] [Chat] Hooking island chat into BSkyBlock
+[22:05:07] [Craft Scheduler Thread - 18/INFO]: [BeastWithdraw] There is not a new update available.
+[22:05:07] [Server thread/INFO]: [BentoBox] Enabling Chat...
+[22:05:07] [Server thread/INFO]: [BentoBox] Loading control panels...
+[22:05:07] [Server thread/INFO]: [BentoBox] Enabling ControlPanel...
+[22:05:07] [Server thread/WARN]: [BentoBox] [Level] Level Addon: No such world in config.yml : acidisland_world
+[22:05:07] [Craft Scheduler Thread - 11/INFO]: [PlaceholderAPI] 172 placeholder expansions are available on the cloud.
+[22:05:07] [Server thread/INFO]: [BentoBox] [Level] Level hooking into BSkyBlock
+[22:05:07] [Server thread/INFO]: [BentoBox] Enabling Level...
+[22:05:07] [Server thread/INFO]: [BentoBox] [Warps] Loading warps...
+[22:05:07] [Server thread/INFO]: [BentoBox] Enabling Warps...
+[22:05:07] [Server thread/INFO]: [BentoBox] Addons successfully enabled.
+[22:05:07] [Server thread/INFO]: [BentoBox] Hooking with Multiverse-Core...
+[22:05:07] [Server thread/INFO]: Multiverse already knows about 'bskyblock_world'!
+[22:05:07] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[22:05:07] [Server thread/INFO]: Multiverse already knows about 'bskyblock_world_nether'!
+[22:05:07] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[22:05:07] [Server thread/INFO]: Multiverse already knows about 'bskyblock_world_the_end'!
+[22:05:07] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[22:05:07] [Server thread/INFO]: [BentoBox] Hooking with WorldEdit...
+[22:05:08] [Server thread/INFO]: 
+  ____             _        ____
+ |  _ \           | |      |  _ \             by tastybento and Poslovitch
+ | |_) | ___ _ __ | |_ ___ | |_) | _____  __  2017 - 2019
+ |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
+ | |_) |  __/ | | | || (_) | |_) | (_) >  <   v1.12.0
+ |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  Loaded in 2123ms.
+
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus]  
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 main menu items.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'armor' with 24 items.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'blocks' with 37 items.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'drops' with 18 items.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'dyes' with 16 items.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'farming' with 18 items.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'food' with 19 items.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'miscellaneous' with 9 items.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'ores' with 8 items.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'tools' with 15 items.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 shops with total of 164 items.
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus]  
+[22:05:08] [Server thread/INFO]: [ShopGUIPlus] ====================================================================================
+[22:05:08] [Server thread/INFO]: [BentoBox] Added world BSkyBlock (NORMAL)
+[22:05:08] [Craft Scheduler Thread - 11/INFO]: [BentoBox] Loaded Blueprint Bundle 'default' for BSkyBlock.
+[22:05:08] [Craft Scheduler Thread - 11/INFO]: [BentoBox] Loaded Blueprint Bundle 'double_island' for BSkyBlock.
+[22:05:08] [Craft Scheduler Thread - 11/INFO]: [BentoBox] Loaded Blueprint Bundle 'harder_island' for BSkyBlock.
+[22:05:08] [Craft Scheduler Thread - 11/INFO]: [BentoBox] Loaded blueprint 'double' for BSkyBlock
+[22:05:08] [Craft Scheduler Thread - 11/INFO]: [BentoBox] Loaded blueprint 'end-island' for BSkyBlock
+[22:05:08] [Craft Scheduler Thread - 11/INFO]: [BentoBox] Loaded blueprint 'harder' for BSkyBlock
+[22:05:08] [Craft Scheduler Thread - 11/INFO]: [BentoBox] Loaded blueprint 'island' for BSkyBlock
+[22:05:08] [Craft Scheduler Thread - 11/INFO]: [BentoBox] Loaded blueprint 'nether-island' for BSkyBlock
+[22:05:08] [Server thread/INFO]: [BentoBox] All blueprints loaded.
+[22:05:08] [Craft Scheduler Thread - 14/INFO]: [Vault] No new version available
+[22:05:08] [Craft Scheduler Thread - 12/INFO]: [BentoBox] Downloading data from GitHub...
+[22:05:08] [Craft Scheduler Thread - 12/INFO]: [BentoBox] Updating the Catalog...
+[22:05:08] [Server thread/INFO]: [EpicSpawners] Loading Crafting Recipes
+[22:05:09] [Craft Scheduler Thread - 12/INFO]: [BentoBox] Updating Contributors information...
+[22:05:09] [Craft Scheduler Thread - 12/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Biomes, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel
+[22:05:11] [Craft Scheduler Thread - 12/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[22:05:37] [Craft Scheduler Thread - 22/INFO]: [BentoBox] Downloading data from GitHub...
+[22:05:38] [Craft Scheduler Thread - 22/INFO]: [BentoBox] Could not connect to GitHub.
+[22:05:38] [Craft Scheduler Thread - 22/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[22:06:01] [Server thread/INFO]: Shop > Configuration reloaded!
+[22:06:01] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:06:01] [Server thread/INFO]: [ShopGUIPlus]  
+[22:06:01] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:06:01] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:06:01] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:06:01] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:06:01] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 main menu items.
+[22:06:01] [Server thread/WARN]: [ShopGUIPlus] Task #90 for ShopGUIPlus v1.29.2 generated an exception
+java.lang.NullPointerException: null
+	at net.brcdev.shopgui.util.ItemUtils.loadItemMeta(ItemUtils.java:377) ~[?:?]
+	at net.brcdev.shopgui.util.ItemUtils.loadItemStackFromConfig(ItemUtils.java:95) ~[?:?]
+	at net.brcdev.shopgui.shop.ShopManager.loadShop(ShopManager.java:445) ~[?:?]
+	at net.brcdev.shopgui.shop.ShopManager.loadShops(ShopManager.java:193) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.loadAfterServerLoaded(ShopGuiPlugin.java:204) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.lambda$load$0(ShopGuiPlugin.java:186) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-231]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:461) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1240) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1157) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946) ~[patched_1.15.2.jar:git-Paper-231]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[22:06:10] [Server thread/INFO]: Shop > Configuration reloaded!
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus]  
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 main menu items.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'armor' with 24 items.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'blocks' with 37 items.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'drops' with 18 items.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'dyes' with 16 items.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'farming' with 18 items.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'food' with 19 items.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'miscellaneous' with 9 items.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'ores' with 8 items.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'tools' with 15 items.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 shops with total of 164 items.
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus]  
+[22:06:10] [Server thread/INFO]: [ShopGUIPlus] ====================================================================================
+[22:07:19] [Server thread/INFO]: Shop > Configuration reloaded!
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus]  
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 main menu items.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'armor' with 24 items.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'blocks' with 37 items.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'drops' with 18 items.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'dyes' with 16 items.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'farming' with 18 items.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'food' with 19 items.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'miscellaneous' with 9 items.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'ores' with 8 items.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'tools' with 15 items.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 shops with total of 164 items.
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus]  
+[22:07:19] [Server thread/INFO]: [ShopGUIPlus] ====================================================================================
+[22:21:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 320904ms or 6418 ticks behind
+[22:31:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 564879ms or 11297 ticks behind
+[22:33:32] [User Authenticator #1/INFO]: UUID of player slamdunkasaur_ is 604d0170-386e-48d2-b798-cf0d2f50f47f
+[22:33:32] [Server thread/INFO]: slamdunkasaur_[/104.172.57.34:64531] logged in with entity id 35 at ([Spawn]123.28821910492348, 78.0, 78.12260188629624)
+[22:33:38] [Server thread/INFO]: slamdunkasaur_ issued server command: /is
+[22:33:41] [Server thread/INFO]: slamdunkasaur_ issued server command: /island info
+[22:33:45] [Server thread/INFO]: slamdunkasaur_ issued server command: /bskyblock:is go
+[22:34:42] [Server thread/INFO]: slamdunkasaur_ lost connection: Disconnected
+[22:37:32] [Server thread/INFO]: ? STORE ?Configuration updated!
+[22:37:32] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:37:32] [Server thread/INFO]: [ShopGUIPlus]  
+[22:37:32] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:37:32] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:37:32] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:37:32] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:37:42] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-231 (MC: 1.15.2) ---
+[22:37:42] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[22:37:42] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:37:42] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[22:37:42] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:37:42] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[22:37:42] [Paper Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: true | State: RUNNABLE
+[22:37:42] [Paper Watchdog Thread/ERROR]: 	Stack:
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		java.net.SocketInputStream.socketRead0(Native Method)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		java.net.SocketInputStream.socketRead(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		java.net.SocketInputStream.read(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		java.net.SocketInputStream.read(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		sun.security.ssl.InputRecord.readFully(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		sun.security.ssl.InputRecord.read(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		sun.security.ssl.AppInputStream.read(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		java.io.BufferedInputStream.fill(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		java.io.BufferedInputStream.read1(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		java.io.BufferedInputStream.read(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		com.mojang.authlib.HttpAuthenticationService.performPostRequest(HttpAuthenticationService.java:87)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:66)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:55)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.profile.PaperGameProfileRepository.findProfilesByNames(PaperGameProfileRepository.java:45)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.TileEntitySkull$1.load(TileEntitySkull.java:62)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.TileEntitySkull$1.load(TileEntitySkull.java:44)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache.get(LocalCache.java:4154)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.TileEntitySkull$3.call(TileEntitySkull.java:218)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.TileEntitySkull$3.call(TileEntitySkull.java:215)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.TileEntitySkull.b(TileEntitySkull.java:234)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_15_R1.inventory.CraftMetaSkull.applyToItem(CraftMetaSkull.java:88)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_15_R1.inventory.CraftItemStack.setItemMeta(CraftItemStack.java:518)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_15_R1.inventory.CraftItemStack.asNMSCopy(CraftItemStack.java:42)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_15_R1.inventory.CraftInventory.setItem(CraftInventory.java:99)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.brcdev.shopgui.shop.ShopManager.loadMainMenu(ShopManager.java:107)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.brcdev.shopgui.ShopGuiPlugin.loadAfterServerLoaded(ShopGuiPlugin.java:203)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.brcdev.shopgui.ShopGuiPlugin.lambda$load$0(ShopGuiPlugin.java:186)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.brcdev.shopgui.ShopGuiPlugin$$Lambda$3505/1725380907.run(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:461)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1240)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1157)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946)
+[22:37:42] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[22:37:42] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:37:42] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[22:37:42] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:37:46] [Server thread/WARN]: [ShopGUIPlus] Slot number is bigger than the size of the inventory! (shopMenuItems > 40)
+[22:37:46] [Server thread/WARN]: [ShopGUIPlus] Slot number is bigger than the size of the inventory! (shopMenuItems > 17)
+[22:37:46] [Server thread/WARN]: [ShopGUIPlus] Slot number is bigger than the size of the inventory! (shopMenuItems > 21)
+[22:37:46] [Server thread/INFO]: [ShopGUIPlus] Loaded 28 main menu items.
+[22:37:46] [Server thread/WARN]: [ShopGUIPlus] Task #132 for ShopGUIPlus v1.29.2 generated an exception
+java.lang.NullPointerException: null
+	at net.brcdev.shopgui.shop.ShopManager.loadShops(ShopManager.java:192) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.loadAfterServerLoaded(ShopGuiPlugin.java:204) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.lambda$load$0(ShopGuiPlugin.java:186) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-231]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:461) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1240) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1157) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946) ~[patched_1.15.2.jar:git-Paper-231]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[22:37:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13960ms or 279 ticks behind
+[22:38:08] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading shopMenuFillItem (config.yml), item not loaded: Invalid or no material name specified
+[22:38:08] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading sounds (config.yml), no sounds loaded
+[22:38:08] [Server thread/INFO]: ? STORE ?Configuration updated!
+[22:38:08] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:38:08] [Server thread/INFO]: [ShopGUIPlus]  
+[22:38:08] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:38:08] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:38:08] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:38:08] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:38:08] [Server thread/INFO]: [ShopGUIPlus] Loaded 31 main menu items.
+[22:38:08] [Server thread/WARN]: [ShopGUIPlus] Task #133 for ShopGUIPlus v1.29.2 generated an exception
+java.lang.NullPointerException: null
+	at net.brcdev.shopgui.shop.ShopManager.loadShops(ShopManager.java:192) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.loadAfterServerLoaded(ShopGuiPlugin.java:204) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.lambda$load$0(ShopGuiPlugin.java:186) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-231]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:461) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1240) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1157) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946) ~[patched_1.15.2.jar:git-Paper-231]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[22:38:33] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading shopMenuFillItem (config.yml), item not loaded: Invalid or no material name specified
+[22:38:33] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading sounds (config.yml), no sounds loaded
+[22:38:33] [Server thread/INFO]: ? STORE ?Configuration updated!
+[22:38:33] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:38:33] [Server thread/INFO]: [ShopGUIPlus]  
+[22:38:33] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:38:33] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:38:33] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:38:33] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:38:33] [Server thread/INFO]: [ShopGUIPlus] Loaded 31 main menu items.
+[22:38:33] [Server thread/WARN]: [ShopGUIPlus] Task #134 for ShopGUIPlus v1.29.2 generated an exception
+java.lang.NullPointerException: null
+	at net.brcdev.shopgui.shop.ShopManager.loadShops(ShopManager.java:192) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.loadAfterServerLoaded(ShopGuiPlugin.java:204) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.lambda$load$0(ShopGuiPlugin.java:186) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-231]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:461) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1240) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1157) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946) ~[patched_1.15.2.jar:git-Paper-231]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[22:46:53] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading shopMenuFillItem (config.yml), item not loaded: Invalid or no material name specified
+[22:46:53] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading sounds (config.yml), no sounds loaded
+[22:46:53] [Server thread/INFO]: ? STORE ?Configuration updated!
+[22:46:53] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:46:53] [Server thread/INFO]: [ShopGUIPlus]  
+[22:46:53] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:46:53] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:46:53] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:46:53] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:46:53] [Server thread/INFO]: [ShopGUIPlus] Loaded 1 main menu items.
+[22:46:53] [Server thread/WARN]: [ShopGUIPlus] Task #139 for ShopGUIPlus v1.29.2 generated an exception
+java.lang.NullPointerException: null
+	at net.brcdev.shopgui.shop.ShopManager.loadShops(ShopManager.java:192) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.loadAfterServerLoaded(ShopGuiPlugin.java:204) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.lambda$load$0(ShopGuiPlugin.java:186) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-231]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:461) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1240) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1157) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946) ~[patched_1.15.2.jar:git-Paper-231]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[22:46:59] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading shopMenuFillItem (config.yml), item not loaded: Invalid or no material name specified
+[22:46:59] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading sounds (config.yml), no sounds loaded
+[22:46:59] [Server thread/INFO]: ? STORE ?Configuration updated!
+[22:46:59] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:46:59] [Server thread/INFO]: [ShopGUIPlus]  
+[22:46:59] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:46:59] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:46:59] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:46:59] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:46:59] [Server thread/INFO]: [ShopGUIPlus] Loaded 1 main menu items.
+[22:46:59] [Server thread/WARN]: [ShopGUIPlus] Task #140 for ShopGUIPlus v1.29.2 generated an exception
+java.lang.NullPointerException: null
+	at net.brcdev.shopgui.shop.ShopManager.loadShops(ShopManager.java:192) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.loadAfterServerLoaded(ShopGuiPlugin.java:204) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.lambda$load$0(ShopGuiPlugin.java:186) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-231]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:461) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1240) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1157) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946) ~[patched_1.15.2.jar:git-Paper-231]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[22:47:07] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading shopMenuFillItem (config.yml), item not loaded: Invalid or no material name specified
+[22:47:07] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading sounds (config.yml), no sounds loaded
+[22:47:07] [Server thread/INFO]: ? STORE ?Configuration updated!
+[22:47:07] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:47:07] [Server thread/INFO]: [ShopGUIPlus]  
+[22:47:07] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:47:07] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:47:07] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:47:07] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:47:07] [Server thread/INFO]: [ShopGUIPlus] Loaded 31 main menu items.
+[22:47:07] [Server thread/WARN]: [ShopGUIPlus] Task #141 for ShopGUIPlus v1.29.2 generated an exception
+java.lang.NullPointerException: null
+	at net.brcdev.shopgui.shop.ShopManager.loadShops(ShopManager.java:192) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.loadAfterServerLoaded(ShopGuiPlugin.java:204) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.lambda$load$0(ShopGuiPlugin.java:186) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-231]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:461) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1240) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1157) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946) ~[patched_1.15.2.jar:git-Paper-231]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[22:47:14] [Server thread/INFO]: ? STORE ?Configuration updated!
+[22:47:14] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:47:14] [Server thread/INFO]: [ShopGUIPlus]  
+[22:47:14] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:47:14] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:47:14] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:47:14] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:47:14] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 main menu items.
+[22:47:14] [Server thread/WARN]: [ShopGUIPlus] Task #142 for ShopGUIPlus v1.29.2 generated an exception
+java.lang.NullPointerException: null
+	at net.brcdev.shopgui.shop.ShopManager.loadShops(ShopManager.java:192) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.loadAfterServerLoaded(ShopGuiPlugin.java:204) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.lambda$load$0(ShopGuiPlugin.java:186) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-231]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:461) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1240) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1157) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946) ~[patched_1.15.2.jar:git-Paper-231]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[22:47:56] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading shopMenuFillItem (config.yml), item not loaded: Invalid or no material name specified
+[22:47:56] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading sounds (config.yml), no sounds loaded
+[22:47:56] [Server thread/INFO]: ? STORE ?Configuration updated!
+[22:47:56] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:47:56] [Server thread/INFO]: [ShopGUIPlus]  
+[22:47:56] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:47:56] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:47:56] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:47:56] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:47:56] [Server thread/INFO]: [ShopGUIPlus] Loaded 1 main menu items.
+[22:47:56] [Server thread/WARN]: [ShopGUIPlus] Task #143 for ShopGUIPlus v1.29.2 generated an exception
+java.lang.NullPointerException: null
+	at net.brcdev.shopgui.shop.ShopManager.loadShops(ShopManager.java:192) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.loadAfterServerLoaded(ShopGuiPlugin.java:204) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.lambda$load$0(ShopGuiPlugin.java:186) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-231]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:461) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1240) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1157) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946) ~[patched_1.15.2.jar:git-Paper-231]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[22:49:54] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading shopMenuFillItem (config.yml), item not loaded: Invalid or no material name specified
+[22:49:54] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading sounds (config.yml), no sounds loaded
+[22:49:54] [Server thread/INFO]: ? STORE ?Configuration updated!
+[22:49:54] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.29.2 ]================================
+[22:49:54] [Server thread/INFO]: [ShopGUIPlus]  
+[22:49:54] [Server thread/INFO]: [ShopGUIPlus] Vault economy support enabled.
+[22:49:54] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[22:49:54] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[22:49:54] [Server thread/INFO]: [ShopGUIPlus] Using EpicSpawners for spawners support.
+[22:49:54] [Server thread/INFO]: [ShopGUIPlus] Loaded 1 main menu items.
+[22:49:54] [Server thread/WARN]: [ShopGUIPlus] Task #144 for ShopGUIPlus v1.29.2 generated an exception
+java.lang.NullPointerException: null
+	at net.brcdev.shopgui.shop.ShopManager.loadShops(ShopManager.java:192) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.loadAfterServerLoaded(ShopGuiPlugin.java:204) ~[?:?]
+	at net.brcdev.shopgui.ShopGuiPlugin.lambda$load$0(ShopGuiPlugin.java:186) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-231]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:461) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1240) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1157) ~[patched_1.15.2.jar:git-Paper-231]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946) ~[patched_1.15.2.jar:git-Paper-231]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]

@@ -1,0 +1,38 @@
+# DeluxeMenus 1.13.1-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://github.com/help-chat/DeluxeMenus/wiki
+
+debug: false
+check_updates: true
+gui_menus:
+  island:
+    file: island.yml
+  size:
+    file: upgrade-size.yml
+  warp:
+    file: upgrades-warps.yml
+  team:
+    file: upgrades-team.yml
+  generator:
+    file: upgrades-generator.yml
+  hopper:
+    file: upgrades-hopper.yml
+  arena:
+    file: arena.yml
+  class:
+    file: class.yml
+  mines:
+    file: mines.yml
+  voidchest:
+    file: voidchest.yml
+  ispanel:
+    file: is-panel.yml
+  isupgrades:
+    file: is-upgrades.yml
+  ispersonal:
+    file: is-personal.yml
+  isstats:
+    file: is-stats.yml
+  isglobalwarps:
+    file: is-globalwarps.yml

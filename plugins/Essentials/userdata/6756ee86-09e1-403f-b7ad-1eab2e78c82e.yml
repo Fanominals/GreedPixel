@@ -1,0 +1,21 @@
+lastAccountName: UnicornCats
+timestamps:
+  login: 1593739458185
+  logout: 1593740306570
+  lastteleport: 1593736154838
+ipAddress: 172.88.208.80
+lastlocation:
+  world: Spawn
+  x: 75.45296512725645
+  y: 201.0
+  z: 81.46829706161292
+  yaw: -0.14997657
+  pitch: 1.4999954
+logoutlocation:
+  world: Spawn
+  x: 87.21556414066842
+  y: 216.95383501774765
+  z: 87.1574287721562
+  yaw: -194.73682
+  pitch: 26.108982
+money: '999837288425.0'

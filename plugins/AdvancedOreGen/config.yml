@@ -1,0 +1,82 @@
+# Here you can define worlds where the generator should not work
+disabled-worlds:
+- world_nether
+show-generator-command: generator
+water-lava-fix: true
+fence-generator-enabled: false
+force-vanilla-hook: false
+generatorMode: permission
+generators:
+  generator1:
+    label: Default
+    permission: oregen.default
+    unlock_islandLevel: 0
+    blocks:
+    - COBBLESTONE:68
+    - COAL_ORE:9
+    - REDSTONE_ORE:7
+    - LAPIS_ORE:6
+    - IRON_ORE:4
+    - GOLD_ORE:3
+    - DIAMOND_ORE:2
+    - EMERALD_ORE:1
+  generator2:
+    label: '100'
+    permission: oregen.25
+    unlock_islandLevel: 100
+    blocks:
+    - COBBLESTONE:64.5
+    - COAL_ORE:10
+    - REDSTONE_ORE:7.7
+    - LAPIS_ORE:6.6
+    - IRON_ORE:4.4
+    - GOLD_ORE:3.3
+    - DIAMOND_ORE:2.3
+    - EMERALD_ORE:1.2
+  generator3:
+    label: '300'
+    permission: oregen.50
+    unlock_islandLevel: 300
+    blocks:
+    - COBBLESTONE:61
+    - COAL_ORE:11
+    - REDSTONE_ORE:8.4
+    - LAPIS_ORE:7.2
+    - IRON_ORE:4.8
+    - GOLD_ORE:3.6
+    - DIAMOND_ORE:2.6
+    - EMERALD_ORE:1.4
+  generator4:
+    label: '500'
+    permission: oregen.100
+    unlock_islandLevel: 500
+    blocks:
+    - COBBLESTONE:57.5
+    - COAL_ORE:12
+    - REDSTONE_ORE:9.1
+    - LAPIS_ORE:7.8
+    - IRON_ORE:5.2
+    - GOLD_ORE:3.9
+    - DIAMOND_ORE:2.9
+    - EMERALD_ORE:1.6
+  generator5:
+    label: '750'
+    permission: oregen.200
+    unlock_islandLevel: 750
+    blocks:
+    - COBBLESTONE:53.2
+    - COAL_ORE:13
+    - REDSTONE_ORE:9.8
+    - LAPIS_ORE:8.4
+    - IRON_ORE:5.6
+    - GOLD_ORE:4.2
+    - DIAMOND_ORE:3.2
+    - EMERALD_ORE:1.8
+    - DIAMOND_BLOCK:0.5
+    - EMERALD_BLOCK:0.3
+cachedGenerators:
+- 487b7a6f-a456-45cf-a1d2-8409b040edc6:750
+- a6544df9-17b4-4137-b562-8e02cef29bc7:750
+- b5ca81ae-ae05-41a7-99dd-21e164060111:Default
+- 6756ee86-09e1-403f-b7ad-1eab2e78c82e:750
+playerGenerators: []

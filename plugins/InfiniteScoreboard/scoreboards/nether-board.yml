@@ -1,0 +1,75 @@
+board:
+  title:
+    lines:
+    - '&l&aI'
+    - '&lIn'
+    - '&lInf'
+    - '&lInfi'
+    - '&lInfin'
+    - '&lInfini'
+    - '&lInfinit'
+    - '&lInfinite'
+    - '&lInfinite '
+    - '&lInfinite S'
+    - '&lInfinite Sc'
+    - '&lInfinite Sco'
+    - '&lInfinite Scor'
+    - '&lInfinite Score'
+    - '&lInfinite Scoreb'
+    - '&lInfinite Scorebo'
+    - '&lInfinite Scoreboa'
+    - '&lInfinite Scoreboar'
+    - '&lInfinite Scoreboard'
+    - '&a&lInfinite Scoreboard'
+    - '&lInfinite Scoreboard'
+    - '&a&lInfinite Scoreboard'
+    - '&lInfinite Scoreboard'
+    - '&a&lInfinite Scoreboard'
+    - '&lInfinite Scoreboard'
+    interval: 5
+  '1':
+    lines:
+    - ' '
+    interval: 200
+    score: 8
+  '2':
+    lines:
+    - '&a&lWelcome %player_name%'
+    - '&2&lWelcome %player_name%'
+    interval: 5
+    score: 7
+  '3':
+    lines:
+    - ' '
+    interval: 20
+    score: 6
+  '4':
+    lines:
+    - '&aYour world:'
+    - '&aYour balance:'
+    - '&aYour time:'
+    interval: 60
+    score: 5
+  '5':
+    lines:
+    - '  &2%player_world%'
+    - '  &2%vault_eco_balance%'
+    - '  <update ticks=1>&2%localtime_time%</update>'
+    interval: 60
+    score: 4
+  '6':
+    lines:
+    - ' '
+    interval: 200
+    score: 3
+  '7':
+    lines:
+    - <scroll space=5 width=28 update=10>&eThank you for using InfiniteScoreboard
+      %infinitescoreboard_version% Don't forget to leave a &6☆☆☆☆☆ &estar rating</scroll>
+    interval: 1
+    score: 2
+  '8':
+    lines:
+    - '&7infiniteplugins.com'
+    interval: 1
+    score: 1

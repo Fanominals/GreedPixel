@@ -1,0 +1,743 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 22
+npc:
+  '3':
+    name: §b§lChoose A Class
+    uuid: 77cd7830-d7e3-48a4-825f-3b8d348aaf15
+    traits:
+      location:
+        bodyYaw: -359.71075
+        world: Dungeon
+        x: '-30.5'
+        y: '88.0'
+        z: '95.5'
+        yaw: '0.2892'
+        pitch: '0.0'
+      type: PLAYER
+      spawned: true
+      gravity:
+        enabled: false
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: ixis8M6w93XDlDgVOW+aBB8Xm6+U2tf9auXVoML/NMEa/889k5Q4LWrE7LsHqJTFUiFKljMrgjEB3C/MsKeNZ3YVzSlocLqEJyEVxavkQXjKjzxyzdmMFBwccxITMspUJXKBEOErj4hme+5LvbLN8oArYaOOBjCAPq0iaulWPw7cQ+gkfE4KyVVSSnhXZg7K88mXYrEMwNlYx+1qWTC3p+OzpVbooUKSVWAKjv/hJgztP/yYb0KhEiTMbstc0saO9m1uQ4+7mvgYxlACMwAyZoJW/gK28mx2Hy16dCLIA68ctFHnyNVLPzUuBvvY6wMg+kpYnedfpUO/8lCW8SUg3YY2F9Y1ESMBAE8lJQ0eRb1tewSh+JrXS8LefcdaLsMK9i+chDXVSMl8wdESo2aZeZBnQZLtVb7EIMAX9rCxju0V/xW+4bh23KsTsjmu8spcokez8amfX9jZAXj7aSuD+u+2i/W5PZI/8trlbXUBmd675kFAJanACJwGSL20/P/XsX91v18WKnOFSvBFx9IiVGYa2DHbimsCLhWQlUYipjBbuljEFntmdb9BhDd241y9hEsqCN3j0PZmmO1JmguAY9+DfXaJoiO7Jkflw5AjwqhobIg2Dt9S1m5Ln30s4P4igd/PfmbxkJ2pcYZaYyvC9KACmZrtxKTFQmUZ7UuC/Nk=
+        skinName: ec16e04e-0dad-4e6e-93bb-84837228c14e
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU4OTY5MDQ5NDYyNywKICAicHJvZmlsZUlkIiA6ICI3M2ZkNzU2NWJkZTY0MGQzYWE4MGUxMWUwMTMwMjc3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHYUJySWVMVnR6IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJhOTFjNTJkYTBjYzI5NjIwNDI4M2EwM2IzZGZhYTVmMjJiNzhkNWQwNTcxNTUzNDgxNzM1ZDAxYzExYmFlMjciCiAgICB9CiAgfQp9
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,gravity,equipment,skintrait,spawned,owner,mounttrait,scoreboardtrait,inventory,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: ec16e04e-0dad-4e6e-93bb-84837228c14e
+  '4':
+    name: §c§lLeave §fDungeon
+    uuid: f07cfe0d-44e5-406a-ab20-cfab90c6a7a2
+    traits:
+      spawned: true
+      location:
+        bodyYaw: -315.0349
+        world: Dungeon
+        x: '-26.3762'
+        y: '88.0'
+        z: '96.365'
+        yaw: '44.9651'
+        pitch: '-3.7497'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: cHGK7XQTnuu/EXzAiPgK9qv7XbW6wNXQOryzULYgNjw1o10qdiCX9wYeXBLfb+MVy+458XNKaWPAHbb580beJJd5hImnMH8fTGw8U2qr1N4f21gLnSgfd8HA5sm7+it4VvG9LrweNBv9DVw46hQAzKLi73gNEG68YPSR1mArvu8WH7B532OvgFqvo4Ua+/EqnEemXua/cWO68HooPxbCSxUwBRz2svKIMO/+HqK1Bm2ZyazmxKJAsDIYH7JOS9sjeUz5SFlzyzTLc/XQhw6jZFD1n3OziXvUd2SSa7WV+gaVz8TQL1Omn2MoBnB3CiWXhom7dabeiZq6gYFqj3mqllDL1M4dLxuPApAY2mNcga1QEcJp1idJKCAv/UKKQn8BVmdSr0jWBigEo4Gn2f0Fvhw4+Qp0lE3iT7/G3uAjCHMlf079WMZkCBBy02hA4dJHUTO6js3x7K6qR6+8ZS44QupCExT349jaoTRmvJzZTuBSoRpoMoJQT9rUU4exz25OQtSIv7k8XnLkeYa3WvAt12caHzwa0Ow+Ds31kVeLt+7hymXCuvPixJf3G6ODPlY1NxhPsC5PyTw8T0kD290W3VmoeyVtFZiDXNRozo08FbSEPMFYpHab3KfbtsY8R8IFqxjmobe3sym90IoQRvHORm0jvR0sLFH3ep3JLOlqNrI=
+        skinName: 9a36358a-65ab-4714-a9dd-dbca193e387f
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU4OTc2NDU4NDA0NiwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I5YjNhN2E5YTJkODc1ODJmMDg0MGFmMzZjMjg0YmVkNTJkODcyODYwM2FiNzA5MTVkZjRlZTExYmRkNGQ3MDAiCiAgICB9CiAgfQp9
+      gravity:
+        enabled: false
+      type: PLAYER
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,gravity,equipment,skintrait,spawned,owner,mounttrait,scoreboardtrait,inventory,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: 9a36358a-65ab-4714-a9dd-dbca193e387f
+  '8':
+    metadata:
+      cached-skin-uuid-name: ec16e04e-0dad-4e6e-93bb-84837228c14e
+    name: §b§lChoose A Class
+    uuid: faad6ace-22a1-458a-9319-53ebcf85a61c
+    traits:
+      gravity:
+        enabled: false
+      type: PLAYER
+      location:
+        bodyYaw: 126.71771
+        world: Arena
+        x: '3.4825'
+        y: '64.0'
+        z: '0.1864'
+        yaw: '126.7177'
+        pitch: '0.7111'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ixis8M6w93XDlDgVOW+aBB8Xm6+U2tf9auXVoML/NMEa/889k5Q4LWrE7LsHqJTFUiFKljMrgjEB3C/MsKeNZ3YVzSlocLqEJyEVxavkQXjKjzxyzdmMFBwccxITMspUJXKBEOErj4hme+5LvbLN8oArYaOOBjCAPq0iaulWPw7cQ+gkfE4KyVVSSnhXZg7K88mXYrEMwNlYx+1qWTC3p+OzpVbooUKSVWAKjv/hJgztP/yYb0KhEiTMbstc0saO9m1uQ4+7mvgYxlACMwAyZoJW/gK28mx2Hy16dCLIA68ctFHnyNVLPzUuBvvY6wMg+kpYnedfpUO/8lCW8SUg3YY2F9Y1ESMBAE8lJQ0eRb1tewSh+JrXS8LefcdaLsMK9i+chDXVSMl8wdESo2aZeZBnQZLtVb7EIMAX9rCxju0V/xW+4bh23KsTsjmu8spcokez8amfX9jZAXj7aSuD+u+2i/W5PZI/8trlbXUBmd675kFAJanACJwGSL20/P/XsX91v18WKnOFSvBFx9IiVGYa2DHbimsCLhWQlUYipjBbuljEFntmdb9BhDd241y9hEsqCN3j0PZmmO1JmguAY9+DfXaJoiO7Jkflw5AjwqhobIg2Dt9S1m5Ln30s4P4igd/PfmbxkJ2pcYZaYyvC9KACmZrtxKTFQmUZ7UuC/Nk=
+        skinName: ec16e04e-0dad-4e6e-93bb-84837228c14e
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU4OTY5MDQ5NDYyNywKICAicHJvZmlsZUlkIiA6ICI3M2ZkNzU2NWJkZTY0MGQzYWE4MGUxMWUwMTMwMjc3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHYUJySWVMVnR6IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJhOTFjNTJkYTBjYzI5NjIwNDI4M2EwM2IzZGZhYTVmMjJiNzhkNWQwNTcxNTUzNDgxNzM1ZDAxYzExYmFlMjciCiAgICB9CiAgfQp9
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,gravity,equipment,skintrait,spawned,owner,mounttrait,inventory,scoreboardtrait,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    metadata:
+      cached-skin-uuid-name: 9a36358a-65ab-4714-a9dd-dbca193e387f
+    name: §c§lLeave §fDungeon
+    uuid: 78a13f7e-d242-4090-b4ad-f598ffa6ff97
+    traits:
+      spawned: true
+      location:
+        bodyYaw: 106.74667
+        world: Arena
+        x: '1.4968'
+        y: '64.0'
+        z: '-2.3275'
+        yaw: '106.7467'
+        pitch: '7.2443'
+      gravity:
+        enabled: false
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: cHGK7XQTnuu/EXzAiPgK9qv7XbW6wNXQOryzULYgNjw1o10qdiCX9wYeXBLfb+MVy+458XNKaWPAHbb580beJJd5hImnMH8fTGw8U2qr1N4f21gLnSgfd8HA5sm7+it4VvG9LrweNBv9DVw46hQAzKLi73gNEG68YPSR1mArvu8WH7B532OvgFqvo4Ua+/EqnEemXua/cWO68HooPxbCSxUwBRz2svKIMO/+HqK1Bm2ZyazmxKJAsDIYH7JOS9sjeUz5SFlzyzTLc/XQhw6jZFD1n3OziXvUd2SSa7WV+gaVz8TQL1Omn2MoBnB3CiWXhom7dabeiZq6gYFqj3mqllDL1M4dLxuPApAY2mNcga1QEcJp1idJKCAv/UKKQn8BVmdSr0jWBigEo4Gn2f0Fvhw4+Qp0lE3iT7/G3uAjCHMlf079WMZkCBBy02hA4dJHUTO6js3x7K6qR6+8ZS44QupCExT349jaoTRmvJzZTuBSoRpoMoJQT9rUU4exz25OQtSIv7k8XnLkeYa3WvAt12caHzwa0Ow+Ds31kVeLt+7hymXCuvPixJf3G6ODPlY1NxhPsC5PyTw8T0kD290W3VmoeyVtFZiDXNRozo08FbSEPMFYpHab3KfbtsY8R8IFqxjmobe3sym90IoQRvHORm0jvR0sLFH3ep3JLOlqNrI=
+        skinName: 9a36358a-65ab-4714-a9dd-dbca193e387f
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU4OTc2NDU4NDA0NiwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I5YjNhN2E5YTJkODc1ODJmMDg0MGFmMzZjMjg0YmVkNTJkODcyODYwM2FiNzA5MTVkZjRlZTExYmRkNGQ3MDAiCiAgICB9CiAgfQp9
+        updateSkins: false
+      followtrait:
+        active: false
+        followingUUID: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+        protect: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,gravity,equipment,skintrait,spawned,followtrait,owner,mounttrait,inventory,scoreboardtrait,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    metadata:
+      cached-skin-uuid-name: c7dc5160-4cd0-4636-9b97-bd8b61272ac5
+      cached-skin-uuid: 3904e547-4213-43e3-9404-4add31e2202f
+    name: §7Claim your §e§lkits!
+    uuid: a1503a74-e9e4-4130-871d-68d1cd8d1622
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: IFhE6/zY+E7nnWqmuxIS96cZ2P6G6qMvOEVrZOI3I8GwkvNPXQS24DNwIpW8Q7bPdZv98U3sQgqacunUsFOyxpFP5SemgA3O9e/dw/bnIvcclQ1erdKLnBcuk6W4BY8VQtu5WTFEBYnHNpD6QSfucUcMWeyJBgRmCD1iZYLiEmbzk01Sf6zSIl92vEdCXP/b9RbT0fCaAdCn+SdjYPz+mZ+BTh5Ua4j2yI/ksFEIIkbIZ/pas0ljguhUYYL5KuKjsgRLyLcvAU35BFv6eakMl8217zfkfZhyuxvjUwTK/Pk0UdPnCYu8Rh+f2dkzCzItEgCNnjF2GbF2saXukKpdKE6tPKM0lujKfIsE9gHmTWadkseWVQvN0aF/s/w1NjXb55kVui+DOpjQqt318IDxUCWwVqwrS+lAN3pQTpLLfLlFtvWLUryUy1zfJg/Qx7AjQciYbN6myc81kmJva4xYc9CDgZfmbViyLejtJ4EA3Kc30+MZJjJDXFqoCpESRVcPxt/x5rV4mbUs+x21UvZOxEDrn3/cTCNzXu3Iku4djk+dPYZDC81ToFdhaPsdEHWqxp5H6jysxXPb47rw1Z+wahPMFowkyuRck72OJSbR41701Noih6K7zXsIL4OBXf7016DVbWY7ZkpiLscoL8yrV+NQW/kkAhonhRd9YNJuE70=
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1Nzc0NTIwOTE2NDgsInByb2ZpbGVJZCI6ImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwicHJvZmlsZU5hbWUiOiJPUHBscyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwNmUyOGVmZDIzNTdmZjA1ZDQ3NTM1YzQ3MWE1MDVmYmE0NTYzMGZmNzJiZmM2MDJiOTEzOTFiMGUzYjBiNCJ9fX0=
+        updateSkins: false
+        skinName: c7dc5160-4cd0-4636-9b97-bd8b61272ac5
+      type: PLAYER
+      location:
+        bodyYaw: 97.9501
+        world: Spawn
+        x: '86.391'
+        y: '200.0'
+        z: '92.4001'
+        yaw: '97.9501'
+        pitch: '-7.69'
+      spawned: true
+      gravity:
+        enabled: false
+      controllable:
+        enabled: false
+        owner_required: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: controllable,gravity,equipment,poses,mounttrait,location,skintrait,spawned,owner,inventory,scoreboardtrait,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '11':
+    metadata:
+      cached-skin-uuid-name: 8f33a5d7-21b2-4177-be2a-a5e97c9549c7
+      cached-skin-uuid: 9d28c21e-72f8-4c5e-8514-387cc7ecf34f
+    name: §7
+    uuid: 5cc18b4e-5460-4cd1-8df3-0ddc8ce9dbd2
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: V3l8sM+J4mBBA+uIpWs2Sr+ZB8Qj8loP9NYE1h1s6aBM/6kZrsPZ8nQrYOB+HzfMKt+55PhrfaiCiSemHIjqViMAM3gCfJcWWs6sOR1lhPDX5Jff4nS8OAnqpgnoDNnDjAIqz9VgItHCQdEKf7FV8hylht2pOSbRaG66cnaEqcdR0w7OiSLOvZ4pUgNlZ2G0YRF7fJvXGNG+EgBvYxqUkKH8PTlvYhrzPAOtlP26ohbKpbfRGkbD+vBNiQCPzUKgjsc3/44bZp6RH5IQpaibXIIWqX6k6mlkb5PN2vvIuT4Qx3JyKj4fkP8VCCwLREKNLG7WB8EPIXtwrbo4nlSmlU/q5Jiwv6e7vObuzm+EQdkr350TZjMxxD8HlQFxEDIW5a/TtPBTKo5Ldtu4O8N/eIJh1wAF5wKL1NgWgMHWlvH7Kmn7mK2b4ZPOXp5EDt/fXqgTKJjNzmIfI7eal0xw+J3Xm5meW5s9v88gWPKjFvYISfmUHep3mUQc8XMW/0uMYdTnxRusEYWZtj6ZTKSz4iXtdjj7/AQit4vvJyefmiUq93ffERV/kpVXgks4omzCvrDNDlCu07gnrne0OfNdNKnAgP4V7JjiTimfa0WoM0X0S8j0kPppyxHM7vzmqxMZAhOfaH+8USfdZFc4qfMQHQiI9frSRDRgpaihQFjvOiM=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5MDI3ODQ5MTIyMywKICAicHJvZmlsZUlkIiA6ICJhNzFjNTQ5MmQwNTE0ZDg3OGFiOTEwZmRmZmRmYzgyZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcHBsZTU0NDciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmUxZDA4YmU2YjUxMmI5NzU1ZmE0NzM0NTMwOWZjZmNmNGZiZTY5NDc4YmIwMjIwZTQ2ZTkzZGVmMTZkMzljOSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+        skinName: 8f33a5d7-21b2-4177-be2a-a5e97c9549c7
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: 108.64932
+        world: Spawn
+        x: '82.4845'
+        y: '200.0'
+        z: '94.471'
+        yaw: '108.6493'
+        pitch: '0.0'
+      spawned: true
+      gravity:
+        enabled: false
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,gravity,equipment,skintrait,spawned,owner,mounttrait,scoreboardtrait,inventory,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '12':
+    metadata:
+      cached-skin-uuid-name: 1d449588-a2ba-4781-9a04-2c097a0acb9f
+      cached-skin-uuid: f5043c25-3255-44ed-be84-b25dc7a53d13
+    name: §7
+    uuid: 805c075f-97ce-4857-92b0-26e616db4935
+    traits:
+      gravity:
+        enabled: false
+      type: PLAYER
+      location:
+        bodyYaw: 150.92075
+        world: Spawn
+        x: '88.5109'
+        y: '200.0'
+        z: '88.5139'
+        yaw: '150.9207'
+        pitch: '-8.5376'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: F9C4GBFDsFa6rBAyHqE1iC12G9SBUD44V9h7A1QckbRWNFOMMW6nmzqhxwa/U8WdxjGBVXfPFfL6rm50eO9/ECdgghTWsbz0QBjV9yRsTt3xd67rW8MZ4K54KOuDwp5HCY6DLwKfFbGq2F5PknfX4e4hc1JScOxd0ssFf53Vd0yYOKQ07q0y5lQDcIlTzMHamVGvoANQtlVirfUfD64OSA1kQFQCnrjAw+h5rTqEtA5Q0feBzQvN6MRibVoStxlCE4mLO6prcZmXK0QjtLM3cU7DPA+O0FRF/h3tO5uQfXeXihuBRYIFu7Mqyv5pmrax7Z6cRHoyAR1e4YEidAGQIODLNVh1Vt6FiwvuWrlXdwuzEQEv/IQBkMraAdKQ0TcSEyd4DLhwCw/Cp7UnYOm42JU3WyJhOHzl1/+UpiUPCHOzjICV+AMvStGeFadRbHksMzOeaHc1C8Esoj3Z9rNHbq6N3ZICRY0nFDfhzNrGZ8FaG3CUM8EXJCZ+zj/U+u8/zfQ8p3C8jdFKkwIw2LBAE2AVVwDQHurb+zvVoNrL8RzrMyaZ+yh8W02TzotKbJJ/0Gj+z1kM1NYp4H/8ohYnEys4pDDSNjC73zmyDb3/a0AzVXhciEeK9hKfSCb6Z45quCCYjCqQe3sePbyyQne9iVmto5vhcioyWE9Mz7ZJd2k=
+        skinName: 1d449588-a2ba-4781-9a04-2c097a0acb9f
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU4OTg2MDQyNjkzNCwKICAicHJvZmlsZUlkIiA6ICJhMjk1ODZmYmU1ZDk0Nzk2OWZjOGQ4ZGE0NzlhNDNlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaWVydGVsdG9hc3RpaWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM4Y2ZjOTU2NDA0NWRlNzdhMDA5Zjc5NzJkMWM5NTAwZmQwOWI1MjVhMmEwYjIwYTlkZTAxMWJjZjQzZWVhNyIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,gravity,equipment,skintrait,spawned,owner,mounttrait,inventory,scoreboardtrait,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '13':
+    name: §c§lLeave §6Legendary Mine
+    uuid: 6981e9e5-4cf8-4fdc-af9d-07145f0dac57
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: VILLAGER
+      location:
+        bodyYaw: -77.86657
+        world: Mines
+        x: '-269.9792'
+        y: '72.0'
+        z: '696.978'
+        yaw: '35.4176'
+        pitch: '0.0'
+      spawned: true
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,gravity,equipment,skintrait,spawned,owner,mounttrait,scoreboardtrait,inventory,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '15':
+    name: §c§lLeave §5Rare Mine
+    uuid: ffa0616a-dc7a-473b-9cd8-02867ae21cb3
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: VILLAGER
+      location:
+        bodyYaw: -141.01118
+        world: Mines
+        x: '46.4917'
+        y: '84.0'
+        z: '431.5821'
+        yaw: '-146.3781'
+        pitch: '0.0'
+      spawned: true
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,gravity,equipment,skintrait,spawned,owner,mounttrait,inventory,scoreboardtrait,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '14':
+    name: §c§lLeave §aBasic Mine
+    uuid: 44feab45-bfcf-42a3-bf17-cfe115980449
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: VILLAGER
+      location:
+        bodyYaw: -314.55652
+        world: Mines
+        x: '28.6123'
+        y: '72.0'
+        z: '245.3743'
+        yaw: '167.2726'
+        pitch: '0.0'
+      spawned: true
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,gravity,equipment,skintrait,spawned,owner,mounttrait,inventory,scoreboardtrait,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    metadata:
+      cached-skin-uuid-name: skeleton
+      cached-skin-uuid: 6d959fcc-e0ca-44ff-8d49-f4a2ae9f8de8
+    name: §dRare §e§lCrate
+    uuid: 60ea46c9-7ec4-411b-973c-5749b09d58f3
+    traits:
+      location:
+        bodyYaw: -52.118813
+        world: Spawn
+        x: '63.4097'
+        y: '200.0'
+        z: '72.4069'
+        yaw: '-52.1188'
+        pitch: '-38.622'
+      controllable:
+        enabled: false
+        owner_required: false
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: VnxBRcZ6XyUzlC191DbuBP528qsv7Wb8qTUfZ/OyDjkyhyiCEhmRUFjwitDrvg1wLtlAUxpzKQHFHgEzLgNbSwglmB4AHWn1EJi3j3+Jpki1RFnfCufyHS2WNnJsxUyeJ7h/r6XqLtg1P00bw5toEISBgVXCIzshryRvgmaP8UpWxvBPpbV76oJarO4ryRUPkOyViWKTjfP3DbLp3NLRc951XJwfUBkphVDyd8g255gADK7fmjnDSsfGRx8wOEeHCGboaKuR+GOULOzDBk+qtBl8P9x86IFY8aD/N8euN9Z+caibVsPftb42KUSMuYy5KPVpFq8mI3og+JIwR2wOA3UEOLdK5ai7QX94bbZqaAh8h4y4wDTv3gR0Zrt+cKiDT0eolFcQgT8T0JXD5jn9zVcufgLQiw4XmegE4FY3G16lMedQJIhxukMMukioVpRBG+OhogyQ6xkWer8rrM165nngB85gV7Su7iegSImMrzpenUGzIIhk6pFskiNAvNUMDOH3pQG+IPHbZGbBIpxZNJKRK3WFwTCV9uDJ74ysQ9krX+XrWRAgXQpuID23DX4LvMetuT2Nn67LUJwDvZe7NmQ2uyCklnKy0LiGgA/rixB8zr2tEvHxxAhVoti6a7D9BC6lQDT2Sy7sJgcDFPnu8ZfLPcaHM6l1vGJgnBgf7Zk=
+        skinName: skeleton
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5MjM1MTUwOTQ0NCwKICAicHJvZmlsZUlkIiA6ICI2ZDk1OWZjY2UwY2E0NGZmOGQ0OWY0YTJhZTlmOGRlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2VsZXRvbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZjBmNTIzMDMyN2VlZmZiNzYzMWYzN2JlNTQ4YWQ3YmRiMzJjYTc0M2MwNjc5MWRjYjc3NDNiYjk2MTY2OTkxIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: false
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: controllable,location,gravity,equipment,skintrait,spawned,owner,mounttrait,inventory,scoreboardtrait,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    metadata:
+      cached-skin-uuid-name: zombie
+      cached-skin-uuid: 02b0e86d-c86a-4ae7-bc41-015d21f80c1c
+    name: §aBasic §e§lCrate
+    uuid: 94f1bf00-cade-4b22-b20c-597c07979c5f
+    traits:
+      location:
+        bodyYaw: -42.140034
+        world: Spawn
+        x: '62.4904'
+        y: '200.0'
+        z: '74.4605'
+        yaw: '-42.14'
+        pitch: '-33.0097'
+      controllable:
+        enabled: false
+        owner_required: false
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: h4P4b87LIqiPkHTLzG6SRqaXlQF046HbRZVXQxWSu7IMZZbkrzM71+uMIaAC7VrDBINEr0m4PJM8t7KrEII15xBQO15I81/zqIy4VYuzMARlWJSSnDphIpOIk4qk7WW61U4+J9RyIlBEE7p9Ti2wrb/O0gsahR2qmds+ozTlSxyf+s3ULCdDBRvjpIKMAt8LezenV2YynbNSecxQBVsOYY8HuTQwQUTk2cwh/HUb4WyMieiQFwHF1fxLTxSR4HCtQELEiaJFTtZQ2oU2SSQlUBiJ6R9I0ENTnfdQrkUbTyG0d6qsZZ1RPU/uIORyDf5GO6P5IAbggiAImln3zN0pTuikPwV0GIb/uU6Hg07K1/sMRmc9XeF41DPke10xj7MbkLg9tQpCLhbMBVO1P+63qYEt5JLl8l0kFI3gL8MyO9lmRa6SILCprq49bpu85aCiRdPlOtiP7nX2PXWAgAJBJmljxTxnSb5D9r4higwY9hVBcH1Y3oTw6Bji87v+5XchF6ATnPsiztnQzFm8Xkb9XPOf9g8pt9UU2p29GBDO4JYP1B1g2O1M7RObffx6MU0mzICLMrWZ6ajd0xWMmXryeVxQeVKMnrfs4H090tpDYNIVenJzaT9yC2H4hKeuFULVzwjv1hPLWAFgP6l/swM8mgiQL3e1EMzm2u7cRNo2UoY=
+        skinName: zombie
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5MjM1MTQ5NzU5NSwKICAicHJvZmlsZUlkIiA6ICIwMmIwZTg2ZGM4NmE0YWU3YmM0MTAxNWQyMWY4MGMxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJab21iaWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgzYWFhZWUyMjg2OGNhZmRhYTFmNmY0YTBlNTZiMGZkYjY0Y2QwYWVhYWJkNmU4MzgxOGMzMTJlYmU2NjQzNyIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: false
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: controllable,location,gravity,equipment,skintrait,spawned,owner,mounttrait,inventory,scoreboardtrait,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '19':
+    metadata:
+      cached-skin-uuid: 22511305-b1e8-497c-a268-14100b1b450b
+      cached-skin-uuid-name: trap
+    name: §bVote §e§lCrate
+    uuid: 07f86695-075e-48ca-a27c-92df1dfed9c5
+    traits:
+      location:
+        bodyYaw: 22.271027
+        world: Spawn
+        x: '66.513'
+        y: '200.0'
+        z: '69.471'
+        yaw: '22.271'
+        pitch: '-19.9276'
+      controllable:
+        enabled: false
+        owner_required: false
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: XW4UJhpQx1KB+X6LFAw7iYrWVogSUupSKCz6OJHrNmnHNoAmVXvQaWeC4YR7pRBxsi6UEUnpFRyh/cU291ZljIesukKg7WPHm2qbn2IDpzq2zTEW7A1cm67cNU9tvG8hTYscR4u9MB4VkIZ2XxcUxj5iu4LKd2MvuBzMNptt/bfO/LQ/BV/JBb+SpGvKBbuCTARxZ+8xlE+NCR7NRID7ScufKW0I52QIzPTvk54IK/wpgJNUBgHvZBqLZadDP14lGp0p/bpwg56r3Xk05gPZnRF/kTACaqol6N+goxvt6hLurRhXDWT9NUjdvycXdfd57B50RZ8cm9UYP19OoQqP4RKILmUndNgdXRwuUPq9VQ3y0ei+sQD1HKwKO0MPfwtSvlQcmdtFmXO8YPKP6L90CNs+HiVcWj3Sg3W9hja7GlJyQCPWmN419GoUPgu2UYNQZWz9Uj3pb5ZX0b1zILlk1XsbbJ8SxJDXjY+FZIBp11TGnseIqjUW+HfZKNvSUvsA1Ksk3VKjNPnY1RWieX10XeqhzIWB2aU8kq/ks5rX8ChS6Nw+X4yw73c4LYlBot7X7LH+o5bEib1VKD8kHpph818b8tLdSuUlNa9dfqvyvbSGoXAydBZgFnybx8pG3awSrHxacvNWIc9jgpAEmsBZ/pktMs43PJOJ6+Rnt/8APxs=
+        skinName: trap
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5MjM1MTk1NTczOCwKICAicHJvZmlsZUlkIiA6ICIyMjUxMTMwNWIxZTg0OTdjYTI2ODE0MTAwYjFiNDUwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUcmFwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogeyB9Cn0=
+        updateSkins: false
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: false
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: controllable,location,gravity,equipment,skintrait,spawned,owner,mounttrait,scoreboardtrait,inventory,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '18':
+    metadata:
+      cached-skin-uuid-name: creeper
+      cached-skin-uuid: 696581df-4256-4028-b55e-9452b4de40b6
+    name: §6Legendary §e§lCrate
+    uuid: 359936c4-c7f1-4420-bf8b-23ecc297f281
+    traits:
+      location:
+        bodyYaw: -54.315178
+        world: Spawn
+        x: '64.5097'
+        y: '200.0'
+        z: '70.4504'
+        yaw: '-54.3152'
+        pitch: '-21.1762'
+      controllable:
+        enabled: false
+        owner_required: false
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: qAXEWehyZWqvNCffJ7WDW75pHHVDNN77kMor6fBnc/XuN3uOZNDjhZ3ToGt5J8uyKmYD3gS2SSF1RPXoKcCw8Ovjwv8kJuJxixgnfc/sgydSxuwGfPcGnq4QjLPo9+BE2qBKiRrMAUQILOBr7qTpY5ol2jVToobxsL38j6SOqBsj80IGGgvfkkGecAaTSA5I2CBvYXzcn6vmGSCiDxc6GYeiKvTbQlkc0gT7ElVXgEyO8v0qVjM4bSEQNcxNUEV5WvPCTVvsiOUJhNWe7N9tNyCJHBm9qUhzYBYgFZBIPkca9+Dwgq8bq8IFKrEfz0syg3SS/PycWQKJPEms07zAHBQEGlappVGDE6+sGFjoTfQbQ/Y29snglJ0lFN7L1H8vktqEx+TiDxGRddE6irD5qe8GxstRSQsv3EqAnQtWzptqUR/KyWLwpeEr847GMGj/88VnesNrcrv5IJLBS+LLvRTpagqci+lkF2JgGTem/xKx8GByJcuigBQ/JzTdH5qvAKyPxUcxfqDvdHoZzFkNrQroDwbuoUt2tVt9rdsUTTEIiFGxLutRBmJt6xpmz9ZzrL6hWz7ND6MfIPZB/Y2UPuapmMyhQ99P7RmvmpsUsjrVoVdto4hYgXd2Y6y0mwQhjtQ4zpaT++gj29a9DaObZjr/K73NORDhso4aZMJYL+U=
+        skinName: creeper
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5MjM1MTg3Nzc3NCwKICAicHJvZmlsZUlkIiA6ICI2OTY1ODFkZjQyNTY0MDI4YjU1ZTk0NTJiNGRlNDBiNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcmVlcGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlOGUwYzQwYjBlOTMxYzc3YzI2NGViMGEwNTBkN2U2ZWJiZTVhYmYzZWE5MmFlMTQ3NTQ4ZTVkM2VjN2JkODIiCiAgICB9CiAgfQp9
+        updateSkins: false
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: false
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,controllable,gravity,equipment,skintrait,spawned,owner,mounttrait,inventory,scoreboardtrait,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '21':
+    metadata:
+      cached-skin-uuid-name: 5a909bdc-cebe-41b4-ac53-6a1229b7456c
+    name: §7(Click to open the shop)
+    uuid: 9a9358f9-cbc0-41bb-8810-489e61685015
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: YTK1wuELG3GhBoULdnvcRczRZ823zkgiu8iV0t84pDuvJVAbs71wJiihlsxTnL/YrmyYJLD+igqRoLCtpJEozPKZyvjDI+PBpoW2cUipBOEeP5+Kdiw3q/LofugyA60hD3Cqd0Qtu6Q+8/IBLftQ7XQk6xlYoHKLg8h75l93IoIqMYn0J13P7yZZHtpd6CO3xH3//lQS2NM35PXfYzqfRKxJKriNO7AvDptcqxgY9148G+dqnSto9NbCTGhL5S31Z5Gm56Jp/KNx/8LQx1iLjpMfKGabxlwQzwwHYzCLUyJu9PbI7ACMQ6Q/2SBgVSyIgE0IaJH6KOkfayd4WCjIC8/wJo/TrlMuXEtOI+4dpB0MvRyOWr6QkUDeug9K84HfWJhc5OB3K5sk/cCLqNBQF41OyLy+zTFcGTEuxAEkS51wkw4xyFmaXRoVSg19hP/Iw42UWXXA3zfn1dIzSRFonXJdyQiCoR0t4ydwGw5acYAEC/gNuKxhQvnkDTtr4d7+kYRXBLnGZUPM9EtI1kkMvJAunnaJ8dt5hhz91ecCu4domnPurRJZtAfYv5J6v0eUwaOMziVF/Gtrh8vdmALr9mDfOqU8ChIPExx34gQg8V3ya3HK57DM/OKTgqacJYbVks7Tvipb8tcKNqf+kvkR5ETk+jSNDd89ly9qEEvTQgA=
+        skinName: 5a909bdc-cebe-41b4-ac53-6a1229b7456c
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5MjM2Mjg5MjQzOSwKICAicHJvZmlsZUlkIiA6ICI3M2ZkNzU2NWJkZTY0MGQzYWE4MGUxMWUwMTMwMjc3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHYUJySWVMVnR6IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U0NzdhOGNmMWYwMTBkYzE3YmQ3NGMyZGViMjFhNmVkZjAxMzUzODZiMmE2NjZlOWNkMmI2YWM0NTJhOTg3NDMiCiAgICB9CiAgfQp9
+        updateSkins: false
+      type: PLAYER
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: -63.926918
+        world: Spawn
+        x: '64.5244'
+        y: '200.0'
+        z: '92.4311'
+        yaw: '-63.9269'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,gravity,equipment,skintrait,spawned,owner,mounttrait,inventory,scoreboardtrait,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '20':
+    metadata:
+      cached-skin-uuid-name: tutorial
+      flyable: false
+      cached-skin-uuid: 10df47cb-96b5-4726-a757-16c0942b5640
+      glowing: false
+    name: §7(Right-click to start tutorial)
+    uuid: 94f7ff82-c01d-4785-945e-fa00a51c0ecd
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: UaP5YNQAKHgusxUThRKfFDnlBTrl03pblx9bl8PFzK6YTOP5geBEkojEOizpWu3QlDYsmIM6lveMDkBCjYOAeoUzHrTy9GYSjt0HMxk4uQYnMDANvz1+m+a4/bca5pGZiPa28GFfvS7ApsaDKQRz0BVwnMFjtfOQ+2vUZBX9jewA6HI1XzdXGvwdibpBMN0/b8UByxWBT0D38q8i/7rNkf6ktA+G7LMt0qTYjwuDjtfsy9cRaN/naW5d4cus5cjepoyk2bQSz5CbH2An4Zbxv9rKULPfYHJXQqyJfGaue01/HxtgiDoZ/BHCqTJ/LzihmY9hk53qE8FVA+akTBz4p/Do/UvCzZOXhj9MzM8bxEPCjDy5mkaWp5iKaH/YlmLxf5lLDP1nOmB37q0Vx5JmiOr3IAp+Q+WqGIRoGF8e39pXZ/3JWHNwAtn1mNjhbEqU4EsfQ/4rZW1P6Nb2JGv6+RNfhM0Z9PA1ofu1fIvXYNVLI18V4AHrlABQWrP9jbi6d9mZyRsBp1VCxxpkGIhb2i0qsBQ1ncAjI8XDLuIy7IuWXfiwtL0n9ryww4n7VzyIYhzC4MZplzoCVEr5pk7hDRGbdX5gWEownI+uOIV092Np/RO/hwQb/RDH/F6P204srm9oNjCdrySmEj7NQndGMadt3s/RngU/HPLgnCQffbU=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5Mjk1NTc3NDA0NSwKICAicHJvZmlsZUlkIiA6ICIxMGRmNDdjYjk2YjU0NzI2YTc1NzE2YzA5NDJiNTY0MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUdXRvcmlhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsgfQp9
+        updateSkins: false
+      type: VILLAGER
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: 169.0703
+        world: Spawn
+        x: '68.5293'
+        y: '200.0'
+        z: '94.5004'
+        yaw: '-94.357'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,gravity,equipment,skintrait,spawned,owner,mounttrait,inventory,scoreboardtrait,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '22':
+    metadata:
+      flyable: false
+      cached-skin-uuid: 10df47cb-96b5-4726-a757-16c0942b5640
+      glowing: false
+      cached-skin-uuid-name: tutorial
+    name: §7(Right-click to open wiki)
+    uuid: 43a664c0-95bb-4412-bfe7-be90e1f3c189
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: -132.3479
+        world: Spawn
+        x: '62.5285'
+        y: '200.0'
+        z: '88.5072'
+        yaw: '-38.3209'
+        pitch: '0.0'
+      spawned: true
+      type: VILLAGER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: UaP5YNQAKHgusxUThRKfFDnlBTrl03pblx9bl8PFzK6YTOP5geBEkojEOizpWu3QlDYsmIM6lveMDkBCjYOAeoUzHrTy9GYSjt0HMxk4uQYnMDANvz1+m+a4/bca5pGZiPa28GFfvS7ApsaDKQRz0BVwnMFjtfOQ+2vUZBX9jewA6HI1XzdXGvwdibpBMN0/b8UByxWBT0D38q8i/7rNkf6ktA+G7LMt0qTYjwuDjtfsy9cRaN/naW5d4cus5cjepoyk2bQSz5CbH2An4Zbxv9rKULPfYHJXQqyJfGaue01/HxtgiDoZ/BHCqTJ/LzihmY9hk53qE8FVA+akTBz4p/Do/UvCzZOXhj9MzM8bxEPCjDy5mkaWp5iKaH/YlmLxf5lLDP1nOmB37q0Vx5JmiOr3IAp+Q+WqGIRoGF8e39pXZ/3JWHNwAtn1mNjhbEqU4EsfQ/4rZW1P6Nb2JGv6+RNfhM0Z9PA1ofu1fIvXYNVLI18V4AHrlABQWrP9jbi6d9mZyRsBp1VCxxpkGIhb2i0qsBQ1ncAjI8XDLuIy7IuWXfiwtL0n9ryww4n7VzyIYhzC4MZplzoCVEr5pk7hDRGbdX5gWEownI+uOIV092Np/RO/hwQb/RDH/F6P204srm9oNjCdrySmEj7NQndGMadt3s/RngU/HPLgnCQffbU=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5Mjk1NTc3NDA0NSwKICAicHJvZmlsZUlkIiA6ICIxMGRmNDdjYjk2YjU0NzI2YTc1NzE2YzA5NDJiNTY0MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUdXRvcmlhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsgfQp9
+        updateSkins: false
+      gravity:
+        enabled: false
+      owner:
+        owner: Ablates
+        uuid: 487b7a6f-a456-45cf-a1d2-8409b040edc6
+    traitnames: location,gravity,equipment,skintrait,spawned,owner,mounttrait,scoreboardtrait,inventory,type,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

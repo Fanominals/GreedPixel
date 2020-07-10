@@ -1,0 +1,139 @@
+name: §0§lDungeon Crate
+template: wander
+cooldown: 15
+attached-citizens: '16'
+permission-required: false
+key:
+  id: dungeon
+block:
+  pushback:
+    enabled: true
+  hologram:
+    enabled: true
+    text:
+    - §0§lDungeon §e§lCrate
+    - §f(Right-click to open)
+    - §f(Left-click to view contents)
+  locations:
+  - 70.0,201.0,69.0,0.0,0.0,Spawn
+effects:
+  STATIC:
+    type: SIMPLE
+    particle: FLAME
+    sound: none
+  USE:
+    type: HELIX
+    particle: FLAME
+    sound: ENTITY_PLAYER_LEVELUP
+  OPEN:
+    type: FIREWORK
+    particle: FLAME
+    sound: ENTITY_FIREWORK_ROCKET_BLAST
+rewards:
+  broadcast: false
+  min: 1
+  max: 1
+  list:
+    '1':
+      name: §;§8§;§9§;§3§;§6§:§;§1§:§c§lChicken §fSpawner §c§l1x
+      chance: 25.0
+      cmds: []
+      item: 5000080016ip0025mmirj5cdp62pjk79pn0obndpin42g00dq62poa003m8qbje1m62u880024sobdck050up2ehingt1278hc59proajjhgl77f1aeee2ksts59pjoajjngl76r1aeem2ksts59phoajjlgl7cf1aer23d1km6qr5dogc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: 5000080016ip0025mmirj5cdp62pjk79pn0obndpin42g00dq62poa003m8qbje1m62u880024sobdck050up2ehingt1278hc59proajjhgl77f1aeee2ksts59pjoajjngl76r1aeem2ksts59phoajjlgl7cf1aer23d1km6qr5dogc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '2':
+      name: §;§9§;§5§;§0§;§1§:§;§1§:§c§lCow §fSpawner §c§l1x
+      chance: 20.0
+      cmds: []
+      item: 1800020009km800hdlkmspb3e9gmct1qedo62treclp0k003ehgme2g00ti6isrgdhgni2000h762rb50167m8jkcls788hq4b1aeeu2ksss59proajjbgl77f1aec62ksts59phoajjlgl77f1aece2kstc59r3oajmogrfesgc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: 1800020009km800hdlkmspb3e9gmct1qedo62treclp0k003ehgme2g00ti6isrgdhgni2000h762rb50167m8jkcls788hq4b1aeeu2ksss59proajjbgl77f1aec62ksts59phoajjlgl77f1aece2kstc59r3oajmogrfesgc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '3':
+      name: §;§1§;§3§;§9§;§4§:§;§1§:§c§lZombie §fSpawner §c§l1x
+      chance: 15.0
+      cmds: []
+      item: k00010004qb4008mqqbeclhn4ob6egt76s31etn6asga001n8ob71800ep39edo6oobp10008jj1dlig0jrr49q6au3k48t25gl77f1aece2ksts59pjoajjngl7771aeeu2ksqc59pqoajjngl7671aeem2kths59rcb9nmqoj9ckgc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: k00010004qb4008mqqbeclhn4ob6egt76s31etn6asga001n8ob71800ep39edo6oobp10008jj1dlig0jrr49q6au3k48t25gl77f1aece2ksts59pjoajjngl7771aeeu2ksqc59pqoajjngl7671aeem2kths59rcb9nmqoj9ckgc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '4':
+      name: §;§4§;§5§;§0§;§3§:§;§1§:§c§lSkeleton §fSpawner §c§l1x
+      chance: 10.0
+      cmds: []
+      item: 1800020009km800hdlkmspb3e9gmct1qedo62treclp0k003ehgme2g00ti6isrgdhgni2000h762rb5018nm8jkcls788hq4b1aeeu2ksqc59proajjbgl77f1aec62ksts59pjoajjlgl77f1aece2kstc59r3oajmokrbclm6at3fdogc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: 1800020009km800hdlkmspb3e9gmct1qedo62treclp0k003ehgme2g00ti6isrgdhgni2000h762rb5018nm8jkcls788hq4b1aeeu2ksqc59proajjbgl77f1aec62ksts59pjoajjlgl77f1aece2kstc59r3oajmokrbclm6at3fdogc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '5':
+      name: §;§7§;§5§;§7§;§4§:§;§1§:§c§lSpider §fSpawner §c§l1x
+      chance: 5.0
+      cmds: []
+      item: k00010004qb4008mqqbeclhn4ob6egt76s31etn6asga001n8ob71800ep39edo6oobp10008jj1dlig0jrr49q6au3k48t25gl77f1aedu2ksts59ploajjngl76v1aeeu2ksqc59pqoajjngl7671aeem2kths59rcado6ip35e8gc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: k00010004qb4008mqqbeclhn4ob6egt76s31etn6asga001n8ob71800ep39edo6oobp10008jj1dlig0jrr49q6au3k48t25gl77f1aedu2ksts59ploajjngl76v1aeeu2ksqc59pqoajjngl7671aeem2kths59rcado6ip35e8gc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '6':
+      name: §;§5§;§5§;§3§;§9§:§;§1§:§c§lCreeper §fSpawner §c§l1x
+      chance: 3.0
+      cmds: []
+      item: 5000080016ip0025mmirj5cdp62pjk79pn0obndpin42g00dq62poa003m8qbje1m62u880024sobdck050up2ehingt1278hc59proajjbgl77f1aede2ksts59pjoajjngl7771aeem2ksts59phoajjlgl7cf1aer23e9imas35e8gc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: 5000080016ip0025mmirj5cdp62pjk79pn0obndpin42g00dq62poa003m8qbje1m62u880024sobdck050up2ehingt1278hc59proajjbgl77f1aede2ksts59pjoajjngl7771aeem2ksts59phoajjlgl7cf1aer23e9imas35e8gc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '7':
+      name: §;§1§;§6§;§0§;§0§:§;§1§:§c§lPig Zombie §fSpawner §c§l1x
+      chance: 2.0
+      cmds: []
+      item: 2g0004000j9cg012rb9dpim6sj1cpq3ksrgc5rmspbi18006t31cs5001r4d5pn0r31f440012ec5mma02jfch78pboegh3k8m2ksts59phoajjngl76r1aeeu2ksoc59proajj1gl77b1aeeu2ksos59pqoajm7gl7dh86ipp0b9nmqoj9ckgc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: 2g0004000j9cg012rb9dpim6sj1cpq3ksrgc5rmspbi18006t31cs5001r4d5pn0r31f440012ec5mma02jfch78pboegh3k8m2ksts59phoajjngl76r1aeeu2ksoc59proajj1gl77b1aeeu2ksos59pqoajm7gl7dh86ipp0b9nmqoj9ckgc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '8':
+      name: §;§5§;§8§;§4§;§5§:§;§1§:§c§lDiamond Golem §fSpawner §c§l1x
+      chance: 1.0
+      cmds: []
+      item: 1800020009km800hdlkmspb3e9gmct1qedo62treclp0k003ehgme2g00ti6isrgdhgni2000h762rb501b7m8jkcls788hq4b1aeeu2ksqs59proajjhgl77f1aed62ksts59ploajjlgl77f1aece2kstc59r3oajmoh39c5mmurj4413mur35dkgc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: 1800020009km800hdlkmspb3e9gmct1qedo62treclp0k003ehgme2g00ti6isrgdhgni2000h762rb501b7m8jkcls788hq4b1aeeu2ksqs59proajjhgl77f1aed62ksts59ploajjlgl77f1aece2kstc59r3oajmoh39c5mmurj4413mur35dkgc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '9':
+      name: §;§5§;§6§;§9§:§;§1§:§c§lMagma Cube §fSpawner §c§l1x
+      chance: 0.5
+      cmds: []
+      item: a0000g002d5i004bdd5n6aoric5j78ejje1gnerj5e85000rkc5jgk007chkn6s3cc5sgg0049pgmqp809lti4t35f1q24eh2oajjngl76n1aeeu2ksrc59proajjjgl77b1aeeu2ksos59pqoajm7gl7dh6m2prdc4g46tb2ckgc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: a0000g002d5i004bdd5n6aoric5j78ejje1gnerj5e85000rkc5jgk007chkn6s3cc5sgg0049pgmqp809lti4t35f1q24eh2oajjngl76n1aeeu2ksrc59proajjjgl77b1aeeu2ksos59pqoajm7gl7dh6m2prdc4g46tb2ckgc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '10':
+      name: §;§8§;§2§;§8§;§3§:§;§1§:§c§lGhast §fSpawner §c§l1x
+      chance: 0.1
+      cmds: []
+      item: 2g0004000j9cg012rb9dpim6sj1cpq3ksrgc5rmspbi18006t31cs5001r4d5pn0r31f440012ec5mma02efch78pboegh3k8m2ksts59pooajjngl76b1aeeu2kssc59proajj7gl77b1aeeu2ksos59pqoajm7gl7dh3mgobjeggc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: 2g0004000j9cg012rb9dpim6sj1cpq3ksrgc5rmspbi18006t31cs5001r4d5pn0r31f440012ec5mma02efch78pboegh3k8m2ksts59pooajjngl76b1aeeu2kssc59proajj7gl77b1aeeu2ksos59pqoajm7gl7dh3mgobjeggc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '11':
+      name: Common VoidChest Access
+      chance: 15.0
+      cmds: []
+      item: 1800020009km800qdlkmspb3e9gmct1qe1p6isrdc5p6irj5btpmgobicg5000rkc5jgg007epnnaor8clp003rmdtkm8or8clpn8orfdlmmurga003m8qbje1m62u880024sobdck036up2ehingt1278hc59pmoati1gl7c71aer23dtmmqrre41b6uqb48dk6asrk410m6or5edps59pmoali4v890024orrick4000000o02qup2ehingt1278hc59pnalpma83kd1kn683mdtqm6q35e8g78rp0ctgmirh0c5hm6pbjech7q018fch78pboegh3k8m2ksrn8rp0oajm3gl7dh1murbddtn20ljfd5i46q35edq768jt005nm8jkcls788hq48h7q01sfch78pboegh3k8m2ksrs59reahsn0p90ehk6a833dtmmqobecggc59rc5tr66862ksrs59reehni0r35c5p6s83ddtp6a8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: 1800020009km800qdlkmspb3e9gmct1qe1p6isrdc5p6irj5btpmgobicg5000rkc5jgg007epnnaor8clp003rmdtkm8or8clpn8orfdlmmurga003m8qbje1m62u880024sobdck036up2ehingt1278hc59pmoati1gl7c71aer23dtmmqrre41b6uqb48dk6asrk410m6or5edps59pmoali4v890024orrick4000000o02qup2ehingt1278hc59pnalpma83kd1kn683mdtqm6q35e8g78rp0ctgmirh0c5hm6pbjech7q018fch78pboegh3k8m2ksrn8rp0oajm3gl7dh1murbddtn20ljfd5i46q35edq768jt005nm8jkcls788hq48h7q01sfch78pboegh3k8m2ksrs59reahsn0p90ehk6a833dtmmqobecggc59rc5tr66862ksrs59reehni0r35c5p6s83ddtp6a8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '12':
+      name: Rare VoidChest Access
+      chance: 10.0
+      cmds: []
+      item: 5000080016ip0039mmirj5cdp62pjk79o74qbjdlgn4qbeclfn6q31e9i0k003ehgme2000tr6utb3d1in400depnmip33d1in6t3ic5p6a2g00ti6isrgdhgni2000h762rb500onm8jkcls788hq4b1aedm2ncgc59r2oajmokj1e9ii0ljfd5i46q35edq20gb3cdin6su2ksrc5ap2fk4g012cdtp6a2000000c01dfch78pboegh3k8m2ksrlasr541q6gqbj41r6utb3d1in483kdsg6eob9dog62or3clpn68jt00j7m8jkcls788hq4b1aedrkdsgc59r2oajmokj1e9ii0ljfd5i46q35edq768jt005nm8jkcls788hq48h7q01sfch78pboegh3k8m2ksrs59reahsn0p90ehk6a833dtmmqobecggc59rc5tr66862ksrs59reehni0r35c5p6s83ddtp6a8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: 5000080016ip0039mmirj5cdp62pjk79o74qbjdlgn4qbeclfn6q31e9i0k003ehgme2000tr6utb3d1in400depnmip33d1in6t3ic5p6a2g00ti6isrgdhgni2000h762rb500onm8jkcls788hq4b1aedm2ncgc59r2oajmokj1e9ii0ljfd5i46q35edq20gb3cdin6su2ksrc5ap2fk4g012cdtp6a2000000c01dfch78pboegh3k8m2ksrlasr541q6gqbj41r6utb3d1in483kdsg6eob9dog62or3clpn68jt00j7m8jkcls788hq4b1aedrkdsgc59r2oajmokj1e9ii0ljfd5i46q35edq768jt005nm8jkcls788hq48h7q01sfch78pboegh3k8m2ksrs59reahsn0p90ehk6a833dtmmqobecggc59rc5tr66862ksrs59reehni0r35c5p6s83ddtp6a8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '13':
+      name: Legendary VoidChest Access
+      chance: 5.0
+      cmds: []
+      item: 5000080016ip0039mmirj5cdp62pjk79o74qbjdlgn4qbeclfn6q31e9i0k003ehgme2000tr6utb3d1in400iepnmip33d1in6t3ccljmarj4c5p7i2g00ti6isrgdhgni2000h762rb500r7m8jkcls788hq4b1aedm2ncgc59r5oajmoj35ctimsp31e9si0ljfd5i46q35edq20gb3cdin6su2ksrc5ap2fk4g012cdtp6a2000000c01dfch78pboegh3k8m2ksrlasr541q6gqbj41r6utb3d1in483kdsg6eob9dog62or3clpn68jt00lnm8jkcls788hq4b1aedrkdsgc59r5oajmoj35ctimsp31e9si0ljfd5i46q35edq768jt005nm8jkcls788hq48h7q01sfch78pboegh3k8m2ksrs59reahsn0p90ehk6a833dtmmqobecggc59rc5tr66862ksrs59reehni0r35c5p6s83ddtp6a8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: 5000080016ip0039mmirj5cdp62pjk79o74qbjdlgn4qbeclfn6q31e9i0k003ehgme2000tr6utb3d1in400iepnmip33d1in6t3ccljmarj4c5p7i2g00ti6isrgdhgni2000h762rb500r7m8jkcls788hq4b1aedm2ncgc59r5oajmoj35ctimsp31e9si0ljfd5i46q35edq20gb3cdin6su2ksrc5ap2fk4g012cdtp6a2000000c01dfch78pboegh3k8m2ksrlasr541q6gqbj41r6utb3d1in483kdsg6eob9dog62or3clpn68jt00lnm8jkcls788hq4b1aedrkdsgc59r5oajmoj35ctimsp31e9si0ljfd5i46q35edq768jt005nm8jkcls788hq48h7q01sfch78pboegh3k8m2ksrs59reahsn0p90ehk6a833dtmmqobecggc59rc5tr66862ksrs59reehni0r35c5p6s83ddtp6a8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '14':
+      name: §6§lLegendary §e§lKey
+      chance: 5.0
+      cmds: []
+      item: 2g0004000j9cg01erb9dpim6sj1cpq3kt3id5o7eqbiclfmgrrfdc5000rkc5jgk00ia1qm4r39cd17aqrbd5q5cobcelin620031jmur34cln66sj1ehin6ej7cdp62t35edfmmpbp004mopb7cln68obif400600991km8pa6dhgmeso00003u2g00ti6isrgdhgni2000h762rb500i7m8jkcls788hq4b1aedm2ktm4opb7cln68obif4gc59r5oajmoir5f4h7q0000400agrfeln78080
+      preview: 2g0004000j9cg01erb9dpim6sj1cpq3kt3id5o7eqbiclfmgrrfdc5000rkc5jgk00ia1qm4r39cd17aqrbd5q5cobcelin620031jmur34cln66sj1ehin6ej7cdp62t35edfmmpbp004mopb7cln68obif400600991km8pa6dhgmeso00003u2g00ti6isrgdhgni2000h762rb500i7m8jkcls788hq4b1aedm2ktm4opb7cln68obif4gc59r5oajmoir5f4h7q0000400agrfeln78080
+open-cost:
+  vault: 0.0
+  exp: 0
+item:
+  material: ENDER_CHEST
+  amount: 1
+  durability: 0
+  name: '&dVirtual Crate'
+  lore:
+  - '&eThis is sample crate...'
+  enchanted: false
+  item-flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  unbreakable: false

@@ -1,0 +1,992 @@
+#======================================
+#=   Configuration Created by #DarK   =
+#=                                    =
+#= Contact: DarK#6646 [ON DISCORD]    =
+#= Website: www.best-setups.com       =
+#=                                    =
+#= Proof of OwnerShip. 2019 #DarK     =
+#=                                    =
+#= You're not allowed to resell this configuration =
+#= You're not allowed to recreate the same =
+#= configuration and claim is as your own =
+#======================================
+database:
+  # Database backend type, can be set to mysql or sqlite
+  type: sqlite
+  # MySQL database host
+  mySQLHost: localhost
+  # MySQL connection port number
+  mySQLPort: 3306
+  # MySQL database name
+  mySQLDatabase: db
+  # MySQL database user
+  mySQLUser: root
+  # MySQL user's password
+  mySQLPassword: ""
+  # MySQL table names
+  tableNames:
+    players: "players"
+
+#  Type of the economy which will handle all transactions. 
+#  Supported economies:
+#  - EXP (default Minecraft experience points)
+#  - VAULT (requires http://dev.bukkit.org/bukkit-plugins/vault/)
+#  - MYSQL_TOKENS (requires https://www.spigotmc.org/resources/mysql-tokens.7535/)
+#  - PLAYER_POINTS (requires https://dev.bukkit.org/projects/playerpoints)
+#  - TOKEN_MANAGER (requires https://www.spigotmc.org/resources/tokenmanager.8610/)
+economyType: VAULT
+# Name of the main GUI
+shopMenuName: "&8&l       » &8&nServer Shop&8&l «"
+# Size of the main GUI, valid values are 9, 18, 27, 36, 45 and 54
+shopMenuSize: 54
+# Choose an item to fill the empty slots of menu with
+shopMenuFillItem:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ""
+# Define whether selling all with middle mouse button is enabled
+enableSellAll: false
+# Define whether the buy GUI with option to select quantity is enabled
+enableBuyGUI: true
+# Define whether the sell GUI with option to select quantity is enabled
+enableSellGUI: true
+# Define whether sell all button in SellGUI is enabled (enableSellGUI has to be enabled too)
+enableSellGUISellAll: true
+# Define whether after closing/buying/selling the shop GUI should be opened again
+returnToShop: true
+# Define whether the quick buy/sell option should be enabled (amount selection gui will stay open until player closes it)
+quickBuySell: false
+# Define whether lines containing the %buy% placeholder should be hidden for unbuyable items
+hideBuyPriceForUnbuyable: true
+# Define whether lines containing the %sell% placeholder should be hidden for unsellable items
+hideSellPriceForUnsellable: true
+# Define whether buy and sell buttons should be inverted (false - LMB buy, RMB sell / true - LMB sell, RMB buy)
+invertBuySell: false
+# Maximum amount of enchantments players can add to an item, set to -1 for no limit
+maxEnchantments: 3
+# Choose whether players should be able to buy enchantments only 1 level higher than current (eg. player has sword with Sharpness 1, they could buy only Sharpness 2)
+limitEnchantmentLevelDiff: false
+# Define whether the amount selection double click bug fix should be enabled
+enableAmountSelectionFix: true
+# Define whether players should be able to use sell all option to sell all their items (allowAllSellAllStackSizes = true) or only amount multiplied by the original stack size of the shop item (allowAllSellAllStackSizes = false)
+allowAllSellAllStackSizes: false
+# Define whether all prices should be rounded up, down, to the nearest whole number or not rounded (valid values are UP, DOWN, NEAREST and NONE)
+roundPrices: none
+# Define whether main menu (/shop command) should be disabled. The only way to access shops will be to use /shop <id> when you disable it.
+disableMainMenu: false
+# Choose if different messages should be sent when someone buy/sell items for $0 (MSG_ITEM_BOUGHTFREE, MSG_ITEM_SOLDFREE, MSG_ITEM_SOLDALLFREE)
+useDifferentMessagesForFreeItems: true
+# Choose if item names should have first letters of their names capitalized, for instance nether brick would become Nether Brick
+capitalizeItemNames: true
+# Choose the type of price modifiers. (BOTH (permission modifiers have higher priority than command-ones), COMMAND, PERMISSION)
+priceModifiersType: BOTH
+# Choose if the gui shall be closed after using the Sell All feature
+closeGuiAfterSellAll: false
+# Choose if bulk buy/sell guis should be opened immediately after clicking an item (enableBuyGUI and enableSellGUI have to be enabled as well and players need the bulk buy/sell permissions)
+openBulkGuiImmediately: false
+# Choose which items stack size should be capped at 16 inside the amount selection GUI so players can't buy eg. oversized ender pearl stacks
+# Format is same as for regular items in shops.yml
+itemStackSizeCappedAt:
+  1:
+    material: ENDER_PEARL
+    size: 16
+  4:
+    material: EGG
+    size: 16
+  5:
+    material: BUCKET
+    size: 1
+# Choose what gamemodes will prevent players from accessing shops. Valid values: ADVENTURE, CREATIVE, SPECTATOR, SURVIVAL
+disableShopsInGamemodes:
+  - ADVENTURE
+  - CREATIVE
+  - SPECTATOR
+# Choose in which worlds players won't be able to access the shop. Same list format as disableShopsInGamemodes
+disableShopsInWorlds: []
+  
+# Choose whether price modifiers should be displayed in percents instead of decimals (eg. 10% instead of 0.10), remember you will still have to use the decimal way in commands
+displayPriceModifiersInPercents: true
+
+# Choose whether the world-specific permission to access shops should be omitted when player has a shop opened with /shop [player] [shop name]
+disableSudoWorldPermissionCheck: false
+
+# Choose whether the shop-specific permission to access shops should be omitted when player has a shop opened with /shop [player] [shop name]
+disableSudoShopPermissionCheck: false
+
+# Choose whether free items (with sell price of $0) should be excluded from being sold using /sell hand and /sell all
+sellHandAllExcludeFreeItems: true
+
+# Choose predefined settings for all items (will be overriden when set explicitly for an item in shops.yml)
+defaultItemSettings:
+  # Choose whether item meta (name, lore etc.) should be compared when players attempt to sell an item
+  compareMeta: false
+  # Choose whether item meta should be removed from an item when it's purchased by a player from the shop
+  stripItemMeta: false
+
+# Format of item lores in shops, %buy% will be replaced with the buy price and %sell% with sell price
+shopItemLoreFormat:
+  # This lore will be applied to items
+  item:
+    - "&8■ &7Buy Price: &e$%buy%"
+    - "&8■ &7Sell Price: &e$%sell%"
+    - ""
+    - "&a◀ Left click to buy..."
+    - "&c▶ Right click to sell..."   
+    - "" 
+  # This lore will be applied to items in the buy GUI (when enableBuyGUI is set to true)
+  itemBuyGUI:
+    - ""
+    - "&8■ &7Buy Price: &e$%buy%"
+    - "" 
+    - "&aClick the Confirm item to buy" 
+  # This lore will be applied to items in the sell GUI (when enableSellGUI is set to true)
+  itemSellGUI:
+    - ""
+    - "&8■ &7Sell Price: &e$%sell%"
+    - "" 
+    - "&aClick the Confirm item to sell"     
+  # This lore will be applied to the sell all button in the sell GUI (when enableSellGUI and enableSellGUISellAll are set to true)
+  itemSellGUISellAll:
+    - ""
+    - "&8■ &7Sell All Price: &e$%sell%"
+    - ""    
+  # This one to permissions
+  permission:
+    - ""
+    - "&8■ &7Buy Price: &e$%buy%"
+    - ""
+    - "&a◀ Left click to buy..."       
+  # And this one to enchantments
+  enchantment:
+    - ""
+    - "&8■ &7Buy Price: &e$%buy%"
+    - ""
+    - "&a◀ Left click to buy..." 
+  # And the last one to commands
+  command:
+    - ""
+    - "&8■ &7Buy Price: &e$%buy%"
+    - ""
+    - "&a◀ Left click to buy..."  
+
+# Logging settings
+log:
+  # Define whether transactions will be logged to the console/main server log
+  toConsole: true
+  # Define whether transactions will be logged to a separate log
+  toFile: false
+  # Date format of transactions (http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
+  formatDate: "yyyy/MM/dd HH:mm:ss"
+  # Log message for bought items
+  formatBuy: "%player% bought %amount% x %item% for %price%$ from %shop% shop"
+  # Log message for sold items
+  formatSell: "%player% sold %amount% x %item% for %price%$ to %shop% shop"
+  # Log message for sold all items
+  formatSellAll: "%player% sold all %amount% x %item% for %price%$ to %shop% shop"
+  
+# Sell hand command settings
+sellHand:
+  # When set to true, players will be able to sell any quantity of the item (the price will be calculated from the base price)
+  allowAllQuantites: true
+  # When set to true, /sell hand will work same way as /sell handall does
+  sellsAllItems: false
+
+# Sell all command settings
+sellAll:
+  # When set to true, players will get a detailed summary with prices of each item stack sold
+  detailedSummary: false
+
+buttons:
+  # "Go back button"
+  goBack:
+    item:
+      # Material name, full list can be found here: http://wiki.brcdev.net/Materials
+      material: experience_bottle
+      # Amount of the item
+      amount: 1 
+      # (optional) Data value, for example 1 for WOOD:1 means spruce wood planks
+ 
+      # (optional) Custom name
+      name: " &8『 &6&lBack to Categories &8』"
+      # (optional) Lore, can contain multiple lines
+      lore: 
+        - ""
+        - " &7Want to get back to the categories?"
+        - ""
+        - "         &e» Click to return «"
+    # Slot in each shop's GUI
+    slot: 4 
+  # "Previous page" button
+  previousPage:
+    item:
+      material: red_stained_glass_pane
+      damage: 14
+      quantity: 1
+      name: "&c« Previous Page"
+      lore: 
+        - ""
+        - " &7Want to get back to the previous page?"
+        - ""
+        - "        &cClick to turn the page"    
+    slot: 3
+  # "Next page" button
+  nextPage:
+    item:
+      material: green_stained_glass_pane
+      damage: 13
+      quantity: 1
+      name: "&aNext Page »"
+      lore: 
+        - ""
+        - " &7Do you want to see the next page?"
+        - ""
+        - "        &aClick to turn the page" 
+    slot: 5
+
+# Elements of the bulk buy GUI
+amountSelectionGUIBulkBuy:
+  # Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54
+  size: 54
+  # Choose if buttons type should be replaced with the bought item's type
+  replaceButtonsType: true
+  # Buttons
+  buttons:
+    # "Buy 1 stack" button
+    buy1:
+      # When no material is specified it will be the type of the item being bought
+      item:
+        material: CHEST        
+        quantity: 1
+        name: "&8『 &6&l1 STACK &8』"
+        lore:          
+          - ""
+          - "&8■ &7Buy Price: &e$%buy%"
+          - ""      
+      # Value indicated the amount of stacks
+      value: 1
+      slot: 12
+    # "Buy 2 stacks" button
+    buy2:
+      item:
+        material: CHEST
+        quantity: 2
+        name: "&8『 &6&l2 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Buy Price: &e$%buy%"
+          - ""  
+      value: 2
+      slot: 13
+    # "Buy 3 stacks" button
+    buy3:
+      item:
+        material: CHEST
+        quantity: 3
+        name: "&8『 &6&l3 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Buy Price: &e$%buy%"
+          - "" 
+      value: 3
+      slot: 14
+    # "Buy 4 stacks" button
+    buy4:
+      item:
+        material: CHEST
+        quantity: 4
+        name: "&8『 &6&l4 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Buy Price: &e$%buy%"
+          - "" 
+      value: 4
+      slot: 21
+    # "Buy 5 stacks" button
+    buy5:
+      item:
+        material: CHEST
+        quantity: 5
+        name: "&8『 &6&l5 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Buy Price: &e$%buy%"
+          - "" 
+      value: 5
+      slot: 22
+    # "Buy 6 stacks" button
+    buy6:
+      item:
+        material: CHEST
+        quantity: 6
+        name: "&8『 &6&l6 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Buy Price: &e$%buy%"
+          - "" 
+      value: 6
+      slot: 23
+    # "Buy 7 stacks" button
+    buy7:
+      item:
+        material: CHEST
+        quantity: 7
+        name: "&8『 &6&l7 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Buy Price: &e$%buy%"
+          - ""
+      value: 7
+      slot: 30
+    # "Buy 8 stacks" button
+    buy8:
+      item:
+        material: CHEST
+        quantity: 8
+        name: "&8『 &6&l8 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Buy Price: &e$%buy%"
+          - "" 
+      value: 8
+      slot: 31
+    # "Buy 9 stacks" button
+    buy9:
+      item:
+        material: CHEST
+        quantity: 9
+        name: "&8『 &6&l9 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Buy Price: &e$%buy%"
+          - "" 
+      value: 9
+      slot: 32
+    # "Cancel" button
+    cancel:
+      item:
+        material: redstone_block
+        quantity: 1
+        name: "&8『 &c&lCANCEL &8』"
+      slot: 49
+      
+# Elements of the bulk buy GUI
+amountSelectionGUIBulkSell:
+  # Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54
+  size: 54
+  # Choose if buttons type should be replaced with the sold item's type
+  replaceButtonsType: true
+  # Buttons
+  buttons:
+    # "Sell 1 stack" button
+    sell1:
+      # When no material is specified it will be the type of the item being bought
+      item:
+        material: CHEST
+        quantity: 1
+        name: "&8『 &6&l1 STACK &8』"
+        lore:          
+          - ""
+          - "&8■ &7Sell Price: &e$%sell%"
+          - "" 
+      # Value indicated the amount of stacks
+      value: 1
+      slot: 12
+    # "Sell 2 stacks" button
+    sell2:
+      item:
+        material: CHEST
+        quantity: 2
+        name: "&8『 &6&l2 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Sell Price: &e$%sell%"
+          - "" 
+      value: 2
+      slot: 13
+    # "Sell 3 stacks" button
+    sell3:
+      item:
+        material: CHEST
+        quantity: 3
+        name: "&8『 &6&l3 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Sell Price: &e$%sell%"
+          - "" 
+      value: 3
+      slot: 14
+    # "Sell 4 stacks" button
+    sell4:
+      item:
+        material: CHEST
+        quantity: 4
+        name: "&8『 &6&l4 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Sell Price: &e$%sell%"
+          - "" 
+      value: 4
+      slot: 21
+    # "Sell 5 stacks" button
+    sell5:
+      item:
+        material: CHEST
+        quantity: 5
+        name: "&8『 &6&l5 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Sell Price: &e$%sell%"
+          - "" 
+      value: 5
+      slot: 22
+    # "Sell 6 stacks" button
+    sell6:
+      item:
+        material: CHEST
+        quantity: 6
+        name: "&8『 &6&l6 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Sell Price: &e$%sell%"
+          - "" 
+      value: 6
+      slot: 23
+    # "Sell 7 stacks" button
+    sell7:
+      item:
+        material: CHEST
+        quantity: 7
+        name: "&8『 &6&l7 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Sell Price: &e$%sell%"
+          - ""
+      value: 7
+      slot: 30
+    # "Sell 8 stacks" button
+    sell8:
+      item:
+        material: CHEST
+        quantity: 8
+        name: "&8『 &6&l8 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Sell Price: &e$%sell%"
+          - "" 
+      value: 8
+      slot: 31
+    # "Sell 9 stacks" button
+    sell9:
+      item:
+        material: CHEST
+        quantity: 9
+        name: "&8『 &6&l9 STACKS &8』"
+        lore:          
+          - ""
+          - "&8■ &7Sell Price: &e$%sell%"
+          - ""
+      value: 9
+      slot: 32
+    # "Cancel" button
+    cancel:
+      item:
+        material: redstone_block
+        quantity: 1
+        name: "&8『 &c&lCANCEL &8』"
+      slot: 49
+
+# Elements of the regular buy/sell GUI
+amountSelectionGUI:
+  # Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54
+  size: 54
+  # Slot of the item being bought/sold
+  itemSlot: 22
+  # Buttons
+  buttons:
+    # "Set to 1" button
+    set1:
+      item:
+        material: red_stained_glass_pane
+        quantity: 1
+        name: "&4» &4&nSet to 1&4 «"
+      slot: 10
+    # "Remove 10" button
+    remove10:
+      item:
+        material: red_stained_glass_pane
+        quantity: 10
+        name: "&c» &c&nRemove 10&c «"
+      slot: 28
+    # "Remove 1" button
+    remove1:
+      item:
+        material: red_stained_glass_pane
+        quantity: 1
+        name: "&c» &c&nRemove 1&c «"
+      slot: 19
+    # "Add 1" button
+    add1:
+      item:
+        material: lime_stained_glass_pane
+        quantity: 1
+        name: "&a» &a&nAdd 1&a «"
+      slot: 16
+    # "Add 10" button
+    add10:
+      item:
+        material: lime_stained_glass_pane
+        quantity: 10
+        name: "&a» &a&nAdd 10&a «"
+      slot: 25
+    # "Set to 16" button
+    set16:
+      item:
+        material: lime_stained_glass_pane
+        quantity: 16
+        name: "&2» &2&nSet to 16&2 «"
+      slot: 34
+    # "Set to 64" button
+    set64:
+      item:
+        material: lime_stained_glass_pane
+        quantity: 64
+        name: "&2» &2&nSet to 64&2 «"
+      slot: 43
+    # "Confirm" button
+    confirm:
+      item:
+        material: emerald_block
+        quantity: 1
+        name: "&8『 &a&lConfirm &8』"  
+      slot: 51
+    # "Sell all" button
+    sellAll:
+      item:
+        material: barrier
+        quantity: 1
+        name: "&8『 &4&lSELL ALL &8』"      
+      slot: 40
+    # "Buy more" button
+    buyMore:
+      item:
+        material: chest
+        quantity: 64
+        name: "&8『 &2&lBUY MORE &8』"      
+      slot: 49
+    # "Sell more" button
+    sellMore:
+      item:
+        material: chest
+        quantity: 64
+        name: "&8『 &c&lSELL MORE &8』"      
+      slot: 49
+    # "Cancel" button
+    cancel:
+      item:
+        material: redstone_block
+        quantity: 1
+        name: "&8『 &c&lCancel &8』"
+      slot: 47
+      
+shopMenuItems:
+  # Has to be unique, value doesn't matter
+  1:
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ5YzYzYmM1MDg3MjMzMjhhMTllNTk3ZjQwODYyZDI3YWQ1YzFkNTQ1NjYzYWMyNDQ2NjU4MmY1NjhkOSJ9fX0
+      name: "&8  『 &6&lBlocks &7▏ &e52 blocks &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need blocks or want to sell some?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &cessential blocks"
+        - ""
+        - "  &e » &f&nRight Click to open&e «"     
+    shop: "blocks"
+    slot: 19
+  2: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDA4ZWU2ZWRmYTk4ZGI1ZWFlOWI5Yzk5MzZlOTQ0ODliMmQ0YmJiZDNkMmI0YjZiNDg4NWEzMjI0MDYxM2MifX19
+      name: "&8  『 &6&lRedstone &7▏ &e15 items &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need redstone* or want to sell some?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &credstone related items"
+        - ""
+        - "  &e » &f&nRight Click to open&e «" 
+    shop: "redstone" 
+    slot: 20
+  4: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQzZDRiN2FjMjRhMWQ2NTBkZGY3M2JkMTQwZjQ5ZmMxMmQyNzM2ZmMxNGE4ZGMyNWMwZjNmMjlkODVmOGYifX19
+      name: "&8  『 &6&lMisc &7▏ &e15 items/blocks &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need items/blocks or want to sell some?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &cmiscellaneous blocks/items"
+        - ""
+        - "  &e » &f&nRight Click to open&e «"    
+    shop: "misc" 
+    slot: 21   
+  5: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIyNzY4ZGI2NTczNjUxNjI2NTUyYmIyNjQ0MjYwOWE3Mjc5Yzc4NDNjYjY5YjhlNjAzZDJjMWRiNjQ1ZDAifX19
+      name: "&8  『 &6&lBrewing &7▏ &e14 items &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need brewing items or want to sell some?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &cbrewing items"
+        - ""
+        - "  &e » &f&nRight Click to open&e «"  
+    shop: "brewing" 
+    slot: 22
+  6: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjBhZmE0ZmZmZDEwODYzZTc2YzY5OGRhMmM5YzllNzk5YmNmOWFiOWFhMzdkODMxMjg4MTczNDIyNWQzY2EifX19
+      name: "&8  『 &6&lDecoration &7▏ &e109 blocks &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need decoration blocks or want to sell some?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &cdecoration blocks"
+        - ""
+        - "  &e » &f&nRight Click to open&e «"      
+    shop: "decoration" 
+    slot:  23 
+  7: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg4Y2Q2ZGQ1MDM1OWM3ZDU4OThjN2M3ZTNlMjYwYmZjZDNkY2IxNDkzYTg5YjllODhlOWNiZWNiZmU0NTk0OSJ9fX0
+      name: "&8  『 &6&lOres &7▏ &e18 blocks / ingots &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need ores or want to sell some?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &core blocks / ingots"
+        - ""
+        - "  &e » &f&nRight Click to open&e «" 
+    shop: "ores" 
+    slot: 24  
+  8: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZlZjFjMjVmNTE2ZjJlN2Q2Zjc2Njc0MjBlMzNhZGNmM2NkZjkzOGNiMzdmOWE0MWE4YjM1ODY5ZjU2OWIifX19
+      name: "&8  『 &6&lFood &7▏ &e57 items &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need food or want to sell some?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &cfood items"
+        - ""
+        - "  &e » &f&nRight Click to open&e «"   
+    shop: "food" 
+    slot: 25    
+  9: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ=='
+      name: "&8  『 &6&lDrops &7▏ &e25 items &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need mob drops or want to sell some?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &cmob drops"
+        - ""
+        - "  &e » &f&nRight Click to open&e «"     
+    shop: "drops" 
+    slot:  29    
+  10: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWMyZTlkODM5NWNhY2Q5OTIyODY5YzE1MzczY2Y3Y2IxNmRhMGE1Y2U1ZjNjNjMyYjE5Y2ViMzkyOWM5YTExIn19fQ==
+      name: "&8  『 &6&lNew Blocks 1.12 &7▏ &e56 blocks &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need new blocks to build with?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &c1.12 blocks"
+        - ""
+        - "  &e » &f&nRight Click to open&e «"  
+    shop: "blocnou" 
+    slot: 30
+  #29: 
+    #item:
+      #material: PLAYER_HEAD
+     # quantity: 1
+      #damage: 3
+      #skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19
+      #name: "&8  『 &6&lArmor & Weapons &7▏ &e24 items &8』"
+      #lore:
+        #- "&f"
+        #- "&8■ &7Do you need armor / weapons?"
+       # - "&8■ &7This is the category that contains"
+        #- "&8■ &7all the &carmor & weapons"
+        #- ""
+        #- "  &e » &f&nRight Click to open&e «" 
+    #shop: "armorweapons" 
+    #slot: 31
+  #30: 
+    #item:
+     # material: PLAYER_HEAD
+      #quantity: 1
+     # damage: 3
+      #skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZmY2FlZmExOTY2OWQ4YmUwMmNmNWJhOWE3ZjJjZjZkMjdlNjM2NDEwNDk2ZmZjZmE2MmIwM2RjZWI5ZDM3OCJ9fX0=
+      #name: "&8  『 &6&lTools &7▏ &e20 items &8』"
+      #lore:
+        #- "&f"
+        #- "&8■ &7Do you need tools?"
+       # - "&8■ &7This is the category that contains"
+       # - "&8■ &7all the &ctools"
+        #- ""
+       # - "  &e » &f&nRight Click to open&e «" 
+    #shop: "tools" 
+    #slot: 32
+  31: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM2YmFjZDM2ZWQ2MGY1MzMxMzhlNzU5YzQyNTk0NjIyMmI3OGVkYTZiNjE2MjE2ZjZkY2MwOGU5MGQzM2UifX19
+      name: "&8  『 &6&lPotions &7▏ &e20 potions &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need potions?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &cpotions"
+        - ""
+        - "  &e » &f&nRight Click to open&e «"
+    shop: "potions" 
+    slot: 33
+  33: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZlNTEwOWM4NmZlNmRlOGViOGFmZTMyZjA0OTZhODQ0ZGQ2NTVlNGQ0YTM5ZWY3YjBmYjYxNzkxODQ4YTVkYSJ9fX0=
+      name: "&8  『 &6&lWood &7▏ &e56 items &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need wood items/blocks ?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &cwood related items/blocks"
+        - ""
+        - "  &e » &f&nRight Click to open&e «" 
+    shop: "wood" 
+    slot: 31
+  34: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYxM2ZkYWI0M2Q3NjgzOGI3YjhjMTkyNDQxNjNmMTc2NWRiODc0YmRmMTUxNjk2YmRjYjY1NGViMmU1MiJ9fX0=
+      name: "&8  『 &6&lNew Blocks 1.14 &7▏ &e57 blocks &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need the newest blocks?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &c1.14 blocks"
+        - ""
+        - "  &e » &f&nRight Click to open&e «"
+    shop: "blocks14" 
+    slot: 39
+  35: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRkMGNkMTU4YzJiYjY2MTg2NTBlMzk1NGIyZDI5MjM3ZjViNGMwZGRjN2QyNThlMTczODBhYjY5NzlmMDcxIn19fQ==
+      name: "&8  『 &6&lSlabs &7▏ &e27 slabs &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need slabs?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &cslabs"
+        - ""
+        - "  &e » &f&nRight Click to open&e «" 
+    shop: "slabs" 
+    slot: 40 
+  36: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmEzYmI5M2I5OTMzNjg5YmM1MDg4ZGVjNzMwYmJlODU5ZDgyNmI2ZGFkNWZmZDc3M2MyZDJiOGY4NDdmNWYifX19
+      name: "&8  『 &6&lStairs &7▏ &e23 stairs &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need stairs?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &cstairs"
+        - ""
+        - "  &e » &f&nRight Click to open&e «" 
+    shop: "stairs" 
+    slot: 41
+  #38: 
+    #item:
+     # material: PLAYER_HEAD
+      #quantity: 1
+      #damage: 3
+      #skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFjNjNkOWI5ZmQ4NzQyZWFlYjA0YzY5MjE3MmNiOWRhNDM3ODE2OThhNTc1Y2RhYmUxYzA0ZGYxMmMzZiJ9fX0=
+      #name: "&8  『 &6&lEnchantment Books &7▏ &e36 books &8』"
+      #lore:
+        #- "&f"
+        #- "&8■ &7Do you need enchantment books?"
+        #- "&8■ &7This is the category that contains"
+        #- "&8■ &7all the &cenchanted books"
+        #- ""
+        #- "  &e » &f&nRight Click to open&e «"
+    #shop: "enchantbook" 
+    #slot: 42
+  39: 
+    item:
+      material: PLAYER_HEAD
+      quantity: 1
+      damage: 3
+      skin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+      name: "&8  『 &6&lSpawners &7▏ &e34 spawners &8』"
+      lore:
+        - "&f"
+        - "&8■ &7Do you need spawners?"
+        - "&8■ &7This is the category that contains"
+        - "&8■ &7all the &cspawners"
+        - ""
+        - "  &e » &f&nRight Click to open&e «"   
+    shop: "spawners" 
+    slot: 32                                                          
+  11: 
+    item:
+      material: PAPER
+      quantity: 1 
+      name: "&8  『 &6&lServer Shop &7▏ &e456 total items &8』"
+      lore:
+        - ""
+        - "&8■ &7Here you can &csell or buy"
+        - "&8■ &7items from different &ccategories."
+        - ""
+    shop: "" 
+    slot: 3
+  #40: 
+    #item:
+      #material: PLAYER_HEAD
+      #quantity: 1
+      #damage: 3
+      #name: "&8  『 &6&lCommands & Perm &7▏ &e13 permissions &8』"
+      #lore:
+        #- "&f"
+        #- "&8■ &7Do you want to buy exclusive permissions?"
+        #- "&8■ &7This is the category that contains"
+        #- "&8■ &7all the &ccommands & permissions"
+        #- ""
+        #- "  &e » &f&nRight Click to open&e «"
+    #shop: "commands" 
+    #slot: 49   
+  12: 
+    item:
+      material: writable_book
+      quantity: 1 
+      name: "&8  『 &6&lInformations &8』"
+      lore:
+        - ""
+        - "&8■ &7How can you earn money on the server?"
+        - "&8■ &7Try the following:"
+        - ""
+        - "&e» &fMine ore in your island, and sell it."
+        - "&e» &fVisit /Arena for extra rewards and money" 
+        - ""              
+    shop: "" 
+    slot: 5                 
+  13: 
+    item:
+      material: BLACK_STAINED_GLASS_PANE
+      quantity: 1 
+      name: "&7"
+    shop: "" 
+    slot: 4
+  14: 
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+      quantity: 1 
+      name: "&7"
+    shop: "" 
+    slot: 18
+  15: 
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+      quantity: 1 
+      name: "&7"
+    shop: "" 
+    slot: 27
+  16: 
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+      quantity: 1 
+      name: "&7"
+    shop: "" 
+    slot: 36
+  17: 
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+      quantity: 1 
+      name: "&7"
+    shop: "" 
+    slot: 45
+  18: 
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+      quantity: 1 
+      name: "&7"
+    shop: "" 
+    slot: 26
+  19: 
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+      quantity: 1 
+      name: "&7"
+    shop: "" 
+    slot: 35
+  20: 
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+      quantity: 1 
+      name: "&7"
+    shop: "" 
+    slot: 44
+  21: 
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+      quantity: 1 
+      name: "&7"
+    shop: "" 
+    slot: 53
+specialElements:
+  balance:
+    item:
+      material: GOLD_INGOT
+      quantity: 1
+      name: "&6&lYour balance"
+      lore:
+        - "&7$%balance%"          

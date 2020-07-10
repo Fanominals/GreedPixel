@@ -1,0 +1,83 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&9UltimateKits&8]'
+  type:
+    command: '&7Kommando'
+    chance: Chans
+    money: '&6Pengar'
+    link: '&9Länk'
+    free: Fri
+# Interface Messages
+interface:
+  selector:
+    kit: '&c%kit%'
+    title: '&8Server Kits'
+    details: '&7Hej &e%player%&7!|&7Nedanför är våra serverkits.||&7Klicka på &eikonen &7representerar &eUtrustningen |&7för att &eförhandsgranska, hävda eller köpa &7Det.'
+    aboutkit: '&7Kan inte öppna ett kit?|&7Ranka upp för att få tillgång!'
+    leftpreview: '&6&lVÄNSTER KLICK &7för att förhandsgranska.'
+    rightclaim: '&6&lHÖGERKLICKA &7för att kräva kit.'
+    rightbuy: '&6&lHÖGERKLICKA &7för att köpa kit.'
+  hologram:
+    previewonly: Klicka för att förhandsgranska!
+    preview: Höger-klicka för att förhandsgranska!
+    buylink: Vänster-klicka för köp länk!
+    buyeco: Vänster-klicka för att köpa för &a$%price%&f!
+    crate: Vänster-klicka med en nyckel för att öppna!
+    daily: Vänster-klicka för att hävda!
+  button:
+    buynow: '&aKöp nu'
+    back: '&9Tillbaka'
+    exit: '&cUtgång'
+    next: '&7Nästa sida'
+    last: '&7Sista sidan'
+    clickeco: '&7Klicka för att köpa för &a%price%&7.'
+  preview:
+    title: '&9Förhandsvisningssats: &8%kit%'
+  yesno:
+    title: '&9Köpa för &a$%price%&9?'
+    'yes': '&a&lJa'
+    'no': '&c&lNej'
+  key:
+    title: '&5%kit% &fKit nickel'
+    description1: '&rHögerklicka på [a ]&c&l%kit%&r kit'
+    description2: '&raoch få innehållet!'
+    description3: '&roch få några av dess innehåll!'
+    description4: '&rger kit &c&l%amt% &rtimes.'
+# Command Messages
+command:
+  general:
+    noperms: '&cDu har inte behörighet att göra det!'
+  kit:
+    nokitsupplied: '&7Vänligen inkludera ett kit för att förhandsgranska.'
+    kitdoesntexist: '&cDetta kit finns inte.'
+    kitalreadyexists: '&cDet kit finns redan.'
+    playernotfound: '&cDen här spelaren är inte online eller existerar inte.'
+event:
+  preview:
+
+    # Event Messages
+    kit: '&Du förhandsgranskar nu &7%kit%&9.'
+  crate:
+    notyet: '&cDu måste vänta &4%time% &cinnan du kan använda detta.'
+    wrongkey: '&cDenna nyckel hör inte till detta kit.'
+  claim:
+    cannotafford: '&9Du har inte råd att köpa detta kit &7%kit%&9.'
+    nottwice: '&9Du kan bara ta emot det här kit en gång.'
+    purchasesuccess: '&9Du har köpt kit &7%kit%&9.'
+    givesuccess: '&9u har fått kit &7%kit%&9.'
+    delay: '&9Vänta %time%'
+    eco: '&7Du fick &a%amt%&7.'
+    once: '&7Kyla ner: &6Du har redan hävdat det här paketet!'
+    ready: '&7Kyla ner: &6Redo för användning!'
+    wait: '&7Kyla ner: &6%Tid%'
+    noaccess: '&7Kyla ner: &Ingen åtkomst..'
+    full: '&cDin inventering är för full för att hävda detta kit!'
+  create:
+    won: '&7Du har en &6%vara%&7.'
+  purchase:
+    cancelled: '&cKöp avbruten..'
+  key:
+    given: '&9Du har fått en &a%kit% &9kit nyckel.'
+    success: '&9Du har lyckats lösa in en nyckel för kitet &7%kit%&9.'

@@ -1,0 +1,484 @@
+blocnou:
+    name: "&8&l» &8&nNew Blocks 1.12&8&l «"
+    buttons:
+      goBack:
+        slot: 4      
+      previousPage:
+        slot: 3
+      nextPage:
+        slot: 5 
+    fillItem:
+        material: GRAY_STAINED_GLASS_PANE
+        name: ""
+    items:
+       1:
+        type: item
+        item:
+          material: purpur_block
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 10
+       2:
+        type: item
+        item:
+          material: purpur_pillar
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 11
+       3:
+        type: item
+        item:
+          material: purpur_stairs
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 12
+       4:
+        type: item
+        item:
+          material: purpur_slab
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 13  
+       5:
+        type: item
+        item:
+          material: end_stone_bricks
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 14   
+       6:
+        type: item
+        item:
+          material: magma_block
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 15
+       7:
+        type: item
+        item:
+          material: nether_wart_block
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 16
+       8:
+        type: item
+        item:
+          material: red_nether_bricks
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 19  
+       9:
+        type: item
+        item:
+          material: white_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 20
+       10:
+        type: item
+        item:
+          material: orange_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 21
+       11:
+        type: item
+        item:
+          material: magenta_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 22   
+       12:
+        type: item
+        item:
+          material: light_blue_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 23
+       13:
+        type: item
+        item:
+          material: lime_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 24    
+       14:
+        type: item
+        item:
+          material: pink_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 25
+       15:
+        type: item
+        item:
+          material: gray_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 28
+       16:
+        type: item
+        item:
+          material: light_gray_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 29
+       17:
+        type: item
+        item:
+          material: light_gray_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 30
+       18:
+        type: item
+        item:
+          material: cyan_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 31
+       19:
+        type: item
+        item:
+          material: purple_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 32
+       20:
+        type: item
+        item:
+          material: blue_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 33
+       21:
+        type: item
+        item:
+          material: brown_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 34
+       22:
+        type: item
+        item:
+          material: green_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 37
+       23:
+        type: item
+        item:
+          material: red_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 38
+       24:
+        type: item
+        item:
+          material: black_glazed_terracotta
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 39
+       25:
+        type: item
+        item:
+          material: white_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 40
+       26:
+        type: item
+        item:
+          material: orange_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 41
+       27:
+        type: item
+        item:
+          material: magenta_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 42
+       28:
+        type: item
+        item:
+          material: light_blue_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 43
+       29:
+        type: item
+        item:
+          material: yellow_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 46
+       30:
+        type: item
+        item:
+          material: lime_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 47
+       31:
+        type: item
+        item:
+          material: pink_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 48
+       32:
+        type: item
+        item:
+          material: gray_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 49
+       33:
+        type: item
+        item:
+          material: light_gray_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 50
+       34:
+        type: item
+        item:
+          material: cyan_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 51
+       35:
+        type: item
+        item:
+          material: purple_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 52
+       36:
+        type: item
+        item:
+          material: blue_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 10
+        page: 2
+       37:
+        type: item
+        item:
+          material: brown_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 11
+        page: 2
+       38:
+        type: item
+        item:
+          material: green_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 12
+        page: 2
+       39:
+        type: item
+        item:
+          material: red_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 13
+        page: 2
+       40:
+        type: item
+        item:
+          material: black_concrete
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 14
+        page: 2
+       41:
+        type: item
+        item:
+          material: white_concrete_powder
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 15
+        page: 2
+       162:
+        type: item
+        item:
+          material: orange_concrete_powder     
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 16
+        page: 2
+       163:
+        type: item
+        item:
+          material: magenta_concrete_powder   
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 19
+        page: 2
+       164:
+        type: item
+        item:
+          material: light_blue_concrete_powder    
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 20
+        page: 2
+       165:
+        type: item
+        item:
+          material: yellow_concrete_powder
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 21
+        page: 2
+       166:
+        type: item
+        item:
+          material: lime_concrete_powder  
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 22
+        page: 2
+       167:
+        type: item
+        item:
+          material: pink_concrete_powder
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 23
+        page: 2
+       168:
+        type: item
+        item:
+          material: gray_concrete_powder  
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 24
+        page: 2
+       169:
+        type: item
+        item:
+          material: light_gray_concrete_powder  
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 25
+        page: 2
+       170:
+        type: item
+        item:
+          material: cyan_concrete_powder
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 28
+        page: 2
+       171:
+        type: item
+        item:
+          material: purple_concrete_powder   
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 29
+        page: 2
+       172:
+        type: item
+        item:
+          material: blue_concrete_powder
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 30
+        page: 2
+       173:
+        type: item
+        item:
+          material: brown_concrete_powder   
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 31
+        page: 2
+       174:
+        type: item
+        item:
+          material: green_concrete_powder  
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 32
+        page: 2
+       175:
+        type: item
+        item:
+          material: red_concrete_powder
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 33
+        page: 2
+       176:
+        type: item
+        item:
+          material: black_concrete_powder
+          quantity: 64
+        buyPrice: 2500
+        sellPrice: -1
+        slot: 34
+        page: 2

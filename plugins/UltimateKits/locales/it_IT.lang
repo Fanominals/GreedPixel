@@ -1,0 +1,82 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&9UltimateKits&8]'
+  type:
+    command: '&7Commando'
+    chance: Probabilità
+    money: '&6Soldi'
+    link: '&9Link'
+    free: Gratis
+# Interface Messages
+interface:
+  selector:
+    kit: '&c%kit%'
+    title: '&8Kit del server'
+    details: '&7Ciao &e%player%&7!|&7Di seguito sono elencati i kit del nostro server.||&7Clicca sull''&eicona &7che rappresenta il &ekit |&7inorder per la &epreview, prendi o cpmpra &7it.'
+    aboutkit: '&7Non puoi aprire un kit?|&7Sali di grado per accedervi!'
+    leftpreview: '&6&lTASTO DESTRO &7per la preview dei kit.'
+    rightclaim: '&6&lTASTO DESTRO &7per claimare i kit.'
+    rightbuy: '&6&lTASTO DESTRO &7per comprare i kit.'
+  hologram:
+    previewonly: Clicca per la Preview!
+    preview: Tasto sinistro per la Preview!
+    buylink: Tasto sinistro per comprare Link!
+    buyeco: Tasto sinistro per comprare a &a$%price%&f!
+    crate: Tasto sinistro con una key per aprire!
+    daily: Tasto sinistro per claimare!
+  button:
+    buynow: '&aCompra ora'
+    back: '&9Indietro'
+    exit: '&cEsci'
+    next: '&7Pagina successiva'
+    last: '&7Pagina precendente'
+    clickeco: '&7Clicca per comprare a &a%price%&7.'
+  preview:
+    title: '&9Anteprima kit: &8%kit%'
+  yesno:
+    title: '&9Compra per &a$%price%&9?'
+    'yes': '&a&lSi'
+    'no': '&c&lNo'
+  key:
+    title: '&5%kit% &fKit Key'
+    description1: '&rTasto destro su [un ]&c&l%kit%&r kit'
+    description2: '&re ricevere i suoi contenuti!'
+    description3: '&re ricevere alcuni dei suoi contenuti!'
+    description4: '&rKit dato &c&l%amt% &rvolte.'
+# Command Messages
+command:
+  general:
+    noperms: '&cNon hai il permesso per farlo!'
+  kit:
+    nokitsupplied: '&7Gentilmente includi un kit alla preview.'
+    kitdoesntexist: '&cQuesto kit non esiste.'
+    kitalreadyexists: '&cQuesto kit già esiste.'
+    playernotfound: '&cQuesto giocatore non è online o non esiste.'
+# Event Messages
+event:
+  preview:
+    kit: '&9Stai guardando il kit &7%kit%&9.'
+  crate:
+    notyet: '&cDevi aspettare &4%time% &cprima di usarlo.'
+    wrongkey: '&cQuesta chiave non fa parte di questo kit..'
+  claim:
+    cannotafford: '&9Non ti puoi permettere il kit &7%kit%&9.'
+    nottwice: '&9Puoi ricevere questo kit una sola volta.'
+    purchasesuccess: '&9Hai comprato il kit &7%kit%&9.'
+    givesuccess: '&9Hai ricevuto il kit &7%kit%&9.'
+    delay: '&9Gentilmente aspetta %time%'
+    eco: '&7Hai ricevuto &a%amt%&7.'
+    once: '&6Hai già preso questo kit!'
+    ready: '&6Pronto all''uso!'
+    wait: '&6%time%'
+    noaccess: '&cNon hai accesso...'
+    full: '&cIl tuo inventario è troppo pieno per ricevere questo kit!'
+  create:
+    won: '&7Hai ricevuto un &6%item%&7.'
+  purchase:
+    cancelled: '&cAcquisto cancellato.'
+  key:
+    given: '&9Hai ricevuto una &a%kit% &9kit key.'
+    success: '&9Hai riscattato con successo una key per il kit &7%kit%&9.'

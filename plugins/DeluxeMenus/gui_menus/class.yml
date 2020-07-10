@@ -1,0 +1,141 @@
+#
+# Requirements tutorial menu v1.0
+# authors: clip
+#
+# contributor: Andre_601
+#
+# In this tutorial you will learn all about menu requirements
+# Requirements allow you to restrict actions or even an entire menu to specific players.
+#
+# You can read more about requirements here:
+#   https://wiki.helpch.at/clips-plugins/deluxemenus/options-and-configurations/requirements
+#
+menu_title: '&8» Dungeon Classes'
+open_command:
+- ma classes
+inventory_type: "HOPPER"
+size: 9
+items:
+  archer:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzAyZTIyZjY1MDNjMzYzZGY2OWJmOWU5NDQ4ZmU4OWQyZjA1YmFlMzA1MzRiOGJiMTlkMjY4ZjA5ODliOTYifX19
+    slot: 0
+    priority: 1
+    display_name: '&d&lArcher'
+    lore:
+        - ''
+        - '&fItems:'
+        - ' &7- Wooden Sword'
+        - ' &7- Golden Apples x3'
+        - ' &7- Bow and Arrows'
+        - ' &7- Leather Armor'
+        - ' &7- Instant Healing Potions x3'
+        - ''
+        - '&fAbility:'
+        - ' &7- Speed'
+        - ''
+        - '&5&nClick to selesct!'
+    left_click_commands:
+        - '[player] ma class archer'
+        - '[close]'
+    right_click_commands:
+        - '[player] ma class archer'
+        - '[close]'
+  knight:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ3YjYyYWNhMjg0NDViOGUxMWVhMTc1MGVlYWNkOTc5MzJmYTM3YmE3NDQ3Njg1NzNlOGRjNThhNmFmMSJ9fX0
+    slot: 1
+    priority: 1
+    display_name: '&d&lKnight'
+    lore:
+        - ''
+        - '&fItems:'
+        - ' &7- Diamond Sword'
+        - ' &7- Golden Apples x2'
+        - ' &7- Iron Armor'
+        - ' &7- Instant Healing Potions x3'
+        - ''
+        - '&fAbility:'
+        - ' &7- None'
+        - ''
+        - '&5&nClick to selesct!'
+    left_click_commands:
+        - '[player] ma class knight'
+        - '[close]'
+    right_click_commands:
+        - '[player] ma class knight'
+        - '[close]'
+  tank:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk2NzU0ZDMzMDQzNTM0NWFhZTNhOWYwNjNjZmNhNDJhZmIyOGI3YzVjNGJiOWYyOTRlZDI1MjdkOTYxIn19fQ==
+    slot: 2
+    priority: 1
+    display_name: '&d&lTank'
+    lore:
+        - ''
+        - '&fItems:'
+        - ' &7- Iron Sword'
+        - ' &7- Golden Apples x2'
+        - ' &7- Diamond Armor'
+        - ' &7- Instant Healing Potions x2'
+        - ''
+        - '&fAbility:'
+        - ' &7- Slowness'
+        - ' &7- Health Boost'
+        - ''
+        - '&5&nClick to selesct!'
+    left_click_commands:
+        - '[player] ma class tank'
+        - '[close]'
+    right_click_commands:
+        - '[player] ma class tank'
+        - '[close]'
+  chemist:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThjMjA2ZTI5OTI0Yjk5MTZkNGQyNGRmYmJjMzhmMjhiNDRkNmQzY2ZhMjNhZGVjOWVkM2E4ZmNlMWI3YjIifX19
+    slot: 3
+    priority: 1
+    display_name: '&d&lChemist'
+    lore:
+        - ''
+        - '&fItems:'
+        - ' &7- Stone Sword'
+        - ' &7- Golden Apples x3'
+        - ' &7- Chainmail Armor'
+        - ' &7- Instant Damage x30'
+        - ' &7- Poison x8'
+        - ' &7- Instant Heal x20'
+        - ' &7- Heal Potions x3'
+        - ''
+        - '&fAbility:'
+        - ' &7- Speed'
+        - ''
+        - '&5&nClick to selesct!'
+    left_click_commands:
+        - '[player] ma class chemist'
+        - '[close]'
+    right_click_commands:
+        - '[player] ma class chemist'
+        - '[close]'
+  phoenix:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWMyZTlkODM5NWNhY2Q5OTIyODY5YzE1MzczY2Y3Y2IxNmRhMGE1Y2U1ZjNjNjMyYjE5Y2ViMzkyOWM5YTExIn19fQ==
+    slot: 4
+    priority: 1
+    display_name: '&d&lPhoenix'
+    lore:
+        - ''
+        - '&fItems:'
+        - ' &7- Stone Sword'
+        - ' &7- Golden Apples x5'
+        - ' &7- Leather Armor'
+        - ' &7- Flint and Steel'
+        - ' &7- Netherrack x2'
+        - ' &7- TnT x4'
+        - ' &7- Instant Healing Potions x3'
+        - ''
+        - '&fAbility:'
+        - ' &7- Speed'
+        - ''
+        - '&5&nClick to selesct!'
+    left_click_commands:
+        - '[player] ma class phoenix'
+        - '[close]'
+    right_click_commands:
+        - '[player] ma class phoenix'
+        - '[close]'

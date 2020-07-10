@@ -1,0 +1,22 @@
+lastAccountName: LimitedWater
+timestamps:
+  login: 1593033855487
+  lastteleport: 1588452110862
+  logout: 1593035086694
+ipAddress: 192.168.86.1
+lastlocation:
+  world: bskyblock_world
+  x: -2.0301238581675083
+  y: 137.0
+  z: 231.66510791950856
+  yaw: 50.962646
+  pitch: 8.916889
+godmode: false
+logoutlocation:
+  world: Spawn
+  x: 75.33893853918656
+  y: 201.0
+  z: 86.1243225830318
+  yaw: 15.200332
+  pitch: -13.31837
+money: '5097528458230.0'

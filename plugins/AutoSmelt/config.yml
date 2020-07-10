@@ -1,0 +1,27 @@
+#                           #
+#   AutoSmelt by: tweedjt   #
+#                           #
+
+#Is AutoSmelt on by default
+auto_smelt: false
+
+#Are Drops to Inventory on by default
+auto_pickup: false
+
+#Drop exp orbs?
+exp_drops: true
+
+#Set the experience orb value for Iron
+iron_exp: 1
+
+#Set the experience orb value for Gold
+gold_exp: 1
+
+#On message for /as command
+autosmelt_on_message: 'AutoSmelt&7 has been turned &a&lON'
+
+#Off message for /as command
+autosmelt_off_message: 'AutoSmelt&7 has been turned &c&lOFF'
+
+#Message prefix for plugin
+message_prefix: "&e&lAuto&d&lSmelt &7›› &r"

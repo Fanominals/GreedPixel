@@ -1,0 +1,96 @@
+basicmine:
+  location: Mines, 31.500, 74.000, 241.500
+  lines:
+  - '&a&l&nBasic Mine'
+  - '&b'
+  - '&b&lOre Reset Times:'
+  - '&fIron and Coal &8-&b 5 Minutes'
+  - '&fGold and Redstone &8-&b 6 Minutes'
+  - '&fDiamond and Emerald &8-&b 7 Minutes'
+raremine:
+  location: Mines, 49.500, 87.000, 433.500
+  lines:
+  - '&5&l&nRare Mine'
+  - '&b'
+  - '&b&lOre Reset Times:'
+  - '&fIron and Coal &8-&b 4 Minutes'
+  - '&fGold and Redstone &8-&b 5 Minutes'
+  - '&fDiamond and Emerald &8-&b 6 Minutes'
+legendarymine:
+  location: Mines, -265.500, 78.000, 701.500
+  lines:
+  - '&6&l&nLegendary Mine'
+  - '&b'
+  - '&b&lOre Reset Times:'
+  - '&fIron and Coal &8-&b 3 Minutes'
+  - '&fGold and Redstone &8-&b 3 Minutes'
+  - '&fDiamond and Emerald &8-&b 4 Minutes'
+Kit:
+  location: Spawn, 86.406, 202.527, 92.462
+  lines:
+  - '&e&lKit &7NPC'
+Mobcoin:
+  location: Spawn, 82.484, 202.994, 94.471
+  lines:
+  - '&e&lMob &6&lCoins'
+  - '&7{{ The mobcoins shop updates, with new rare items! }}'
+  - '&e&lNEW ITEMS: &f%supermobcoins_normal_time%'
+  - '&e&lNEW SPECIAL ITEMS: &f%supermobcoins_special_time%'
+Arena:
+  location: Spawn, 88.511, 202.533, 88.514
+  lines:
+  - '&d&lArena &7NPC'
+  - '&7Battle &c&lmobs &7for &e&lmoney &7and &e&litems'
+Spawn:
+  location: Spawn, 75.460, 204.276, 86.347
+  lines:
+  - '&e&l(!) &fWelcome &e&l%player_name% &fto &a&lGreed&b&lPixel'
+  - '&f'
+  - '&fLearn the basics with &e/tutorial &for &e/wiki'
+  - Create your island
+  - '&fby using the &e/island &fcommand'
+  - '&f'
+  - '&fThere are currently &e&l%server_online%/1000 &fplayers.'
+  - '&fStart your adventure today!'
+farmerKit:
+  location: Spawn, 82.515, 202.861, 68.522
+  lines:
+  - '&7Farmer &7&lKit'
+  - '&fClick to Preview'
+scribekit:
+  location: Spawn, 84.514, 202.861, 69.582
+  lines:
+  - '&aScribe &f&lKit'
+  - '&fClick to Preview'
+aristocratkit:
+  location: Spawn, 88.506, 202.861, 74.481
+  lines:
+  - '&cAristocrat &f&lKit'
+  - '&fClick to Preview'
+noblekit:
+  location: Spawn, 87.595, 202.861, 72.467
+  lines:
+  - '&dNoble &f&lKit'
+  - '&fClick to Preview'
+chancellorkit:
+  location: Spawn, 86.506, 202.861, 68.476
+  lines:
+  - '&b&lChancellor &f&lKit'
+  - '&fClick to Preview'
+pharoahkit:
+  location: Spawn, 88.456, 202.861, 70.510
+  lines:
+  - '&e&lPharoah &f&lKit'
+  - '&fClick to Preview'
+Tutorial:
+  location: Spawn, 68.529, 202.704, 94.500
+  lines:
+  - '&e&LServer Tutorial &7NPC'
+Shop:
+  location: Spawn, 64.524, 202.539, 92.431
+  lines:
+  - '&a&lThe Shop &7NPC'
+Wiki:
+  location: Spawn, 62.525, 202.692, 88.517
+  lines:
+  - '&6&lServer Wiki &7NPC'

@@ -1,0 +1,1240 @@
+###################################
+#             Items: Options
+# Item: <ID:MD/Item Name> - You can choose the item with its id and meta data.
+# Amount: <Number> - Choose how many of the item you get.
+# Name: <Name> - The display name that goes on the item.
+# Lore: <Line 1>,<Line 2>,<Line 3>,<Line 4> - The lore that will go under the enchantments. Split lines with a ','
+# <Enchantment>:<Level> - Choose the enchantment you want to add to the item. You can use the in-game names of the enchantment if you want. Replace the spaces in the name with a "_".
+###########################################################
+#                    Sound Options                        #
+# 1.9 and up players use these sounds: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+###################################################################
+#                         Firework Colors:                        #
+#      Aqua, Black, Blue, Fuchsia, Gray, Green, Lime, Maroon,     #
+#  Navy, Olive, Orange, Purple, Red, Silver, Teal, White, Yellow  #
+###################################################################
+Settings: #Settings
+  Prefix: '&6&lVOUCHERS &7» ' #The prefix before messages.
+  Updater: true
+Vouchers: #Where you make your vouchers.
+  Basic: #The name of the voucher.
+    Item: 'PAPER' #The item the voucher is.
+    Name: '&6» &aBasic Mine Voucher &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to gain access to' 
+      - '&7the &a&lBasic Mine &7for &a15 minutes&7.'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission settemp essentials.warps.basic true 15m'
+    Options: #The options
+      Message: '&7You now have access to the &a&lBasic Mine!' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to the &a&lBasic Mine!' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'essentials.warps.basic'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Rare: #The name of the voucher.
+    Item: 'PAPER' #The item the voucher is.
+    Name: '&6» &5Rare Mine Voucher &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to gain access to' 
+      - '&7the &5&lRare Mine &7for &a15 minutes&7.'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission settemp essentials.warps.rare true 15m'
+    Options: #The options
+      Message: '&7You now have access to the &5&lRare Mine!' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to the &5&lRare Mine!' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'essentials.warps.rare'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Legendary: #The name of the voucher.
+    Item: 'PAPER' #The item the voucher is.
+    Name: '&6» &6Legendary Mine Voucher &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to gain access to' 
+      - '&7the &6&lLegendary Mine &7for &a15 minutes&7.'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission settemp essentials.warps.legendary true 15m'
+    Options: #The options
+      Message: '&7You now have access to the &6&lLegendary Mine!' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to the &6&lLegendarys Mine!' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'essentials.warps.legendary'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Fly: #The name of the voucher.
+    Item: 'FEATHER' #The item the voucher is.
+    Name: '&6» &a&l/Fly Access &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to gain access to' 
+      - '&7the &a&l/fly &7command'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set essentials.fly'
+    Options: #The options
+      Message: '&7You now have access to the &a&l/fly &7command' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to the &a&l/fly &7command' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'essentials.fly'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Maxsize: #The name of the voucher.
+    Item: 'GLOWSTONE_DUST' #The item the voucher is.
+    Name: '&6» &a&lTeam Size Increase &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to gain access to' 
+      - '&7a total of &a&l6 team members.'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set bskyblock.team.maxsize.6'
+    Options: #The options
+      Message: '&7You now have access to &a&l6 team members &7slots' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to &a&l6 team members &7slots' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'bskyblock.team.maxsize.6'
+            - 'bskyblock.team.maxsize.8'
+            - 'bskyblock.team.maxsize.10'
+            - 'bskyblock.team.maxsize.12'
+            - 'bskyblock.team.maxsize.14'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Maxsize2: #The name of the voucher.
+    Item: 'GLOWSTONE_DUST' #The item the voucher is.
+    Name: '&6» &a&lTeam Size Increase &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to gain access to' 
+      - '&7a total of &a&l8 team members.'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set bskyblock.team.maxsize.8'
+    Options: #The options
+      Message: '&7You now have access to &a&l8 team members &7slots' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to &a&l8 team members &7slots' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'bskyblock.team.maxsize.8'
+            - 'bskyblock.team.maxsize.10'
+            - 'bskyblock.team.maxsize.12'
+            - 'bskyblock.team.maxsize.14'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Maxsize3: #The name of the voucher.
+    Item: 'GLOWSTONE_DUST' #The item the voucher is.
+    Name: '&6» &a&lTeam Size Increase &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to gain access to' 
+      - '&7a total of &a&l10 team members.'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set bskyblock.team.maxsize.10'
+    Options: #The options
+      Message: '&7You now have access to &a&l10 team members &7slots' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to &a&l10 team members &7slots' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'bskyblock.team.maxsize.10'
+            - 'bskyblock.team.maxsize.12'
+            - 'bskyblock.team.maxsize.14'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Maxsize4: #The name of the voucher.
+    Item: 'GLOWSTONE_DUST' #The item the voucher is.
+    Name: '&6» &a&lTeam Size Increase &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to gain access to' 
+      - '&7a total of &a&l12 team members.'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set bskyblock.team.maxsize.12'
+    Options: #The options
+      Message: '&7You now have access to &a&l12 team members &7slots' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to &a&l12 team members &7slots' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'bskyblock.team.maxsize.12'
+            - 'bskyblock.team.maxsize.14'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Maxsize5: #The name of the voucher.
+    Item: 'GLOWSTONE_DUST' #The item the voucher is.
+    Name: '&6» &a&lTeam Size Increase &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to gain access to' 
+      - '&7a total of &a&l14 team members.'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set bskyblock.team.maxsize.14'
+    Options: #The options
+      Message: '&7You now have access to &a&l14 team members &7slots' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to &a&l14 team members &7slots' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'bskyblock.team.maxsize.14'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Islandsize: #The name of the voucher.
+    Item: 'GLOWSTONE_DUST' #The item the voucher is.
+    Name: '&6» &a&lIsland Size Increase &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to expand your island border' 
+      - '&7to a size of &a&l100x100'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set bskyblock.island.range.50'
+    Options: #The options
+      Message: '&7You now have access to an island size of &a&l100x100' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to an island size of &a&l100x100' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'bskyblock.island.range.50'
+            - 'bskyblock.island.range.75'
+            - 'bskyblock.island.range.100'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Islandsize2: #The name of the voucher.
+    Item: 'GLOWSTONE_DUST' #The item the voucher is.
+    Name: '&6» &a&lIsland Size Increase &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to expand your island border' 
+      - '&7to a size of &a&l150x150'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set bskyblock.island.range.75'
+    Options: #The options
+      Message: '&7You now have access to an island size of &a&l150x150' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to an island size of &a&l150x150' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'bskyblock.island.range.75'
+            - 'bskyblock.island.range.100'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Islandsize3: #The name of the voucher.
+    Item: 'GLOWSTONE_DUST' #The item the voucher is.
+    Name: '&6» &a&lIsland Size Increase &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to expand your island border' 
+      - '&7to a size of &a&l200x200'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set bskyblock.island.range.100'
+    Options: #The options
+      Message: '&7You now have access to an island size of &a&l200x200' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to an island size of &a&l200x200' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'bskyblock.island.range.100'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Islandhome: #The name of the voucher.
+    Item: 'GLOWSTONE_DUST' #The item the voucher is.
+    Name: '&6» &a&lIsland Home Upgrade &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to upgrade your ' 
+      - '&7number of island homes'
+      - ''
+      - '&aIncrease Island Home Slots to &l2'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set bskyblock.island.maxhomes.2'
+    Options: #The options
+      Message: '&7You now have access to &a2 island homes' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to &a2 island homes' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'bskyblock.island.maxhomes.2'
+            - 'bskyblock.island.maxhomes.4'
+            - 'bskyblock.island.maxhomes.6'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Islandhome2: #The name of the voucher.
+    Item: 'GLOWSTONE_DUST' #The item the voucher is.
+    Name: '&6» &a&lIsland Home Upgrade &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to upgrade your ' 
+      - '&7number of island homes'
+      - ''
+      - '&aIncrease Island Home Slots to &l4'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set bskyblock.island.maxhomes.4'
+    Options: #The options
+      Message: '&7You now have access to &a4 island homes' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to &a4 island homes' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'bskyblock.island.maxhomes.4'
+            - 'bskyblock.island.maxhomes.6'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Islandhome3: #The name of the voucher.
+    Item: 'GLOWSTONE_DUST' #The item the voucher is.
+    Name: '&6» &a&lIsland Home Upgrade &6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to upgrade your ' 
+      - '&7number of island homes'
+      - ''
+      - '&aIncrease Island Home Slots to &l6'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set bskyblock.island.maxhomes.6'
+    Options: #The options
+      Message: '&7You now have access to &a6 island homes' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to &a6 island homes' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'bskyblock.island.maxhomes.6'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  voidchestcommon: #The name of the voucher.
+    Item: 'PRISMARINE_SHARD' #The item the voucher is.
+    Name: '&6» &a&lCommon VoidChest Access&6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to gain access' 
+      - '&7to &a&lCommon VoidChests'
+      - ''
+      - '&7&nType the command &l/vc &7&nto learn more'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set voidchest.place.common'
+      - 'lp user %Player% permission set voidchest.break.common'
+    Options: #The options
+      Message: '&7You now have access to &a&lCommon VoidChests' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to &a&lCommon VoidChests' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'voidchest.place.common'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  voidchestrare: #The name of the voucher.
+    Item: 'PRISMARINE_SHARD' #The item the voucher is.
+    Name: '&6» &b&lRare VoidChest Access&6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to gain access' 
+      - '&7to &b&lRare VoidChests'
+      - ''
+      - '&7&nType the command &l/vc &7&nto learn more'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set voidchest.place.rare'
+      - 'lp user %Player% permission set voidchest.break.rare'
+    Options: #The options
+      Message: '&7You now have access to &b&lRare VoidChests' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to &b&lRare VoidChests' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'voidchest.place.rare'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  voidchestlegendary: #The name of the voucher.
+    Item: 'PRISMARINE_SHARD' #The item the voucher is.
+    Name: '&6» &e&lLegendary VoidChest Access&6«' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to gain access' 
+      - '&7to &e&lLegendary VoidChests'
+      - ''
+      - '&7&nType the command &l/vc &7&nto learn more'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set voidchest.place.legendary'
+      - 'lp user %Player% permission set voidchest.break.legendary'
+    Options: #The options
+      Message: '&7You now have access to &e&lLegendary VoidChests' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.s
+          Message: '&7You already have access to &e&lLegendary VoidChests' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'voidchest.place.legendary'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Scribe:
+    Item: 'COAL'
+    Name: '&e&l[&6&l!&e&l] &a&lSCRIBE RANK &e&l[&6&l!&e&l]'
+    Lore:
+      - '&7(( Use this voucher to rank up to &a&lScribe RANK&7))'
+      - ''
+      - '&7Access to &e/feed'
+      - '&7Access to &e/craft'
+      - '&7Access to &e/ptime'
+      - '&7Access to &e/kittycannon'
+      - '&7Access to &e/pv 1'
+      - '&7Access to &e/kit Scribe'
+      - '&7Access to &e/condense'
+      - '&7Access to &e/pweather'
+      - '&7Access to &e/ext'
+      - '&7Access to &e2x Homes'
+      - '&7Access to &e6 Island Member Slots'
+      - ''
+      - '&e&l+ $25,000 In-Game Money'
+      - '&e&l+ 25x Mobcoins'
+      - '&e&l+ 1x Basic Key'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: ''
+    Glowing: true
+    Commands:
+      - 'lp user %Player% promote ranks'
+      - 'eco give %Player% 25000'
+      - 'crates givekey %Player% basic'
+      - 'mobcoins giveitem %Player% 25'
+    Options:
+      Message: '&eCongratulations, you have ranked up to &a&lSCRIBE RANK.'
+      Whitelist-Worlds:
+        Toggle: false
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.'
+        Worlds:
+          - 'world'
+      Permission:
+        Whitelist-Permission:
+          Toggle: false
+          Permissions:
+            - 'voucher.rankup'
+        Blacklist-Permissions:
+          Toggle: true
+          Message: '&cYou already have the &a&lSCRIBE RANK.'
+          Permissions:
+            - 'displayname.Scribe'
+            - 'displayname.Aristocrat'
+            - 'displayname.Noble'
+            - 'displayname.Chancellor'
+            - 'displayname.Pharoah'
+      Limiter:
+        Toggle: false
+        Limit: 10
+      Two-Step-Authentication:
+        Toggle: true
+      Sound:
+        Toggle: true
+        Sounds:
+          - 'CLICK'
+      Firework:
+        Toggle: true
+        Colors: 'Black, Gray, Red'
+  Aristocrat:
+    Item: 'IRON_INGOT'
+    Name: '&e&l[&6&l!&e&l] &c&lARISTOCRAT RANK &e&l[&6&l!&e&l]'
+    Lore:
+      - '&7(( Use this voucher to rank up to &c&lARISTOCRAT RANK &7))'
+      - ''
+      - '&7Access to &e/feed'
+      - '&7Access to &e/craft'
+      - '&7Access to &e/ptime'
+      - '&7Access to &e/kittycannon'
+      - '&7Access to &e/pv 2'
+      - '&7Access to &e/kit Aristocrat'
+      - '&7Access to &e/condense'
+      - '&7Access to &e/pweather'
+      - '&7Access to &e/ext'
+      - '&7Access to &e4x Homes'
+      - '&7Access to &e8 Island Member Slots'
+      - '&7Access to &e/fix'
+      - '&7Access to &e/enderchest'
+      - ''
+      - '&e&l+ $50,000 In-Game Money'
+      - '&e&l+ 40x Mobcoins'
+      - '&e&l+ 1x Rare Key'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: ''
+    Glowing: true
+    Commands:
+      - 'lp user %Player% promote ranks'
+      - 'eco give %Player% 50000'
+      - 'crates givekey %Player% rare'
+      - 'mobcoins giveitem %Player% 40'
+    Options:
+      Message: '&eCongratulations, you have ranked up to &c&lARISTOCRAT RANK.'
+      Whitelist-Worlds:
+        Toggle: false
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.'
+        Worlds:
+          - 'world'
+      Permission:
+        Whitelist-Permission:
+          Toggle: false
+          Permissions:
+            - 'voucher.rankup'
+        Blacklist-Permissions:
+          Toggle: true
+          Message: '&cYou already have the &c&lARISTOCRAT RANK.'
+          Permissions:
+            - 'displayname.Aristocrat'
+            - 'displayname.Noble'
+            - 'displayname.Chancellor'
+            - 'displayname.Pharoah'
+      Limiter:
+        Toggle: false
+        Limit: 10
+      Two-Step-Authentication:
+        Toggle: true
+      Sound:
+        Toggle: true
+        Sounds:
+          - 'CLICK'
+      Firework:
+        Toggle: true
+        Colors: 'Black, Gray, Red'
+  Noble:
+    Item: 'GOLD_INGOT'
+    Name: '&e&l[&6&l!&e&l] &5&lNOBLE RANK &e&l[&6&l!&e&l]'
+    Lore:
+      - '&7(( Use this voucher to rank up to &5&lNOBLE RANK&7))'
+      - ''
+      - '&7Access to &e/feed'
+      - '&7Access to &e/craft'
+      - '&7Access to &e/ptime'
+      - '&7Access to &e/kittycannon'
+      - '&7Access to &e/pv 3'
+      - '&7Access to &e/kit Noble'
+      - '&7Access to &e/condense'
+      - '&7Access to &e/pweather'
+      - '&7Access to &e/ext'
+      - '&7Access to &e5x Homes'
+      - '&7Access to &e10 Island Member Slots'
+      - '&7Access to &e/fix'
+      - '&7Access to &e/enderchest'
+      - '&7Access to &e/FLY'
+      - '&7Access to &e/fix all'
+      - '&7Access to &e/invsee'
+      - '&7Access to &eKEEP EXP ON DEATH'
+      - '&7Access to &e100x100 Island Size'
+      - '&7Access to &e2 Island Homes'
+      - ''
+      - '&e&l+ $75,000 In-Game Money'
+      - '&e&l+ 50x Mobcoins'
+      - '&e&l+ 2x Rare Key'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: ''
+    Glowing: true
+    Commands:
+      - 'lp user %Player% promote ranks'
+      - 'eco give %Player% 75000'
+      - 'crates givekey %Player% rare'
+      - 'mobcoins giveitem %Player% 50'
+    Options:
+      Message: '&eCongratulations, you have ranked up to &5&lNOBLE RANK.'
+      Whitelist-Worlds:
+        Toggle: false
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.'
+        Worlds:
+          - 'world'
+      Permission:
+        Whitelist-Permission:
+          Toggle: false
+          Permissions:
+            - 'voucher.rankup'
+        Blacklist-Permissions:
+          Toggle: true
+          Message: '&cYou already have the &5&lNOBLE RANK.'
+          Permissions:
+            - 'displayname.Noble'
+            - 'displayname.Chancellor'
+            - 'displayname.Pharoah'
+      Limiter:
+        Toggle: false
+        Limit: 10
+      Two-Step-Authentication:
+        Toggle: true
+      Sound:
+        Toggle: true
+        Sounds:
+          - 'CLICK'
+      Firework:
+        Toggle: true
+        Colors: 'Black, Gray, Red'
+  Chancellor:
+    Item: 'DIAMOND'
+    Name: '&e&l[&6&l!&e&l] &b&lCHANCELLOR RANK &e&l[&6&l!&e&l]'
+    Lore:
+      - '&7(( Use this voucher to rank up to &b&lCHANCELLOR RANK &7))'
+      - ''
+      - '&7Access to &e/feed'
+      - '&7Access to &e/craft'
+      - '&7Access to &e/ptime'
+      - '&7Access to &e/kittycannon'
+      - '&7Access to &e/pv 6'
+      - '&7Access to &e/kit Chancellor'
+      - '&7Access to &e/condense'
+      - '&7Access to &e/pweather'
+      - '&7Access to &e/ext'
+      - '&7Access to &e6x Homes'
+      - '&7Access to &e12 Island Member Slots'
+      - '&7Access to &e/fix'
+      - '&7Access to &e/enderchest'
+      - '&7Access to &e/FLY'
+      - '&7Access to &e/fix all'
+      - '&7Access to &e/invsee'
+      - '&7Access to &eKEEP EXP ON DEATH'
+      - '&7Access to &e150x150 Island Size'
+      - '&7Access to &e4 Island Homes'
+      - '&7Access to &e/heal' 
+      - '&7Access to &e/tptoggle' 
+      - '&7Access to &e/msgtoggle' 
+      - '&7Access to &e/sell handall'
+      - ''
+      - '&e&l+ $100,000 In-Game Money'
+      - '&e&l+ 75x Mobcoins'
+      - '&e&l+ 1x Legendary Key'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: ''
+    Glowing: true
+    Commands:
+      - 'lp user %Player% promote ranks'
+      - 'eco give %Player% 100000'
+      - 'crates givekey %Player% legendary'
+      - 'mobcoins giveitem %Player% 75'
+    Options:
+      Message: '&eCongratulations, you have ranked up to &b&lCHANCELLOR RANK.'
+      Whitelist-Worlds:
+        Toggle: false
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.'
+        Worlds:
+          - 'world'
+      Permission:
+        Whitelist-Permission:
+          Toggle: false
+          Permissions:
+            - 'voucher.rankup'
+        Blacklist-Permissions:
+          Toggle: true
+          Message: '&cYou already have the &b&lCHANCELLOR RANK.'
+          Permissions:
+            - 'displayname.Chancellor'
+            - 'displayname.Pharoah'
+      Limiter:
+        Toggle: false
+        Limit: 10
+      Two-Step-Authentication:
+        Toggle: true
+      Sound:
+        Toggle: true
+        Sounds:
+          - 'CLICK'
+      Firework:
+        Toggle: true
+        Colors: 'Black, Gray, Red'
+  Pharoah:
+    Item: 'EMERALD'
+    Name: '&e&l[&6&l!&e&l] &6&lP&e&lH&6&lA&e&lR&6&lO&e&lA&6&lH RANK &e&l[&6&l!&e&l]'
+    Lore:
+      - '&7(( Use this voucher to rank up to &6&lP&e&lH&6&lA&e&lR&6&lO&e&lA&6&lH RANK &7))'
+      - ''
+      - '&7Access to &e/feed'
+      - '&7Access to &e/craft'
+      - '&7Access to &e/ptime'
+      - '&7Access to &e/kittycannon'
+      - '&7Access to &e/pv 12'
+      - '&7Access to &e/kit Pharoah'
+      - '&7Access to &e/condense'
+      - '&7Access to &e/pweather'
+      - '&7Access to &e/ext'
+      - '&7Access to &e8x Homes'
+      - '&7Access to &e14 Island Member Slots'
+      - '&7Access to &e/fix'
+      - '&7Access to &e/enderchest'
+      - '&7Access to &e/FLY'
+      - '&7Access to &e/fix all'
+      - '&7Access to &e/invsee'
+      - '&7Access to &eKEEP EXP ON DEATH'
+      - '&7Access to &e200x200 Island Size'
+      - '&7Access to &e6 Island Homes'
+      - '&7Access to &e/heal' 
+      - '&7Access to &e/tptoggle' 
+      - '&7Access to &e/msgtoggle' 
+      - '&7Access to &e/sell handall'
+      - '&7Access to &e/sell all'
+      - '&7Access to &eCHAT COLOR'
+      - ''
+      - '&e&l+ $200,000 In-Game Money'
+      - '&e&l+ 100x Mobcoins'
+      - '&e&l+ 3x Legendary Key'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: ''
+    Glowing: true
+    Commands:
+      - 'lp user %Player% promote ranks'
+      - 'eco give %Player% 200000'
+      - 'crates givekey %Player% legendary 2'
+      - 'mobcoins giveitem %Player% 100'
+    Options:
+      Message: '&eCongratulations, you have ranked up to &6&lP&e&lH&6&lA&e&lR&6&lO&e&lA&6&lH RANK.'
+      Whitelist-Worlds:
+        Toggle: false
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.'
+        Worlds:
+          - 'world'
+      Permission:
+        Whitelist-Permission:
+          Toggle: false
+          Permissions:
+            - 'voucher.rankup'
+        Blacklist-Permissions:
+          Toggle: true
+          Message: '&cYou already have the &6&lP&e&lH&6&lA&e&lR&6&lO&e&lA&6&lH RANK.'
+          Permissions:
+            - 'displayname.Pharoah'
+      Limiter:
+        Toggle: false
+        Limit: 10
+      Two-Step-Authentication:
+        Toggle: true
+      Sound:
+        Toggle: true
+        Sounds:
+          - 'CLICK'
+      Firework:
+        Toggle: true
+        Colors: 'Black, Gray, Red'
+  GSet:
+    Item: 'DIAMOND'
+    Name: '&8&l>&7&l>&bGod-Set Voucher&7&l<&8&l<'
+    Lore:
+      - '&7Use this voucher to get a god set.'
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: ''
+    Glowing: true
+    Items:
+      - 'Item:DIAMOND_HELMET, Amount:1, Name:&bGod Helmet, Protection:4, Respiration:1, Aqua_Affinity:3, Unbreaking:3, Thorns:3'
+      - 'Item:DIAMOND_CHESTPLATE, Amount:1, Name:&bGod Chestplate, Protection:4, Unbreaking:3, Thorns:3'
+      - 'Item:DIAMOND_LEGGINGS, Amount:1, Name:&bGod Leggings, Protection:4, Unbreaking:3, Thorns:3'
+      - 'Item:DIAMOND_BOOTS, Amount:1, Name:&bGod Boots, Protection:4, Depth_Strider:3, Unbreaking:3, Thorns:3'
+    Options:
+      Message: '&7Congratulations, you have your self a new God-Set.'
+      Whitelist-Worlds:
+        Toggle: false
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.'
+        Worlds:
+          - 'world'
+      Permission:
+        Whitelist-Permission:
+          Toggle: false
+          Permissions:
+            - 'voucher.gset'
+        Blacklist-Permissions:
+          Toggle: false
+          Message: '&cYou have a blacklisted permission and can''t use this voucher.'
+          Permissions:
+            - 'voucher.blacklist.gset'
+      Limiter:
+        Toggle: false
+        Limit: 10
+      Two-Step-Authentication:
+        Toggle: false
+      Sound:
+        Toggle: true
+        Sounds:
+          - 'CLICK'
+      Firework:
+        Toggle: true
+        Colors: 'Black, Gray, Aqua'
+  Random_1:
+    Item: 'SUNFLOWER'
+    Name: '&8&l>&7&l>&cRandom Voucher &6&l#1&7&l<&8&l<'
+    Lore:
+      - '&7Win a random prize.'
+      - ''
+      - '&6&l#1: &a$100'
+      - '&6&l#2: &a$1,000'
+      - '&6&l#3: &a$10,000'
+      - '&6&l#4: &a$100,000'
+      - '&6&l#5: &a$1,000,000'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: ''
+    Glowing: false
+    Random-Commands: #Picks a random prize. There is no chance system for this only a random prize.
+      - 'eco give %Player% 100'
+      - 'eco give %Player% 1000'
+      - 'eco give %Player% 10000'
+      - 'eco give %Player% 100000'
+      - 'eco give %Player% 1000000'
+    Options:
+      Firework:
+        Toggle: true
+        Colors: 'Black, Green'
+  Random_2:
+    Item: 'SUNFLOWER'
+    Name: '&8&l>&7&l>&cRandom Voucher &6&l#2&7&l<&8&l<'
+    Lore:
+      - '&7You feeling lucky?'
+      - ''
+      - '&6&l#1: &a$100 &c45%'
+      - '&6&l#2: &a$1,000 &c25%'
+      - '&6&l#3: &a$10,000 &c15%'
+      - '&6&l#4: &a$100,000 &c10%'
+      - '&6&l#5: &a$1,000,000 &c5%'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Right click to redeem.'
+    Player: ''
+    Glowing: false
+    #Chance Command Layout: - '<Chance> <Command goes after>'
+    Chance-Commands: #Picks a prizes based on a chance system. Chance-System wiki: https://github.com/badbones69/Vouchers/wiki/Chance-System-Wiki
+      - '45 eco give %Player% 100'
+      - '25 eco give %Player% 1000'
+      - '15 eco give %Player% 10000'
+      - '10 eco give %Player% 100000'
+      - '5 eco give %Player% 1000000'
+    Options:
+      Firework:
+        Toggle: true
+        Colors: 'Black, Green'

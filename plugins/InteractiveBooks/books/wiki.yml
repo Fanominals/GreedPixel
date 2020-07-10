@@ -1,0 +1,83 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: '&a&lGreed&b&lPixel &7- &e&lWiki'
+
+# Book's title
+title: GreedPixel Wiki
+
+# Book's author
+author: '&c&lAblates'
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- ''
+- '&7Learn the basics of GreedPixel'
+- '&7Join the server discord to ask questions'
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: 'examplebook'
+
+pages:
+  '1':
+  - 'Welcome to GreedPixel - Skyblock, %player_name%'
+  - ''
+  - 'This book will teach you everything there is to know about the server'
+  - ''
+  - 'If you would like an interactive tutorial, use /tutorial (NOT FINISHED)'
+  - ''
+  '2':
+  - 'GreedPixel is a community based server that is dedicated to Skyblock'
+  - ''
+  - 'Join our discord using this link: www.discordlink.com'
+  - ''
+  - 'If you have any more questions, feel free to message staff on the server or on discord'
+  '3':
+  - 'GreedPixel is an ore based server, meaning the economy of the server relies on ores'
+  - ''
+  - 'When you first start, you can either join a friends island or create one yourself'
+  - ''
+  - 'To create an island, use the /island command'
+  '4':
+  - 'When you first create/join an island, you will recieve your own space'
+  - ''
+  - 'There will be a pre-made ore generator on your island'
+  - ''
+  - 'Using this generator, you can mine ores and sell them to the store shop'
+  '5':
+  - 'As you make money, consider investing in a mine ticket'
+  - ''
+  - 'A mine ticket, accessible via /mines, will give you access to the basic, rare, or legendary mine warp'
+  - ''
+  - 'Most ores in the mine will give you more money than regular ore prices in the shop'
+  '6':
+  - 'An alternative way to make money are the Arenas, accessible via /arena'
+  - ''
+  - 'In the arena, you and/or 3 people fight against mobs for ores and mobcoins'
+  - ''
+  - 'The longer the time you surive in the arena, the better your rewards'
+  '7':
+  - 'After you have enough money, consider investing in spawners accessible via /shop spawners command'
+  - ''
+  - 'Certain Spawners drop different ores including coal, iron, gold, diamond, and emerald. This information is in the shop menu.'
+  - ''
+  - 'Mobs in spawners spawn every 20 seconds'
+  - ''
+  '8':
+  - 'Mob Spawners can also be stacked upto 50 in a single space.'
+  - ''
+  - 'You can use any pickaxe to pick up placed spawners.'
+  - ''
+  - 'Shifting while mining the spawners will allow you to mine the whole stack at once.'
+  '9':
+  - 'Use these strategies along with your own to compete against other players to achieve the highest baltop'
+  - ''
+  - 'If you have any suggestions to make the gameplay better, feel free to contact the staff. Otherwise, Make sure to enjoy your time at GreedPixel. '

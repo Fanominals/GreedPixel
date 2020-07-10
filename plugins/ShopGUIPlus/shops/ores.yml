@@ -1,0 +1,86 @@
+ores:
+  name: "&3&lOres (page %page%)"
+  size: 45
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  buttons:
+    goBack:
+      slot: 40
+    previousPage:
+      slot: 36
+    nextPage:
+      slot: 45
+  items:
+    1:
+      type: item
+      item:
+        material: COAL
+        quantity: 1
+      buyPrice: 25
+      sellPrice: 15
+      slot: 12
+    2:
+      type: item
+      item:
+        material: REDSTONE
+        quantity: 1
+      buyPrice: 80
+      sellPrice: 60
+      slot: 13
+    3:
+      type: item
+      item:
+        material: LAPIS_LAZULI
+        quantity: 1
+      buyPrice: 80
+      sellPrice: 60
+      slot: 14
+    4:
+      type: item
+      item:
+        material: IRON_INGOT
+        quantity: 1
+      buyPrice: 75
+      sellPrice: 50     
+      slot: 21
+    5:
+      type: item
+      item:
+        material: GOLD_INGOT
+        quantity: 1
+      buyPrice: 200
+      sellPrice: 160
+      slot: 22
+    6:
+      type: item
+      item:
+        material: DIAMOND
+        quantity: 1
+      buyPrice: 620
+      sellPrice: 500
+      slot: 23
+    7:
+      type: item
+      item:
+        material: EMERALD
+        quantity: 1
+      buyPrice: 1200
+      sellPrice: 1000
+      slot: 30
+    8:
+      type: item
+      item:
+        material: DIAMOND_BLOCK
+        quantity: 1
+      buyPrice: 5550
+      sellPrice: 4500
+      slot: 31
+    9:
+      type: item
+      item:
+        material: EMERALD_BLOCK
+        quantity: 1
+      buyPrice: 10800
+      sellPrice: 9000
+      slot: 32

@@ -1,0 +1,180 @@
+# __      ______ _____ _____   _____ _    _ ______  _____ _______                  #
+# \ \    / / __ \_   _|  __ \ / ____| |  | |  ____|/ ____|__   __|                 #
+#  \ \  / / |  | || | | |  | | |    | |__| | |__  | (___    | |                    # 
+#   \ \/ /| |  | || | | |  | | |    |  __  |  __|  \___ \   | |                    #
+#    \  / | |__| || |_| |__| | |____| |  | | |____ ____) |  | |                    #
+#     \/   \____/_____|_____/ \_____|_|  |_|______|_____/   |_|                    #
+ 
+
+# How many ticks should the plugin wait before loading data (voidchests, player related data, etc)
+#
+# This should only be modified if servers are having issues with worlds loading after the voidchest plugin has loaded.
+# Recommended load-delay interval is any number from 1 to 10, the highest, the more time the data will delay to load.
+# 
+# Any number that is < 1 will make the plugin instantly load data when the plugin enabled as well.
+data:
+  load-delay: 0
+  # How long should a player's data be purged after them not having joined the server (in days).
+  purge-check: 14 # 14 would mean two weeks.
+
+
+
+# These sounds are played every time the player does something specific or
+# whenever a certain action is done such as whenever a voidchest sells items.
+#
+# If no valid sound is found for any of these, an error will be shown.
+Sounds:
+  voidchest:
+    sell: 'LEVEL_UP'
+    place: 'LEVEL_UP'
+    break: 'ANVIL_BREAK'
+
+
+
+# Should voidchests drop when exploded by any kind of tnt?
+# Set to false if you wish to not drop voidchest's upon them being exploded.
+drop-when-exploded: false
+
+
+
+# Should players be prevented from placing normal chests near any voidchest?
+# Set this to true if you wish to prevent users from placing chests near voidchests. 
+prevent-normal-chests-near-voidchests:
+  enabled: false
+  deny-message: "&c&l(!) &cYou can't place any chest near this voidchest!"
+
+
+
+# Should the charge time be kept even after the voidchest was broken and placed again?
+# Set to false if you wish to not keep track of voidchest's charge status.
+# Keep in mind, if the voidchest is broken and the charge time is saved, the time will still continue to run.
+# Meaning, the charge can actually expire even though the voidchest is not placed.
+charge-break-persistent: false
+
+
+
+# Should players be prevented from placing voidchests in the same chunk?
+# Set true if you wish to deny more than 1 voidchest per chunk.
+prevent-placing-voidchests-in-same-chunk:
+  enabled: true
+  message: '&c&l(!) &cYou are not allowed to place more than 1 voidchest per chunk!'
+
+
+chunk-collector:
+  # Should the chunk collector ability also take into consideration items with item meta such as name, lore, enchants, etc.
+  # Set this to false if you wish to make this ability only take into account items with no item meta.
+  ignore-item-meta: false
+  # Should non sellable items be transfered into the chest inventory?
+  # Set this to true if you wish to make this ability collect items that weren't sold nor purged.
+  transfer-non-sellables: true
+  # Should the plugin attempt to hook to these plugins?
+  hooks:
+    wildStacker: false
+    ultimateStacker: false
+  
+
+
+hologram-support:
+  # The amount in ticks voidchest holograms should be forced to update.
+  # Holograms are already updated when chests attempt to execute either way.
+  # If you have a countdown timer in the hologram, this should be used as well.
+  # The amount of ticks the update should happen. Default is 5 (~0.25 seconds).
+  update-interval: 20
+  # Set enabled to false if you'd like to disable this.
+  enabled: true
+  # Available hologram support from other plugins: HolographicDisplays, Holograms
+  # This is cap insensitive, meaning 'holographicdisplays' will also work.
+  support: HolographicDisplays
+
+
+
+
+Player:
+  # Should by default, the players receive sell messages? If not, set this to false. True otherwise.
+  sell-messages-default: true
+  voidchest:
+    # Limit how many voidchests a player can place.
+    # Bypass permission is: 'voidchest.limit.bypass'  
+    #
+    # This works as follows; player needs the permission voidchest.limit.<?>
+    # in order for them to be able to place <?> amount of voidchests.
+    # <?> is one of the names below (default, vip, admin, etc).
+    #
+    # By default, players will have the default amount.
+    # If the default amount doesn't exist, the limit will automatically be 5.
+    limit:
+      default: 5
+      vip: 10
+      admin: 20
+
+
+# Certain timings are automatically converted into d,h,m,s.
+# For example, charge time, hologram sell interval, etc.
+# By changing these, you can modify the text to your liking.
+Time-Format:
+  second: second
+  seconds: seconds
+  minute: minute
+  minutes: minutes
+  hour: hour
+  hours: hours
+  day: day
+  days: days
+
+
+
+# The amount of ticks the plugin should attempt to purge broken voidchests ingame. 
+# This is to ensure that if a voidchest is broken by an explosion or third party
+# plugins, all data related to this voidchest are removed.
+#
+# 20 ticks being 1 second. 10 ticks being 0.5 seconds and so on.
+# 100 ticks (default) being 5 seconds.
+#
+# This task is run sync (in the main thread).
+#
+# The interval is being run in ticks.
+Purging:
+  interval: 100
+  enabled: true
+
+
+
+# ignore-item-meta explanation: should the item meta be ignored? If this is set to
+# false, if an item has any item meta (lore, enchant, etc), it will not be considered
+# as a sellable and will be removed if you have the purge option to true.
+#
+# The mode is the prefered sell logic you'd like the plugin to use so as to choose
+# the sell prices for items. 
+# 
+# In case of ShopGUIPlus, it will select the first available
+# similar item that has a sell price from ShopGUIPlus's shop.
+#
+# In case of VoidChest, it chooses prices depending on the shop.yml file.
+#
+# Same thing for essentials, I think this part is covered.
+#
+# As for custom, in order to use this you'll have to create your own plugin that
+# implements a specific interface and then apply that class on startup. This way,
+# if you have the mode as "custom", your custom's plugin sell logic should be applied.
+Sell:
+  # Should voidchests operate when the owner of them is offline?
+  # Set true to activate this behaviour. 
+  # If false, voidchests will only operate when the owner is online.
+  enable-when-owner-offline: true
+  # The interval is being run in seconds.
+  interval: 10
+  mode: voidchest
+  ShopGUIPlus: 
+    ignore-item-meta: false
+  VoidChest: 
+    ignore-item-meta: false
+  Essentials: 
+    ignore-item-meta: false
+
+
+# Auto-update: Should you get notified through the console every 2 hours?
+# Please do keep this true, updates are important and you should keep track of them.
+#
+# Debugging: Should the plugin print useful messages in console?
+Auto-update: true
+Debugging: false

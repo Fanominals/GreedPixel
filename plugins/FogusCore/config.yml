@@ -1,0 +1,8 @@
+core:
+  lang: en
+  command-aliases: fcore
+  prefix: FogusCore
+modules:
+  statistics:
+    enabled: true
+    name: Statistics

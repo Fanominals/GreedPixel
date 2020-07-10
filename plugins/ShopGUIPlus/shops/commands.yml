@@ -1,0 +1,145 @@
+commands:
+    name: "&8&l» &8&nCommands Shop&8&l «"
+    buttons:
+      goBack:
+        slot: 4      
+      previousPage:
+        slot: 3
+      nextPage:
+        slot: 5 
+    fillItem:
+        material: gray_stained_glass_pane
+        name: ""
+    items:
+       1:
+        type: permission
+        permission: "essentials.fly"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&fAcces to &a&l/Fly &fcommand"
+        buyPrice: 10000
+        sellPrice: -1
+        slot: 10    
+       2:
+        type: permission
+        permission: "shopguiplus.sell.hand.all"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&fAcces to &a&l/sellhand all &fcommand"
+        buyPrice: 5000
+        sellPrice: -1
+        slot: 11
+       3:
+        type: permission
+        permission: "shopguiplus.sell.all "
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&fAcces to &a&l/Sell All &fcommand"
+        buyPrice: 20000
+        sellPrice: -1
+        slot: 12
+       4:
+        type: permission
+        permission: "litebans.mute"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&fAcces to &a&l/Mute &fcommand"
+        buyPrice: 30000
+        sellPrice: -1
+        slot: 13
+       7:
+        type: permission
+        permission: "essentials.gamemode"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&fAcces to &a&l/gamemode &fcommand"
+        buyPrice: 40000
+        sellPrice: -1
+        slot: 14
+       9:
+        type: permission
+        permission: "essentials.god"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&fAcces to &a&l/God &fcommand"
+        buyPrice: 25000
+        sellPrice: -1
+        slot: 15
+       10:
+        type: permission
+        permission: "essentials.heal"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&fAcces to &a&l/Heal &fcommand"
+        buyPrice: 7500
+        sellPrice: -1
+        slot: 16
+       11:
+        type: permission
+        permission: "essentials.feed"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&fAcces to &a&l/Feed &fcommand"
+        buyPrice: 3500
+        sellPrice: -1
+        slot: 19
+       12:
+        type: permission
+        permission: "essentials.near"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&fAcces to &a&l/Near &fcommand"
+        buyPrice: 12000
+        sellPrice: -1
+        slot: 20
+       13:
+        type: permission
+        permission: "essentials.nick"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&fAcces to &a&l/nick &fcommand"
+        buyPrice: 8000
+        sellPrice: -1
+        slot: 21
+       14:
+        type: permission
+        permission: "YourPermissionHere"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&fAcces to &a&l/YourCommand &fcommand"
+        buyPrice: 10000
+        sellPrice: -1
+        slot: 22
+       15:
+        type: permission
+        permission: "YourPermissionHere"
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&fAcces to &a&l/YourCommand &fcommand"
+        buyPrice: 10000
+        sellPrice: -1
+        slot: 23
+       16:
+        type: command
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&a&lGreet the players"
+          damage: 0
+        commands: 
+          - "bc &e%PLAYER%&f says hello!"
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 24

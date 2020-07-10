@@ -1,0 +1,236 @@
+name: §dRare Crate
+template: wander
+cooldown: 15
+attached-citizens: '16'
+permission-required: false
+key:
+  id: rare
+block:
+  pushback:
+    enabled: true
+  hologram:
+    enabled: true
+    text:
+    - §dRare §e§lCrate
+    - §f(Right-click to open)
+    - §f(Left-click to view contents)
+  locations:
+  - 62.0,201.0,72.0,0.0,0.0,Spawn
+effects:
+  STATIC:
+    type: SIMPLE
+    particle: FLAME
+    sound: none
+  USE:
+    type: HELIX
+    particle: FLAME
+    sound: ENTITY_PLAYER_LEVELUP
+  OPEN:
+    type: FIREWORK
+    particle: FLAME
+    sound: ENTITY_FIREWORK_ROCKET_BLAST
+rewards:
+  broadcast: false
+  min: 1
+  max: 1
+  list:
+    '1':
+      name: §e40 Levels
+      chance: 15.0
+      cmds:
+      - '[CONSOLE] exp give %player% 40l' 
+      preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kpboe1in4qb5dphmanr2dtq78r350400agrfeln78a00
+    '2':
+      name: §e70 Levels
+      chance: 10.0
+      cmds:
+      - '[CONSOLE] exp give %player% 70l'
+      preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kpboe1in4qb5dphmanr2dtq78r350400agrfeln78g00
+    '3':
+      name: §ax16 Emerald
+      chance: 15.0
+      cmds: []
+      item: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78400
+      preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78400
+    '4':
+      name: §bx16 Diamonds
+      chance: 12.0
+      cmds: []
+      item: 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78400
+      preview: 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78400
+    '5':
+      name: §6$50,000
+      chance: 10.0
+      cmds:
+      - '[CONSOLE] eco give %player% 50000'
+      preview: k00010004qb4006mqqbeclhn4ob6egt6qobg18006t31cs5001r4d5pn0r31f440012ec5mma00nfch78pboegh3k8m2ktis59rc6ko2oc1g60h7q0000400agrfeln78080
+    '6':
+      name: §6$75,000
+      chance: 5.0
+      cmds:
+      - '[CONSOLE] eco give %player% 75000'
+      item: 1800020009km800fdlkmspb3e9gmct1qc5o70r350400agrfeln78080
+      preview: a0000g002d5i003rdd5n6aoric5j78ejgc5o6asga001n8ob71800ep39edo6oobp10008jj1dlig05rr49q6au3k48t25gl7cn1aer1n6km30c1g49ug00o01546ip358pm62prj000000890064arj3d1gmst3dcln78soa000000880016ip001pmmirj5cdp62pjk79m7asj508006r3mdg8fa0000400agrfeln78080
+    '7':
+      name: §6$100,000
+      chance: 1.0
+      cmds:
+      - '[CONSOLE] eco give %player% 100000'
+      preview: 2g0004000j9cg00urb9dpim6sj1cpq3ks31e1in42g00dq62poa003m8qbje1m62u880024sobdck01gup2ehingt1278hc59r5oajmoc9g60m30c1g49ug00o01546ip358pm62prj000000890064arj3d1gmst3dcln78soa000000880016ip001pmmirj5cdp62pjk79m7asj508006r3mdg8fa0000400agrfeln78080
+    '8':
+      name: x25 Mobcoins
+      chance: 5.0
+      cmds: []
+      item: k00010004qb4009mqqbeclhn4ob6egt76tbecpm6utr5e85000rkc5jgk007chkn6s3cc5sgg0049pgmqp806hti4t35f1q24eh2oajm5gl7dh6muoh08dnmirh0oajjea2id5jmgt10cdm6iorb41q6u83icli6apbd54h7q2800h66usj51000000200qnm8jkcls788hq4b1aecqpdtqi0or1dog7asr541q6gpbjckg66rr9dppi0qbe431aeohfdlnm4orfd5n768jt00fnm8jkcls788hq4b1aecrkdsg70tbicdk62sr541pn8tb6coh7q0000400agrfeln78680
+      preview: k00010004qb4009mqqbeclhn4ob6egt76tbecpm6utr5e85000rkc5jgk007chkn6s3cc5sgg0049pgmqp806hti4t35f1q24eh2oajm5gl7dh6muoh08dnmirh0oajjea2id5jmgt10cdm6iorb41q6u83icli6apbd54h7q2800h66usj51000000200qnm8jkcls788hq4b1aecqpdtqi0or1dog7asr541q6gpbjckg66rr9dppi0qbe431aeohfdlnm4orfd5n768jt00fnm8jkcls788hq4b1aecrkdsg70tbicdk62sr541pn8tb6coh7q0000400agrfeln78680
+    '9':
+      name: x50 Mobcoins
+      chance: 3.0
+      cmds: []
+      item: k00010004qb4009mqqbeclhn4ob6egt76tbecpm6utr5e85000rkc5jgk007chkn6s3cc5sgg0049pgmqp806hti4t35f1q24eh2oajm5gl7dh6muoh08dnmirh0oajjea2id5jmgt10cdm6iorb41q6u83icli6apbd54h7q2800h66usj51000000200qnm8jkcls788hq4b1aecqpdtqi0or1dog7asr541q6gpbjckg66rr9dppi0qbe431aeohfdlnm4orfd5n768jt00fnm8jkcls788hq4b1aecrkdsg70tbicdk62sr541pn8tb6coh7q0000400agrfeln78cg0
+      preview: k00010004qb4009mqqbeclhn4ob6egt76tbecpm6utr5e85000rkc5jgk007chkn6s3cc5sgg0049pgmqp806hti4t35f1q24eh2oajm5gl7dh6muoh08dnmirh0oajjea2id5jmgt10cdm6iorb41q6u83icli6apbd54h7q2800h66usj51000000200qnm8jkcls788hq4b1aecqpdtqi0or1dog7asr541q6gpbjckg66rr9dppi0qbe431aeohfdlnm4orfd5n768jt00fnm8jkcls788hq4b1aecrkdsg70tbicdk62sr541pn8tb6coh7q0000400agrfeln78cg0
+    '10':
+      name: x64 Mobcoins
+      chance: 1.0
+      cmds: []
+      item: k00010004qb4009mqqbeclhn4ob6egt76tbecpm6utr5e85000rkc5jgk007chkn6s3cc5sgg0049pgmqp806hti4t35f1q24eh2oajm5gl7dh6muoh08dnmirh0oajjea2id5jmgt10cdm6iorb41q6u83icli6apbd54h7q2800h66usj51000000200qnm8jkcls788hq4b1aecqpdtqi0or1dog7asr541q6gpbjckg66rr9dppi0qbe431aeohfdlnm4orfd5n768jt00fnm8jkcls788hq4b1aecrkdsg70tbicdk62sr541pn8tb6coh7q0000400agrfeln78g00
+      preview: k00010004qb4009mqqbeclhn4ob6egt76tbecpm6utr5e85000rkc5jgk007chkn6s3cc5sgg0049pgmqp806hti4t35f1q24eh2oajm5gl7dh6muoh08dnmirh0oajjea2id5jmgt10cdm6iorb41q6u83icli6apbd54h7q2800h66usj51000000200qnm8jkcls788hq4b1aecqpdtqi0or1dog7asr541q6gpbjckg66rr9dppi0qbe431aeohfdlnm4orfd5n768jt00fnm8jkcls788hq4b1aecrkdsg70tbicdk62sr541pn8tb6coh7q0000400agrfeln78g00
+    '11':
+      name: Basic Mine Voucher
+      chance: 15.0
+      cmds: []
+      item: 5000080016ip001tmmirj5cdp62pjk79o62s35e85000rkc5jgg007epnnaor8clp001a2c5pmiooa003m8qbje1m62u880024sobdck02oup2ehingt1278hc59pmoati1gl7c5162sr9ccg4qqbeckg5crrlcdk6ash0oajjdglb49ugi0049hnn4p880000010061ti4t35f1q24eh2oajjelbjckg78q39ecg7crrlcdk6ash0ehni0pr1d5n20ob3cdin6sp0ehni4v807dti4t35f1q24eh2oajjet38ckgc59r1oajmogj1edkm682dd5n6a862ksrmcrri431aeo9h6kg6qqbeelq6asu2ksris8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: 5000080016ip001tmmirj5cdp62pjk79o62s35e85000rkc5jgg007epnnaor8clp001a2c5pmiooa003m8qbje1m62u880024sobdck02oup2ehingt1278hc59pmoati1gl7c5162sr9ccg4qqbeckg5crrlcdk6ash0oajjdglb49ugi0049hnn4p880000010061ti4t35f1q24eh2oajjelbjckg78q39ecg7crrlcdk6ash0ehni0pr1d5n20ob3cdin6sp0ehni4v807dti4t35f1q24eh2oajjet38ckgc59r1oajmogj1edkm682dd5n6a862ksrmcrri431aeo9h6kg6qqbeelq6asu2ksris8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '12':
+      name: Rare Mine Voucher
+      chance: 7.0
+      cmds: []
+      item: a0000g002d5i003rdd5n6aoric5j78ejgc5o6asga001n8ob71000etjfelhmgpbi00254obick5001r4d5pn0r31f440012ec5mma01bfch78pboegh3k8m2ksrc5ep0oajjakj1e9ii0jb9dpii0ljfelhmgpbi431aedm2lch7q2800h66usj51000000400o7m8jkcls788hq4b1aedqledii0t38d5pi0tjfelhmgpbi41q6u837c5kms831cdhmasrj41q6u8jt00t7m8jkcls788hq4b1aedrkd1ii1gl76n1aer2ic5p6a82dd5n6a862ksrmcrri431aeo9h6kg6qqbeelq6asu2ksris8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: a0000g002d5i003rdd5n6aoric5j78ejgc5o6asga001n8ob71000etjfelhmgpbi00254obick5001r4d5pn0r31f440012ec5mma01bfch78pboegh3k8m2ksrc5ep0oajjakj1e9ii0jb9dpii0ljfelhmgpbi431aedm2lch7q2800h66usj51000000400o7m8jkcls788hq4b1aedqledii0t38d5pi0tjfelhmgpbi41q6u837c5kms831cdhmasrj41q6u8jt00t7m8jkcls788hq4b1aedrkd1ii1gl76n1aer2ic5p6a82dd5n6a862ksrmcrri431aeo9h6kg6qqbeelq6asu2ksris8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '13':
+      name: Legendary Mine Voucher
+      chance: 5.0
+      cmds: []
+      item: a0000g002d5i003rdd5n6aoric5j78ejgc5o6asga001n8ob71000etjfelhmgpbi004kopb7cln68obif45001r4d5pn0r31f440012ec5mma01gfch78pboegh3k8m2ksrc5ep0oajjcj35ctimsp31e9si0jb9dpii0ljfelhmgpbi431aedm2lch7q2800h66usj51000000400o7m8jkcls788hq4b1aedqledii0t38d5pi0tjfelhmgpbi41q6u837c5kms831cdhmasrj41q6u8jt00vnm8jkcls788hq4b1aedrkd1ii1gl76r1aer2ccljmarj4c5p7i82dd5n6a862ksrmcrri431aeo9h6kg6qqbeelq6asu2ksris8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: a0000g002d5i003rdd5n6aoric5j78ejgc5o6asga001n8ob71000etjfelhmgpbi004kopb7cln68obif45001r4d5pn0r31f440012ec5mma01gfch78pboegh3k8m2ksrc5ep0oajjcj35ctimsp31e9si0jb9dpii0ljfelhmgpbi431aedm2lch7q2800h66usj51000000400o7m8jkcls788hq4b1aedqledii0t38d5pi0tjfelhmgpbi41q6u837c5kms831cdhmasrj41q6u8jt00vnm8jkcls788hq4b1aedrkd1ii1gl76r1aer2ccljmarj4c5p7i82dd5n6a862ksrmcrri431aeo9h6kg6qqbeelq6asu2ksris8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '14':
+      name: Fly Access
+      chance: 0.05
+      cmds: []
+      item: 1800020009km800hdlkmspb3e9gmct1qcpim2t38clp0k003ehgme2000tr6utb3d1in40038pm7i2g00ti6isrgdhgni2000h762rb500k7m8jkcls788hq4b1aedm2ncgc59r1oajmobq6dhsi0gb3cdin6sp0oajjdglb49ugi0049hnn4p880000010061ti4t35f1q24eh2oajjelbjckg78q39ecg7crrlcdk6ash0ehni0pr1d5n20ob3cdin6sp0ehni4v804tti4t35f1q24eh2oajjet38ckgc59r1oajmobr6dhsi1gl76thmurbdc5n688jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: 1800020009km800hdlkmspb3e9gmct1qcpim2t38clp0k003ehgme2000tr6utb3d1in40038pm7i2g00ti6isrgdhgni2000h762rb500k7m8jkcls788hq4b1aedm2ncgc59r1oajmobq6dhsi0gb3cdin6sp0oajjdglb49ugi0049hnn4p880000010061ti4t35f1q24eh2oajjelbjckg78q39ecg7crrlcdk6ash0ehni0pr1d5n20ob3cdin6sp0ehni4v804tti4t35f1q24eh2oajjet38ckgc59r1oajmobr6dhsi1gl76thmurbdc5n688jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '15':
+      name: x64 Emerald Block
+      chance: 0.05
+      cmds: []
+      item: k00010004qb400bmqqbeclhn4ob6egt6arb5e9gmop2vc9m6uorb0400agrfeln78g00
+      preview: k00010004qb400bmqqbeclhn4ob6egt6arb5e9gmop2vc9m6uorb0400agrfeln78g00
+    '16':
+      name: x64 Diamond Block
+      chance: 0.05
+      cmds: []
+      item: k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vc9m6uorb0400agrfeln78g00
+      preview: k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vc9m6uorb0400agrfeln78g00
+    '17':
+      name: x64 Gold Block
+      chance: 0.1
+      cmds: []
+      item: 1800020009km800kdlkmspb3e9gmct1qctnmop2vc9m6uorb0400agrfeln78g00
+      preview: 1800020009km800kdlkmspb3e9gmct1qctnmop2vc9m6uorb0400agrfeln78g00
+    '18':
+      name: Common VoidChest Access
+      chance: 10.0
+      cmds: []
+      item: 1800020009km800qdlkmspb3e9gmct1qe1p6isrdc5p6irj5btpmgobicg5000rkc5jgg007epnnaor8clp003rmdtkm8or8clpn8orfdlmmurga003m8qbje1m62u880024sobdck036up2ehingt1278hc59pmoati1gl7c71aer23dtmmqrre41b6uqb48dk6asrk410m6or5edps59pmoali4v890024orrick4000000o02qup2ehingt1278hc59pnalpma83kd1kn683mdtqm6q35e8g78rp0ctgmirh0c5hm6pbjech7q018fch78pboegh3k8m2ksrn8rp0oajm3gl7dh1murbddtn20ljfd5i46q35edq768jt005nm8jkcls788hq48h7q01sfch78pboegh3k8m2ksrs59reahsn0p90ehk6a833dtmmqobecggc59rc5tr66862ksrs59reehni0r35c5p6s83ddtp6a8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: 1800020009km800qdlkmspb3e9gmct1qe1p6isrdc5p6irj5btpmgobicg5000rkc5jgg007epnnaor8clp003rmdtkm8or8clpn8orfdlmmurga003m8qbje1m62u880024sobdck036up2ehingt1278hc59pmoati1gl7c71aer23dtmmqrre41b6uqb48dk6asrk410m6or5edps59pmoali4v890024orrick4000000o02qup2ehingt1278hc59pnalpma83kd1kn683mdtqm6q35e8g78rp0ctgmirh0c5hm6pbjech7q018fch78pboegh3k8m2ksrn8rp0oajm3gl7dh1murbddtn20ljfd5i46q35edq768jt005nm8jkcls788hq48h7q01sfch78pboegh3k8m2ksrs59reahsn0p90ehk6a833dtmmqobecggc59rc5tr66862ksrs59reehni0r35c5p6s83ddtp6a8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '19':
+      name: Rare VoidChest Access
+      chance: 5.0
+      cmds: []
+      item: 5000080016ip0039mmirj5cdp62pjk79o74qbjdlgn4qbeclfn6q31e9i0k003ehgme2000tr6utb3d1in400depnmip33d1in6t3ic5p6a2g00ti6isrgdhgni2000h762rb500onm8jkcls788hq4b1aedm2ncgc59r2oajmokj1e9ii0ljfd5i46q35edq20gb3cdin6su2ksrc5ap2fk4g012cdtp6a2000000c01dfch78pboegh3k8m2ksrlasr541q6gqbj41r6utb3d1in483kdsg6eob9dog62or3clpn68jt00j7m8jkcls788hq4b1aedrkdsgc59r2oajmokj1e9ii0ljfd5i46q35edq768jt005nm8jkcls788hq48h7q01sfch78pboegh3k8m2ksrs59reahsn0p90ehk6a833dtmmqobecggc59rc5tr66862ksrs59reehni0r35c5p6s83ddtp6a8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: 5000080016ip0039mmirj5cdp62pjk79o74qbjdlgn4qbeclfn6q31e9i0k003ehgme2000tr6utb3d1in400depnmip33d1in6t3ic5p6a2g00ti6isrgdhgni2000h762rb500onm8jkcls788hq4b1aedm2ncgc59r2oajmokj1e9ii0ljfd5i46q35edq20gb3cdin6su2ksrc5ap2fk4g012cdtp6a2000000c01dfch78pboegh3k8m2ksrlasr541q6gqbj41r6utb3d1in483kdsg6eob9dog62or3clpn68jt00j7m8jkcls788hq4b1aedrkdsgc59r2oajmokj1e9ii0ljfd5i46q35edq768jt005nm8jkcls788hq48h7q01sfch78pboegh3k8m2ksrs59reahsn0p90ehk6a833dtmmqobecggc59rc5tr66862ksrs59reehni0r35c5p6s83ddtp6a8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '20':
+      name: 'Team Size Increase: 8'
+      chance: 5.0
+      cmds: []
+      item: a0000g002d5i0063dd5n6aoric5j78ej7dhnnesrkdtn6anr4elpn82g00dq62po8003ncrrlcdk6asg0116m2u3jd5t6acga003m8qbje1m62u880024sobdck02uup2ehingt1278hc59pmoati1gl7c71aer2kclgmq82jd5t6a829dphn4pb1edii1gl76r1am8jt14008j3fe9igg00000200c3r49q6au3k48t25gl76tan6p90ehk6isp0epnnaor8clp20t3f41jm2qbe41gm6or5edpi0t3f49ug0bjr49q6au3k48t25gl76tgi0t3fehgmo83fcogc59r1oajmoe10ehim2r90dlimqoj5e9pis8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: a0000g002d5i0063dd5n6aoric5j78ej7dhnnesrkdtn6anr4elpn82g00dq62po8003ncrrlcdk6asg0116m2u3jd5t6acga003m8qbje1m62u880024sobdck02uup2ehingt1278hc59pmoati1gl7c71aer2kclgmq82jd5t6a829dphn4pb1edii1gl76r1am8jt14008j3fe9igg00000200c3r49q6au3k48t25gl76tan6p90ehk6isp0epnnaor8clp20t3f41jm2qbe41gm6or5edpi0t3f49ug0bjr49q6au3k48t25gl76tgi0t3fehgmo83fcogc59r1oajmoe10ehim2r90dlimqoj5e9pis8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '21':
+      name: 'Team Size Increase: 10'
+      chance: 2.0
+      cmds: []
+      item: 2g0004000j9cg01grb9dpim6sj1cpq3kprcdtrn6t3fdpilup3ledq0k003ehgme2000tr6utb3d1in40089lgngsr9f9ij62g00ti6isrgdhgni2000h762rb500nnm8jkcls788hq4b1aedm2ncgc59r1oajmol35c5mi0kr9f9ii0ibecdp6aobjckgc59pmoali4v890024orrick4000000g030up2ehingt1278hc59pnalpma83kd1kn683mdtqm6q35e8g78rp0ctgmirh0c5hm6pbjecg78rp2fk02uup2ehingt1278hc59pnc4g78rrkc5m20rr6431aeoe2ktm32c10ehim2r90dlimqoj5e9pis8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: 2g0004000j9cg01grb9dpim6sj1cpq3kprcdtrn6t3fdpilup3ledq0k003ehgme2000tr6utb3d1in40089lgngsr9f9ij62g00ti6isrgdhgni2000h762rb500nnm8jkcls788hq4b1aedm2ncgc59r1oajmol35c5mi0kr9f9ii0ibecdp6aobjckgc59pmoali4v890024orrick4000000g030up2ehingt1278hc59pnalpma83kd1kn683mdtqm6q35e8g78rp0ctgmirh0c5hm6pbjecg78rp2fk02uup2ehingt1278hc59pnc4g78rrkc5m20rr6431aeoe2ktm32c10ehim2r90dlimqoj5e9pis8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '22':
+      name: 'Team Size Increase: 12'
+      chance: 1.0
+      cmds: []
+      item: 2g0004000j9cg01grb9dpim6sj1cpq3kprcdtrn6t3fdpilup3ledq0k003ehgme2000tr6utb3d1in40089lgngsr9f9ij82g00ti6isrgdhgni2000h762rb500nnm8jkcls788hq4b1aedm2ncgc59r1oajmol35c5mi0kr9f9ii0ibecdp6aobjckgc59pmoali4v890024orrick4000000g030up2ehingt1278hc59pnalpma83kd1kn683mdtqm6q35e8g78rp0ctgmirh0c5hm6pbjecg78rp2fk02uup2ehingt1278hc59pnc4g78rrkc5m20rr6431aeoe2ktm32ch0ehim2r90dlimqoj5e9pis8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: 2g0004000j9cg01grb9dpim6sj1cpq3kprcdtrn6t3fdpilup3ledq0k003ehgme2000tr6utb3d1in40089lgngsr9f9ij82g00ti6isrgdhgni2000h762rb500nnm8jkcls788hq4b1aedm2ncgc59r1oajmol35c5mi0kr9f9ii0ibecdp6aobjckgc59pmoali4v890024orrick4000000g030up2ehingt1278hc59pnalpma83kd1kn683mdtqm6q35e8g78rp0ctgmirh0c5hm6pbjecg78rp2fk02uup2ehingt1278hc59pnc4g78rrkc5m20rr6431aeoe2ktm32ch0ehim2r90dlimqoj5e9pis8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '23':
+      name: §;§1§;§3§;§9§;§4§:§;§1§:§c§lZombie §fSpawner §c§l1x
+      chance: 10.0
+      cmds: []
+      item: k00010004qb4008mqqbeclhn4ob6egt76s31etn6asga001n8ob71800ep39edo6oobp10008jj1dlig0jrr49q6au3k48t25gl77f1aece2ksts59pjoajjngl7771aeeu2ksqc59pqoajjngl7671aeem2kths59rcb9nmqoj9ckgc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: k00010004qb4008mqqbeclhn4ob6egt76s31etn6asga001n8ob71800ep39edo6oobp10008jj1dlig0jrr49q6au3k48t25gl77f1aece2ksts59pjoajjngl7771aeeu2ksqc59pqoajjngl7671aeem2kths59rcb9nmqoj9ckgc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '24':
+      name: §;§4§;§5§;§0§;§3§:§;§1§:§c§lSkeleton §fSpawner §c§l1x
+      chance: 5.0
+      cmds: []
+      item: 1800020009km800hdlkmspb3e9gmct1qedo62treclp0k003ehgme2g00ti6isrgdhgni2000h762rb5018nm8jkcls788hq4b1aeeu2ksqc59proajjbgl77f1aec62ksts59pjoajjlgl77f1aece2kstc59r3oajmokrbclm6at3fdogc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: 1800020009km800hdlkmspb3e9gmct1qedo62treclp0k003ehgme2g00ti6isrgdhgni2000h762rb5018nm8jkcls788hq4b1aeeu2ksqc59proajjbgl77f1aec62ksts59pjoajjlgl77f1aece2kstc59r3oajmokrbclm6at3fdogc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '25':
+      name: §;§7§;§5§;§7§;§4§:§;§1§:§c§lSpider §fSpawner §c§l1x
+      chance: 3.0
+      cmds: []
+      item: k00010004qb4008mqqbeclhn4ob6egt76s31etn6asga001n8ob71800ep39edo6oobp10008jj1dlig0jrr49q6au3k48t25gl77f1aedu2ksts59ploajjngl76v1aeeu2ksqc59pqoajjngl7671aeem2kths59rcado6ip35e8gc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: k00010004qb4008mqqbeclhn4ob6egt76s31etn6asga001n8ob71800ep39edo6oobp10008jj1dlig0jrr49q6au3k48t25gl77f1aedu2ksts59ploajjngl76v1aeeu2ksqc59pqoajjngl7671aeem2kths59rcado6ip35e8gc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '26':
+      name: §;§5§;§5§;§3§;§9§:§;§1§:§c§lCreeper §fSpawner §c§l1x
+      chance: 1.0
+      cmds: []
+      item: 5000080016ip0025mmirj5cdp62pjk79pn0obndpin42g00dq62poa003m8qbje1m62u880024sobdck050up2ehingt1278hc59proajjbgl77f1aede2ksts59pjoajjngl7771aeem2ksts59phoajjlgl7cf1aer23e9imas35e8gc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+      preview: 5000080016ip0025mmirj5cdp62pjk79pn0obndpin42g00dq62poa003m8qbje1m62u880024sobdck050up2ehingt1278hc59proajjbgl77f1aede2ksts59pjoajjngl7771aeem2ksts59phoajjlgl7cf1aer23e9imas35e8gc59r6ado62treclp21gl7cf1aer1hf0h7q0000400agrfeln78080
+    '27':
+      name: 'Island Size Increase: 100x100'
+      chance: 5.0
+      cmds: []
+      item: 1800020009km800odlkmspb3e9gmct1qctm6utrjehnmspavchqn6t0a001n8ob71000etjfelhmgpbi0054isrcc5n68sr9f9igk007chkn6s3cc5sgg0049pgmqp8065ti4t35f1q24eh2oajjdglr431aeoe2ktm4isrcc5n6882jd5t6a829dphn4pb1edii1gl76r1am8jt14008j3fe9igg00000200err49q6au3k48t25gl76tan6p90ehk6isp0epnnaor8clp20t3f41ings31dpi20ubfelp20qbjdhgmsp10c9nn4p35e8h7q018fch78pboegh3k8m2ksrn8rp0c4g76qbqckg6uph0oajm3gl7dgoj0c3o64o308jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: 1800020009km800odlkmspb3e9gmct1qctm6utrjehnmspavchqn6t0a001n8ob71000etjfelhmgpbi0054isrcc5n68sr9f9igk007chkn6s3cc5sgg0049pgmqp8065ti4t35f1q24eh2oajjdglr431aeoe2ktm4isrcc5n6882jd5t6a829dphn4pb1edii1gl76r1am8jt14008j3fe9igg00000200err49q6au3k48t25gl76tan6p90ehk6isp0epnnaor8clp20t3f41ings31dpi20ubfelp20qbjdhgmsp10c9nn4p35e8h7q018fch78pboegh3k8m2ksrn8rp0c4g76qbqckg6uph0oajm3gl7dgoj0c3o64o308jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '28':
+      name: 'Island Size Increase: 150x150'
+      chance: 2.0
+      cmds: []
+      item: a0000g002d5i0063dd5n6aoric5j78ej7dhnnesrkdtn6anr4elpn82g00dq62po8003ncrrlcdk6asg01d4n6r31dpi76qbqckp0k007chkn6s3cc5sgg0049pgmqp8065ti4t35f1q24eh2oajjdglr431aeoe2ktm4isrcc5n6882jd5t6a829dphn4pb1edii1gl76r1am8jt14008j3fe9igg00000200err49q6au3k48t25gl76tan6p90ehk6isp0epnnaor8clp20t3f41ings31dpi20ubfelp20qbjdhgmsp10c9nn4p35e8h7q018fch78pboegh3k8m2ksrn8rp0c4g76qbqckg6uph0oajm3gl7dgojac3o64qj08jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: a0000g002d5i0063dd5n6aoric5j78ej7dhnnesrkdtn6anr4elpn82g00dq62po8003ncrrlcdk6asg01d4n6r31dpi76qbqckp0k007chkn6s3cc5sgg0049pgmqp8065ti4t35f1q24eh2oajjdglr431aeoe2ktm4isrcc5n6882jd5t6a829dphn4pb1edii1gl76r1am8jt14008j3fe9igg00000200err49q6au3k48t25gl76tan6p90ehk6isp0epnnaor8clp20t3f41ings31dpi20ubfelp20qbjdhgmsp10c9nn4p35e8h7q018fch78pboegh3k8m2ksrn8rp0c4g76qbqckg6uph0oajm3gl7dgojac3o64qj08jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '29':
+      name: 'Island Home Upgrade: 4'
+      chance: 5.0
+      cmds: []
+      item: 2g0004000j9cg01grb9dpim6sj1cpq3kprcdtrn6t3fdpilup3ledq0k003ehgme2000tr6utb3d1in400b95pmoobechk6urb5685001r4d5pn0r31f440012ec5mma01gfch78pboegh3k8m2ksrc5ep0oajm3gl7dh4n6r31dpi20i3fdlii0lbgctp62p35431aedm2lch7q2800h66usj51000000600nnm8jkcls788hq4b1aedqledii0t38d5pi0tjfelhmgpbi41q6u83le1jn4ob4ckg7irrle8g24v804hti4t35f1q24eh2oajjerjldlh6ash0dtj20qbjdhgmsp10d1nmqpbj49ug02rr49q6au3k48t248jt00o7m8jkcls788hq4b1aeoa9dphn4pb1edii0ibjdhgmsp1091nmqp90adm6ut3j41q6u862ktm388jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: 2g0004000j9cg01grb9dpim6sj1cpq3kprcdtrn6t3fdpilup3ledq0k003ehgme2000tr6utb3d1in400b95pmoobechk6urb5685001r4d5pn0r31f440012ec5mma01gfch78pboegh3k8m2ksrc5ep0oajm3gl7dh4n6r31dpi20i3fdlii0lbgctp62p35431aedm2lch7q2800h66usj51000000600nnm8jkcls788hq4b1aedqledii0t38d5pi0tjfelhmgpbi41q6u83le1jn4ob4ckg7irrle8g24v804hti4t35f1q24eh2oajjerjldlh6ash0dtj20qbjdhgmsp10d1nmqpbj49ug02rr49q6au3k48t248jt00o7m8jkcls788hq4b1aeoa9dphn4pb1edii0ibjdhgmsp1091nmqp90adm6ut3j41q6u862ktm388jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+    '30':
+      name: 'Island Home Upgrade: 6'
+      chance: 2.0
+      cmds: []
+      item: 2g0004000j9cg01grb9dpim6sj1cpq3kprcdtrn6t3fdpilup3ledq0k003ehgme2000tr6utb3d1in400b95pmoobechk6urb56c5001r4d5pn0r31f440012ec5mma01gfch78pboegh3k8m2ksrc5ep0oajm3gl7dh4n6r31dpi20i3fdlii0lbgctp62p35431aedm2lch7q2800h66usj51000000600nnm8jkcls788hq4b1aedqledii0t38d5pi0tjfelhmgpbi41q6u83le1jn4ob4ckg7irrle8g24v804hti4t35f1q24eh2oajjerjldlh6ash0dtj20qbjdhgmsp10d1nmqpbj49ug02rr49q6au3k48t248jt00o7m8jkcls788hq4b1aeoa9dphn4pb1edii0ibjdhgmsp1091nmqp90adm6ut3j41q6u862ktm3c8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+      preview: 2g0004000j9cg01grb9dpim6sj1cpq3kprcdtrn6t3fdpilup3ledq0k003ehgme2000tr6utb3d1in400b95pmoobechk6urb56c5001r4d5pn0r31f440012ec5mma01gfch78pboegh3k8m2ksrc5ep0oajm3gl7dh4n6r31dpi20i3fdlii0lbgctp62p35431aedm2lch7q2800h66usj51000000600nnm8jkcls788hq4b1aedqledii0t38d5pi0tjfelhmgpbi41q6u83le1jn4ob4ckg7irrle8g24v804hti4t35f1q24eh2oajjerjldlh6ash0dtj20qbjdhgmsp10d1nmqpbj49ug02rr49q6au3k48t248jt00o7m8jkcls788hq4b1aeoa9dphn4pb1edii0ibjdhgmsp1091nmqp90adm6ut3j41q6u862ktm3c8jt005nm8jkcls788hq48h7q01qfch78pboegh3k8m2ksrs59rc531aedm2ktm23gl76v1aer19431aedqid5jmgt10cdm6iorb41q6u83icli6apbd5oh7q0000400agrfeln78080
+open-cost:
+  vault: 0.0
+  exp: 0
+item:
+  material: ENDER_CHEST
+  amount: 1
+  durability: 0
+  name: '&dRare Crate'
+  lore:
+  - '&eThis is sample crate...'
+  enchanted: false
+  item-flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  unbreakable: false

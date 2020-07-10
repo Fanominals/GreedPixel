@@ -1,0 +1,150 @@
+normaltime: 1594429180717
+specialtime: 1594425512165
+Rank:
+  name: §e§lRank §8» §a§lScribe
+  command: voucher give scribe 1 %name%
+  price: 500
+  material: COAL
+  amount: 1
+  lore:
+  - ' '
+  - '§3§l* §b§lPRICE: §7%price%⛁'
+  durability: 0
+  glow: false
+  special: true
+  slot: 20
+Tag:
+  name: §f§l"§a§lBuyMe§f§l" §7Tag
+  command: tag give %name%
+  price: 5
+  material: NAME_TAG
+  amount: 1
+  lore:
+  - ' '
+  - '§3§l* §b§lPRICE: §7%price%⛁'
+  durability: 0
+  glow: false
+  special: false
+  slot: 22
+Spawner:
+  name: §f§lDiamond Golem Spawner
+  command: ss give %name% ig 1
+  price: 430
+  material: LEGACY_MOB_SPAWNER
+  amount: 1
+  lore:
+  - ' '
+  - '§3§l* §b§lPRICE: §7%price%⛁'
+  durability: 0
+  glow: false
+  special: false
+  slot: 23
+Pet:
+  name: §f§l1x §7§lWolf Pet
+  command: pet give %name% wolf
+  price: 10
+  material: LEGACY_SKULL_ITEM
+  amount: 1
+  lore:
+  - ' '
+  - '§3§l* §b§lPRICE: §7%price%⛁'
+  durability: 0
+  glow: false
+  special: false
+  slot: 24
+SuperPickaxe:
+  name: §lThe Super Pickaxe
+  command: 'give %name% diamond_pickaxe 1 0 { display: { Name: "§b§lThe Super Pickaxe"
+    }, ench: [ { id: 21, lvl: 10000 }, { id: 32, lvl: 10000 } ], Unbreakable: 1 }'
+  price: 500
+  material: DIAMOND_PICKAXE
+  amount: 1
+  lore:
+  - ' '
+  - '§3§l* §b§lPRICE: §7%price%⛁'
+  durability: 0
+  glow: false
+  special: true
+  slot: 11
+Crate:
+  name: §e§lCrate §6§l| §fBasic
+  command: crate givekey %name% basic 1
+  price: 20
+  material: TRIPWIRE_HOOK
+  amount: 1
+  lore:
+  - ' '
+  - '§3§l* §b§lPRICE: §7%price%⛁'
+  - ' '
+  - §e[!] §7Use at §e/Warp Crates
+  durability: 0
+  glow: false
+  special: false
+  slot: 13
+Diamond:
+  name: §b§l64x Diamond Blocks
+  command: give %name% diamond_block 64
+  price: 500
+  material: DIAMOND_BLOCK
+  amount: 1
+  lore:
+  - ' '
+  - '§3§l* §b§lPRICE: §7%price%⛁'
+  durability: 0
+  glow: false
+  special: false
+  slot: 14
+Emerald:
+  name: §a§l64x Emerald Blocks
+  command: give %name% emerald_block 64
+  price: 1000
+  material: EMERALD_BLOCK
+  amount: 1
+  lore:
+  - ' '
+  - '§3§l* §b§lPRICE: §7%price%⛁'
+  durability: 0
+  glow: false
+  special: false
+  slot: 15
+Crate2:
+  name: §e§lCrate §6§l| §fRare
+  command: crate givekey %name% rare 1
+  price: 35
+  material: TRIPWIRE_HOOK
+  amount: 1
+  lore:
+  - ' '
+  - '§3§l* §b§lPRICE: §7%price%⛁'
+  - ' '
+  - §e[!] §7Use at §e/Warp Crates
+  durability: 0
+  glow: false
+  special: false
+  slot: 22
+Islandupgrade1:
+  name: '§a§lIsland Team Increase: §b6 Members'
+  command: voucher give Maxsize 1 %name%
+  price: 60
+  material: GLOWSTONE_DUST
+  amount: 1
+  lore:
+  - ' '
+  - '§3§l* §b§lPRICE: §7%price%⛁'
+  durability: 0
+  glow: false
+  special: false
+  slot: 24
+VoidChest:
+  name: §a§lCommon VoidChest Access
+  command: voucher give voidchestcommon 1 %name%
+  price: 420
+  material: PRISMARINE_SHARD
+  amount: 1
+  lore:
+  - ' '
+  - '§3§l* §b§lPRICE: §7%price%⛁'
+  durability: 0
+  glow: false
+  special: true
+  slot: 11

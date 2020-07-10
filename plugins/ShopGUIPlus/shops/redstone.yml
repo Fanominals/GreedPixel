@@ -1,0 +1,141 @@
+redstone:
+    name: "&8&l» &8&nRedstone&8&l «"
+    buttons:
+      goBack:
+        slot: 4      
+      previousPage:
+        slot: 3
+      nextPage:
+        slot: 5 
+    fillItem:
+        material: gray_stained_glass_pane
+        name: ""
+    items:
+       1:
+        type: item
+        item:
+          material: hopper
+          quantity: 1
+        buyPrice: 5000
+        sellPrice: -1
+        slot: 10     
+       2:
+        type: item
+        item:
+          material: redstone_torch
+          quantity: 32
+        buyPrice: 550  
+        sellPrice: -1
+        slot: 11         
+       3:
+        type: item
+        item:
+          material: redstone_block  
+          quantity: 32
+        buyPrice: 4500
+        sellPrice: 864
+        slot: 12          
+       4:
+        type: item
+        item:
+          material: redstone_lamp 
+          quantity: 16
+        buyPrice: 320
+        sellPrice: -1
+        slot: 13    
+       5:
+        type: item
+        item:
+          material: daylight_detector   
+          quantity: 16
+        buyPrice: 250
+        sellPrice: -1
+        slot: 14       
+       6:
+        type: item
+        item:
+          material: comparator  
+          quantity: 8
+        buyPrice: 300
+        sellPrice: -1
+        slot: 15      
+       7:
+        type: item
+        item:
+          material: repeater  
+          quantity: 8
+        buyPrice: 300
+        sellPrice: -1
+        slot: 16
+       8:
+        type: item
+        item:
+          material: piston      
+          quantity: 4
+        buyPrice: 500
+        sellPrice: -1
+        slot: 19 
+       9:
+        type: item
+        item:
+          material: sticky_piston     
+          quantity: 4
+        buyPrice: 600
+        sellPrice: -1
+        slot: 20   
+       10:
+        type: item
+        item:
+          material: dispenser       
+          quantity: 4
+        buyPrice: 150
+        sellPrice: -1
+        slot: 21      
+       11:
+        type: item
+        item:
+          material: dropper       
+          quantity: 4
+        buyPrice: 150
+        sellPrice: -1
+        slot: 22      
+       12:
+        type: item
+        item:
+          material: rail          
+          quantity: 16
+        buyPrice: 500
+        sellPrice: -1
+        slot: 23         
+       13:
+        type: item
+        item:
+          material: detector_rail       
+          quantity: 16
+        buyPrice: 550
+        sellPrice: -1
+        slot: 24     
+       14:
+        type: item
+        item:
+          material: powered_rail            
+          quantity: 16
+        buyPrice: 1000
+        sellPrice: -1
+        slot: 25
+       15:
+        type: item
+        item:
+          material: activator_rail            
+          quantity: 16
+        buyPrice: 550
+        sellPrice: -1
+        slot: 28
+       16:
+        type: item
+        item:
+          material: tripwire_hook         
+          quantity: 2
+        buyPrice: 300
+        sellPrice: -1
+        slot: 29 

@@ -1,0 +1,411 @@
+menu_title: '&e&lHopper &f| Upgrades'
+open_command:
+size: 27
+items:
+  'back-to-upgrades':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU4YmE3ODYzYjE1YTVlNDBmYTdkYTk2MjliYjg2NmFhMjI2OTk1NTNlOTMxZGYxZjY5M2NiYjFjOWYzYjYifX19'
+    slot: 22
+    display_name: '&e&lBack to upgrades'
+    lore:
+    - '&7Go back to main'
+    - '&7upgrades menu.'
+    - ''
+    - '&6&l* &eRight click to go'
+    left_click_commands:
+    - '[openguimenu] isupgrades'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] isupgrades'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'size-1':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FkYmNmYjI4ODIxNWE4ZDE1M2RkZmRkYjM2YmQyZWQ3YTM3YWRkMzU2NjJmODYzM2Y3MTFkMmRmY2ViNDE3YyJ9fX0='
+    slot: 11
+    display_name: '&e&lHopper %superior_island_hoppers_limit%| Upgrade &7(#1)'
+    lore:
+    - '&7Upgrade your hopper limits'
+    - '&7to place more hoppers.'
+    - ''
+    - "&8* &fNew limit: &a8"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a Free'
+    left_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+  'size-2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FkYmNmYjI4ODIxNWE4ZDE1M2RkZmRkYjM2YmQyZWQ3YTM3YWRkMzU2NjJmODYzM2Y3MTFkMmRmY2ViNDE3YyJ9fX0='
+    priority: 1
+    slot: 12
+    display_name: '&e&lHopper | Upgrade &7(#2)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: '>='
+          input: '%superior_island_hoppers_limit%'
+          output: 16
+    lore:
+    - '&7Upgrade your hopper limits'
+    - '&7to place more hoppers.'
+    - ''
+    - "&8* &fNew limit: &a16"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $500,000'
+    left_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+  'size-22':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY2OGQ1MDliNWQxNjY5Yjk3MWRkMWQ0ZGYyZTQ3ZTE5YmNiMWIzM2JmMWE3ZmYxZGRhMjliZmM2ZjllYmYifX19'
+    priority: 2
+    slot: 12
+    display_name: '&e&lHopper | Upgrade &7(#2)'
+    lore:
+    - '&7Upgrade your hopper limits'
+    - '&7to place more hoppers.'
+    - ''
+    - "&8* &fNew limit: &a16"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $500,000'
+    left_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» &7You unlocked a new hopper limit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setblocklimit %player_name% hopper 16'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Permission1:
+          type: ==
+          input: '%superior_island_hoppers_limit%'
+          output: 8
+          deny_commands:
+          - '[message] &c&lERROR &7» &fPlease purchase previous hopper upgrades before upgrading to this one'
+          - '[sound] BLOCK_ANVIL_LAND'
+        Money:
+          type: has money
+          amount: 1800000
+          deny_commands:
+          - '[message] &c&lERROR &7» &fNot enough money'
+          - '[sound] BLOCK_ANVIL_LAND'  
+    right_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» &7You unlocked a new hopper limit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setblocklimit %player_name% hopper 16'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Permission1:
+          type: ==
+          input: '%superior_island_hoppers_limit%'
+          output: 8
+          deny_commands:
+          - '[message] &c&lERROR &7» &fPlease purchase previous hopper upgrades before upgrading to this one'
+          - '[sound] BLOCK_ANVIL_LAND'
+        Money:
+          type: has money
+          amount: 1800000
+          deny_commands:
+          - '[message] &c&lERROR &7» &fNot enough money'
+          - '[sound] BLOCK_ANVIL_LAND'   
+  'size-3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FkYmNmYjI4ODIxNWE4ZDE1M2RkZmRkYjM2YmQyZWQ3YTM3YWRkMzU2NjJmODYzM2Y3MTFkMmRmY2ViNDE3YyJ9fX0='
+    priority: 1
+    slot: 13
+    display_name: '&e&lHopper | Upgrade &7(#3)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: '>='
+          input: '%superior_island_hoppers_limit%'
+          output: 24  
+    lore:
+    - '&7Upgrade your hopper limits'
+    - '&7to place more hoppers.'
+    - ''
+    - "&8* &fNew limit: &a24"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $800,000'
+    left_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'  
+  'size-33':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY2OGQ1MDliNWQxNjY5Yjk3MWRkMWQ0ZGYyZTQ3ZTE5YmNiMWIzM2JmMWE3ZmYxZGRhMjliZmM2ZjllYmYifX19'
+    priority: 2
+    slot: 13
+    display_name: '&e&lHopper | Upgrade &7(#3)'
+    lore:
+    - '&7Upgrade your hopper limits'
+    - '&7to place more hoppers.'
+    - ''
+    - "&8* &fNew limit: &a24"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $800,000'  
+    left_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» &7You unlocked a new hopper limit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setblocklimit %player_name% hopper 24'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Permission1:
+          type: ==
+          input: '%superior_island_hoppers_limit%'
+          output: 16
+          deny_commands:
+          - '[message] &c&lERROR &7» &fPlease purchase previous hopper upgrades before upgrading to this one'
+          - '[sound] BLOCK_ANVIL_LAND'
+        Money:
+          type: has money
+          amount: 1800000
+          deny_commands:
+          - '[message] &c&lERROR &7» &fNot enough money'
+          - '[sound] BLOCK_ANVIL_LAND'  
+    right_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» &7You unlocked a new hopper limit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setblocklimit %player_name% hopper 24'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Permission1:
+          type: ==
+          input: '%superior_island_hoppers_limit%'
+          output: 16
+          deny_commands:
+          - '[message] &c&lERROR &7» &fPlease purchase previous hopper upgrades before upgrading to this one'
+          - '[sound] BLOCK_ANVIL_LAND'
+        Money:
+          type: has money
+          amount: 1800000
+          deny_commands:
+          - '[message] &c&lERROR &7» &fNot enough money'
+          - '[sound] BLOCK_ANVIL_LAND'    
+  'size-4':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FkYmNmYjI4ODIxNWE4ZDE1M2RkZmRkYjM2YmQyZWQ3YTM3YWRkMzU2NjJmODYzM2Y3MTFkMmRmY2ViNDE3YyJ9fX0='
+    priority: 1
+    slot: 14
+    display_name: '&e&lHopper | Upgrade &7(#4)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: '>='
+          input: '%superior_island_hoppers_limit%'
+          output: 32
+    lore:
+    - '&7Upgrade your hopper limits'
+    - '&7to place more hoppers.'
+    - ''
+    - "&8* &fNew limit: &a32"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $1,000,000'
+    left_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'
+    right_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'  
+  'size-44':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY2OGQ1MDliNWQxNjY5Yjk3MWRkMWQ0ZGYyZTQ3ZTE5YmNiMWIzM2JmMWE3ZmYxZGRhMjliZmM2ZjllYmYifX19'
+    priority: 2
+    slot: 14
+    display_name: '&e&lHopper | Upgrade &7(#4)'
+    lore:
+    - '&7Upgrade your hopper limits'
+    - '&7to place more hoppers.'
+    - ''
+    - "&8* &fNew limit: &a32"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $1,000,000'  
+    left_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» &7You unlocked a new hopper limit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setblocklimit %player_name% hopper 32'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Permission1:
+          type: ==
+          input: '%superior_island_hoppers_limit%'
+          output: 24
+          deny_commands:
+          - '[message] &c&lERROR &7» &fPlease purchase previous hopper upgrades before upgrading to this one'
+          - '[sound] BLOCK_ANVIL_LAND'
+        Money:
+          type: has money
+          amount: 1800000
+          deny_commands:
+          - '[message] &c&lERROR &7» &fNot enough money'
+          - '[sound] BLOCK_ANVIL_LAND'   
+    right_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» &7You unlocked a new hopper limit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setblocklimit %player_name% hopper 32'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Permission1:
+          type: ==
+          input: '%superior_island_hoppers_limit%'
+          output: 24
+          deny_commands:
+          - '[message] &c&lERROR &7» &fPlease purchase previous hopper upgrades before upgrading to this one'
+          - '[sound] BLOCK_ANVIL_LAND'
+        Money:
+          type: has money
+          amount: 1800000
+          deny_commands:
+          - '[message] &c&lERROR &7» &fNot enough money'
+          - '[sound] BLOCK_ANVIL_LAND'      
+  'size-5':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FkYmNmYjI4ODIxNWE4ZDE1M2RkZmRkYjM2YmQyZWQ3YTM3YWRkMzU2NjJmODYzM2Y3MTFkMmRmY2ViNDE3YyJ9fX0='
+    priority: 1
+    slot: 15
+    display_name: '&e&lHopper | Upgrade &7(#5)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: '>='
+          input: '%superior_island_hoppers_limit%'
+          output: 39 
+    lore:
+    - '&7Upgrade your hopper limits'
+    - '&7to place more hoppers.'
+    - ''
+    - "&8* &fNew limit: &a40"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mPrice to unlock:&a ⛁ $1,800,000'
+    left_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'  
+    right_click_commands:
+    - '[message] &c&lERROR &7» You already unlocked this upgrade'
+    - '[sound] BLOCK_ANVIL_LAND'   
+  'size-55':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY2OGQ1MDliNWQxNjY5Yjk3MWRkMWQ0ZGYyZTQ3ZTE5YmNiMWIzM2JmMWE3ZmYxZGRhMjliZmM2ZjllYmYifX19'
+    priority: 2
+    slot: 15
+    display_name: '&e&lHopper | Upgrade &7(#5)'
+    lore:
+    - '&7Upgrade your hopper limits'
+    - '&7to place more hoppers.'
+    - ''
+    - "&8* &fNew limit: &a40"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Price to unlock:&a ⛁ $1,800,000'  
+    left_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» &7You unlocked a new hopper limit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setblocklimit %player_name% hopper 40'
+    - '[refresh]'
+    left_click_requirement:
+      requirements:
+        Permission1:
+          type: ==
+          input: '%superior_island_hoppers_limit%'
+          output: 32
+          deny_commands:
+          - '[message] &c&lERROR &7» &fPlease purchase previous hopper upgrades before upgrading to this one'
+          - '[sound] BLOCK_ANVIL_LAND'
+        Money:
+          type: has money
+          amount: 1800000
+          deny_commands:
+          - '[message] &c&lERROR &7» &fNot enough money'
+          - '[sound] BLOCK_ANVIL_LAND'  
+    right_click_commands:
+    - '[message] &a&lCONGRATULATIONS &7» &7You unlocked a new hopper limit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] eco take %player_name% 500000'
+    - '[console] island admin setblocklimit %player_name% hopper 40'
+    - '[refresh]'
+    right_click_requirement:
+      requirements:
+        Permission1:
+          type: ==
+          input: '%superior_island_hoppers_limit%'
+          output: 32
+          deny_commands:
+          - '[message] &c&lERROR &7» &fPlease purchase previous hopper upgrades before upgrading to this one'
+          - '[sound] BLOCK_ANVIL_LAND'
+        Money:
+          type: has money
+          amount: 1800000
+          deny_commands:
+          - '[message] &c&lERROR &7» &fNot enough money'
+          - '[sound] BLOCK_ANVIL_LAND'  
+  'homes':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjMyOTVhOWYxMTQ3OGU2Yjc4OWJmNmViMDYyOTZlMDE2YzEyN2QwYTYyN2YzNTRmZWMyNmMyN2Y0NmQ0MTcifX19'
+    slot: 9
+    display_name: '&e&lHomes &f| Upgrade'
+    lore:
+    - '&7Go to homes'
+    - '&7upgrade menu.'
+    - ''
+    - '&6&l* &eRight click to go'
+    left_click_commands:
+    - '[openguimenu] warp'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] warp' 
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'team-menu':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJiMGM2M2Q1YWZjMzI1ODU2NjI1Yjg1NWZmMjQ2MWYxNTYwYjNkMWE3NGExZTQ2MTllNjI0MDY5YzViOTYyIn19fQ=='
+    slot: 17
+    display_name: '&e&lMembers &f| Upgrade'
+    lore:
+    - '&7Go to members'
+    - '&7upgrade menu.'
+    - ''
+    - '&6&l* &eRight click to go'
+    left_click_commands:
+    - '[openguimenu] team'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] team' 
+    - '[sound] ENTITY_CHICKEN_EGG'   
+  'glass':
+    material: WHITE_STAINED_GLASS_PANE
+    data: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 10
+    - 16
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: '&f'      

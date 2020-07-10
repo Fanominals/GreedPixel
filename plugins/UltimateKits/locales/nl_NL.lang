@@ -1,0 +1,320 @@
+######################################################
+# New messages added for UltimateKits v2.6.5.        #
+#                                                    #
+# These translations were found untranslated, join   #
+# our translation Discord https://discord.gg/f7fpZEf #
+# to request an official update!                     #
+#                                                    #
+# general.type.category                              #
+# interface.selector.aboutkitprice                   #
+# interface.selector.adminlore                       #
+# interface.selector.editlore                        #
+# interface.categoryselector.title                   #
+# interface.categoryselector.details                 #
+# interface.categoryselector.view                    #
+# interface.crate.title                              #
+# interface.crate.description1                       #
+# interface.crate.description2                       #
+# interface.crate.description3                       #
+# interface.crate.description4                       #
+# interface.kitblock.title                           #
+# interface.kitblock.switchtype                      #
+# interface.kitblock.switchtypelore                  #
+# interface.kitblock.decor                           #
+# interface.kitblock.decorlore                       #
+# interface.kitblock.edit                            #
+# interface.kitblock.editlore                        #
+# interface.kitdecor.title                           #
+# interface.kitdecor.hologram                        #
+# interface.kitdecor.particle                        #
+# interface.kitdecor.display                         #
+# interface.kitdecor.displayone                      #
+# interface.kitdecor.displayonelore                  #
+# interface.kitdecor.settingon                       #
+# interface.kitdecor.settingoff                      #
+# interface.kitsell.title                            #
+# interface.kitsell.nosell                           #
+# interface.kitsell.nosellon                         #
+# interface.kitsell.noselloff                        #
+# interface.kitsell.noselllore                       #
+# interface.kitsell.link                             #
+# interface.kitsell.linkon                           #
+# interface.kitsell.linkoff                          #
+# interface.kitsell.linklore                         #
+# interface.kitsell.linkprompt                       #
+# interface.kitsell.linknoeco                        #
+# interface.kitsell.price                            #
+# interface.kitsell.priceon                          #
+# interface.kitsell.priceoff                         #
+# interface.kitsell.pricelore                        #
+# interface.kitsell.pricenoeco                       #
+# interface.kitsell.priceprompt                      #
+# interface.kitsell.pricenonumber                    #
+# interface.kitsell.pricenolink                      #
+# interface.kitguioptions.title                      #
+# interface.kitguioptions.holo                       #
+# interface.kitguioptions.holoon                     #
+# interface.kitguioptions.holooff                    #
+# interface.kitguioptions.hololore                   #
+# interface.kitguioptions.holoprompt                 #
+# interface.kitguioptions.holoset                    #
+# interface.kitguioptions.item                       #
+# interface.kitguioptions.itemon                     #
+# interface.kitguioptions.itemoff                    #
+# interface.kitguioptions.itemlore                   #
+# interface.kitguioptions.itemnoitem                 #
+# interface.kitguioptions.itemset                    #
+# interface.kitguioptions.itemremoved                #
+# interface.kitguioptions.hide                       #
+# interface.kitguioptions.hideon                     #
+# interface.kitguioptions.hideoff                    #
+# interface.kitguioptions.hidelore                   #
+# interface.kitoptions.title                         #
+# interface.kitoptions.delay                         #
+# interface.kitoptions.delaylore                     #
+# interface.kitoptions.delayprompt                   #
+# interface.kitoptions.delaynonumber                 #
+# interface.kitoptions.category                      #
+# interface.kitoptions.categorylore                  #
+# interface.kitoptions.categoryprompt                #
+# interface.kitoptions.notacategory                  #
+# interface.kitoptions.destroy                       #
+# interface.kitoptions.destroylore                   #
+# interface.kitoptions.destroyprompt                 #
+# interface.kitoptions.destroyok                     #
+# interface.kitoptions.destroycancel                 #
+# interface.kiteditor.title                          #
+# interface.kiteditor.info                           #
+# interface.kiteditor.generaloptions                 #
+# interface.kiteditor.generaloptionslore             #
+# interface.kiteditor.sellingoptions                 #
+# interface.kiteditor.sellingoptionslore             #
+# interface.kiteditor.guioptions                     #
+# interface.kiteditor.guioptionslore                 #
+# interface.kiteditor.addcommand                     #
+# interface.kiteditor.addcommandlore                 #
+# interface.kiteditor.addcommandprompt               #
+# interface.kiteditor.addcommandok                   #
+# interface.kiteditor.addeconomy                     #
+# interface.kiteditor.addeconomylore                 #
+# interface.kiteditor.addeconomyprompt               #
+# interface.kiteditor.addeconomyok                   #
+# interface.kiteditor.animation                      #
+# interface.kiteditor.animationlore                  #
+# interface.kiteditor.itemediting                    #
+# interface.kiteditor.itemeditinglore                #
+# interface.kiteditor.itemmoving                     #
+# interface.kiteditor.itemmovinglore                 #
+# interface.kiteditor.switchtoinventory              #
+# interface.kiteditor.switchtoinventorylore          #
+# interface.kiteditor.switchtokitfunctions           #
+# interface.kiteditor.switchtokitfunctionslore       #
+# interface.kiteditor.itemfunctionlore               #
+# interface.kiteditor.saved                          #
+# command.kit.nokitatblock                           #
+# command.crate.given                                #
+# command.crate.doesntexist                          #
+# event.crate.success                                #
+# event.crate.given                                  #
+######################################################
+
+general:
+  nametag:
+    prefix: '&8[&9UltimateKits&8]'
+  type:
+    command: '&7Commando'
+    chance: Kans
+    money: '&6Geld'
+    link: '&9Link'
+    free: Gratis
+    category: Categorie
+# Interface Messages
+interface:
+  selector:
+    kit: '&c%kit%'
+    title: '&8Server kits'
+    details: '&7Hallo &e%player%&7!|&7Hierbeneden zie je al onze kits.||&7Klik op het &eicoon &7van de &ekit |&7om het te &ebekijken, claimen of kopen&7.'
+    aboutkit: '&7Kun je de kit niet openen?|&7Dan heb je een hogere rank nodig!'
+    leftpreview: '&6&lKLIK LINKS &7om de kit te bekijken.'
+    rightclaim: '&6&lKLIK RECHTS &7om de kit te claimen.'
+    rightbuy: '&6&lKLIK RECHTS &7om de kit te kopen.'
+    aboutkitprice: '&7This kit costs &a$%price%&7.'
+    adminlore: '&6Middel klik &7om posities aan te passen.'
+    editlore: '&6&lBewerk Modus||&6Klik links &7om de kit naar links te verplaatsen|&6Klik rechts &7om de kit naar rechts te verplaatsen||&6Middel Klik &7om terug te gaan.'
+  hologram:
+    previewonly: Klik om te bekijken!
+    preview: Klik rechts om te bekijken!
+    buylink: Klik links voor een link!
+    buyeco: Klik links om te kopen voor &a$%price%&f!
+    crate: Klik links met een key om te openen!
+    daily: Klik links om te claimen!
+  button:
+    buynow: '&aKoop nu'
+    back: '&9Terug'
+    exit: '&cVerlaten'
+    next: '&7Volgende pagina'
+    last: '&7Vorige pagina'
+    clickeco: '&7Klik om te kopen voor &a%price%&7.'
+  preview:
+    title: '&9Je bekijkt kit: &8%kit%'
+  yesno:
+    title: '&9Kopen voor &a$%price%&9?'
+    'yes': '&a&lJa'
+    'no': '&c&lNee'
+  key:
+    title: '&5%kit% &fKit Key'
+    description1: '&rKlik rechts op [een ]&c&l%kit%&r kit'
+    description2: '&ren ontvang de volledige inhoud!'
+    description3: '&ren ontvang een deel van de inhoud!'
+    description4: '&rGeeft de kit &c&l%amt% &rkeer.'
+  categoryselector:
+    title: '&8Server Kit Categorieën'
+    details: '&7Hallo &e%player%&7!|&7Hierbeneden zie je al onze kits.||&7Klik op een &ecategorie &7om |&7de kits erin te bekijken.'
+    view: '&6&lKLIK &7om de categorie te bekijken.'
+  crate:
+    title: '&5%kit% &f%crate% Krat'
+    description1: '&rKlik rechts om te openen'
+    description2: '&ren ontvang de volledige inhoud!'
+    description3: '&ren ontvang een deel van de inhoud!'
+    description4: '&rKlik links om te bekijken'
+  kitblock:
+    title: '&8Deze bevat &a%kit%'
+    switchtype: '&5&lVerander kit type'
+    switchtypelore: '&7Klik om de functie van dit kit blok te veranderen.|Bekijken|Krat|Claimen'
+    decor: '&9&lDecoratie Opties'
+    decorlore: '&7Klik om de decoratie|&7opties voor deze kit te bewerken.'
+    edit: '&a&lBewerk kit'
+    editlore: '&7Klik om de kit in dit blok|&7te bewerken.'
+  kitdecor:
+    title: '&8Bewerk decoratie voor &a%kit%&8.'
+    hologram: '&9&lHologrammen aan/uit zetten'
+    particle: '&9&lParticles aan/uit zetten'
+    display: '&9&lItem weergave aan/uit zetten'
+    displayone: '&9&lItem weergave overschrijving aan/uit zetten'
+    displayonelore: '%enabled%||&7Deze optie overschrijft|&7de item weergave|&7boven je kit naar het item|&7die je hebt ingesteld in de|&7GUI opties voor deze kit.'
+    settingon: '&7Op dit moment: &aIngeschakeld&7.'
+    settingoff: '&7Op dit moment &cUitgeschakeld&7.'
+  kitsell:
+    title: '&8Verkoop opties voor &a%kit%&8.'
+    nosell: '&c&lNiet te koop'
+    nosellon: '&7Op dit moment &ate koop&7.'
+    noselloff: '&7Op dit moment &cniet te koop&7.'
+    noselllore: '%onoff%||&7Deze optie haalt|&7deze kit uit de verkoop.'
+    link: '&a&lStel kit link in'
+    linkon: '&7Op dit moment: &a%kit%&7.'
+    linkoff: '&7Op dit moment: &cniet ingesteld&7.'
+    linklore: '%onoff%||&7Deze optie stelt een link in|&7die spelers ontvangen|&7wanneer ze deze kit proberen|&7te kopen.'
+    linkprompt: 'Kit om te linken:'
+    linknoeco: '&8ECO is verwijderd uit deze kit. Let op: je kunt niet ECO & LINK tegelijkertijd gebruiken..'
+    price: '&a&lStel kit prijs in'
+    priceon: '&7Op dit moment: &a$%price%&7.'
+    priceoff: '&7Op dit moment: &cniet ingesteldt&7.'
+    pricelore: '%onoff%||&7Met deze optie kun je een prijs instellen|&7waarvoor spelers deze kit|&7voor kunnen kopen|&7vereist een compatiebele economie plugin&7.'
+    pricenoeco: '&8Je moet een economie plugin geïnstalleerd hebben om van de economie gebruik te maken..'
+    priceprompt: 'Stel prijs in:'
+    pricenonumber: '&a%input% &8is geen positief getal.'
+    pricenolink: '&8LINK is verwijderd van deze kit. Let op: je kunt niet ECO & LINK tegelijkertijd gebruiken..'
+  kitguioptions:
+    title: '&8GUI Opties voor &a%kit%&8.'
+    holo: '&9&lStel titel in'
+    holoon: '&7Op dit moment: &a%title%&7.'
+    holooff: '&7Op dit moment: &cniet ingesteld&7.'
+    hololore: '%onoff%||&7Klik links: &9om|&9de kit titel voor hologrammen|&9en de kit / kit selectie GUIs in te stellen.||&7Klik rechts: &9om te resetten.'
+    holoprompt: 'Stel titel in:'
+    holoset: '&8Titel &5%title%&8 toegevoegd aan Kit &a%kit%&8.'
+    item: '&9&lStel item weergave in'
+    itemon: '&7Op dit moment: &a%item%&7.'
+    itemoff: '&7Op dit moment &cuitgeschakeld&7.'
+    itemlore: '%onoff%||&7Klik links om:|&9het item in je hand|&9in te stellen als item weergave voor deze kit.||&7Klik rechts om: &9item te verwijderen.'
+    itemnoitem: '&8Je moet een item in je hand hebben om deze functie te kunnen gebruiken.'
+    itemset: '&8Item weergave ingesteld voor kit &a%item%&8.'
+    itemremoved: '&8Item weergave verwijderd van kit &a%kit%&8.'
+    hide: '&9&lVerberg kit'
+    hideon: '&7Op dit moment: &conzichtbaar&7.'
+    hideoff: '&7Op dit moment: &azichtbaar&7.'
+    hidelore: '%onoff%||&7Een verborgen kit is niet|&7zichtbaar in de /kit gui.|&7Dit is handig om|&7te zorgen dat spelers geen|&7kits kunnen zien die ze niet kunnen claimen en voor een starter kit.'
+  kitoptions:
+    title: '&8Algemene opties voor &a%kit%&8.'
+    delay: '&9&lVertraging veranderen'
+    delaylore: '&7Op dit moment: &a%delay%&7.||&7Gebruik dit om de kit vertraging te veranderen.||&7Voer &6-1 &7in om het een eenmalige kit|&7te maken.'
+    delayprompt: 'Vertraging in seconden:'
+    delaynonumber: '&a%input% &8is niet een getal.'
+    category: '&5&lStel categorie in'
+    categorylore: '&7Op dit moment: &a%category%&7.||&7Door een kit toe te voegen aan een categorie|&7zal de kit worden weergegeven in|&7die categorie.||&cKlik rechts om te verwijderen.'
+    categoryprompt: 'Categorie naam:'
+    notacategory: '&cDat is geen categorie...'
+    destroy: '&c&lVernietig Kit'
+    destroylore: '|&7Klik hier om de kit te vernietigen.'
+    destroyprompt: Voer "%kit%" in
+    destroyok: '&cKit succesvol vernietigd.'
+    destroycancel: '&cKit is niet vernietigd.'
+  kiteditor:
+    title: '&8Je bewerkt kit: &9%name%&8.'
+    info: '&5&l%kit%|&fPermissies:|&7%perm%'
+    generaloptions: '&6Algemene Opties'
+    generaloptionslore: '&7Klik om algemene opties|&7aan te passen.'
+    sellingoptions: '&9Verkoop opties'
+    sellingoptionslore: '&7Klik om verkoop opties|&7aan te passen.'
+    guioptions: '&5GUI Opties'
+    guioptionslore: '&7Klik om GUI opties|&7voor deze kit aan te passen.'
+    addcommand: '&fVoeg commando toe'
+    addcommandlore: '&7Klik om een commando toe te voegen|&7aan deze kit.'
+    addcommandprompt: Voer commando in (zonder /)
+    addcommandok: '&8Het commando &5%command%&8 is toegevoegd aan de kit.'
+    addeconomy: '&6Voeg ECO toe'
+    addeconomylore: '&7Klik om geld toe te voegen|&7aan deze kit.'
+    addeconomyprompt: Voer prijs in (zonder $)
+    addeconomyok: '&8Geld &5$%amount%&8 is toegevoegd aan je kit.'
+    animation: '&6Kit Animatie'
+    animationlore: '&7Op dit moment: &6%animation%'
+    itemediting: '&6Schakel naar Item bewerking'
+    itemeditinglore: '&7Klik om item bewerking|&7in te schakelen.'
+    itemmoving: '&6Schakel naar Item verplaatsing'
+    itemmovinglore: '&7Klik om terug te schakelen|&7naar item verplaatsing.'
+    switchtoinventory: '&6Schakel naar je inventaris'
+    switchtoinventorylore: '&7Klik om te schakelen|&7naar je inventaris.'
+    switchtokitfunctions: '&6Schakel naar kit functies'
+    switchtokitfunctionslore: '&7Klik om terug te schakelen|&7naar kit functies.'
+    itemfunctionlore: '&7Item weergave: &6%item%|&7Weergave naam: &6%name%|&7Weergave Lore: &6%lore%||&7Klik links: &6om een item voor item weergave in te stellen.|&7Middel klik: &6om een weergave naam in te stellen.|&7Klik rechts: &6om weergave lore in te stellen.|&7Shift klik: &6Om kans in te stellen.||&7Weergave opties zijn alleen zichtbaar in de weergave.|&7Dit kan handig zijn als je wilt uitleggen|&7wat een item doet zonder het in de|&7permanente lore te zetten.||&6Verlaat functie modus om items te verplaatsen.'
+    saved: '&8Aanpassingen voor &a%kit% &8succesvol opgeslagen.'
+# Command Messages
+command:
+  general:
+    noperms: '&cJe hebt geen toestemming om dit te doen!'
+  kit:
+    nokitsupplied: '&7Noem ook een kit om te bekijken.'
+    kitdoesntexist: '&cDie kit bestaat niet.'
+    kitalreadyexists: '&cDie kit bestaat al.'
+    playernotfound: '&cDeze speler is niet online of bestaat niet.'
+    nokitatblock: '&8Dit blok bevat geen kit.'
+  crate:
+    given: '&7%player% &9heeft krat &7%crate% &9voor kit &7%kit%&9ontvangen.'
+    doesntexist: '&cDit krat is niet geladen.'
+# Event Messages
+event:
+  preview:
+    kit: '&9Je bekijkt nu de kit &7%kit%&9.'
+  crate:
+    notyet: '&cJe moet &4%time% &cwachten voordat je dit kunt gebruiken.'
+    wrongkey: '&cDeze key hoort niet bij deze kit..'
+    success: '&9Je hebt succesvol een krat geopend.'
+    given: '&9Je hebt een %crate% %kit% krat ontvangen.'
+  claim:
+    cannotafford: '&9Je kunt de kit &7%kit%&9 niet betalen.'
+    nottwice: '&9Je kunt deze kit maar één keer ontvangen.'
+    purchasesuccess: '&9Je hebt de kit &7%kit%&9 gekocht.'
+    givesuccess: '&9Je hebt de kit &7%kit%&9 ontvangen.'
+    delay: '&9Wacht %time%'
+    eco: '&7Je hebt &a%amt%&7 ontvangen.'
+    once: '&7Cooldown: &6Je hebt deze kit al geclaimt!'
+    ready: '&7Cooldown: &6Klaar voor gebruik!'
+    wait: '&7Cooldown: &6%time%'
+    noaccess: '&7Cooldown: &cGeen toegang..'
+    full: '&cJe inventaris zit te vol om deze kit te claimen!'
+  create:
+    won: '&7Je hebt een &6%item%&7 gekregen.'
+  purchase:
+    cancelled: '&cAankoop geannuleerd.'
+  key:
+    given: '&9Je hebt een &a%kit% &9kit key ontvangen.'
+    success: '&9Je hebt successvol een key verzilverd voor de kit &7%kit%&9.'

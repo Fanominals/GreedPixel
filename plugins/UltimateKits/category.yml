@@ -1,0 +1,7 @@
+Categories:
+  BASIC:
+    name: '&6» &7&lSTARTER KITS &6«'
+    material: COAL
+  RANK_KITS:
+    name: '&6» &b&lRANK KITS &6«'
+    material: DIAMOND

@@ -1,0 +1,16 @@
+system:
+  locale: en_US
+  force-legacy: false
+worlds:
+  Spawn:
+  - default-board
+  bskyblock_world:
+  - default-board
+  Mines:
+  - default-board
+  Islands:
+  - default-board
+  SuperiorWorld:
+  - default-board
+permissions:
+  admin-board: infinite.scoreboard.board.admin

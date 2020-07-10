@@ -1,0 +1,12 @@
+{
+    "Type": "PIG",
+    "Loot": [
+      {
+        "Type": "PORKCHOP",
+        "Chance": 100.0,
+        "Min": 1,
+        "Max": 1,
+        "Looting": true
+      }
+    ]
+  }

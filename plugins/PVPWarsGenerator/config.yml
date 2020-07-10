@@ -1,0 +1,291 @@
+settings:
+
+  # If you do decide to add new tiers make sure to add new ones
+  # in here and in generators.yml. Use CTRL + F and search for the keyword 'tier'
+  max-tiers: 3
+
+  worldguard: # WorldGuard and WorldEdit required
+    enable: false # Will only let them place a generator in the __global__ region.
+
+  vault: # Vault is required, an another economy plugin like Essentials
+    enable: true # Needed for upgrading a generator
+
+  askyblock: # ASkyBlock required
+    enable: false # If set to true it will only allow them to place generators in their island
+    generators-per-island: -1 # If set to -1, an island can have infinite amount of generators
+    owner-bypass: false # Let the owner of an island open all generators in his island
+
+  acidisland: # AcidIsland
+    enable: false # If set to true it will only allow them to place generators in their island
+    generators-per-island: -1 # If set to -1, an island can have infinite amount of generators
+    owner-bypass: false # Let the owner of an island open all generators in his island
+
+  superiorskyblock: # SuperiorSkyblock required
+    enable: false # If set to true it will only allow them to place generators in their island
+    generators-per-island: -1 # If set to -1, an island can have infinite amount of generators
+    owner-bypass: false # Let the owner of an island open all generators in his island
+
+  fabledskyblock: # FabledSkyblock required
+    enable: false # If set to true it will only allow them to place generators in their island
+    generators-per-island: -1 # If set to -1, an island can have infinite amount of generators
+    owner-bypass: false # Let the owner of an island open all generators in his island
+
+  factionsUUID: # Requires Factions
+    enable: false
+    # Whether  or not they should be able to place in wilderness.
+    # Placing in SafeZone and WarZone is not allowed. Placing in your own claim is
+    allow-placing-in-wilderness: false
+    generators-per-faction: -1 # If set to -1, a faction can have infinite amount of generators
+    owner-bypass: false # Let the owner of an island open all generators in his faction land
+
+  # Enable to use mobcoins when upgrading a generator
+  # instead of using Vault
+  # The plugin SuperMobCoins is required, Vault needs to be enabled
+  mobcoinsAPI:
+    enable: false
+
+  particleAPI: # Enable particles. Requires https://www.spigotmc.org/resources/api-particleapi-1-7-1-8-1-9-1-10.2067/
+    enable: false
+
+  factionWP: # https://www.mc-market.org/resources/7294/
+    enable: false
+
+  holographicDisplays: # HolographicDisplays required
+    enable: false # Spawn a hologram on top of the generator, edit the hologram below
+    use-minutes: false # Enable the minutes placeholder in the hologram
+    # Placeholders
+    # {player} - Displays the owner of the generators name
+    # {time} - Displays the time left
+    # {type} - Displays the generator type
+    # {tier} - Displays the generator tier
+    hologram: # Keep the list short!
+      - "&e{player}'s &fgenerator"
+      - "&eType &f{type}"
+      - "&eTier &f{tier}"
+      # If you want the line below to work, remove # and set update-hologram below to true. Always, have the line at the end of this list
+      #- "&eTime left &f{time}"
+
+    # Changing this value to true can cause less performance.
+    update-hologram: false
+    # Modify the coordinate for the hologram
+    offset-x: 0.95
+    offset-y: 6.1
+    offset-z: 0.5
+
+  # Auto save generators. This can be useful because generators save on
+  # restarts. If your server was to crash the generators might not save
+  auto-save:
+    enable: true
+    interval: 300 # in seconds. 300 / 60 = 5. The auto save will trigger every 5 minutes
+
+  # If the owner of the generator isn't online
+  # the generator will neither drop or execute commands
+  disable-generator-if-player-is-offline: false
+
+  # If no player are in the same chunk as the generator,
+  # it won't drop the reward neither execute commands
+  stop-drop-if-no-player-in-chunk: false
+
+  # If this is set to true, no tnt can blow up the generator.
+  # Check if tnt is enabled on your server before enabling this
+  can-tnt-blow-up-a-generator: false
+
+  # If a player is looking at the items in the
+  # storage gui, should the plugin update the gui
+  # if an item is added?
+  update-storage-live: true
+
+  # Recommended to stay false. If set to true a piston can
+  # move a block in the generator
+  can-piston-push-a-generator: false
+
+  # Should the player be refunded if the generator is broken
+  refund-generator-when-destroyed: true
+
+  # Should the generator drop the item if the inventory is full?
+  drop-item-if-inventory-full: false
+
+  # Removes the inventory feature, you can swap between these
+  use-drop-mechanic: false
+
+  # How many blocks from the generator should it drop. Settings it to 3 will drop the item from
+  # 1-3 blocks away from the generator itself.
+  drop-radius: 3
+
+  # Use roman numerals for displaying tier
+  use-roman-numerals: false
+
+  # Set a data value which will color the glass
+  tier-3-color: 1 # orange
+  tier-2-color: 6 # pink
+  tier-1-color: 5 # lime
+
+  # This will be the blocks underneath the beacon
+  tier-3-block: emerald_block
+  tier-2-block: diamond_block
+  tier-1-block: gold_block
+
+  display-seconds-in-minutes: false # This will turn 60 seconds into "1 minute and 0 second"
+  display-seconds-in-hours: false # This will turn 3600 seconds into "1 hour and 0 minute"
+
+  translate-hour: "hour(s)"
+  translate-minute: "minute(s)"
+  translate-second: "second(s)"
+
+  # Upgrade costs
+  # You cannot upgrade from tier-1 since
+  # it's the tier you start on
+  tier-2-upgrade-cost: 10000
+  tier-3-upgrade-cost: 12500
+
+  # All slots must be divisible by 9, max 54
+  tier-1-slots: 9
+  tier-2-slots: 18
+  tier-3-slots: 27
+
+  # If a generator is placed on one of the given blocks (materials),
+  # the generator wont place
+  illegal-materials:
+    - BEDROCK
+    - CHEST
+
+  # How close can a generator be to each other. Minimum is 1 block between each
+  # generator.
+  blocks-between-generators: 1
+
+
+# (NOTE) This rule only applies to the main generator inventory
+#
+# If you want to remove any items from the GUI
+# just remove the whole <name>-item section.
+#
+# For instance, if you don't want {space} line like below,
+# then remove the following:
+#
+# upgrade-item:
+#    name: "&6&l(!) UPGRADE GENERATOR"
+#    lore:
+#      - "&8Upgrade"
+#      - ""
+#      - "&7Click to upgrade your &6generator"
+#      - ""
+#      - "&6* &7Cost &a{price}$"
+#      - "&6* &7Next level &a{next-level}"
+#    material: "HOPPER"
+#    data: 0
+#    slot: 10
+
+generator-main-inventory:
+
+  name: "&8&lYour generator"
+
+  size: 27
+
+  fill-inventory: true
+
+  fill-item:
+    name: ""
+    material: "stained_glass_pane"
+    data: 7
+
+  information-item:
+    name: "&e&l(!) &eGenerator stats"
+    lore:
+      - "&8Information"
+      - ""
+      - "&7Owner: &6{owner}"
+      - "&7Type: &6{type}"
+      - "&7Tier: &6{tier}"
+    material: book
+    data: 0
+    slot: 4
+
+  upgrade-item:
+    name: "&e&l(!) &eUpgrade Generator"
+    lore:
+      - "&8Upgrade"
+      - ""
+      - "&7Click to upgrade your &6generator"
+      - ""
+      - "&6* &7Cost &a{price}$"
+      - "&6* &7New storage space &a{space}"
+      - "&6* &7Next level &a{next-level}"
+    material: "HOPPER"
+    data: 0
+    slot: 10
+
+  # This will show when the generator is max tier (3)
+  upgrade-locked-item:
+    name: "&c&l(!) Upgrade Locked"
+    lore:
+      - "&8Max reached"
+    material: BARRIER
+    data: 0
+    slot: 10
+
+  clock-item:
+    name: "&e&l(!) &eTime Left"
+    lore:
+      - "&8Time"
+      - ""
+      - "&7An item will drop in {timeLeft}"
+    material: "WATCH"
+    data: 0
+    slot: 13
+
+  delete-item:
+    name: "&e&l(!) &eDelete Generator"
+    lore:
+      - "&8Settings"
+      - ""
+      - "&7Click to delete &6generator"
+    material: "TNT"
+    data: 0
+    slot: 16
+
+  storage-item:
+    name: "&e&l(!) &eCollect Items"
+    lore:
+      - "&8Storage"
+      - ""
+      - "&e[LEFT-CLICK] &7Claim items"
+      - "&e[RIGHT-CLICK] &7View items"
+      - ""
+    material: "ENDER_CHEST"
+    data: 0
+    slot: 22
+
+generator-storage-inventory:
+
+  name: "&8&lYOUR STORAGE"
+
+  fill-inventory: true
+
+  fill-item:
+    name: "&7&l&oEMPTY SLOT"
+    material: "stained_glass_pane"
+    data: 7
+
+
+generator-setting-inventory:
+
+  name: "&8&lMODIFY GENERATOR"
+
+  size: 9
+
+  confirm-item:
+    name: "&a&lCONFIRM"
+    lore:
+      - "&7You will be refunded the generator"
+      - "&7with your current level."
+    material: "STAINED_CLAY"
+    data: 13
+    slot: 3
+
+  cancel-item:
+    name: "&c&lCANCEL"
+    lore:
+      - "&7Abort request"
+    material: "STAINED_CLAY"
+    data: 14
+    slot: 5

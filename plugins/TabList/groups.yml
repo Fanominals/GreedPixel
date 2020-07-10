@@ -1,0 +1,46 @@
+# DO NOT CHANGE THIS!
+config-version: 5
+groups:
+  owner:
+    prefix: '&6&lOWNER &e'
+    suffix: ''
+    sort-priority: 1
+  admin:
+    prefix: '&4&lADMIN &c'
+    suffix: ''
+    sort-priority: 2
+  moderator:
+    prefix: '&b&lMOD &3'
+    suffix: ''
+    sort-priority: 3
+  helper:
+    prefix: '&a&lHelper &2'
+    suffix: ''
+    sort-priority: 4
+  bugtester:
+    prefix: '&f&lExterminator &f'
+    suffix: ''
+    sort-priority: 5
+  pharoah:
+    prefix: '&6P&eh&6a&er&6o&ea&6h &e'
+    suffix: ''
+    sort-priority: 6
+  chancellor:
+    prefix: '&3Chancellor &b'
+    suffix: ''
+    sort-priority: 7
+  noble:
+    prefix: '&5Noble &d'
+    suffix: ''
+    sort-priority: 8
+  aristocrat:
+    prefix: '&cAristocrat &c'
+    suffix: ''
+    sort-priority: 9
+  scribe:
+    prefix: '&aScribe &a'
+    suffix: ''
+    sort-priority: 10
+  Farmer:
+    prefix: '&b'
+    suffix: '&o'

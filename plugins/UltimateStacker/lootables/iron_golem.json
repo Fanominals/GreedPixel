@@ -1,0 +1,19 @@
+{
+  "Type": "IRON_GOLEM",
+  "Loot": [
+    {
+      "Type": "DIAMOND",
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true
+    },
+    {
+      "Type": "DIAMOND",
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true
+    }
+  ]
+}

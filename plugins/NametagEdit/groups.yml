@@ -1,0 +1,56 @@
+Groups:
+  Owner:
+    Permission: nte.owner
+    Prefix: '&6&lOWNER &e'
+    Suffix: ''
+    SortPriority: 1
+  Admin:
+    Permission: nte.admin
+    Prefix: '&4&lADMIN &c'
+    Suffix: ''
+    SortPriority: 2
+  Moderator:
+    Permission: nte.moderator
+    Prefix: '&b&lMOD &3'
+    Suffix: ''
+    SortPriority: 3
+  Helper:
+    Permission: nte.helper
+    Prefix: '&a&lHelper &2'
+    Suffix: ''
+    SortPriority: 4
+  Bugtester:
+    Permission: nte.bugtester
+    Prefix: '&f&lExterminator &f'
+    Suffix: ''
+    SortPriority: 5
+  Pharoah:
+    Permission: nte.pharoah
+    Prefix: '&6P&eh&6a&er&6o&ea&6h &e'
+    Suffix: ''
+    SortPriority: 6
+  Chancellor:
+    Permission: nte.chancellor
+    Prefix: '&3Chancellor &b'
+    Suffix: ''
+    SortPriority: 7
+  Noble:
+    Permission: nte.noble
+    Prefix: '&5Noble &d'
+    Suffix: ''
+    SortPriority: 8
+  Aristocrat:
+    Permission: nte.aristocrat
+    Prefix: '&cAristocrat &c'
+    Suffix: ''
+    SortPriority: 9
+  Scribe:
+    Permission: nte.scribe
+    Prefix: '&aScribe &a'
+    Suffix: ''
+    SortPriority: 10
+  Farmer:
+    Permission: nte.farmer
+    Prefix: '&b'
+    Suffix: '&o'
+    SortPriority: 11

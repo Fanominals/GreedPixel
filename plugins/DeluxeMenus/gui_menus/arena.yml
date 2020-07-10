@@ -1,0 +1,53 @@
+#
+# Requirements tutorial menu v1.0
+# authors: clip
+#
+# contributor: Andre_601
+#
+# In this tutorial you will learn all about menu requirements
+# Requirements allow you to restrict actions or even an entire menu to specific players.
+#
+# You can read more about requirements here:
+#   https://wiki.helpch.at/clips-plugins/deluxemenus/options-and-configurations/requirements
+#
+menu_title: '&8» Arenas'
+open_command:
+- arena
+- arenas
+size: 9
+items:
+  dungeon:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19
+    slot: 1
+    priority: 1
+    display_name: '&d&lDungeons'
+    lore:
+        - ''
+        - '&fBattle mobs'
+        - '&ffor money and items'
+        - ''
+        - '&5&nClick to start!'
+    left_click_commands:
+        - '[player] ma join dungeon'
+        - '[refresh]'
+    right_click_commands:
+        - '[player] ma join dungeon'
+        - '[refresh]'
+  mansion:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19
+    slot: 0
+    priority: 1
+    display_name: '&d&lMansion'
+    lore:
+        - ''
+        - '&fBattle mobs'
+        - '&ffor money and items'
+        - ''
+        - '&5&nClick to start!'
+    left_click_commands:
+        - '[player] ma join mansion'
+        - '[refresh]'
+    right_click_commands:
+        - '[player] ma join mansion'
+        - '[refresh]'
+  

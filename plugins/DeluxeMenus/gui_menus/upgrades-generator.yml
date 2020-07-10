@@ -1,0 +1,360 @@
+menu_title: '&e&lGenerators &f| Upgrades'
+open_command:
+
+size: 27
+items:
+  'back-to-upgrades':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU4YmE3ODYzYjE1YTVlNDBmYTdkYTk2MjliYjg2NmFhMjI2OTk1NTNlOTMxZGYxZjY5M2NiYjFjOWYzYjYifX19'
+    slot: 22
+    display_name: '&e&lBack to upgrades'
+    lore:
+    - '&7Go back to main'
+    - '&7upgrades menu.'
+    - ''
+    - '&6&l* &eRight click to go'
+    left_click_commands:
+    - '[openguimenu] isupgrades'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] isupgrades'
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'gen-coal':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU4ZTY3MGE3OWI2MTYzMzRiYzFmYjkxMzkxMzJmYjM1YzU3ZGRhNjk3NWFmOWNlNDgzMzNlOTRhYTZjOTU3MyJ9fX0=
+    slot: 11
+    display_name: '&e&lGenerator | Upgrade &7(#1)'
+    lore:
+    - '&7Upgrade your generator'
+    - '&7to obtain the following'
+    - '&7percentages:'
+    - ''
+    - "&8* &fCobblestone: &a68%"
+    - "&8* &fCoal: &a9%"
+    - "&8* &fRedstone: &a7%"
+    - "&8* &fLapis: &a6%"
+    - "&8* &fIron: &a4%"
+    - "&8* &fGold: &a3%"
+    - "&8* &fDiamond: &a2%"
+    - "&8* &fEmerald: &a1%"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mIsland Level to unlock:&a Free'
+    left_click_commands:
+    - '[message] &c&lERROR &c» &7You already unlocked this generator'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[message] &c&lERROR &c» &7You already unlocked this generator'
+    - '[sound] BLOCK_ANVIL_LAND'
+  'gen-iron':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyZjRhOWQxODJjYzYyNTkyNWU1ZGVhN2UyOWQxM2E5NDhhZDY0ZmY0Mjg3MTc4YWYyM2EwNDI4ZTFmYTU0ZSJ9fX0=
+    priority: 1
+    slot: 12
+    display_name: '&e&lGenerator | Upgrade &7(#2)'
+    view_requirement:
+      requirements:
+        Permission:
+          type: '>='
+          input: '%javascript_integer%'
+          output: 100
+    lore:
+    - '&7Upgrade your  generator'
+    - '&7to obtain the following'
+    - '&7percentages:'
+    - ''
+    - "&8* &fCobblestone: &a64.5%"
+    - "&8* &fCoal: &a10%"
+    - "&8* &fRedstone: &a7.7%"
+    - "&8* &fLapis: &a6.6%"
+    - "&8* &fIron: &a4.4%"
+    - "&8* &fGold: &a3.3%"
+    - "&8* &fDiamond: &a2.3%"
+    - "&8* &fEmerald: &a1.2%"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mLevel to unlock:&a ⛁ 100'
+    left_click_commands:
+    - '[message] &c&lERROR &c» &7You already unlocked this generator'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[message] &c&lERROR &c» &7You already unlocked this generator'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'gen-iron2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    priority: 2
+    slot: 12
+    display_name: '&e&lGenerator | Upgrade &7(#2)'
+    lore:
+    - '&7Upgrade your generator'
+    - '&7to obtain the following'
+    - '&7percentages:'
+    - ''
+    - "&8* &fCobblestone: &a64.5%"
+    - "&8* &fCoal: &a10%"
+    - "&8* &fRedstone: &a7.7%"
+    - "&8* &fLapis: &a6.6%"
+    - "&8* &fIron: &a4.4%"
+    - "&8* &fGold: &a3.3%"
+    - "&8* &fDiamond: &a2.3%"
+    - "&8* &fEmerald: &a1.2%"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Level to unlock:&a ⛁ 100' 
+    left_click_commands:
+    - '[message] &c&lERROR &c» &7You need to be atleast Level 100 to unlock this generator!'
+    - '[refresh]'
+    - '[close]'
+    right_click_commands:
+    - '[message] &c&lERROR &c» &7You need to be atleast Level 100 to unlock this generator!'
+    - '[refresh]'  
+    - '[close]'
+  'gen-gold':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgxNjYwNjI2MDc3OWIyM2VkMTVmODdjNTZjOTMyMjQwZGI3NDVmODZmNjgzZDFmNGRlYjgzYTRhMTI1ZmE3YiJ9fX0='
+    priority: 1
+    slot: 13
+    display_name: '&e&lGenerator | Upgrade &7(#3)'
+    view_requirement:
+      requirements:
+        Permission1:
+          type: '>='
+          input: '%javascript_integer%'
+          output: 300
+    lore:
+    - '&7Upgrade your generator'
+    - '&7to obtain the following'
+    - '&7percentages:'
+    - ''
+    - "&8* &fCobblestone: &a61%"
+    - "&8* &fCoal: &a11%"
+    - "&8* &fRedstone: &a8.4%"
+    - "&8* &fLapis: &a7.2%"
+    - "&8* &fIron: &a4.8%"
+    - "&8* &fGold: &a3.6%"
+    - "&8* &fDiamond: &a2.6%"
+    - "&8* &fEmerald: &a1.4%"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mLevel to unlock:&a ⛁ 300'
+    left_click_commands:
+    - '[message] &c&lERROR &c» &7You already unlocked this generator'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[message] &c&lERROR &c» &7You already unlocked this generator'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'   
+  'gen-gold2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19'
+    priority: 2
+    slot: 13
+    display_name: '&e&lGenerator | Upgrade &7(#3)'
+    lore:
+    - '&7Upgrade your generator'
+    - '&7to obtain the following'
+    - '&7percentages:'
+    - ''
+    - "&8* &fCobblestone: &a61%"
+    - "&8* &fCoal: &a11%"
+    - "&8* &fRedstone: &a8.4%"
+    - "&8* &fLapis: &a7.2%"
+    - "&8* &fIron: &a4.8%"
+    - "&8* &fGold: &a3.6%"
+    - "&8* &fDiamond: &a2.6%"
+    - "&8* &fEmerald: &a1.4%"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Level to unlock:&a ⛁ 300' 
+    left_click_commands:
+    - '[message] &c&lERROR &c» &7You need to be atleast Level 300 to unlock this generator!'
+    - '[refresh]'
+    right_click_commands:
+    - '[message] &c&lERROR &c» &7You need to be atleast Level 300 to unlock this generator!'
+    - '[refresh]'
+  'gen-diamond':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0ZjI1Y2ZmZjc1NGYyODdhOTgzOGQ4ZWZlMDM5OTgwNzNjMjJkZjdhOWQzMDI1YzQyNWUzZWQ3ZmY1MmMyMCJ9fX0=
+    priority: 1
+    slot: 14
+    display_name: '&e&lGenerator | Upgrade &7(#4)'
+    view_requirement:
+      requirements:
+        Permissions2:
+          type: '>='
+          input: '%javascript_integer%'
+          output: 500
+    lore:
+    - '&7Upgrade your generator'
+    - '&7to obtain the following'
+    - '&7percentages:'
+    - ''
+    - "&8* &fCobblestone: &a57.5%"
+    - "&8* &fCoal: &a12%"
+    - "&8* &fRedstone: &a9.1%"
+    - "&8* &fLapis: &a7.8%"
+    - "&8* &fIron: &a5.2%"
+    - "&8* &fGold: &a3.9%"
+    - "&8* &fDiamond: &a2.9%"
+    - "&8* &fEmerald: &a1.6%"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mLevel to unlock:&a ⛁ 500'
+    left_click_commands:
+    - '[message] &c&lERROR &c» &7You already unlocked this generator'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[message] &c&lERROR &c» &7You already unlocked this generator'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'gen-diamond2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19'
+    priority: 2
+    slot: 14
+    display_name: '&e&lGenerator | Upgrade &7(#4)'
+    lore:
+    - '&7Upgrade your generator'
+    - '&7to obtain the following'
+    - '&7percentages:'
+    - ''
+    - "&8* &fCobblestone: &a57.5%"
+    - "&8* &fCoal: &a12%"
+    - "&8* &fRedstone: &a9.1%"
+    - "&8* &fLapis: &a7.8%"
+    - "&8* &fIron: &a5.2%"
+    - "&8* &fGold: &a3.9%"
+    - "&8* &fDiamond: &a2.9%"
+    - "&8* &fEmerald: &a1.6%"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Level to unlock:&a ⛁ 500' 
+    left_click_commands:
+    - '[message] &c&lERROR &c» &7You need to be atleast Level 500 to unlock this generator!'
+    - '[refresh]'
+    right_click_commands:
+    - '[message] &c&lERROR &c» &7You need to be atleast Level 500 to unlock this generator!'
+    - '[refresh]'
+  'gen-emerald':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkyNmMxZjJjM2MxNGQwODZjNDBjZmMyMzVmZTkzODY5NGY0YTUxMDY3YWRhNDcyNmI0ODZlYTFjODdiMDNlMiJ9fX0=
+    priority: 1
+    slot: 15
+    display_name: '&e&lGenerator | Upgrade &7(#5)'
+    view_requirement:
+      requirements:
+        Permission3:
+          type: '>='
+          input: '%javascript_integer%'
+          output: 750
+    lore:
+    - '&7Upgrade your generator'
+    - '&7to obtain the following'
+    - '&7percentages:'
+    - ''
+    - "&8* &fCobblestone: &a53.2%"
+    - "&8* &fCoal: &a13%"
+    - "&8* &fRedstone: &a9.8%"
+    - "&8* &fLapis: &a8.4%"
+    - "&8* &fIron: &a5.6%"
+    - "&8* &fGold: &a4.2%"
+    - "&8* &fDiamond: &a3.2%"
+    - "&8* &fEmerald: &a1.8%"
+    - "&8* &fDiamond block: &a0.5%"
+    - "&8* &fEmerald block: &a0.3%"
+    - ''
+    - "&7Status: &a&l\u2714 UNLOCKED"
+    - '&7&mLevel to unlock:&a ⛁ 750'
+    left_click_commands:
+    - '[message] &c&lERROR &c» &7You already unlocked this generator'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[message] &c&lERROR &c» &7You already unlocked this generator'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'gen-emerald2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19'
+    priority: 2
+    slot: 15
+    display_name: '&e&lGenerator | Upgrade &7(#5)'
+    lore:
+    - '&7Upgrade your generator'
+    - '&7to obtain the following'
+    - '&7percentages:'
+    - ''
+    - "&8* &fCobblestone: &a53.2%"
+    - "&8* &fCoal: &a13%"
+    - "&8* &fRedstone: &a9.8%"
+    - "&8* &fLapis: &a8.4%"
+    - "&8* &fIron: &a5.6%"
+    - "&8* &fGold: &a4.2%"
+    - "&8* &fDiamond: &a3.2%"
+    - "&8* &fEmerald: &a1.8%"
+    - "&8* &fDiamond block: &a0.5%"
+    - "&8* &fEmerald block: &a0.3%"
+    - ''
+    - "&7Status: &c&l\u2718 LOCKED"
+    - '&7Level to unlock:&a ⛁ 750' 
+    left_click_commands:
+    - '[message] &c&lERROR &c» &7You need to be atleast Level 750 to unlock this generator!'
+    - '[refresh]'
+    right_click_commands:
+    - '[message] &c&lERROR &c» &7You need to be atleast Level 750 to unlock this generator!'
+    - '[refresh]'
+  'size-menu':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjMyOTVhOWYxMTQ3OGU2Yjc4OWJmNmViMDYyOTZlMDE2YzEyN2QwYTYyN2YzNTRmZWMyNmMyN2Y0NmQ0MTcifX19'
+    slot: 9
+    display_name: '&e&lSize &f| Upgrade'
+    lore:
+    - '&7Go to size'
+    - '&7upgrade menu.'
+    - ''
+    - '&6&l* &eRight click to go'
+    left_click_commands:
+    - '[openguimenu] size'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] size' 
+    - '[sound] ENTITY_CHICKEN_EGG'
+  'homes':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJiMGM2M2Q1YWZjMzI1ODU2NjI1Yjg1NWZmMjQ2MWYxNTYwYjNkMWE3NGExZTQ2MTllNjI0MDY5YzViOTYyIn19fQ=='
+    slot: 17
+    display_name: '&e&lHomes &f| Upgrade'
+    lore:
+    - '&7Go to homes'
+    - '&7upgrade menu.'
+    - ''
+    - '&6&l* &eRight click to go'
+    left_click_commands:
+    - '[openguimenu] warp'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    right_click_commands:
+    - '[openguimenu] warp' 
+    - '[sound] ENTITY_CHICKEN_EGG' 
+  'glass1':
+    material: WHITE_STAINED_GLASS_PANE
+    data: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: ' '      
+  'glass2':
+    material: WHITE_STAINED_GLASS_PANE
+    data: 0
+    slots:
+    - 10
+    - 16
+    display_name: ' '     

@@ -1,0 +1,23 @@
+title: 'Golden Crates Editor'
+size: 27
+content: {}
+editor:
+  rewards:
+    material: ENDER_CHEST
+    name: '&eCrate Manager'
+    lore:
+    - '&7Create and edit crate rewards.'
+    - '&7'
+    - '&6Left-Click: &eNavigate'
+    slots: 11
+    type: EDITOR_CRATES
+
+  effects:
+    material: TRIPWIRE_HOOK
+    name: '&eKey Manager'
+    lore:
+    - '&7Create and edit crate keys.'
+    - '&7'
+    - '&6Left-Click: &eNavigate'
+    slots: 15
+    type: EDITOR_KEYS

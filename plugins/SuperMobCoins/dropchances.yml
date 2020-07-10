@@ -1,0 +1,31 @@
+Chance:
+  chicken:
+    type: "CHICKEN"
+    chance: 5
+  cow:
+    type: "COW"
+    chance: 5
+  zombie:
+    type: "ZOMBIE"
+    chance: 7
+  skeleton:
+    type: "SKELETON"
+    chance: 7
+  spider:
+    type: "SPIDER"
+    chance: 10
+  creeper:
+    type: "CREEPER"
+    chance: 10
+  pig_zombie:
+    type: "PIG_ZOMBIE"
+    chance: 15
+  iron_golem:
+    type: "IRON_GOLEM"
+    chance: 15
+  magma_cube:
+    type: "MAGMA_CUBE"
+    chance: 15
+  ghast:
+    type: "GHAST"
+    chance: 15

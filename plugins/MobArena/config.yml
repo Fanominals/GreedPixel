@@ -1,0 +1,350 @@
+global-settings:
+  enabled: true
+  allowed-commands: /list, /pl
+  update-notification: true
+  prefix: '&d&lARENA &7›› '
+  pet-items:
+    wolf: bone
+classes:
+  Knight:
+    items: diamond_sword, GOLDEN_APPLE:2, potion:instant_heal:3
+    armor: iron_helmet, iron_chestplate, iron_leggings, iron_boots
+  Tank:
+    items: iron_sword, GOLDEN_APPLE:2, potion:instant_heal:2
+    armor: diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots
+    effects: slow, health_boost
+  Archer:
+    items: wooden_sword, bow, arrow:256, GOLDEN_APPLE:3, potion:instant_heal:3, bone
+    armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
+    effects: speed
+  Chemist:
+    items: stone_sword, splash_potion:instant_damage:30, splash_potion:poison:8, splash_potion:instant_heal:20,
+      GOLDEN_APPLE:3 potion:instant_heal:3
+    armor: chainmail_helmet, chainmail_chestplate, chainmail_leggings, chainmail_boots
+    effects: speed:1
+  Phoenix:
+    items: stone_sword, GOLDEN_APPLE:5, flint_and_steel, netherrack:2, tnt:4, potion:instant_heal:3
+    armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
+arenas:
+  Mansion:
+    settings:
+      prefix: ''
+      world: Arena
+      enabled: true
+      protect: true
+      entry-fee: ''
+      default-class: ''
+      clear-wave-before-next: false
+      clear-boss-before-next: false
+      clear-wave-before-boss: false
+      soft-restore: false
+      soft-restore-drops: false
+      require-empty-inv-join: false
+      require-empty-inv-spec: false
+      pvp-enabled: false
+      monster-infight: false
+      allow-teleporting: false
+      spectate-on-death: false
+      share-items-in-arena: false
+      min-players: 0
+      max-players: 4
+      max-join-distance: 0
+      join-interrupt-timer: 0
+      first-wave-delay: 5
+      next-wave-delay: 0
+      wave-interval: 15
+      final-wave: 0
+      monster-limit: 100
+      monster-exp: false
+      keep-exp: false
+      food-regen: false
+      lock-food-level: true
+      player-time-in-arena: world
+      auto-ignite-tnt: false
+      auto-start-timer: 5
+      start-delay-timer: 30
+      auto-ready: true
+      use-class-chests: false
+      boss-health-bar: title
+      display-waves-as-level: false
+      display-timer-as-level: false
+      use-scoreboards: true
+      isolated-chat: true
+      global-join-announce: false
+      global-end-announce: false
+      show-death-messages: true
+    waves:
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          monsters:
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+            wolves: 10
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+          monsters:
+            powered-creepers: 10
+            zombie-pigmen: 10
+            angry-wolves: 10
+            blazes: 10
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: slime
+          amount: low
+        boss1:
+          type: boss
+          wave: 10
+          monster: cave_spider
+          health: high
+          abilities: arrows, root-target, throw-nearby
+    rewards:
+      waves:
+        every:
+          '2': coal:1
+          '5': iron_ingot:1, cmd(1x MOBCOIN):/mobcoins give <player> 1
+          '7': coal:2
+          '10': diamond:1, cmd(2x MOBCOIN):/mobcoins give <player> 2
+          '11': iron_ingot:2
+          '12': coal:3
+          '15': diamond:2
+        after:
+          '7': $50, cmd(1x MOBCOIN):/mobcoins give <player> 1
+          '10': $75
+          '13': $100
+          '16': $135
+          '18': cmd(x1 Dungeon Key):/crates givekey <player> dungeon
+    coords:
+      spawnpoints:
+        12,86,194: 12.5,86,194.5,0.0,0.0,Arena
+        12,86,208: 12.5,86,208.5,0.0,0.0,Arena
+        9,84,212: 9.5,84,212.5,0.0,0.0,Arena
+        5,78,231: 5.5,78,231.5,0.0,0.0,Arena
+        -1,78,228: -0.5,78,228.5,0.0,0.0,Arena
+        -7,78,221: -6.5,78,221.5,0.0,0.0,Arena
+        -14,78,212: -13.5,78,212.5,0.0,0.0,Arena
+        -25,78,212: -24.5,78,212.5,0.0,0.0,Arena
+        -29,78,216: -28.5,78,216.5,0.0,0.0,Arena
+        -23,78,219: -22.5,78,219.5,0.0,0.0,Arena
+        -13,79,219: -12.5,79,219.5,0.0,0.0,Arena
+        -11,78,225: -10.5,78,225.5,0.0,0.0,Arena
+        -15,78,229: -14.5,78,229.5,0.0,0.0,Arena
+        -16,82,232: -15.5,82,232.5,0.0,0.0,Arena
+        -8,85,232: -7.5,85,232.5,0.0,0.0,Arena
+        7,85,232: 7.5,85,232.5,0.0,0.0,Arena
+        13,85,226: 13.5,85,226.5,0.0,0.0,Arena
+        13,85,215: 13.5,85,215.5,0.0,0.0,Arena
+        5,88,211: 5.5,88,211.5,0.0,0.0,Arena
+        1,88,193: 1.5,88,193.5,0.0,0.0,Arena
+        -4,88,198: -3.5,88,198.5,0.0,0.0,Arena
+        -14,90,189: -13.5,90,189.5,0.0,0.0,Arena
+        -15,89,190: -14.5,89,190.5,0.0,0.0,Arena
+        -16,92,187: -15.5,92,187.5,0.0,0.0,Arena
+        -23,92,185: -22.5,92,185.5,0.0,0.0,Arena
+        -34,92,195: -33.5,92,195.5,0.0,0.0,Arena
+        -32,92,196: -31.5,92,196.5,0.0,0.0,Arena
+        -5,92,186: -4.5,92,186.5,0.0,0.0,Arena
+        14,92,194: 14.5,92,194.5,0.0,0.0,Arena
+        9,92,182: 9.5,92,182.5,0.0,0.0,Arena
+        12,92,185: 12.5,92,185.5,0.0,0.0,Arena
+        6,86,183: 6.5,86,183.5,0.0,0.0,Arena
+      containers: {}
+      p2: 23,125,249,0.0,0.0,Arena
+      p1: -45,65,175,0.0,0.0,Arena
+      arena: -12.5,86,199.5,-60.45,0.0,Arena
+      spectator: -5.5,101,210.5,-175.65,0.0,Arena
+      lobby: 3.5,64,-5.5,-359.58,0.0,Arena
+      l2: 6,62,3,0.0,0.0,Arena
+      l1: 0,62,-3,0.0,0.0,Arena
+      exit: 75.5,201,81.5,-0.3,0.0,Spawn
+    class-limits:
+      Knight: 1
+      Archer: 1
+      Gladiator: 1
+      My Items: -1
+      Tank: 1
+  Dungeon:
+    settings:
+      prefix: ''
+      world: Dungeon
+      enabled: false
+      protect: true
+      entry-fee: ''
+      default-class: Archer
+      clear-wave-before-next: true
+      clear-boss-before-next: true
+      clear-wave-before-boss: true
+      soft-restore: false
+      soft-restore-drops: false
+      require-empty-inv-join: false
+      require-empty-inv-spec: false
+      pvp-enabled: false
+      monster-infight: false
+      allow-teleporting: false
+      spectate-on-death: false
+      share-items-in-arena: true
+      min-players: 0
+      max-players: 5
+      max-join-distance: 0
+      join-interrupt-timer: 0
+      first-wave-delay: 5
+      next-wave-delay: 0
+      wave-interval: 15
+      final-wave: 20
+      monster-limit: 100
+      monster-exp: false
+      keep-exp: false
+      food-regen: false
+      lock-food-level: true
+      player-time-in-arena: world
+      auto-ignite-tnt: true
+      auto-start-timer: 5
+      start-delay-timer: 30
+      auto-ready: true
+      use-class-chests: false
+      boss-health-bar: boss-bar
+      display-waves-as-level: true
+      display-timer-as-level: false
+      use-scoreboards: true
+      isolated-chat: true
+      global-join-announce: false
+      global-end-announce: false
+      show-death-messages: false
+    waves:
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          growth: fast
+          monsters:
+            zombies: 20
+            skeletons: 10
+        def2:
+          type: default
+          priority: 2
+          frequency: 1
+          growth: fast
+          wave: 5
+          monsters:
+            zombies: 20
+            skeletons: 15
+            wolves: 10
+        spec1:
+          type: special
+          priority: 5
+          frequency: 1
+          growth: fast
+          wave: 4
+          monsters:
+            angry-wolves: 20
+            zombie-pigmen: 20
+        spec2:
+          type: special
+          priority: 5
+          frequency: 2
+          growth: fast
+          wave: 4
+          monsters:
+            angry-wolves: 20
+            zombie-pigmen: 20
+          drops: golden_apple:1
+        spec3:
+          type: special
+          priority: 5
+          frequency: 3
+          wave: 5
+          growth: fast
+          monsters:
+            blaze: 24
+            spider: 20
+      single:
+        swarm1:
+          type: swarm
+          wave: 9
+          monster: slimes
+          amount: medium
+        swarm2:
+          type: swarm
+          wave: 16
+          monster: skeleton
+          amount: medium
+        thunder_chicken:
+          type: boss
+          wave: 8
+          monster: chicken
+          health: low
+          abilities: chain-lightning
+          ability-interval: 10
+          ability-announce: true
+          drops: golden_apple:1
+        boss1:
+          type: boss
+          wave: 10
+          monster: spider
+          health: medium
+          abilities: fire-aura, disorient-target, fireballs, throw-nearby
+          effects: speed:3:20, wither, increase_damage:1
+          ability-interval: 5
+        boss2:
+          type: boss
+          wave: 11
+          monster: zombie-pigman
+          health: high
+          abilities: root-target, arrows, fetch-distant, fire-aura
+        boss3:
+          type: boss
+          wave: 18
+          monster: wolf
+          health: psycho
+          abilities: warp-to-player, fire-aura, throw-nearby, fireballs, fetch-target,
+            arrows
+          effects: slow:1
+          ability-interval: 1
+    rewards:
+      waves:
+        every:
+          '1': $1000
+          '5': dirt:4, gravel:4, stone:4
+          '10': iron_ingot:10, gold_ingot:8
+        after:
+          '7': golden_apple:1
+          '8': $5000
+          '10': golden_apple:1, $10000
+          '11': $10000
+          '16': golden_apple:2, $15000
+          '18': $20000
+    coords:
+      spawnpoints:
+        -44,65,21: -43.5,65,21.5,0.0,0.0,Dungeon
+        -44,65,45: -43.5,65,45.5,0.0,0.0,Dungeon
+        -20,65,45: -19.5,65,45.5,0.0,0.0,Dungeon
+        -20,65,21: -19.5,65,21.5,0.0,0.0,Dungeon
+        -32,65,14: -31.5,65,14.5,0.0,0.0,Dungeon
+        -51,65,33: -50.5,65,33.5,0.0,0.0,Dungeon
+        -32,65,52: -31.5,65,52.5,0.0,0.0,Dungeon
+        -13,65,33: -12.5,65,33.5,0.0,0.0,Dungeon
+      containers: {}
+      l1: -34,87,97,0.0,0.0,Dungeon
+      l2: -28,87,103,0.0,0.0,Dungeon
+      p1: -60,60,5,0.0,0.0,Dungeon
+      p2: -4,100,61,0.0,0.0,Dungeon
+      lobby: -30.5,90,100.5,-180.06,0.0,Dungeon
+      arena: -31.5,66,33.5,180.37,0.0,Dungeon
+      spectator: -32.5,165,-39.5,-0.34,0.0,Dungeon
+      exit: 75.5,201,81.5,-180.33,0.0,Spawn
+    class-limits:
+      Phoenix: -1
+      Knight: -1
+      Archer: -1
+      My Items: -1
+      Tank: -1
+      Chemist: -1

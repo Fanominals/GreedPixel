@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "487b7a6f-a456-45cf-a1d2-8409b040edc6",
+    "name": "Ablates",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a6544df9-17b4-4137-b562-8e02cef29bc7",
+    "name": "KHALSALION",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

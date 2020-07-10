@@ -1,0 +1,56 @@
+afk: false
+logoutlocation:
+  world: Mines
+  x: -280.69999998807907
+  y: 77.0
+  z: 691.6999999880791
+  yaw: -210.45589
+  pitch: 28.64992
+timestamps:
+  logout: 1594345824033
+  login: 1594348102185
+  lastteleport: 1594346250003
+  kits:
+    tools: 1590257992846
+  lastheal: 1593995798382
+lastAccountName: Ablates
+ipAddress: 127.0.0.1
+lastlocation:
+  world: Spawn
+  x: 75.24651055108677
+  y: 201.0
+  z: 82.43508753423566
+  yaw: -0.14997657
+  pitch: 1.4999954
+money: '22066025.00000'
+godmode: false
+homes:
+  home:
+    world: bskyblock_world
+    x: -7.501103376618459
+    y: 141.01834135289883
+    z: 230.5
+    yaw: 0.0
+    pitch: 0.0
+  hi:
+    world: bskyblock_world
+    x: -3.1473982253374877
+    y: 142.1359230774372
+    z: 232.8244735034702
+    yaw: -109.2
+    pitch: 13.0499935
+  higga:
+    world: bskyblock_world
+    x: -1.8484288613570405
+    y: 142.1359230774372
+    z: 234.3841367919892
+    yaw: -109.2
+    pitch: 13.0499935
+  bigga:
+    world: bskyblock_world
+    x: -0.9557943456244551
+    y: 142.1359230774372
+    z: 230.414925055332
+    yaw: -109.2
+    pitch: 13.0499935
+teleportenabled: true

@@ -1,0 +1,12 @@
+{
+  "Type": "GHAST",
+  "Loot": [
+    {
+      "Type": "EMERALD_BLOCK",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 1,
+      "Looting": true
+    }
+  ]
+}

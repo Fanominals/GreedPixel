@@ -1,0 +1,23 @@
+logoutlocation:
+  world: Islands
+  x: -599.5814944967506
+  y: 101.0
+  z: 0.7971696921031384
+  yaw: -19.093515
+  pitch: 33.449726
+timestamps:
+  logout: 1594179253296
+  login: 1594178983475
+  lastteleport: 1594174030117
+  lastheal: 1594080659504
+lastAccountName: KHALSALION
+ipAddress: 127.0.0.1
+afk: false
+lastlocation:
+  world: Islands
+  x: 0.0
+  y: 65.1041049294277
+  z: 0.0
+  yaw: -46.200085
+  pitch: 79.35014
+money: '99977926400.0'

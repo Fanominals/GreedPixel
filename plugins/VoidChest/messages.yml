@@ -1,0 +1,72 @@
+Messages:
+  No-Permission: '&c&l(!) &cYou do not have the correct permissions to do this!'
+  Reload: '&a&l(!) &aAll data have been reloaded successfuly. (%ms% ms)'
+  Help:
+  - ''
+  - '&c&l(!) &cVoidChest Commands:'
+  - ' &8» &7/vc &ereload &7- &oReloads all plugin files.'
+  - ' &8» &7/vc &etoggle &7- &oPrevents sell messages from being sent.'
+  - ' &8» &7/vc &estats &o[player] &7- &oShows someone else statistics or yours.'
+  - ' &8» &7/vc &elist &7- &oList all available voidchest names.'
+  - ' &8» &7/vc &emode &7- &oDisplays the current voidchest mode being used.'
+  - ' &8» &7/vc &epurge &7- &oRemove unused data for the past 7 days.'
+  - ' &8» &7/vc &egive <voidchest> &o[player] [amount] &7- &oGive someone some voidchests'
+  - ' &8» &7/vc &eboost &o<player> <boost_amount> <time_in_seconds> &7- &oBoost a
+    player''s income!'
+  - ''
+Sell:
+  Inventory-sell: '&a&l+ $%money% &7(Sold %items_sold%, Purged %items_purged%) &7[VOID
+    CHEST]'
+  Notify-sell:
+    enabled: '&a&l(!) &aYou have enabled sell notifications.'
+    disabled: '&c&l(!) &cYou have disabled sell notifications.'
+Player:
+  Offline: '&c&l(!) &4%player%&c is not found online.'
+  Invalid: '&c&l(!) &4%player%&c couldn''t be found.'
+VoidChest:
+  Limit-Reached: '&c&l(!) &cYou have reached the maximum limit for placed void chests.'
+  Give: '&a&l(!) &aYou have given &7%player% %amount%x %voidchest% &3voidchest(s)&a.'
+  Give-Invalid: '&c&l(!) &cNo voidchest by the name &e%voidchest% &cexists.'
+  Receive: '&a&l(!) &aYou have received &7%amount%x %voidchest% &3voidchest(s)&a.'
+  List: '&7&l(!) &7Currently &e%amount% &7voidchests loaded: &e%voidchests%'
+  Mode: '&7&l(!) &7Current VoidChest mode being used is: &e%mode% &7with the name:
+    &e%mode_name%'
+Charge:
+  Maxed-out: '&c&l(!) &cYou can''t add any more charge to this voidchest.'
+  Add: '&7&l(!) &7You have &asuccessfully &7added charge to this voidchest. New time
+    left: &e%timeleft%'
+Boost:
+  Usage: '&7&l(!) &7Incorrect usage, please use this foramt: &c/vc boost <player>
+    <boost_amount> <time_in_seconds>'
+  Limit: '&c&l(!) &cYou need to specify a boost higher than 1.0!'
+  Applied: '&7&l(!) &7A boost of &e%boost% &7has been applied to &e%player% &7for
+    &e%timeleft%'
+  Time-Limit: '&c&l(!) &cYou need to specify a boost timer higher than 0 seconds!'
+Purge:
+  data-removal: '&7l(!) &7Precisely &e&n%amount%&7 data have been purged that has
+    been unused for the past 7 days.'
+Stats:
+  Self:
+  - ''
+  - '&7&l&m------==[&6 Your Stats &7&l&m]==------'
+  - ''
+  - '&7Total voidchests: &6%voidchests%'
+  - '&7Booster: &a%booster%'
+  - '&7Booster timeleft: &a%timeleft%'
+  - '&7Money made: &a$%money%'
+  - '&7Items sold: &6%items_sold%'
+  - '&7Items purged: &6%items_purged%'
+  - ''
+  - '&7&l&m------==[&6 Your Stats &7&l&m]==------'
+  Other:
+  - ''
+  - '&7&l&m------==[&6 %player% Stats &7&l&m]==------'
+  - ''
+  - '&7Total voidchests: &6%voidchests%'
+  - '&7Booster: &a%booster%'
+  - '&7Booster timeleft: &a%timeleft%'
+  - '&7Money made: &a$%money%'
+  - '&7Items sold: &6%items_sold%'
+  - '&7Items purged: &6%items_purged%'
+  - ''
+  - '&7&l&m------==[&6 %player% Stats &7&l&m]==------'

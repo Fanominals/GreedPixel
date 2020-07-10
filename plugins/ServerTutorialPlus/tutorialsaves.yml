@@ -1,0 +1,157 @@
+tutorials:
+  Tutorial:
+    stats:
+      plays: 16
+    invisible: true
+    permission: false
+    block-chat: true
+    blocks-commands: false
+    rewards: []
+    command-whitelist: []
+    points:
+      '0':
+        type: TIMED
+        location: Tutorial -41.90933322335127 106.60990553427128 -14.10925626417573
+          -239.8516 23.39936
+        time: 5.0
+        locplayer: true
+        locview: true
+        messages: []
+        actionbar: '&f&lGreedPixel is a Skyblock/Factions Based Server'
+        commands: []
+        setFly: true
+        title:
+          title: '&f&lWELCOME TO'
+          subtitle: '&a&lGREED&b&lPIXEL'
+          fade-in: 20
+          stay: 60
+          fade-out: 20
+        fireworks:
+          '0':
+            location: Tutorial -41.66059612862032 106.60990553427128 -14.542399017282966
+              -238.95163 23.54936
+            meta:
+              ==: ItemMeta
+              meta-type: FIREWORK
+      '1':
+        type: TIMED
+        location: Spawn 75.45296512725645 201.0 81.46829706161292 -0.14997657 1.4999954
+        time: 7.0
+        locplayer: true
+        locview: true
+        messages:
+        - ''
+        - '&eWhen you first enter &aGreed&bPixel, &eyou will start here...'
+        - ''
+        commands: []
+      '2':
+        type: TIMED
+        location: Spawn 75.45296512725645 201.0 81.46829706161292 -0.14997657 1.4999954
+        time: 10.0
+        locplayer: true
+        locview: false
+        messages:
+        - ''
+        - '&7In order to create an island, type the command &e/island'
+        - ''
+        commands: []
+      '3':
+        type: TIMED
+        location: Tutorial -9.514721652969673 82.0 10.302441932525275 -0.019836426
+          31.349543
+        time: 10.0
+        locplayer: true
+        locview: false
+        messages:
+        - ''
+        - '&eAn island will automatically be created for you'
+        - '&eYou will spawn here...'
+        - ''
+        commands: []
+      '4':
+        type: TIMED
+        location: Tutorial -9.514721652969673 82.0 10.302441932525275 -0.019836426
+          31.349543
+        time: 7.0
+        locplayer: true
+        locview: true
+        messages:
+        - ''
+        - ''
+        - '&aGreed&bPixel''s &feconomy relies on ores which can be obtained by various
+          methods'
+        - ''
+        - ''
+        commands: []
+        setFly: true
+      '5':
+        type: TIMED
+        location: Tutorial -7.489904662331966 82.0 9.901779375803432 -179.56805 35.99948
+        time: 10.0
+        locplayer: true
+        locview: true
+        messages:
+        - ''
+        - ''
+        - '&eWhen you first begin an island, use a pickaxe and mine this ore.'
+        - ''
+        - '&eThe oregen produces ores from cobblestone to emeralds depending on island
+          level.'
+        - ''
+        - ''
+        commands: []
+        setFly: true
+      '6':
+        type: TIMED
+        location: Tutorial -7.489904662331966 82.0 9.901779375803432 -179.56805 35.99948
+        time: 7.0
+        locplayer: true
+        locview: true
+        messages:
+        - ''
+        - ''
+        - '&7All players have the option to use the command &a&l/as'
+        - '&7This will allow you to &aautomatically smelt ores &7as you mine'
+        - ''
+        - ''
+        commands: []
+        setFly: true
+      '7':
+        type: TIMED
+        location: Tutorial -14.402287529983672 87.0 15.46835506573095 -142.05249 13.350015
+        time: 5.0
+        locplayer: true
+        locview: true
+        messages:
+        - ''
+        - ''
+        - '&7As you mine ore, use the command &a&l/shop &7to instantly sell it'
+        - ''
+        - ''
+        commands: []
+      '8':
+        type: TIMED
+        location: Spawn 75.45935943764957 217.0 66.78701812923356 -0.4498356 39.899666
+        time: 10.0
+        locplayer: true
+        locview: true
+        messages:
+        - ''
+        - ''
+        - '&eThose were the basics of GreedPixel,'
+        - ''
+        - '&eIf you have &6&lQUESTIONS, BUG FIXES, &eor &6&lFEATURES &enotify the
+          staff'
+        - ''
+        - '&eOtherwise, we hope you enjoy &a&lGreed&b&lPixel'
+        - ''
+        - ''
+        commands: []
+      '9':
+        type: TIMED
+        location: Spawn 75.45296512725645 201.0 81.46829706161292 -0.14997657 1.4999954
+        time: 1.0
+        locplayer: true
+        locview: true
+        messages: []
+        commands: []
